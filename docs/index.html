@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dcc22d4be935df2cf5005a2b706be927.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -86,6 +86,90 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-componentes'] = new List('listing-componentes', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-noticias .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-noticias'] = new List('listing-noticias', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-actividades .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-actividades'] = new List('listing-actividades', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recomendados .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recomendados'] = new List('listing-recomendados', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -207,6 +291,21 @@ window.Quarto = {
   </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./noticias/noticias.html"> <i class="bi bi-newspaper" role="img">
+</i> 
+<span class="menu-text">Noticias</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./actividades/actividades.html"> <i class="bi bi-calendar-week" role="img">
+</i> 
+<span class="menu-text">Actividades</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./recomendados/recomendados.qmd"> <i class="bi bi-journals" role="img">
+</i> 
+<span class="menu-text">Recomendados</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -233,7 +332,7 @@ window.Quarto = {
 </div>
 <div class="section-text">
 <div class="section-container">
-<div style="text-align: center;">
+<div class="button" style="text-align: center; padding-top: 7em;">
 <p align="center" style="font-size:36px; font-weight:bold;">
 <i class="bi bi-puzzle-fill" style="margin-right: 10px;"></i>Componentes
 </p>
@@ -344,8 +443,8 @@ window.Quarto = {
     <div class="tile-container"> <!-- Contenedor de la tarjeta -->
       <h1>Diseño transparente</h1> <!-- Título por encima de la tarjeta -->
       <div class="tile">
-        <a href="./componentes/a-diseño/index.html" role="button" style="text-decoration: none; color: inherit; background: transparent; border: none; display: block; height: 100%; width: 100%;">
-          <img alt="Diseño transparente" src="./componentes/a-diseño/featured.png">
+        <a href="./componentes/a-diseño/index.html" role="button" style="text-decoration: none; color: inherit; background: transparent; border: none; display: block; height: 100%; width: 100%;">
+          <img alt="Diseño transparente" src="./componentes/a-diseño/featured.png">
           <div class="text">
             <p>Transparentar las decisiones metodológicas del estudio
 </p>
@@ -404,6 +503,108 @@ No matching items
 </div>
 </div>
 </div>
+<div class="section-text dark-bg">
+<div class="section-container">
+<div class="section-block">
+<div class="button" style="text-align: center; padding-top: 7em;">
+<p align="center" style="font-size:36px; font-weight:bold;">
+<i class="bi bi-newspaper" style="margin-right: 10px;"></i>Noticias
+</p>
+<div id="listing-noticias" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="noticias" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1755397725558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<a href="./noticias/posts/actualizacion-web/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="noticias\posts\actualizacion-web\featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+¡Bienvenidos a nuestro nuevo sitio web!
+</h5>
+<div class="card-text listing-description">
+En este nuevo sitio web buscamos visibilizar el trabajo realizado por el Laboratorio, asi como las actividades organizadas por nuestro equipo.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section-text">
+<div class="section-container">
+<div class="section-block">
+<div style="text-align: left;">
+<p align="center" style="font-size:36px; font-weight:bold;">
+<i class="bi bi-calendar-week" style="margin-right: 10px;"></i>Actividades
+</p>
+<div id="listing-actividades" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="noticias" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1755397725558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<a href="./actividades/posts/taller-elsoc-vscode/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="actividades\posts\taller-elsoc-vscode\featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+¡Bienvenidos a nuestro nuevo sitio web!
+</h5>
+<div class="card-text listing-description">
+En este nuevo sitio web buscamos visibilizar el trabajo realizado por el Laboratorio, asi como las actividades organizadas por nuestro equipo.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<div class="button">
+<p><a href="actividades/index.qmd" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="background-color: #0693e3; margin-top: 0em;">Todos los eventos</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section-text dark-bg">
+<div class="section-container">
+<div class="section-block">
+<div class="button" style="text-align: center; padding-top: 7em;">
+<p align="center" style="font-size:36px; font-weight:bold;">
+<i class="bi bi-journals" style="margin-right: 10px;"></i>Recomendados
+</p>
+<div id="listing-recomendados" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="noticias" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1755397725558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<a href="./recomendados/posts/actualizacion-web/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="recomendados\posts\actualizacion-web\featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+¡Bienvenidos a nuestro nuevo sitio web!
+</h5>
+<div class="card-text listing-description">
+En este nuevo sitio web buscamos visibilizar el trabajo realizado por el Laboratorio, asi como las actividades organizadas por nuestro equipo.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div class="section-text">
 <div class="section-container">
 <div class="section-block">
@@ -428,7 +629,7 @@ No matching items
           
           
           <p class="card-img-top">
-            <img alt="Juan Carlos Castillo" src="./equipo/posts/1. pi/featured.jpg" class="thumbnail-image card-img listing-box-image" style="height: 250px; object-fit: cover; width: 100%;">
+            <img alt="Juan Carlos Castillo" src="./equipo/posts/1. pi/featured.png" class="thumbnail-image card-img listing-box-image" style="height: 250px; object-fit: cover; width: 100%;">
 
           </p>
           
@@ -503,7 +704,7 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Asistente de Investigación COES<br>
+              Coordinador LISA<br>
             </div>
             
              <div class="listing-box-links">
@@ -551,19 +752,19 @@ No matching items
       
       
       
-      <a href="./equipo/posts/3. asis-ocs/index.html" role="button" class="quarto-grid-link">
-        </a><div class="quarto-grid-item card h-100 card-left"><a href="./equipo/posts/3. asis-ocs/index.html" role="button" class="quarto-grid-link">
+      <a href="./equipo/posts/3. asis-lisa/index.html" role="button" class="quarto-grid-link">
+        </a><div class="quarto-grid-item card h-100 card-left"><a href="./equipo/posts/3. asis-lisa/index.html" role="button" class="quarto-grid-link">
           
           
           <p class="card-img-top">
-            <img alt="Gabriel Cortés" src="./equipo/posts/3. asis-ocs/featured.png" class="thumbnail-image card-img listing-box-image" style="height: 250px; object-fit: cover; width: 100%;">
+            <img alt="René Canales" src="./equipo/posts/3. asis-lisa/featured.jpg" class="thumbnail-image card-img listing-box-image" style="height: 250px; object-fit: cover; width: 100%;">
 
           </p>
           
-          </a><div class="card-body post-contents"><a href="./equipo/posts/3. asis-ocs/index.html" role="button" class="quarto-grid-link">
+          </a><div class="card-body post-contents"><a href="./equipo/posts/3. asis-lisa/index.html" role="button" class="quarto-grid-link">
             
             <div class="listing-box-title">
-              Gabriel Cortés<br> 
+              René Canales<br> 
             </div>
                
             <div class="listing-box-subtitle">
@@ -576,9 +777,9 @@ No matching items
                 
             
               
-           </a><div class="listing-box-contacto"><a href="./equipo/posts/3. asis-ocs/index.html" role="button" class="quarto-grid-link">
+           </a><div class="listing-box-contacto"><a href="./equipo/posts/3. asis-lisa/index.html" role="button" class="quarto-grid-link">
   
-    </a><a href="mailto:gabriel.cortes@uchile.cl" class="contact-link">
+    </a><a href="mailto:renecanales@uc.cl" class="contact-link">
       <i class="bi bi-envelope"></i> Contacto
     </a>
   
@@ -586,7 +787,7 @@ No matching items
 
            <div class="listing-box-github">
   
-    <a href="https://github.com/gabcortes97" class="github-link">
+    <a href="https://github.com/renejcanales" class="github-link">
       <i class="bi bi-github"></i> Github
     </a>
   
@@ -594,7 +795,7 @@ No matching items
 
            <div class="listing-box-web">
   
-    <a href="https://www.linkedin.com/in/gabriel-cortés-paredes-80780a181/" class="web-link">
+    <a href="https://www.linkedin.com/in/ren%C3%A9-canales-sell%C3%A9s-8777951b5/" class="web-link">
       <i class="bi bi-globe"></i> Web Personal
     </a>
   
@@ -615,23 +816,23 @@ No matching items
       
       
       
-      <a href="./equipo/posts/4. ayudante-ocs/index.html" role="button" class="quarto-grid-link">
-        </a><div class="quarto-grid-item card h-100 card-left"><a href="./equipo/posts/4. ayudante-ocs/index.html" role="button" class="quarto-grid-link">
+      <a href="./equipo/posts/4. ayudante-lisa/index.html" role="button" class="quarto-grid-link">
+        </a><div class="quarto-grid-item card h-100 card-left"><a href="./equipo/posts/4. ayudante-lisa/index.html" role="button" class="quarto-grid-link">
           
           
           <p class="card-img-top">
-            <img alt="TBA" src="./equipo/posts/4. ayudante-ocs/featured.png" class="thumbnail-image card-img listing-box-image" style="height: 250px; object-fit: cover; width: 100%;">
+            <img alt="Katherine Aravena" src="https://correlacional.netlify.app/images/ayudantes/katherine.png" class="thumbnail-image card-img listing-box-image" style="height: 250px; object-fit: cover; width: 100%;">
 
           </p>
           
-          </a><div class="card-body post-contents"><a href="./equipo/posts/4. ayudante-ocs/index.html" role="button" class="quarto-grid-link">
+          </a><div class="card-body post-contents"><a href="./equipo/posts/4. ayudante-lisa/index.html" role="button" class="quarto-grid-link">
             
             <div class="listing-box-title">
-              TBA<br> 
+              Katherine Aravena<br> 
             </div>
                
             <div class="listing-box-subtitle">
-              Ayudante de Investigación<br>
+              Ayudante de Investigación LISA<br>
             </div>
             
              <div class="listing-box-links">
@@ -640,9 +841,9 @@ No matching items
                 
             
               
-           </a><div class="listing-box-contacto"><a href="./equipo/posts/4. ayudante-ocs/index.html" role="button" class="quarto-grid-link">
+           </a><div class="listing-box-contacto"><a href="./equipo/posts/4. ayudante-lisa/index.html" role="button" class="quarto-grid-link">
   
-    </a><a href="mailto:tba" class="contact-link">
+    </a><a href="mailto:katherine.aravena@ug.uchile.cl" class="contact-link">
       <i class="bi bi-envelope"></i> Contacto
     </a>
   
@@ -650,7 +851,7 @@ No matching items
 
            <div class="listing-box-github">
   
-    <a href="tba" class="github-link">
+    <a href="https://github.com/KAravena" class="github-link">
       <i class="bi bi-github"></i> Github
     </a>
   
@@ -658,7 +859,7 @@ No matching items
 
            <div class="listing-box-web">
   
-    <a href="tba" class="web-link">
+    <a href="https://www.linkedin.com/in/katherine-aravena-herrera-791a2933b/" class="web-link">
       <i class="bi bi-globe"></i> Web Personal
     </a>
   
@@ -726,38 +927,55 @@ No matching items
 
 
 <!-- FOOTER QUE IGNORA LA GRID DE QUARTO -->
+
 <div style="background-color: #1f1f1f; color: white;
+
             grid-column: 1 / -1;">
 
+
+
   <!-- TÍTULO -->
+
   <h2 style="text-align: center; font-size: 36px; font-weight: bold; margin-bottom: 2rem;">Acerca de Nosotros</h2>
+
   
+
   <!-- CONTENIDO FLEXIBLE -->
+
   <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap; width: 100%; max-width: 1200px; margin: 0 auto; box-sizing: border-box; padding: 0 2rem;">
+
     
+
     <!-- Logo -->
+
     <div style="flex: 1; min-width: 250px; text-align: center; margin-bottom: 2rem;">
+
   <a href="https://coes.cl">
+
  <img id="logo-coes" src="./COES_Logo_sello1.png" alt="Logo COES" style="width: 50%;">
 
+
+
   </a>
+
 </div>
 
-    <!-- Centro de Estudios -->
+
+
+    <!-- Lisa -->
+
     <div style="flex: 1; min-width: 250px; margin-bottom: 2rem;">
-      <h3>Centro de Estudios de Conflicto y de Cohesión Social</h3>
-      <p>Diagonal Paraguay 257, <br> Torre 26, Oficina 1504 <br> Santiago – RM</p>
-      <p>Los Navegantes 1963 <br> Providencia - RM</p>
-      <p>Contáctenos: <a href="mailto:comunicaciones@coes.cl" style="color: #61dafb;">comunicaciones@coes.cl</a></p>
+
+      <h3>Laboratorio de Investigación Social Abierta</h3>
+
+      <p>Capitán Ignacio Carrera Pinto 1045 <br> Universidad de Chile <br> Facultad de Ciencias Sociales <br> Departamento de Sociología <br> Ñuñoa – RM</p>
+
     </div>
 
-    <!-- Observatorio -->
-    <div style="flex: 1; min-width: 250px; margin-bottom: 2rem;">
-      <h3>Observatorio de Cohesión Social</h3>
-      <p>Capitán Ignacio Carrera Pinto 1045, <br> Facultad de Ciencias Sociales, Departamento de Sociología <br> Ñuñoa – RM</p>
-    </div>
+
 
   </div>
+
 </div>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -834,6 +1052,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -944,6 +1164,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -1186,7 +1407,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>
     <div class="nav-footer-right">
-<p>Last Update: 2025-04-15</p>
+<p>Last Update: {{&lt; modified isodate &gt;}}</p>
 </div>
   </div>
 </footer>

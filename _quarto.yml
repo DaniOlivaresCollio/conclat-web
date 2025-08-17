@@ -38,6 +38,15 @@ website:
            text: "{{<ai open-materials>}} Análisis Reproducible"
          - href: componentes/d-publibres/
            text: "{{<ai open-access-square>}} Publicaciones Libres"
+      - text: Noticias
+        icon: newspaper
+        href: noticias/noticias.qmd
+      - text: Actividades
+        icon: calendar-week
+        href: actividades/actividades.qmd
+      - text: Recomendados
+        icon: journals
+        href: recomendados/recomendados.qmd
          
 format:
   html:

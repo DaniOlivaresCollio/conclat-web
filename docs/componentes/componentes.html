@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-dcc22d4be935df2cf5005a2b706be927.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -179,6 +179,21 @@ window.Quarto = {
   </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../noticias/noticias.html"> <i class="bi bi-newspaper" role="img">
+</i> 
+<span class="menu-text">Noticias</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../actividades/actividades.html"> <i class="bi bi-calendar-week" role="img">
+</i> 
+<span class="menu-text">Actividades</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../recomendados/recomendados.qmd"> <i class="bi bi-journals" role="img">
+</i> 
+<span class="menu-text">Recomendados</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -308,8 +323,8 @@ window.Quarto = {
 </style>
   <div class="wrap">
       <div class="tile">
-        <a href="../componentes/a-diseño/index.html" role="button" style="text-decoration: none; color: inherit; background: transparent; border: none; display: block; height: 100%; width: 100%;">
-          <img alt="Diseño transparente" src="../componentes/a-diseño/featured.png">
+        <a href="../componentes/a-diseño/index.html" role="button" style="text-decoration: none; color: inherit; background: transparent; border: none; display: block; height: 100%; width: 100%;">
+          <img alt="Diseño transparente" src="../componentes/a-diseño/featured.png">
           <div class="text">
             <p>Diseño transparente</p>
           </div>
@@ -355,38 +370,55 @@ No matching items
 </div>
  <!-- /main -->
 <!-- FOOTER QUE IGNORA LA GRID DE QUARTO -->
+
 <div style="background-color: #1f1f1f; color: white;
+
             grid-column: 1 / -1;">
 
+
+
   <!-- TÍTULO -->
+
   <h2 style="text-align: center; font-size: 36px; font-weight: bold; margin-bottom: 2rem;">Acerca de Nosotros</h2>
+
   
+
   <!-- CONTENIDO FLEXIBLE -->
+
   <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap; width: 100%; max-width: 1200px; margin: 0 auto; box-sizing: border-box; padding: 0 2rem;">
+
     
+
     <!-- Logo -->
+
     <div style="flex: 1; min-width: 250px; text-align: center; margin-bottom: 2rem;">
+
   <a href="https://coes.cl">
+
  <img id="logo-coes" src="../COES_Logo_sello1.png" alt="Logo COES" style="width: 50%;">
 
+
+
   </a>
+
 </div>
 
-    <!-- Centro de Estudios -->
+
+
+    <!-- Lisa -->
+
     <div style="flex: 1; min-width: 250px; margin-bottom: 2rem;">
-      <h3>Centro de Estudios de Conflicto y de Cohesión Social</h3>
-      <p>Diagonal Paraguay 257, <br> Torre 26, Oficina 1504 <br> Santiago – RM</p>
-      <p>Los Navegantes 1963 <br> Providencia - RM</p>
-      <p>Contáctenos: <a href="mailto:comunicaciones@coes.cl" style="color: #61dafb;">comunicaciones@coes.cl</a></p>
+
+      <h3>Laboratorio de Investigación Social Abierta</h3>
+
+      <p>Capitán Ignacio Carrera Pinto 1045 <br> Universidad de Chile <br> Facultad de Ciencias Sociales <br> Departamento de Sociología <br> Ñuñoa – RM</p>
+
     </div>
 
-    <!-- Observatorio -->
-    <div style="flex: 1; min-width: 250px; margin-bottom: 2rem;">
-      <h3>Observatorio de Cohesión Social</h3>
-      <p>Capitán Ignacio Carrera Pinto 1045, <br> Facultad de Ciencias Sociales, Departamento de Sociología <br> Ñuñoa – RM</p>
-    </div>
+
 
   </div>
+
 </div>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -463,6 +495,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -573,6 +607,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -815,7 +850,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>
     <div class="nav-footer-right">
-<p>Last Update: 2025-04-08</p>
+<p>Last Update: {{&lt; modified isodate &gt;}}</p>
 </div>
   </div>
 </footer>

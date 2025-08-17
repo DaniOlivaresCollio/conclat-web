@@ -17,6 +17,51 @@ listing:
     sort: "date desc"
     template: resources/custom-listings/home-components.ejs
     
+  - id: noticias
+    contents: 
+    - noticias/posts/*/*.qmd
+    - "!noticias/posts/drafts/*qmd"
+    sort: date desc
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    fields: [image, title, description]
+    max-items: 6
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    
+  - id: actividades
+    contents: 
+    - actividades/posts/*/*.qmd
+    - "!actividades/posts/drafts/*qmd"
+    sort: date desc
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    fields: [image, title, description]
+    max-items: 6
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    
+  - id: recomendados
+    contents: 
+    - recomendados/posts/*/*.qmd
+    - "!recomendados/posts/drafts/*qmd"
+    sort: date desc
+    type: grid
+    grid-columns: 3
+    image-height: 150px
+    fields: [image, title, description]
+    max-items: 6
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+    
   - id: equipo
     template: resources/custom-listings/people-box.ejs
     contents: equipo/posts/*/*.qmd
@@ -33,7 +78,7 @@ listing:
 
 ::: {.section-text}
 ::: {.section-container}
-::: {style="text-align: center;"}
+::: {.button style="text-align: center; padding-top: 7em;"}
 
 <p align="center" style="font-size:36px; font-weight:bold;">
 <i class="bi bi-puzzle-fill" style="margin-right: 10px;"></i>Componentes</p>
@@ -48,6 +93,68 @@ listing:
 :::
 :::
 :::
+
+
+::: {.section-text .dark-bg}
+::: {.section-container}
+::: {.section-block}
+::: {.button style="text-align: center; padding-top: 7em;"}
+<p align="center" style="font-size:36px; font-weight:bold;">
+<i class="bi bi-newspaper" style="margin-right: 10px;"></i>Noticias</p>
+
+
+
+
+::: {#noticias}
+:::
+
+
+:::
+:::
+:::
+:::
+
+::: {.section-text}
+::: {.section-container}
+::: {.section-block}
+::: {style="text-align: left;"}
+
+<p align="center" style="font-size:36px; font-weight:bold;">
+<i class="bi bi-calendar-week" style="margin-right: 10px;"></i>Actividades</p>
+
+:::{#actividades}
+:::
+
+::: {.button}
+[Todos los eventos](actividades/index.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="background-color: #0693e3; margin-top: 0em;"}
+:::
+
+:::
+:::
+:::
+:::
+
+::: {.section-text .dark-bg}
+::: {.section-container}
+::: {.section-block}
+::: {.button style="text-align: center; padding-top: 7em;"}
+<p align="center" style="font-size:36px; font-weight:bold;">
+<i class="bi bi-journals" style="margin-right: 10px;"></i>Recomendados</p>
+
+
+
+
+::: {#recomendados}
+:::
+
+
+:::
+:::
+:::
+:::
+
+
+
 
 ::: {.section-text}
 ::: {.section-container}

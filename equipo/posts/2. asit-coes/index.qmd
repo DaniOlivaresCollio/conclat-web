@@ -1,6 +1,6 @@
 ---
 title: Kevin Carrasco 
-subtitle: Asistente de Investigación COES
+subtitle: Coordinador LISA
 contacto: kevin.carrasco@ug.uchile.cl
 github: https://github.com/Kevin-carrasco
 web: https://www.linkedin.com/in/kevin-carrasco-quintanilla/

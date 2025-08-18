@@ -30,13 +30,13 @@ website:
       - text: Componentes
         icon: puzzle-fill
         menu: 
-         - href: componentes/a-diseño/
+         - href: componentes/a-diseño/index.html
            text: "{{<ai preregistered>}} Diseño Transparente"
-         - href: componentes/b-data/
+         - href: componentes/b-data/index.html
            text: "{{<ai open-data>}} Datos Abiertos"
-         - href: componentes/c-repro/
+         - href: componentes/c-repro/index.html
            text: "{{<ai open-materials>}} Análisis Reproducible"
-         - href: componentes/d-publibres/
+         - href: componentes/d-publibres/index.html
            text: "{{<ai open-access-square>}} Publicaciones Libres"
       - text: Noticias
         icon: newspaper

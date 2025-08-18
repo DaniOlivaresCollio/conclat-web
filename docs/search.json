@@ -91,11 +91,11 @@
     "text": "En síntesis\n\n\n\n\nElemento\nCriterio\nRecomendación\nFormato\nmodel\n\n\n\n\nBase de datos\nCodificación correcta de respuestas\n1. Identificar casos perdidos\n.sav, .dta o .Rdata\n1. 1 Ejemplo de base de datos\n\n\n2. Identificar unidades de observación\n\n\nNombres de variables claros\n1. Claridad y coherencia en su orden\n1.2 Ejemplo de base de datos\n\n\n2. Ser utilizables por otros softwares\n\n\nCuestionario\nCongruencia con base de datos\n1. Verificar la versión del cuestionario\nArchivo documento .pdf\n1.1 Ejemplo de cuestionario\n\n\n2. Verficar orden y frases de categorías de preguntas y categorías de respuesta\n1.2 Ejemplo de cuestionario\n\n\nLibro de códigos\nCoherencia entre base de datos y cuestionario\n1. Verificar que la pregunta y la variable sean las mismas\n1.1 Ejemplo de libro de códigos\n\n\n2. Verificar el orden de las categorías y valores de la base\n1.2 Ejemplo de libro de códigos\n\n\nFicha Técnica\nInformación mínima para la utilización del usuario\n1. Indicar tipo de tipo de instrumento, población y muestra objetivo.\n1.1 Ejemplo de ficha técnica\n\n\n2. Indicar la fecha de aplicación, formato (presencial, online,telefónica, cuestionario auto-aplicado) y ubicación geográfica\n\n\n3. Indicar el tipo de muestreo, tasa de respuesta y ponderadores y factores de expansión.\n1.2 Ejemplo de ficha técnica\n\n\n4. Identificar institución o grupo ejecutor\n\n\n\n\nDescargar listado de recomendaciones para rellenar"
   },
   {
-    "objectID": "recomendados/posts/actualizacion-web/index.html",
-    "href": "recomendados/posts/actualizacion-web/index.html",
-    "title": "¡Bienvenidos a nuestro nuevo sitio web!",
+    "objectID": "recomendados/recomendados.html",
+    "href": "recomendados/recomendados.html",
+    "title": "Recomendados",
     "section": "",
-    "text": "En el Laboratorio de Investigación Social Abierta (LISA) estamos muy contentos de anunciar el lanzamiento de nuestro nuevo sitio. Este espacio busca difundir nuestro trabajo y promover la Ciencia Abierta en Chile, América Latina y el mundo.\nEl objetivo acercar la Ciencia Abierta hacia la comunidad cientifica de Ciencias Sociales, especialmente a partir de distintas definiciones, herramientas y protocolos que permitan implementar la apertura, reproducibilidad y transparencia en la investigación social."
+    "text": "Glosario de conceptos Ciencia Abirta ANID\n\n\nCompartimos el glosario de conceptos de Ciencia Abierta elaborado por ANID\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "noticias/posts/actualizacion-web/index.html",
@@ -121,16 +121,16 @@
   {
     "objectID": "actividades/actividades.html",
     "href": "actividades/actividades.html",
-    "title": "Noticias",
+    "title": "Actividades",
     "section": "",
-    "text": "¡Bienvenidos a nuestro nuevo sitio web!\n\n\nEn este nuevo sitio web buscamos visibilizar el trabajo realizado por el Laboratorio, asi como las actividades organizadas por nuestro equipo.\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Taller Flujo de Investigación Reproducible con Github, VSCode y Quarto\n\n\nEn este taller abordamos distintas herramientas para implementar un flujo de Investigación reproduble.\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "actividades/posts/taller-elsoc-vscode/index.html",
     "href": "actividades/posts/taller-elsoc-vscode/index.html",
-    "title": "¡Bienvenidos a nuestro nuevo sitio web!",
+    "title": "Taller Flujo de Investigación Reproducible con Github, VSCode y Quarto",
     "section": "",
-    "text": "En el Laboratorio de Investigación Social Abierta (LISA) estamos muy contentos de anunciar el lanzamiento de nuestro nuevo sitio. Este espacio busca difundir nuestro trabajo y promover la Ciencia Abierta en Chile, América Latina y el mundo.\nEl objetivo acercar la Ciencia Abierta hacia la comunidad cientifica de Ciencias Sociales, especialmente a partir de distintas definiciones, herramientas y protocolos que permitan implementar la apertura, reproducibilidad y transparencia en la investigación social."
+    "text": "En este taller abordamos distintas herramientas para implementar un flujo de Investigación reproduble.\n\nIntroducción al flujo de investigación reprodubile\nVisual Studio Code\nGithub\nQuarto\n\nEl taller está disponible a continuación:"
   },
   {
     "objectID": "equipo/equipo.html",
@@ -147,11 +147,11 @@
     "text": "¡Bienvenidos a nuestro nuevo sitio web!\n\n\nEn este nuevo sitio web buscamos visibilizar el trabajo realizado por el Laboratorio, asi como las actividades organizadas por nuestro equipo.\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "recomendados/noticias.html",
-    "href": "recomendados/noticias.html",
-    "title": "Noticias",
+    "objectID": "recomendados/posts/glosario-anid/index.html",
+    "href": "recomendados/posts/glosario-anid/index.html",
+    "title": "Glosario de conceptos Ciencia Abirta ANID",
     "section": "",
-    "text": "¡Bienvenidos a nuestro nuevo sitio web!\n\n\nEn este nuevo sitio web buscamos visibilizar el trabajo realizado por el Laboratorio, asi como las actividades organizadas por nuestro equipo.\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "En el siguiente enlace podrán encontrar el glosario de Ciencia Abierta elaborado por ANID: https://acceso-abierto.anid.cl/recursos/glosario/"
   },
   {
     "objectID": "alumni/index.html",

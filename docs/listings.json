@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/recomendados/recomendados.html",
+    "items": [
+      "/recomendados/posts/glosario-anid/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/componentes/a-diseño/index.html",
@@ -8,7 +14,7 @@
       "/componentes/d-publibres/index.html",
       "/noticias/posts/actualizacion-web/index.html",
       "/actividades/posts/taller-elsoc-vscode/index.html",
-      "/recomendados/posts/actualizacion-web/index.html",
+      "/recomendados/posts/glosario-anid/index.html",
       "/equipo/posts/1. pi/index.html",
       "/equipo/posts/2. asit-coes/index.html",
       "/equipo/posts/3. asis-lisa/index.html",
@@ -38,12 +44,6 @@
     "listing": "/noticias/noticias.html",
     "items": [
       "/noticias/posts/actualizacion-web/index.html"
-    ]
-  },
-  {
-    "listing": "/recomendados/noticias.html",
-    "items": [
-      "/recomendados/posts/actualizacion-web/index.html"
     ]
   }
 ]

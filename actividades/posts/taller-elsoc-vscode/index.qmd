@@ -1,7 +1,7 @@
 ---
-title: "¡Bienvenidos a nuestro nuevo sitio web!"
+title: "Taller Flujo de Investigación Reproducible con Github, VSCode y Quarto"
 subtitle: Laboratorio de Investigación Social Abierta
-description: En este nuevo sitio web buscamos visibilizar el trabajo realizado por el Laboratorio, asi como las actividades organizadas por nuestro equipo.
+description: En este taller abordamos distintas herramientas para implementar un flujo de Investigación reproduble.
 categories: [noticias]
 # Date published
 date: "2025-07-01"  #year-
@@ -14,11 +14,20 @@ format:
    theme: ../../../scss-posts.scss 
 ---
 
-En el Laboratorio de Investigación Social Abierta (LISA) estamos muy contentos de anunciar el lanzamiento de nuestro nuevo sitio. Este espacio busca difundir nuestro trabajo y promover la Ciencia Abierta en Chile, América Latina y el mundo.
+En este taller abordamos distintas herramientas para implementar un flujo de Investigación reproduble.
 
-El objetivo acercar la Ciencia Abierta hacia la comunidad cientifica de Ciencias Sociales, especialmente a partir de distintas definiciones, herramientas y protocolos que permitan implementar la apertura, reproducibilidad y transparencia en la investigación social. 
+1. Introducción al flujo de investigación reprodubile
 
+2. Visual Studio Code
 
+3. Github
+
+4. Quarto
+
+El taller está disponible a continuación:
+
+<iframe src=https://lisa-coes.github.io/taller-vsc-github/taller-elsoc/taller-elsoc-2025.html#/section height="550" width=100% allowfullscreen="true">
+</iframe> 
 
 
 

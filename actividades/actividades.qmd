@@ -1,5 +1,5 @@
 ---
-title: "Noticias"
+title: "Actividades"
 page-layout: full
 listing:
   contents: posts

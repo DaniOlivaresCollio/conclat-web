@@ -4,7 +4,7 @@ author: LISA
 format:
   html:
     grid:
-      body-width: 1080px
+      body-width: 2160px
 categories:
 - componentes
 image: featured.png

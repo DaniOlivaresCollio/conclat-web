@@ -1,5 +1,5 @@
 ---
-title: "Noticias"
+title: "Recomendados"
 page-layout: full
 listing:
   contents: posts

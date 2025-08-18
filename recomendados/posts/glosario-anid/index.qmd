@@ -1,0 +1,25 @@
+---
+title: "Glosario de conceptos Ciencia Abirta ANID"
+subtitle: Laboratorio de Investigación Social Abierta
+description: Compartimos el glosario de conceptos de Ciencia Abierta elaborado por ANID
+categories: [recomendados]
+# Date published
+date: "2025-07-01"  #year-
+draft: false
+about:
+  template: marquee
+  image: "featured.png"
+format: 
+  html: 
+   theme: ../../../scss-posts.scss 
+---
+
+En el siguiente enlace podrán encontrar el glosario de Ciencia Abierta elaborado por ANID: [https://acceso-abierto.anid.cl/recursos/glosario/](https://acceso-abierto.anid.cl/recursos/glosario/)
+
+<iframe src=https://acceso-abierto.anid.cl/recursos/glosario/ height="550" width=100% allowfullscreen="true">
+</iframe> 
+
+
+
+
+

@@ -74,8 +74,6 @@ listing:
 :::
 
 
-
-
 ::: {.section-text}
 ::: {.section-container}
 ::: {.button style="text-align: center; padding-top: 7em;"}
@@ -101,7 +99,6 @@ listing:
 ::: {.button style="text-align: center; padding-top: 7em;"}
 <p align="center" style="font-size:36px; font-weight:bold;">
 <i class="bi bi-newspaper" style="margin-right: 10px;"></i>Noticias</p>
-
 
 
 

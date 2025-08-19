@@ -1,5 +1,5 @@
 ---
-title: "Glosario de conceptos Ciencia Abirta ANID"
+title: "Glosario de conceptos Ciencia Abierta ANID"
 subtitle: Laboratorio de Investigación Social Abierta
 description: Compartimos el glosario de conceptos de Ciencia Abierta elaborado por ANID
 categories: [recomendados]

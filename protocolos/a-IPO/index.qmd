@@ -2,7 +2,7 @@
 title: "Protocolo Análisis reproducible"
 author: "LISA"
 description: "¿Cómo hacer un libro de códigos?"
-date: 2021-05-11
+date: 2025-08-20
 categories: [protocolos]
 keywords: [codebook, reproducibilidad]
 format: html
@@ -30,7 +30,7 @@ Sys.setlocale("LC_ALL", "ES_ES.UTF-8")
 
 # IPO-reproducibilidad
 
-![](../input/ipo-hex.png){fig-align="right" width="30%"}
+![](ipo-hex.png){fig-align="center" width="30%"}
 
 ### Protocolo para flujo de investigación reproducible
 
@@ -70,10 +70,10 @@ algunas innovaciones:
 -   la carpeta de datos también se simplifica, incluyendo ahora solo una
     estructura "original" y "procesada".
 
--   modifica los archivos a .md/.Rmd (archivos Markdown) en lugar de .txt.
+-   modifica los archivos a .md/.Rmd (archivos Markdown) /.Qmd (archivos Quarto) en lugar de .txt.
     Markdown es un lenguaje de texto con marcas mínimas de formato que luego se
     pueden convertir a otros formatos como pdf y / o html (por ejemplo, cuando
-    se usa R / Rmarkdown). Pero, en el fondo, son simples archivos txt con solo
+    se usa R / Rmarkdown / Quarto). Pero, en el fondo, son simples archivos txt con solo
     otra extensión.
 
 ### Archivos y estructura de carpetas
@@ -102,7 +102,7 @@ algunas innovaciones:
 
 ```{r}
 #| echo: false
-tab01 <- readxl::read_excel(path = "input/templates-ipo.xlsx")
+tab01 <- readxl::read_excel(path = "templates-ipo.xlsx")
 
 tab01 <- tab01 %>%
   dplyr::mutate(nombre = cell_spec(nombre, "html", link = Enlace)) %>%

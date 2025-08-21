@@ -1,8 +1,27 @@
 [
   {
-    "listing": "/recomendados/recomendados.html",
+    "listing": "/noticias/noticias.html",
     "items": [
-      "/recomendados/posts/glosario-anid/index.html"
+      "/noticias/posts/actualizacion-web/index.html"
+    ]
+  },
+  {
+    "listing": "/equipo/equipo.html",
+    "items": []
+  },
+  {
+    "listing": "/actividades/actividades.html",
+    "items": [
+      "/actividades/posts/taller-elsoc-vscode/index.html"
+    ]
+  },
+  {
+    "listing": "/componentes/componentes.html",
+    "items": [
+      "/componentes/a-diseño/index.html",
+      "/componentes/b-data/index.html",
+      "/componentes/c-repro/index.html",
+      "/componentes/d-publibres/index.html"
     ]
   },
   {
@@ -22,28 +41,9 @@
     ]
   },
   {
-    "listing": "/componentes/componentes.html",
+    "listing": "/recomendados/recomendados.html",
     "items": [
-      "/componentes/a-diseño/index.html",
-      "/componentes/b-data/index.html",
-      "/componentes/c-repro/index.html",
-      "/componentes/d-publibres/index.html"
-    ]
-  },
-  {
-    "listing": "/actividades/actividades.html",
-    "items": [
-      "/actividades/posts/taller-elsoc-vscode/index.html"
-    ]
-  },
-  {
-    "listing": "/equipo/equipo.html",
-    "items": []
-  },
-  {
-    "listing": "/noticias/noticias.html",
-    "items": [
-      "/noticias/posts/actualizacion-web/index.html"
+      "/recomendados/posts/glosario-anid/index.html"
     ]
   }
 ]

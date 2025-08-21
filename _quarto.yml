@@ -38,6 +38,11 @@ website:
            text: "{{<ai open-materials>}} Análisis Reproducible"
          - href: componentes/d-publibres/index.html
            text: "{{<ai open-access-square>}} Publicaciones Libres"
+      - text: Protocolos
+        icon: list-check
+        menu: 
+         - href: protocolos/a-IPO/index.html
+           text: "{{<ai ipo>}} Protocolo IPO"
       - text: Noticias
         icon: newspaper
         href: noticias/noticias.qmd

@@ -1,0 +1,39 @@
+---
+title: "📢 Invitación al seminario Herramientas digitales para las Ciencias Sociales"
+subtitle: Laboratorio de Investigación Social Abierta
+description: Primer seminario organizado por SocialTec, donde se explorará cómo las ciencias sociales se vinculan con la programación, el análisis de datos y las nuevas herramientas digitales
+categories: [noticias]
+# Date published
+date: "2025-08-21"  #year-
+draft: false
+about:
+  template: marquee
+  image: "featured.jpg"
+format: 
+  html: 
+   theme: ../../../scss-posts.scss 
+---
+
+📢 **Invitación al seminario "Herramientas digitales para las Ciencias Sociales"**
+
+Desde el **Laboratorio de Investigación Social Abierta (LISA)** tenemos el agrado de invitarles al **primer seminario organizado por SocialTec**, una instancia pensada para reflexionar en torno a la relación entre las ciencias sociales y las tecnologías de la información.
+
+En un escenario donde las herramientas digitales se han vuelto fundamentales para la investigación y la producción de conocimiento, este encuentro busca abrir un espacio de diálogo sobre cómo la programación, el análisis de datos y las tecnologías emergentes pueden ponerse al servicio de las ciencias sociales. La invitación es a explorar juntos las posibilidades que estas herramientas ofrecen para comprender fenómenos sociales de manera más amplia, profunda e innovadora.
+
+El seminario contará con la participación de tres destacadas presentaciones:
+
+-   **Riva Quiroga** (Dra. en Lingüística): *Aprender a programar viniendo de las Ciencias Sociales*
+
+-   **Naim Bro** (Académico UAI): *A frustratingly easy way of extracting political networks from text*
+
+-   **Klaus Lehmann** (Jefe de Ciencia de Datos, INE): *Socialtec: tecnología al servicio de las ciencias sociales*
+
+📅 **Fecha:** Martes 26 de agosto\
+🕒 **Hora:** 15:00 hrs.\
+📍 **Lugar:** Auditorio Pedro Ortiz, Facultad de Ciencias Sociales, Universidad de Chile
+
+💡 Creemos que este seminario será una oportunidad única para dialogar, aprender y proyectar nuevas formas de investigación en el campo de las ciencias sociales, integrando miradas diversas y saberes digitales.
+
+Más información en las redes de [SocialTec](https://socialtec.cl/)
+
+![](images/featured.jpg)

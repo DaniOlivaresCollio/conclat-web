@@ -14,8 +14,6 @@ format:
    theme: ../../../scss-posts.scss 
 ---
 
-📢 **Invitación al seminario "Herramientas digitales para las Ciencias Sociales"**
-
 Desde el **Laboratorio de Investigación Social Abierta (LISA)** tenemos el agrado de invitarles al **primer seminario organizado por SocialTec**, una instancia pensada para reflexionar en torno a la relación entre las ciencias sociales y las tecnologías de la información.
 
 En un escenario donde las herramientas digitales se han vuelto fundamentales para la investigación y la producción de conocimiento, este encuentro busca abrir un espacio de diálogo sobre cómo la programación, el análisis de datos y las tecnologías emergentes pueden ponerse al servicio de las ciencias sociales. La invitación es a explorar juntos las posibilidades que estas herramientas ofrecen para comprender fenómenos sociales de manera más amplia, profunda e innovadora.

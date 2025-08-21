@@ -41,8 +41,10 @@ website:
       - text: Protocolos
         icon: list-check
         menu: 
-         - href: protocolos/a-IPO/index.html
-           text: "{{<ai ipo>}} Protocolo IPO"
+         - href: protocolos/a-IPO-rep/index.html
+           text: "{{<ai ipo-rep>}} Protocolo Análisis Reproducible"
+         - href: protocolos/b-IPO-data/index.html
+           text: "{{<ai ipo-data>}} Protocolo Apertura Datos"
       - text: Noticias
         icon: newspaper
         href: noticias/noticias.qmd

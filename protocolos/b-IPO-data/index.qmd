@@ -320,7 +320,7 @@ Los archivos de documentación son aquellos que describen el contenido de los da
 El flujo de trabajo asociado a estos principios se presenta en el siguiente esquema:
 
 ```{r, out.width='75%', fig.align='center'}
-knitr::include_graphics("../input/ipo-data-esquema.png")
+knitr::include_graphics("ipo-data-esquema.png")
 ```
 
 

@@ -1,0 +1,92 @@
+---
+title: "¿Necesita la sociología la ciencia abierta? (Breznau, 2021)"
+subtitle: Laboratorio de Investigación Social Abierta
+description: "Lectura recomendada: abstract ampliado del artículo de Nate Breznau, con motivos para leerlo y claves de aplicación inmediata."
+categories: [recomendados]
+date: "2025-08-22"
+draft: false
+about:
+  template: marquee
+  image: "featured1.jpeg"
+format: 
+  html: 
+    theme: ../../../scss-posts.scss 
+---
+<!-- Estilos locales para mejorar el look del ABSTRACT y botones -->
+<style>
+/* Tarjeta de abstract: borde, fondo y sombra sutil */
+.callout.abstract-card {
+  border-left: 6px solid var(--bs-primary);
+  background: rgba(0,0,0,.03);
+  box-shadow: 0 6px 22px rgba(0,0,0,.06);
+  border-radius: .6rem;
+}
+/* Título del abstract en small-caps y con tracking ligero */
+.callout.abstract-card .callout-title-container .callout-title {
+  font-variant: small-caps;
+  letter-spacing: .06em;
+}
+/* Texto del abstract: respiración tipográfica */
+.callout.abstract-card .callout-body p {
+  line-height: 1.6;
+  margin-bottom: .7rem;
+}
+/* Botón de acceso: pill + ligera sombra */
+.btn.btn-primary {
+  border-radius: 9999px;
+  padding: .55rem 1rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+}
+/* Ícono externo minimalista (↗︎) al final del botón */
+.btn.btn-primary::after {
+  content: " ↗︎";
+  font-weight: 600;
+}
+</style>
+
+::: {.callout-note .abstract-card title="ABSTRACT" appearance="minimal"}
+Este **abstract** sintetiza el argumento de **Nate Breznau (2021)**: la sociología necesita la **ciencia abierta** para mejorar su **confiabilidad**, **transparencia** y **utilidad pública**. El artículo ubica la discusión en tensiones persistentes de las ciencias sociales—**reproducibilidad** limitada, **sesgo de publicación**, barreras de **acceso** y documentación insuficiente—y propone una agenda práctica y transversal que permita la **apertura de datos y materiales** con metadatos y licencias claras; **preregistro** y/o **_registered reports_** para separar lo confirmatorio de lo exploratorio; **protocolos de replicación** y reproducibilidad computacional con guías mínimas (scripts, versiones, entornos); y **acceso abierto** vía preprints y repositorios con identificadores persistentes. 
+
+Lejos de imponer un método único, la apertura **operacionaliza valores profesionales** (comunalismo, escepticismo organizado y rendición de cuentas) y es **compatible con el pluralismo metodológico**. Para que sea efectiva, se requieren **cambios institucionales** como generar lineamientos editoriales exigibles, incentivos de evaluación y financiamiento alineados con transparencia, formación en gestión de datos/ética y soporte técnico para flujos reproducibles. La promesa es doble: avanzar hacia conocimiento **acumulativo y verificable** y **democratizar el acceso** (clave para equipos con menos recursos y para el intercambio Norte–Sur). En síntesis, la adopción de estas prácticas refuerza la **credibilidad** de la sociología y maximiza su **impacto social**.
+:::
+
+## Por qué lo recomendamos
+- Traduce la agenda de ciencia abierta en **pasos concretos** para equipos, editoriales y agencias.  
+- Enmarca la apertura como **norma ética y profesional**, no como moda metodológica.  
+- Responde a demandas de **rendición de cuentas** en investigación financiada con fondos públicos.
+
+## ¿Para quién es útil?
+- **Estudiantes y tesistas** que necesitan criterios claros para planificar diseños reproducibles.  
+- **Equipos de investigación** que buscan estandarizar documentación y flujos de trabajo.  
+- **Editoras/es y agencias** que desean alinear incentivos con buenas prácticas de apertura.
+
+## Claves de aplicación inmediata
+- **Antes de iniciar**: delimita componentes confirmatorios/exploratorios y elabora un **preregistro de hipótesis breve**.  
+- **Durante el estudio**: versiona código y datos; usa README, codebooks y licencias adecuadas.  
+- **Al publicar**: almacena **datos, materiales y scripts** en un repositorio abierto con DOI.  
+- **Post-publicación**: habilita una **replicación mínima** de la investigación y documenta cambios/correcciones.
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.callout-note title="Cita sugerida (APA Style)"}
+Breznau, N. (2021). Does Sociology Need Open Science? _Societies_, 11(1), 9. https://doi.org/10.3390/soc11010009
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-tip title="Acceso al artículo"}
+[Leer el paper en MDPI](https://www.mdpi.com/2075-4698/11/1/9){.btn .btn-primary target="_blank" rel="noopener"}
+:::
+:::
+:::
+
+## Sobre el investigador
+
+**Nate Breznau, PhD (Sociología)**, es investigador en el **German Institute for Adult Education – Leibniz Center for Lifelong Learning (DIE), Bonn**. Su trabajo se centra en **opinión pública, política social, desigualdad**, y en la **metaciencia/ciencia abierta** aplicada a las ciencias sociales. Ha sido parte de la **Universidad de Bremen (SOCIUM/BIGSSS)** y participa en iniciativas editoriales orientadas a transparencia y reproducibilidad; actualmente integra el **editorial board de *PLOS ONE*** en áreas como educación e investigación política. Entre sus contribuciones destaca el estudio colaborativo en **PNAS (2022)** que documenta la variabilidad entre equipos al analizar la misma hipótesis con los mismos datos (un referente en metaciencia).
+
+::: {.callout-tip title="Perfiles y contacto"}
+- Sitio personal: <https://sites.google.com/site/nbreznau>  
+- Perfil institucional (DIE): <https://www.die-bonn.de/institut/mitarbeitende/7326?lang=en>  
+- ORCID: <https://orcid.org/0000-0003-4983-3137>  
+- Google Scholar: <https://scholar.google.com/citations?user=4UORvGAAAAAJ>  
+:::

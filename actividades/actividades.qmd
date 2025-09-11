@@ -1,13 +1,22 @@
 ---
 title: "Actividades"
 page-layout: full
-listing:
-  contents: posts
-  sort: "date desc"
-  type: grid
-  categories: false
-  fields: [image, title, description, date]
-  image-align: left
-  filter-ui: [title, date]
 title-block-banner: true
+lang: es
+listing:
+  contents:
+    - "presentaciones/*/index.qmd"
+  sort: "date desc"
+  type: default
+  fields: [date, author, title, description]  # sin categorías
+  filter-ui: [search] 
+  page-size: 10
+  max-items: 999
+format:
+  html:
+    css:
+      - "styles_actividades.css"  # << debe ir al final para que tenga prioridad
 ---
+
+<script src="actividades.js"></script> 
+

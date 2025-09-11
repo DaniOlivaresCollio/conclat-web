@@ -18,5 +18,3 @@ format:
       - "styles_actividades.css"  # << debe ir al final para que tenga prioridad
 ---
 
-<script src="actividades.js"></script> 
-

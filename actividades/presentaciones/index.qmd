@@ -1,0 +1,13 @@
+
+---
+title: "Presentaciones, talleres y charlas"
+page-layout: full
+listing:
+  contents: "*/*"
+  sort: "date desc"
+  type: default
+  fields: [date, author, title, categories]
+  filter-ui: [search, categories]
+  categories: numbered
+---
+

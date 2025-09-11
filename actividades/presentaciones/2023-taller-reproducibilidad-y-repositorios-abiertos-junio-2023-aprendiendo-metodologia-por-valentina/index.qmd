@@ -1,0 +1,28 @@
+---
+page-layout: full
+lang: es
+title: "Taller Reproducibilidad y Repositorios Abiertos Junio 2023 - Aprendiendo metodología por Valentina"
+date: 2023-06-01
+author: ["Juan Carlos Castillo"]
+categories: ["charla", "LISA"]
+event: "Online"
+location: "Online"
+description: "Online"
+bibliography: "../../posts/presentaciones/data/presentaciones.json"
+nocite: "@http://zotero.org/users/17885349/items/CNDGFENF"
+---
+
+Online
+
+### Presentación
+<iframe src="https://lisa-coes.github.io/presentaciones/reprod-repos-Vale-Junio20203/reprod-repos-Vale-Junio2023.html#1" width="100%" height="900" allowfullscreen="true" loading="lazy"></iframe>
+
+### Recursos
+- **Enlace principal**: https://lisa-coes.github.io/presentaciones/reprod-repos-Vale-Junio20203/reprod-repos-Vale-Junio2023.html#1
+
+::: {.callout-note title="Cómo citar (APA)"}
+
+::: {#refs}
+:::
+
+:::

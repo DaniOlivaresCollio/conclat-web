@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-08-22">
 <meta name="description" content="Lectura recomendada: abstract ampliado del artículo de Nate Breznau, con motivos para leerlo y claves de aplicación inmediata.">
 
 <title>¿Necesita la sociología la ciencia abierta? (Breznau, 2021)</title>
@@ -39,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-01e260096943b32b0180736144ab8021.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-3acc4e0f83b49bba076657b136977036.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -56,22 +55,24 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="styles/pro.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -85,8 +86,8 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../../resources/imagenes/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -187,124 +188,81 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="quarto-title-meta">
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 22, 2025</p>
+      <p class="date">22 de agosto de 2025</p>
     </div>
   </div>
   </div>
 </header> <main class="content" id="quarto-document-content">
-<!-- Estilos locales para mejorar el look del ABSTRACT y botones -->
+<!-- Barra compacta: acceso + cita -->
 <style>
-/* Tarjeta de abstract: borde, fondo y sombra sutil */
-.callout.abstract-card {
-  border-left: 6px solid var(--bs-primary);
-  background: rgba(0,0,0,.03);
-  box-shadow: 0 6px 22px rgba(0,0,0,.06);
-  border-radius: .6rem;
+.top-cta{display:flex;gap:.55rem;align-items:center;flex-wrap:wrap;margin:.25rem 0 1rem}
+.top-cta .btn{border-radius:9999px;padding:.35rem .75rem;font-size:.95rem;box-shadow:0 3px 10px rgba(0,0,0,.06)}
+.top-cta .btn-primary::after{content:" ↗︎";font-weight:600}
+.details-btn summary{list-style:none;cursor:pointer}
+.details-btn summary::-webkit-details-marker{display:none}
+.summary-chip{display:inline-block;padding:.35rem .75rem;border-radius:9999px;border:1px solid #dbe3ef;background:#f9fafb}
+.details-btn[open] .summary-chip{background:#f3f6fb}
+.apa-ref{margin:.5rem 0 0 0;line-height:1.6;color:#4b5563;text-indent:-1.6em;padding-left:1.6em}
+.doi-chip{display:inline-block;margin-left:.5rem;padding:.15rem .55rem;border-radius:9999px;border:1px solid #dbe3ef;background:#fff;text-decoration:none;font-family:ui-monospace,Menlo,monospace}
+.doi-chip::after{content:" ↗︎";font-weight:600}
+@media (max-width:680px){ .top-cta .btn{width:100%;text-align:center} }
+</style>
+<div class="top-cta">
+<p><a class="btn btn-sm btn-primary" href="https://www.mdpi.com/2075-4698/11/1/9" target="_blank" rel="noopener">Leer el paper en MDPI</a></p>
+<!-- Cita APA desplegable (sin botón de acceso) -->
+<style>
+.details-btn summary{list-style:none;cursor:pointer}
+.details-btn summary::-webkit-details-marker{display:none}
+.summary-chip{
+  display:inline-block;padding:.35rem .75rem;border-radius:9999px;
+  border:1px solid #dbe3ef;background:#f9fafb
 }
-/* Título del abstract en small-caps y con tracking ligero */
-.callout.abstract-card .callout-title-container .callout-title {
-  font-variant: small-caps;
-  letter-spacing: .06em;
-}
-/* Texto del abstract: respiración tipográfica */
-.callout.abstract-card .callout-body p {
-  line-height: 1.6;
-  margin-bottom: .7rem;
-}
-/* Botón de acceso: pill + ligera sombra */
-.btn.btn-primary {
-  border-radius: 9999px;
-  padding: .55rem 1rem;
-  box-shadow: 0 4px 14px rgba(0,0,0,.08);
-}
-/* Ícono externo minimalista (↗︎) al final del botón */
-.btn.btn-primary::after {
-  content: " ↗︎";
-  font-weight: 600;
+.details-btn[open] .summary-chip{background:#f3f6fb}
+.apa-ref{
+  margin:.5rem 0 0 0; line-height:1.6; color:#4b5563;
+  text-indent:-1.6em; padding-left:1.6em; /* sangría francesa */
 }
 </style>
-<div class="abstract-card callout callout-style-simple callout-note no-icon callout-titled" title="ABSTRACT">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-ABSTRACT
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Este <strong>abstract</strong> sintetiza el argumento de <strong>Nate Breznau (2021)</strong>: la sociología necesita la <strong>ciencia abierta</strong> para mejorar su <strong>confiabilidad</strong>, <strong>transparencia</strong> y <strong>utilidad pública</strong>. El artículo ubica la discusión en tensiones persistentes de las ciencias sociales—<strong>reproducibilidad</strong> limitada, <strong>sesgo de publicación</strong>, barreras de <strong>acceso</strong> y documentación insuficiente—y propone una agenda práctica y transversal que permita la <strong>apertura de datos y materiales</strong> con metadatos y licencias claras; <strong>preregistro</strong> y/o <strong><em>registered reports</em></strong> para separar lo confirmatorio de lo exploratorio; <strong>protocolos de replicación</strong> y reproducibilidad computacional con guías mínimas (scripts, versiones, entornos); y <strong>acceso abierto</strong> vía preprints y repositorios con identificadores persistentes.</p>
-<p>Lejos de imponer un método único, la apertura <strong>operacionaliza valores profesionales</strong> (comunalismo, escepticismo organizado y rendición de cuentas) y es <strong>compatible con el pluralismo metodológico</strong>. Para que sea efectiva, se requieren <strong>cambios institucionales</strong> como generar lineamientos editoriales exigibles, incentivos de evaluación y financiamiento alineados con transparencia, formación en gestión de datos/ética y soporte técnico para flujos reproducibles. La promesa es doble: avanzar hacia conocimiento <strong>acumulativo y verificable</strong> y <strong>democratizar el acceso</strong> (clave para equipos con menos recursos y para el intercambio Norte–Sur). En síntesis, la adopción de estas prácticas refuerza la <strong>credibilidad</strong> de la sociología y maximiza su <strong>impacto social</strong>.</p>
-</div>
-</div>
-<section id="por-qué-lo-recomendamos" class="level2">
-<h2 data-anchor-id="por-qué-lo-recomendamos">Por qué lo recomendamos</h2>
-<ul>
-<li>Traduce la agenda de ciencia abierta en <strong>pasos concretos</strong> para equipos, editoriales y agencias.<br>
-</li>
-<li>Enmarca la apertura como <strong>norma ética y profesional</strong>, no como moda metodológica.<br>
-</li>
-<li>Responde a demandas de <strong>rendición de cuentas</strong> en investigación financiada con fondos públicos.</li>
-</ul>
+<details class="details-btn">
+<summary>
+<span class="summary-chip">Cita (APA 7)</span>
+</summary>
+<p class="apa-ref">
+<strong>Breznau, N.</strong>. (2021). <em>Does Sociology Need Open Science?</em> <em>Societies</em>, <em>11</em>(1), 9. doi:10.3390/soc11010009
+</p>
+</details>
+<section id="abstract" class="level2">
+<h2 data-anchor-id="abstract">Abstract</h2>
+<p>Este <strong>abstract</strong> sintetiza el argumento de <strong>Nate Breznau (2021)</strong>: la sociología necesita la <strong>ciencia abierta</strong> para mejorar su <strong>confiabilidad</strong>, <strong>transparencia</strong> y <strong>utilidad pública</strong>. El artículo ubica la discusión en tensiones persistentes de las ciencias sociales —reproducibilidad limitada, sesgo de publicación, barreras de acceso y documentación insuficiente— y propone una agenda práctica y transversal que combine <strong>apertura de datos y materiales</strong> con metadatos y licencias claras; <strong>preregistro</strong> y/o <strong><em>registered reports</em></strong> para distinguir lo confirmatorio de lo exploratorio; <strong>protocolos de replicación</strong> y <strong>reproducibilidad computacional</strong> con guías mínimas (scripts, versiones y entornos); y <strong>acceso abierto</strong> mediante preprints y repositorios con identificadores persistentes.</p>
+<p>Lejos de imponer un método único, la apertura <strong>operacionaliza valores profesionales</strong> —comunalismo, escepticismo organizado y rendición de cuentas— y es <strong>compatible con el pluralismo metodológico</strong>. Para que sea efectiva, Breznau subraya <strong>cambios institucionales</strong>: lineamientos editoriales exigibles, incentivos de evaluación y financiamiento alineados con transparencia, formación en gestión de datos/ética y soporte técnico para flujos reproducibles. La promesa es doble: avanzar hacia conocimiento <strong>acumulativo y verificable</strong> y <strong>democratizar el acceso</strong>, clave para equipos con menos recursos y para el intercambio Norte–Sur. En síntesis, la adopción de estas prácticas refuerza la <strong>credibilidad</strong> de la sociología y maximiza su <strong>impacto social</strong>.</p>
 </section>
-<section id="para-quién-es-útil" class="level2">
-<h2 data-anchor-id="para-quién-es-útil">¿Para quién es útil?</h2>
-<ul>
-<li><strong>Estudiantes y tesistas</strong> que necesitan criterios claros para planificar diseños reproducibles.<br>
-</li>
-<li><strong>Equipos de investigación</strong> que buscan estandarizar documentación y flujos de trabajo.<br>
-</li>
-<li><strong>Editoras/es y agencias</strong> que desean alinear incentivos con buenas prácticas de apertura.</li>
-</ul>
+<section id="impacto" class="level2">
+<h2 data-anchor-id="impacto">Impacto</h2>
+<p>El aporte principal es <strong>práctico</strong>: ofrece un lenguaje común y un conjunto de herramientas para elevar estándares de <strong>calidad, trazabilidad y responsabilidad pública</strong>. Resulta especialmente útil para <strong>estudiantes y tesistas</strong> que planifican investigaciones replicables, para <strong>equipos</strong> que desean ordenar su gestión de datos y código, y para <strong>editoriales y agencias</strong> interesadas en alinear sus incentivos con la transparencia. Al mismo tiempo, la propuesta responde a demandas de <strong>rendición de cuentas</strong> en investigación financiada con fondos públicos.</p>
 </section>
-<section id="claves-de-aplicación-inmediata" class="level2">
-<h2 data-anchor-id="claves-de-aplicación-inmediata">Claves de aplicación inmediata</h2>
-<ul>
-<li><strong>Antes de iniciar</strong>: delimita componentes confirmatorios/exploratorios y elabora un <strong>preregistro de hipótesis breve</strong>.<br>
-</li>
-<li><strong>Durante el estudio</strong>: versiona código y datos; usa README, codebooks y licencias adecuadas.<br>
-</li>
-<li><strong>Al publicar</strong>: almacena <strong>datos, materiales y scripts</strong> en un repositorio abierto con DOI.<br>
-</li>
-<li><strong>Post-publicación</strong>: habilita una <strong>replicación mínima</strong> de la investigación y documenta cambios/correcciones.</li>
-</ul>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="callout callout-style-default callout-note callout-titled" title="Cita sugerida (APA Style)">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Cita sugerida (APA Style)
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Breznau, N. (2021). Does Sociology Need Open Science? <em>Societies</em>, 11(1), 9. https://doi.org/10.3390/soc11010009</p>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="callout callout-style-default callout-tip callout-titled" title="Acceso al artículo">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Acceso al artículo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="https://www.mdpi.com/2075-4698/11/1/9" class="btn btn-primary" target="_blank" rel="noopener">Leer el paper en MDPI</a></p>
-</div>
-</div>
-</div>
-</div>
+<section id="conceptos-centrales" class="level2">
+<h2 data-anchor-id="conceptos-centrales">Conceptos centrales</h2>
+<p>La columna vertebral del artículo articula cinco componentes: <strong>apertura de datos y materiales</strong> con metadatos y licencias claras; <strong>preregistro</strong> y/o <strong><em>registered reports</em></strong> que separan con precisión lo confirmatorio de lo exploratorio; <strong>protocolos de replicación</strong> y <strong>reproducibilidad computacional</strong> que describen scripts, versiones y entornos; <strong>acceso abierto</strong> mediante preprints y repositorios con DOI; y <strong>alineación institucional</strong> para que estas prácticas se vuelvan norma y no excepción. Todo ello se plantea como una manera de <strong>operacionalizar valores profesionales</strong> sin clausurar el pluralismo metodológico de la disciplina.</p>
+</section>
+<section id="relevancia" class="level2">
+<h2 data-anchor-id="relevancia">Relevancia</h2>
+<p>Adoptar estas prácticas permite <strong>acumular evidencia</strong> de forma verificable, facilita la <strong>colaboración</strong> entre grupos con recursos dispares y fortalece la <strong>legitimidad pública</strong> de la sociología. La apertura, entendida como ética profesional y no como moda metodológica, favorece la circulación del conocimiento y reduce asimetrías de acceso, algo decisivo para comunidades académicas del Sur Global.</p>
+</section>
+<section id="proyecciones" class="level2">
+<h2 data-anchor-id="proyecciones">Proyecciones</h2>
+<p>Si universidades, revistas y agencias incorporan <strong>criterios de transparencia</strong> en evaluación y financiamiento, la ciencia abierta puede consolidar un ecosistema donde publicar con datos, materiales y código disponibles sea lo habitual. A corto plazo, se recomienda iniciar con <strong>preregistros breves</strong> y <strong>repositorios con DOI</strong>; a mediano plazo, avanzar hacia <strong><em>registered reports</em></strong>, guías de <strong>reproducibilidad</strong> y <strong>políticas editoriales</strong> que exijan documentación mínima y fomenten réplicas.</p>
 </section>
 <section id="sobre-el-investigador" class="level2">
 <h2 data-anchor-id="sobre-el-investigador">Sobre el investigador</h2>
-<p><strong>Nate Breznau, PhD (Sociología)</strong>, es investigador en el <strong>German Institute for Adult Education – Leibniz Center for Lifelong Learning (DIE), Bonn</strong>. Su trabajo se centra en <strong>opinión pública, política social, desigualdad</strong>, y en la <strong>metaciencia/ciencia abierta</strong> aplicada a las ciencias sociales. Ha sido parte de la <strong>Universidad de Bremen (SOCIUM/BIGSSS)</strong> y participa en iniciativas editoriales orientadas a transparencia y reproducibilidad; actualmente integra el <strong>editorial board de <em>PLOS ONE</em></strong> en áreas como educación e investigación política. Entre sus contribuciones destaca el estudio colaborativo en <strong>PNAS (2022)</strong> que documenta la variabilidad entre equipos al analizar la misma hipótesis con los mismos datos (un referente en metaciencia).</p>
+<div class="columns align-top">
+<div class="column" style="width:28%;">
+<p><img src="Nate.png" class="avatar-nate img-fluid"></p>
+</div><div class="column" style="width:72%;">
+<p><strong>Nate Breznau, PhD (Sociología)</strong>, es investigador en el <strong>German Institute for Adult Education – Leibniz Center for Lifelong Learning (DIE), Bonn</strong>. Su trabajo se centra en <strong>opinión pública, política social y desigualdad</strong>, junto con la <strong>metaciencia aplicada a las ciencias sociales</strong>. Ha sido parte de la <strong>Universidad de Bremen (SOCIUM/BIGSSS)</strong> e integra el <strong>editorial board de <em>PLOS ONE</em></strong> en áreas afines a educación e investigación política. Entre sus contribuciones destaca el estudio colaborativo publicado en <strong>PNAS (2022)</strong> que evidencia la variabilidad entre equipos al analizar la misma hipótesis con idénticos datos, un referente en metaciencia. Para más información:</p>
+</div>
+</div>
 <div class="callout callout-style-default callout-tip callout-titled" title="Perfiles y contacto">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -330,6 +288,7 @@ Perfiles y contacto
 
 
 </section>
+</div>
 </main> 
   </div>
 </div>
@@ -405,67 +364,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -482,6 +380,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -820,4 +725,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

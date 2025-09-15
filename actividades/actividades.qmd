@@ -9,7 +9,8 @@ listing:
   sort: "date desc"
   type: default
   fields: [date, author, title, description]  # sin categorías
-  filter-ui: [search] 
+  filter-ui: [search]
+  date-format: "MMM YYYY" 
   page-size: 10
   max-items: 999
 format:

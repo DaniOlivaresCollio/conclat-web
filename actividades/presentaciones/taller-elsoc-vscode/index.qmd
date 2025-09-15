@@ -5,6 +5,7 @@ description: En este taller abordamos distintas herramientas para implementar un
 categories: [noticias]
 # Date published
 date: "2025-07-01"  #year-
+author: ["Tomas Urzúa & Juan Carlos Castillo "]
 draft: false
 about:
   template: marquee

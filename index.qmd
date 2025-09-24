@@ -34,18 +34,18 @@ listing:
     
   - id: actividades
     contents: 
-    - actividades/posts/*/*.qmd
+    - actividades/presentaciones/*/*.qmd
     - "!actividades/posts/drafts/*qmd"
     sort: date desc
-    type: grid
-    grid-columns: 3
+    type: default
     image-height: 150px
-    fields: [image, title, description]
-    max-items: 6
+    fields: [title, date, author, description]
+    max-items: 3
     categories: false
     sort-ui: false
-    filter-ui: false
+    date-format: "MMMM YYYY"
     feed: false
+    page-size: 100
     
   - id: recomendados
     contents: 
@@ -123,7 +123,9 @@ listing:
 :::
 
 ::: {.button}
-[Todos los eventos](actividades/index.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="background-color: #0693e3; margin-top: 0em;"}
+
+
+[Todos los eventos](actividades/actividades.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="background-color: #0693e3; margin-top: 0em;"}
 :::
 
 :::
@@ -137,9 +139,6 @@ listing:
 ::: {.button style="text-align: center; padding-top: 7em;"}
 <p align="center" style="font-size:36px; font-weight:bold;">
 <i class="bi bi-journals" style="margin-right: 10px;"></i>Recomendados</p>
-
-
-
 
 ::: {#recomendados}
 :::

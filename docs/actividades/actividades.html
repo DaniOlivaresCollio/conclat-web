@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ad5f6fa246d3a605a50cfe5ffd714f5f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -57,17 +57,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 <script>
@@ -80,9 +80,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date"],
+      valueNames: ['listing-date','listing-author','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-search"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -131,6 +132,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles_actividades.css">
 </head>
 
 <body class="nav-fixed">
@@ -144,8 +146,8 @@ window.Quarto = {
     <img src="../resources/imagenes/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -252,38 +254,317 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
+      <input type="text" class="search form-control" placeholder="Filtro">
     </div>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="noticias" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1755795171908" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
-<a href="../actividades/posts/taller-elsoc-vscode/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\taller-elsoc-vscode\featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Taller Flujo de Investigación Reproducible con Github, VSCode y Quarto
-</h5>
-<div class="card-text listing-description">
-En este taller abordamos distintas herramientas para implementar un flujo de Investigación reproduble.
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="bm90aWNpYXM=" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1757904112994" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/taller-elsoc-vscode/index.html" class="no-external">Taller Flujo de Investigación Reproducible con Github, VSCode y Quarto</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/taller-elsoc-vscode/index.html" class="no-external">Laboratorio de Investigación Social Abierta</a>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="listing-description">
+<a href="../actividades/presentaciones/taller-elsoc-vscode/index.html" class="no-external">En este taller abordamos distintas herramientas para implementar un flujo de Investigación reproduble.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/taller-elsoc-vscode/index.html" class="no-external">
 <div class="listing-date">
-Jul 1, 2025
+jul 2025
 </div>
-</div>
-</div>
+<div class="listing-author">
+Tomas Urzúa &amp; Juan Carlos Castillo
 </div>
 </a>
 </div>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
+<div class="quarto-post image-right" data-index="1" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1748750400000" data-listing-file-modified-sort="1756949948413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2025-taller-semilleros-coes-junio-2025-introduccion-al-flujo-de-investigacion-abierto/index.html" class="no-external">Taller semilleros COES junio 2025 - Introducción al flujo de investigación abierto</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2025-taller-semilleros-coes-junio-2025-introduccion-al-flujo-de-investigacion-abierto/index.html" class="no-external"></a>
 </div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2025-taller-semilleros-coes-junio-2025-introduccion-al-flujo-de-investigacion-abierto/index.html" class="no-external">Introducción al flujo de investigación reproducible Talleres Semilleros COES 2025- Línea interacciones grupales e individuales</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2025-taller-semilleros-coes-junio-2025-introduccion-al-flujo-de-investigacion-abierto/index.html" class="no-external">
+<div class="listing-date">
+jun 2025
+</div>
+<div class="listing-author">
+Kevin Carrasco
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1743476400000" data-listing-file-modified-sort="1756949948428" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2025-introduccion-a-la-ciencia-abierta-antropologia-facso-2025/index.html" class="no-external">Introducción a la Ciencia Abierta - Antropología FACSO 2025</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2025-introduccion-a-la-ciencia-abierta-antropologia-facso-2025/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2025-introduccion-a-la-ciencia-abierta-antropologia-facso-2025/index.html" class="no-external">Introducción a la Ciencia Abierta Acceso, reproducibilidad y transparencia en la investigación social</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2025-introduccion-a-la-ciencia-abierta-antropologia-facso-2025/index.html" class="no-external">
+<div class="listing-date">
+abr 2025
+</div>
+<div class="listing-author">
+Kevin Carrasco
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1704078000000" data-listing-file-modified-sort="1756949948443" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2024-taller-flujo-de-investigacion-abierto-enero-2024-universidad-de-valparaiso/index.html" class="no-external">Taller Flujo de investigación abierto - Enero 2024 - Universidad de Valparaíso</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2024-taller-flujo-de-investigacion-abierto-enero-2024-universidad-de-valparaiso/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2024-taller-flujo-de-investigacion-abierto-enero-2024-universidad-de-valparaiso/index.html" class="no-external">Taller Herramientas CA UValpo Enero 2024 Herramientas de Ciencia Abierta Apertura y reproducibilidad de proyectos de investigación</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2024-taller-flujo-de-investigacion-abierto-enero-2024-universidad-de-valparaiso/index.html" class="no-external">
+<div class="listing-date">
+ene 2024
+</div>
+<div class="listing-author">
+Juan Carlos Castillo
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1698807600000" data-listing-file-modified-sort="1756949948623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2023-taller-herramientas-de-ciencia-abierta-noviembre-2023-nudos/index.html" class="no-external">Taller Herramientas de Ciencia Abierta Noviembre 2023 - NUDOS</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2023-taller-herramientas-de-ciencia-abierta-noviembre-2023-nudos/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2023-taller-herramientas-de-ciencia-abierta-noviembre-2023-nudos/index.html" class="no-external">Taller Herramientas CA Nudos Noviembre 2023 Herramientas de Ciencia Abierta</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2023-taller-herramientas-de-ciencia-abierta-noviembre-2023-nudos/index.html" class="no-external">
+<div class="listing-date">
+nov 2023
+</div>
+<div class="listing-author">
+Juan Carlos Castillo
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1685592000000" data-listing-file-modified-sort="1756949948638" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2023-taller-reproducibilidad-y-repositorios-abiertos-junio-2023-aprendiendo-metodologia-por-valentina/index.html" class="no-external">Taller Reproducibilidad y Repositorios Abiertos Junio 2023 - Aprendiendo metodología por Valentina</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2023-taller-reproducibilidad-y-repositorios-abiertos-junio-2023-aprendiendo-metodologia-por-valentina/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2023-taller-reproducibilidad-y-repositorios-abiertos-junio-2023-aprendiendo-metodologia-por-valentina/index.html" class="no-external">Online</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2023-taller-reproducibilidad-y-repositorios-abiertos-junio-2023-aprendiendo-metodologia-por-valentina/index.html" class="no-external">
+<div class="listing-date">
+jun 2023
+</div>
+<div class="listing-author">
+Juan Carlos Castillo
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1672542000000" data-listing-file-modified-sort="1756949948666" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2023-presentacion-congreso-de-bibliotecas-universitarias-especializadas-universidad-de-chile-enero-2023/index.html" class="no-external">Presentación Congreso de Bibliotecas Universitarias Especializadas - Universidad de Chile, Enero 2023</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2023-presentacion-congreso-de-bibliotecas-universitarias-especializadas-universidad-de-chile-enero-2023/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2023-presentacion-congreso-de-bibliotecas-universitarias-especializadas-universidad-de-chile-enero-2023/index.html" class="no-external">Universidad de Chile,</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2023-presentacion-congreso-de-bibliotecas-universitarias-especializadas-universidad-de-chile-enero-2023/index.html" class="no-external">
+<div class="listing-date">
+ene 2023
+</div>
+<div class="listing-author">
+Juan Carlos Castillo
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1672542000000" data-listing-file-modified-sort="1756949948653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2023-presentacion-escuela-de-verano-conocimiento-y-ciencia-abierta-universidad-central/index.html" class="no-external">Presentación Escuela de Verano Conocimiento y Ciencia Abierta - Universidad Central</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2023-presentacion-escuela-de-verano-conocimiento-y-ciencia-abierta-universidad-central/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2023-presentacion-escuela-de-verano-conocimiento-y-ciencia-abierta-universidad-central/index.html" class="no-external">El Laboratorio de Investigación Social Abierta (LISA) tiene por objetivo ofrecer herramientas y orientaciones para la apertura científica de las distintas etapas de los proyectos de investigación en ciencias sociales.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2023-presentacion-escuela-de-verano-conocimiento-y-ciencia-abierta-universidad-central/index.html" class="no-external">
+<div class="listing-date">
+ene 2023
+</div>
+<div class="listing-author">
+Juan Carlos Castillo
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1672542000000" data-listing-file-modified-sort="1756949948681" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2023-presentacion-universidad-iberoamericana-de-mexico-2023-online-/index.html" class="no-external">Presentación Universidad Iberoamericana de México - 2023 (Online)</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2023-presentacion-universidad-iberoamericana-de-mexico-2023-online-/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2023-presentacion-universidad-iberoamericana-de-mexico-2023-online-/index.html" class="no-external">Herramientas para la apertura del flujo de investigación científica</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2023-presentacion-universidad-iberoamericana-de-mexico-2023-online-/index.html" class="no-external">
+<div class="listing-date">
+ene 2023
+</div>
+<div class="listing-author">
+Juan Carlos Castillo
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1662004800000" data-listing-file-modified-sort="1756949948917" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2022-presentacion-workshop-produccion-de-articulos-cientificos-con-elsoc-30-de-septiembre-de-2022/index.html" class="no-external">Presentación Workshop Producción de artículos científicos con ELSOC - 30 de Septiembre de 2022</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2022-presentacion-workshop-produccion-de-articulos-cientificos-con-elsoc-30-de-septiembre-de-2022/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2022-presentacion-workshop-produccion-de-articulos-cientificos-con-elsoc-30-de-septiembre-de-2022/index.html" class="no-external">Presentación Workshop Producción de artículos científicos con ELSOC - 30 de Septiembre de 2022</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2022-presentacion-workshop-produccion-de-articulos-cientificos-con-elsoc-30-de-septiembre-de-2022/index.html" class="no-external">
+<div class="listing-date">
+sep 2022
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1641006000000" data-listing-file-modified-sort="1756949948695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2022-taller-introduccion-a-shiny-enero-2022-aprendiendo-metodologia-por-valentina/index.html" class="no-external">Taller Introducción a Shiny Enero 2022 - Aprendiendo Metodología por Valentina</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2022-taller-introduccion-a-shiny-enero-2022-aprendiendo-metodologia-por-valentina/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2022-taller-introduccion-a-shiny-enero-2022-aprendiendo-metodologia-por-valentina/index.html" class="no-external">Introducción a la Visualización de Datos con Shiny</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2022-taller-introduccion-a-shiny-enero-2022-aprendiendo-metodologia-por-valentina/index.html" class="no-external">
+<div class="listing-date">
+ene 2022
+</div>
+<div class="listing-author">
+Julio Iturra
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1641006000000" data-listing-file-modified-sort="1756949948903" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2022-taller-pre-registros-y-pre-prints-enero-2022/index.html" class="no-external">Taller Pre-Registros y Pre-Prints Enero 2022</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2022-taller-pre-registros-y-pre-prints-enero-2022/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2022-taller-pre-registros-y-pre-prints-enero-2022/index.html" class="no-external">Introducción a la Ciencia Abierta: Pre-registro y Pre-prints</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2022-taller-pre-registros-y-pre-prints-enero-2022/index.html" class="no-external">
+<div class="listing-date">
+ene 2022
+</div>
+<div class="listing-author">
+Juan Carlos Castillo, Julio Iturra
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1641006000000" data-listing-file-modified-sort="1756949948889" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../actividades/presentaciones/2022-taller-reproducibilidad-enero-2022-aprendiendo-metodologia-por-valentina/index.html" class="no-external">Taller Reproducibilidad Enero 2022 - Aprendiendo Metodología por Valentina</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../actividades/presentaciones/2022-taller-reproducibilidad-enero-2022-aprendiendo-metodologia-por-valentina/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../actividades/presentaciones/2022-taller-reproducibilidad-enero-2022-aprendiendo-metodologia-por-valentina/index.html" class="no-external">Protocolos de análisis reproducible y reportes dinámicos</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../actividades/presentaciones/2022-taller-reproducibilidad-enero-2022-aprendiendo-metodologia-por-valentina/index.html" class="no-external">
+<div class="listing-date">
+ene 2022
+</div>
+<div class="listing-author">
+Juan Carlos Castillo
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <!-- FOOTER QUE IGNORA LA GRID DE QUARTO -->
 
@@ -379,12 +660,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiado");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiado");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -418,8 +699,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -530,7 +809,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -773,7 +1051,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>
     <div class="nav-footer-right">
-<p>Last Update: {{&lt; modified isodate &gt;}}</p>
+<p>Last Update: {{&lt; modified isodate&gt;}}</p>
 </div>
   </div>
 </footer>

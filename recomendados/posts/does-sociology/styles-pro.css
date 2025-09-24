@@ -1,0 +1,86 @@
+/* Tipos y variables */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:wght@400;600&display=swap');
+:root{
+  --brand:#1351b4;          /* primario */
+  --brand-ink:#0e2a4a;      /* encabezados */
+  --accent:#00b3a4;         /* acento */
+  --radius:12px;
+}
+
+/* Base tipográfica y ancho de lectura */
+body{
+  font-family: Inter,-apple-system,system-ui,Segoe UI,Roboto,Arial,sans-serif;
+  color:#1e1e1e; line-height:1.6;
+}
+.quarto-article{ max-width: 70ch; }
+
+/* Encabezados elegantes */
+.quarto-article h1,.quarto-article h2,.quarto-article h3{
+  font-family: Lora, Georgia, serif;
+  color: var(--brand-ink); letter-spacing:.2px;
+}
+.quarto-article h2{ margin-top:2.2rem; }
+.quarto-article h3{ margin-top:1.6rem; }
+
+/* Enlaces y foco accesible */
+a{ text-decoration:none; }
+a:hover{ text-decoration:underline; }
+:focus-visible{ outline:3px solid rgba(19,81,180,.35); outline-offset:2px; }
+
+/* Callouts profesionales */
+.callout{ border-radius: var(--radius); }
+.callout-note{ border-left:6px solid var(--brand); background: rgba(19,81,180,.05); }
+.callout-tip{ border-left:6px solid var(--accent); background: rgba(0,179,164,.06); }
+
+/* Botones */
+.btn.btn-primary{
+  background:var(--brand); border-color:var(--brand);
+  border-radius:9999px; padding:.55rem 1rem;
+  box-shadow:0 4px 14px rgba(0,0,0,.08);
+}
+
+/* Listas y tablas */
+.quarto-article ul{ margin-top:.2rem; margin-bottom:.8rem; }
+.quarto-article li{ margin-bottom:.3rem; }
+.table{ border-radius:var(--radius); overflow:hidden; }
+
+/* Figuras */
+figure,.figure,.quarto-figure{ border-radius:var(--radius); overflow:hidden; }
+
+/* Bloques destacados (abstract “card”) */
+.callout.abstract-card{
+  border-left:6px solid var(--brand);
+  background:rgba(0,0,0,.03);
+  box-shadow:0 6px 22px rgba(0,0,0,.06);
+  border-radius:.6rem;
+}
+.callout.abstract-card .callout-title{ font-variant: small-caps; letter-spacing:.06em; }
+
+/* Modo oscuro automático */
+@media (prefers-color-scheme: dark){
+  :root{ --brand:#7fb2ff; --brand-ink:#dfe8f7; --accent:#4bdccc; }
+  body{ color:#e9eef6; background:#0f1320; }
+  .quarto-article a{ color: var(--brand); }
+  .callout-note{ background: rgba(127,178,255,.10); border-left-color:var(--brand); }
+  .callout-tip{ background: rgba(75,220,204,.10); border-left-color:var(--accent); }
+  .btn.btn-primary{ background:var(--brand); border-color:var(--brand); color:#0f1320; }
+}
+
+/* Responsive fino */
+@media (max-width: 768px){
+  .quarto-article{ padding:0 1rem; max-width:64ch; }
+  .quarto-article h1{ font-size:1.8rem; }
+  .quarto-article h2{ font-size:1.35rem; }
+  .quarto-article h3{ font-size:1.1rem; }
+}
+
+/* Print-friendly */
+@media print{
+  .navbar,#quarto-header,.sidebar,.nav-footer,.toc-active{ display:none !important; }
+  .btn{ display:none !important; }
+  .callout{ box-shadow:none !important; background:transparent !important; }
+  .quarto-article{ max-width:100% !important; }
+}
+
+<style>
+

@@ -1,0 +1,28 @@
+---
+page-layout: full
+lang: es
+title: "Taller Flujo de investigación abierto - Enero 2024 - Universidad de Valparaíso"
+date: 2024-01-01
+author: ["Juan Carlos Castillo"]
+categories: ["charla", "LISA"]
+event: "Universidad de Valparaíso"
+location: "Universidad de Valparaíso"
+description: "Taller Herramientas CA UValpo Enero 2024 Herramientas de Ciencia Abierta Apertura y reproducibilidad de proyectos de investigación"
+bibliography: "../../posts/presentaciones/data/presentaciones.json"
+nocite: "@http://zotero.org/users/17885349/items/AVDRL3HL"
+---
+
+Taller Herramientas CA UValpo Enero 2024 Herramientas de Ciencia Abierta Apertura y reproducibilidad de proyectos de investigación
+
+### Presentación
+<iframe src="https://lisa-coes.github.io/presentaciones/UValpo-herramientas-Enero2024/UValpo-herramientas-Ene2024.html#1" width="100%" height="900" allowfullscreen="true" loading="lazy"></iframe>
+
+### Recursos
+- **Enlace principal**: https://lisa-coes.github.io/presentaciones/UValpo-herramientas-Enero2024/UValpo-herramientas-Ene2024.html#1
+
+::: {.callout-note title="Cómo citar (APA)"}
+
+::: {#refs}
+:::
+
+:::

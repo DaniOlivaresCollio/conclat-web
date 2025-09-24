@@ -73,6 +73,20 @@ listing:
 ![](resources/imagenes/sharing-default.png){.img-fluid .mb-3 width=90% fig-align="center"}
 :::
 
+::: {.parallax-container}
+::: {.parallax-image-container2}
+::: {.button style="text-align: center; padding-top: 7em;"}
+<p align="center" style="font-size:48px; font-weight:bold; color:white;">
+<i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre LISA</p>
+
+
+<p style="font-size:36px; color:white; text-align:center;">
+El Laboratorio de Investigación Social Abierta es una iniciativa del Centro de Estudios de Conflicto y Cohesión Social (COES) que tiene como propósito ser una guía para el desarrollo de una ciencia social abierta y reproducible para la comunidad científica y la ciudadanía.
+</p>
+
+:::
+:::
+:::
 
 ::: {.section-text}
 ::: {.section-container}
@@ -93,11 +107,10 @@ listing:
 :::
 
 
-::: {.section-text .dark-bg}
-::: {.section-container}
-::: {.section-block}
+::: {.parallax-container}
+::: {.parallax-image-container}
 ::: {.button style="text-align: center; padding-top: 7em;"}
-<p align="center" style="font-size:36px; font-weight:bold;">
+<p align="center" style="font-size:36px; font-weight:bold; color:white;">
 <i class="bi bi-newspaper" style="margin-right: 10px;"></i>Noticias</p>
 
 
@@ -106,7 +119,6 @@ listing:
 :::
 
 
-:::
 :::
 :::
 :::
@@ -133,18 +145,16 @@ listing:
 :::
 :::
 
-::: {.section-text .dark-bg}
-::: {.section-container}
-::: {.section-block}
+::: {.parallax-container}
+::: {.parallax-image-container}
 ::: {.button style="text-align: center; padding-top: 7em;"}
-<p align="center" style="font-size:36px; font-weight:bold;">
+<p align="center" style="font-size:36px; font-weight:bold; color:white;">
 <i class="bi bi-journals" style="margin-right: 10px;"></i>Recomendados</p>
 
 ::: {#recomendados}
 :::
 
 
-:::
 :::
 :::
 :::

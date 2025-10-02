@@ -2,6 +2,38 @@
 	{
 		"id": "http://zotero.org/users/17885349/items/H4WSG6WV",
 		"type": "speech",
+		"abstract": "Herramientas computacionales para la investigación social reproducible\n\nTalleres de formación interna - CIAE octubre 2025",
+		"event-place": "COES",
+		"publisher-place": "COES",
+		"title": "Talleres de formación interna - CIAE octubre 2025 - Herramientas computacionales para la investigación social reproducible",
+		"title-short": "Herramientas computacionales para la investigación social reproducible",
+		"URL": "https://lisa-coes.github.io/taller-vsc-github/taller-ciae/taller-ciae2025.html#/section",
+		"author": [
+			{
+				"literal": "Juan Carlos Castillo, Kevin Carrasco, René Canales, Katherine Aravena & Tomás Urzúa"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					9,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/17885349/items/H4WSG6WV",
+		"type": "speech",
 		"abstract": "Introducción al flujo de investigación reproducible\n\nTalleres Semilleros COES 2025- Línea interacciones grupales e individuales",
 		"event-place": "COES",
 		"publisher-place": "COES",

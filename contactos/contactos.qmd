@@ -1,0 +1,162 @@
+---
+title: "Contáctenos"
+description: "Información de contacto del Laboratorio de Investigación Social Abierta (LISA)."
+page-layout: article
+toc: false
+---
+<style>
+/* ——— Ajustes de esta página ——— */
+#contacto p{ margin-bottom:.55rem; line-height:1.6; }
+#contacto ul{ margin:.25rem 0 0 1.05rem; }
+#contacto .btn-wrap{ margin-top:.75rem; }
+#contacto .map{ border-radius:12px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,.06); }
+#contacto .map iframe{ width:100%; height:360px; border:0; }
+
+@media (max-width: 991px){
+  #contacto .map iframe{ height:300px; }
+}
+
+/* Formulario */
+#contacto .contact-form{max-width: 860px; margin: 1.25rem 0 0}
+#contacto .contact-form .form-label{font-weight:600}
+#contacto .contact-form .form-text{font-size:.9rem}
+#contacto #form-status{display:none}
+
+/* ——— Separación horizontal entre columnas ——— */
+/* Quarto .columns usa grid; definimos gap y la var de columna por compatibilidad */
+#contacto .columns{
+  gap: 1rem 3rem;          /* fila/columna */
+  column-gap: 3rem;        /* por si el motor usa column-gap */
+  --column-gap: 3rem;      /* var que algunos temas de Quarto respetan */
+}
+
+/* Respiro interno en desktop */
+@media (min-width: 992px){
+  #contacto .column:first-child { padding-right: 1rem; }
+  #contacto .column:last-child  { padding-left:  1rem; }
+}
+</style>
+
+```{=html}
+<form name="contacto-lisa"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      action="/gracias">
+
+  <!-- Requerido para que Netlify detecte el formulario en build -->
+  <input type="hidden" name="form-name" value="contacto-lisa">
+
+  <!-- Campo honeypot antispam (oculto para personas) -->
+  <p class="visually-hidden">
+    <label>No completar: <input name="bot-field"></label>
+  </p>
+
+  <div class="row g-3">
+    <div class="col-md-6">
+      <label class="form-label" for="name">Nombre</label>
+      <input class="form-control" type="text" id="name" name="name" required>
+    </div>
+    <div class="col-md-6">
+      <label class="form-label" for="email">Correo</label>
+      <input class="form-control" type="email" id="email" name="email" required>
+    </div>
+    <div class="col-12">
+      <label class="form-label" for="subject">Asunto</label>
+      <input class="form-control" type="text" id="subject" name="subject">
+    </div>
+    <div class="col-12">
+      <label class="form-label" for="message">Mensaje</label>
+      <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+      <div class="form-text">Incluye fechas, público y enlaces si aplica.</div>
+    </div>
+
+    <!-- (Opcional) Adjuntos
+    <div class="col-12">
+      <label class="form-label" for="file">Adjuntar archivo (opcional)</label>
+      <input class="form-control" type="file" id="file" name="archivo">
+    </div> -->
+  </div>
+
+  <div class="mt-3">
+    <button id="submit-btn" class="btn btn-primary" type="submit">Enviar</button>
+  </div>
+</form>
+
+<!-- Si prefieres mostrar mensaje sin salir de la página, deja este script y elimina "action=/gracias" en el <form> -->
+<div id="form-status" class="alert mt-3" role="alert" style="display:none"></div>
+<script>
+  const form = document.querySelector('form[name="contacto-lisa"]');
+  const statusBox = document.getElementById('form-status');
+  const submitBtn = document.getElementById('submit-btn');
+
+  if (form && statusBox) {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault(); // comenta esta línea si quieres redirección a /gracias
+      statusBox.style.display = 'none';
+      submitBtn.disabled = true;
+      try {
+        const resp = await fetch('/', { method: 'POST', body: new FormData(form) });
+        if (resp.ok) {
+          form.reset();
+          statusBox.className = 'alert alert-success mt-3';
+          statusBox.textContent = 'Gracias. Tu mensaje fue enviado correctamente.';
+        } else {
+          statusBox.className = 'alert alert-danger mt-3';
+          statusBox.textContent = 'Ocurrió un problema al enviar el formulario.';
+        }
+      } catch {
+        statusBox.className = 'alert alert-danger mt-3';
+        statusBox.textContent = 'No se pudo enviar. Revisa tu conexión e inténtalo nuevamente.';
+      } finally {
+        statusBox.style.display = 'block';
+        submitBtn.disabled = false;
+      }
+    });
+  }
+</script>
+
+
+```
+
+::: {#contacto}
+
+## Información
+
+::: {.columns}
+::: {.column width="55%"}
+
+**Correo:** [coeslisa@gmail.com](mailto:coeslisa@gmail.com?subject=Consulta%20desde%20el%20sitio%20LISA)  
+**Dirección:** Facultad de Ciencias Sociales de la Universidad de Chile (FACSO), Ñuñoa, Santiago, Chile.  
+**Horario de atención:** Lunes a viernes, 9:00–17:00 (CLT)
+
+**Propósitos de contacto**
+- Consultas sobre componentes y protocolos LISA  
+- Invitaciones a talleres o colaboraciones  
+- Prensa y difusión  
+- Comentarios o sugerencias del sitio
+
+<div class="btn-wrap">
+[Escribir correo](mailto:coeslisa@gmail.com?subject=Consulta%20desde%20el%20sitio%20LISA){.btn .btn-primary}
+</div>
+:::
+
+::: {.column width="45%"}
+::: {.map}
+<iframe title="Mapa de LISA (FACSO, Universidad de Chile)"
+  src="https://www.google.com/maps?q=-33.4677744,-70.5944655&z=17&output=embed"
+  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+:::
+<div class="btn-wrap">
+[Ver en Google Maps](https://www.google.com/maps/place/Facultad+de+Ciencias+Sociales+de+la+Universidad+de+Chile/@-33.4677744,-70.5944655,17z/data=!3m1!4b1!4m6!3m5!1s0x9662cfc31860196f:0x7dcfc7c552bcec38!8m2!3d-33.4677744!4d-70.5944655!16s%2Fg%2F121l5nph){.btn .btn-outline-secondary target="_blank"}
+</div>
+:::
+:::
+
+::: callout-note
+#### Privacidad
+Tu correo sólo se usa para responder a tu consulta. Si compartes datos sensibles o de terceros, indícalo explícitamente.
+:::
+
+:::
+

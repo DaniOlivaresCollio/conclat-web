@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Taller de Formación Interna CIAE 2025: Sesión práctica sobre reproducibilidad, VS Code, Quarto y Git/GitHub realizada en el CIAE.">
 
-<title>Noticias</title>
+<title>Herramientas computacionales para la investigación social reproducible</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,28 +24,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-fca30eb9847a47594b8e4873b11d8021.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-c204643e68cbd6677404dfb619250575.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,102 +58,44 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../resources/imagenes/logo.png" alt="" class="navbar-logo light-content">
-    <img src="../resources/imagenes/logo.png" alt="" class="navbar-logo dark-content">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../resources/imagenes/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../../resources/imagenes/logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../componentes/componentes.html"> <i class="bi bi-info-circle-fill" role="img">
+    <a class="nav-link" href="../../../componentes/componentes.html"> <i class="bi bi-info-circle-fill" role="img">
 </i> 
 <span class="menu-text">Sobre LISA</span></a>
   </li>  
@@ -166,19 +107,19 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-componentes">    
         <li>
-    <a class="dropdown-item" href="../componentes/a-diseño/index.html">
+    <a class="dropdown-item" href="../../../componentes/a-diseño/index.html">
  <span class="dropdown-text"><i class="ai  ai-preregistered" aria-label="preregistered"></i> Diseño Transparente</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../componentes/b-data/index.html">
+    <a class="dropdown-item" href="../../../componentes/b-data/index.html">
  <span class="dropdown-text"><i class="ai  ai-open-data" aria-label="open-data"></i> Datos Abiertos</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../componentes/c-repro/index.html">
+    <a class="dropdown-item" href="../../../componentes/c-repro/index.html">
  <span class="dropdown-text"><i class="ai  ai-open-materials" aria-label="open-materials"></i> Análisis Reproducible</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../componentes/d-publibres/index.html">
+    <a class="dropdown-item" href="../../../componentes/d-publibres/index.html">
  <span class="dropdown-text"><i class="ai  ai-open-access-square" aria-label="open-access-square"></i> Publicaciones Libres</span></a>
   </li>  
     </ul>
@@ -191,32 +132,32 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-protocolos">    
         <li>
-    <a class="dropdown-item" href="../protocolos/a-IPO-rep/index.html">
+    <a class="dropdown-item" href="../../../protocolos/a-IPO-rep/index.html">
  <span class="dropdown-text"><i class="ai  ai-ipo-rep" aria-label="ipo-rep"></i> Protocolo Análisis Reproducible</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../protocolos/b-IPO-data/index.html">
+    <a class="dropdown-item" href="../../../protocolos/b-IPO-data/index.html">
  <span class="dropdown-text"><i class="ai  ai-ipo-data" aria-label="ipo-data"></i> Protocolo Apertura Datos</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../noticias/noticias.html" aria-current="page"> <i class="bi bi-newspaper" role="img">
+    <a class="nav-link" href="../../../noticias/noticias.html"> <i class="bi bi-newspaper" role="img">
 </i> 
 <span class="menu-text">Noticias</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../actividades/actividades.html"> <i class="bi bi-calendar-week" role="img">
+    <a class="nav-link" href="../../../actividades/actividades.html"> <i class="bi bi-calendar-week" role="img">
 </i> 
 <span class="menu-text">Actividades</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../recomendados/recomendados.html"> <i class="bi bi-journals" role="img">
+    <a class="nav-link" href="../../../recomendados/recomendados.html"> <i class="bi bi-journals" role="img">
 </i> 
 <span class="menu-text">Recomendados</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contactos/contactos.html"> <i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="../../../contactos/contactos.html"> <i class="bi bi-envelope" role="img">
 </i> 
 <span class="menu-text">Contactos</span></a>
   </li>  
@@ -229,107 +170,81 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Noticias</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Herramientas computacionales para la investigación social reproducible</h1>
+<p class="subtitle lead">Taller de Formación Interna CIAE 2025</p>
+  </div>
+
+<div>
+  <div class="description">
+    Taller de Formación Interna CIAE 2025: Sesión práctica sobre reproducibilidad, VS Code, Quarto y Git/GitHub realizada en el CIAE.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
+    
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Santiago, 2 de octubre de 2025</p>
     </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="post-hero" style="--hero-edge: 160px; --hero-scale: 0.90;--hero-gap: 36px;">
+<p><img src="featured1.jpg" class="post-hero-img img-fluid"></p>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bm90aWNpYXM=" data-listing-date-sort="1759374000000" data-listing-file-modified-sort="1759935222952" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="560">
-<a href="../noticias/posts/taller-ciae2025/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../noticias/posts/taller-ciae2025/featured1.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Herramientas computacionales para la investigación social reproducible
-</h5>
-<div class="card-text listing-description delink">
-<p>Taller de Formación Interna CIAE 2025: Sesión práctica sobre reproducibilidad, VS Code, Quarto y Git/GitHub realizada en el CIAE.</p>
+<div class="post-subtitle-below">
+<p>Taller de Formación Interna CIAE 2025</p>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 2, 2025
+<div class="post-meta-row">
+<div class="post-actions">
+<p><a href="https://lisacoes.com/actividades/presentaciones/2025-talleres-de-formacion-interna-ciae-octubre-2025-herramientas-computacionales-para-la-investigacion-social-reproducible/" class="btn btn-primary btn-sm" target="_blank" rel="noopener"><strong>Taller CIAE</strong></a> <a href="https://github.com/lisa-coes/taller-vsc-github" class="btn btn-outline-secondary btn-sm" target="_blank" rel="noopener">Repositorio del taller</a></p>
 </div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="bm90aWNpYXM=" data-listing-date-sort="1755748800000" data-listing-file-modified-sort="1759935702766" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="221">
-<a href="../noticias/posts/evento-socialtec/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\evento-socialtec\featured.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-📢 Invitación al seminario Herramientas digitales para las Ciencias Sociales
-</h5>
-<div class="card-text listing-description delink">
-<p>Primer seminario organizado por SocialTec, donde se explorará cómo las ciencias sociales se vinculan con la programación, el análisis de datos y las nuevas herramientas…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 21, 2025
+<div class="post-date">
+<p>Santiago, 2 de octubre de 2025</p>
 </div>
 </div>
+<p>El Programa de Talleres de Formación Interna 2025 del CIAE realizó la jornada <strong>“Herramientas computacionales para la investigación social reproducible”</strong>, organizada por LISA y dirigida al equipo académico y de investigación. La actividad se llevó a cabo en <strong>Casa Irma Salas (CIAE), sala Zócalo Norte</strong>, el jueves 2 de octubre, entre las <strong>15:00 y 17:00 horas</strong>, y convocó a investigadoras/es y asistentes interesados en fortalecer la calidad técnica y la trazabilidad de sus proyectos.</p>
+<p>El bloque de apertura estuvo a cargo de <strong>Juan Carlos Castillo</strong>, quien destacó la relevancia de la <strong>ciencia abierta</strong> y la <strong>reproducibilidad</strong> para garantizar transparencia, verificabilidad y acumulación de conocimiento. Subrayó que la combinación de documentación clara, control de versiones y publicación abierta permite dar seguimiento a los procesos analíticos, reducir errores y facilitar la revisión por pares, aspectos centrales para el trabajo académico de calidad.</p>
+<p>A continuación, <strong>Katherine Aravena</strong> presentó <strong>Visual Studio Code</strong> como un entorno unificado para organizar proyectos, editar documentos y trabajar de manera ordenada con múltiples archivos. A partir de un flujo simple (crear, guardar, revisar y sincronizar cambios) mostró cómo este editor facilita la colaboración dentro de los equipos y ayuda a mantener estructuras de trabajo consistentes a lo largo del tiempo.</p>
+<p>El núcleo del taller estuvo a cargo de <strong>René Canales</strong> y <strong>Tomás Urzúa</strong>, quienes abordaron el uso conjunto de <strong>R y Quarto</strong> para elaborar documentos y presentaciones que integran texto, análisis y resultados en un mismo archivo. A partir de ejemplos prácticos, explicaron cómo este enfoque permite <strong>actualizar salidas automáticamente cuando cambian los datos</strong>, favorecer la coherencia entre el relato y los resultados y mejorar la legibilidad con criterios básicos de estilo y organización. También revisaron estrategias para mantener repositorios ordenados y estructuras de carpetas que facilitan el trabajo en equipo.</p>
+<p>Posteriormente, <strong>Kevin Carrasco</strong> introdujo <strong>Git y GitHub</strong> como herramientas centrales para el <strong>control de versiones</strong> y la <strong>publicación abierta</strong> de materiales. Se revisaron buenas prácticas para registrar cambios de forma clara, trabajar en ramas cuando se desarrollan nuevas funciones o análisis, y <strong>publicar sitios</strong> que permitan compartir informes, scripts y recursos docentes de manera accesible. Este componente resultó clave para conectar la producción técnica con la difusión de resultados.</p>
+<p>A lo largo de la jornada se reforzó un mensaje transversal: adoptar estándares reproducibles no solo mejora la calidad técnica de los productos, sino que <strong>acorta tiempos de revisión</strong>, ordena los flujos de trabajo y <strong>facilita la colaboración</strong>. La integración de herramientas abiertas (editor, lenguaje de programación, sistema de versionamiento y publicación web) habilita equipos más coordinados y procesos más transparentes.</p>
+<p>El encuentro concluyó con un espacio de preguntas, intercambio de experiencias y recomendaciones para implementar estos recursos en cursos, informes y proyectos en curso del CIAE. En conjunto, el taller contribuyó a <strong>estandarizar la producción técnica</strong> de documentos y presentaciones, y promovió la adopción de <strong>prácticas reproducibles</strong> que favorecen la <strong>transparencia</strong>, la <strong>colaboración</strong> y la <strong>reutilización</strong> del trabajo académico.</p>
+<div class="figure-plain">
+<div id="fig-equipo-lisa" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Equipo LISA (de izquierda a derecha: Katherine Aravena, Kevin Carrasco, René Canales, Juan Carlos Castillo y Tomás Urzúa).">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-equipo-lisa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Equipop.png" class="img-fluid figure-img" alt="Equipo LISA (de izquierda a derecha: Katherine Aravena, Kevin Carrasco, René Canales, Juan Carlos Castillo y Tomás Urzúa).">
 </div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="bm90aWNpYXM=" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1759935702761" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
-<a href="../noticias/posts/actualizacion-web/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\actualizacion-web\featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-¡Bienvenidos a nuestro nuevo sitio web!
-</h5>
-<div class="card-text listing-description delink">
-<p>En este nuevo sitio web buscamos visibilizar el trabajo realizado por el Laboratorio, asi como las actividades organizadas por nuestro equipo.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 1, 2025
-</div>
-</div>
-</div>
-</div></a>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-equipo-lisa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1: Equipo: Katherine Aravena - Ayudante de Investigación LISA; Kevin Carrasco - Coordinador LISA; René Canales - Asistente de Investigación LISA; Juan Carlos Castillo - Investigador Principal; Tomás Urzúa - Asistente de investigación OCS.
+</figcaption>
+</figure>
 </div>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+
+
+
+</main> <!-- /main -->
 <!-- FOOTER QUE IGNORA LA GRID DE QUARTO -->
 
 <div style="background-color: #1f1f1f; color: white;
@@ -356,7 +271,7 @@ Jul 1, 2025
 
   <a href="https://coes.cl">
 
- <img id="logo-coes" src="../COES_Logo_sello1.png" alt="Logo COES" style="width: 50%;">
+ <img id="logo-coes" src="../../../COES_Logo_sello1.png" alt="Logo COES" style="width: 50%;">
 
 
 
@@ -406,12 +321,12 @@ Jul 1, 2025
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiado");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiado");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

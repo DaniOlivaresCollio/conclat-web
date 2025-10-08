@@ -74,7 +74,7 @@
     "href": "noticias/noticias.html",
     "title": "Noticias",
     "section": "",
-    "text": "📢 Invitación al seminario Herramientas digitales para las Ciencias Sociales\n\n\nPrimer seminario organizado por SocialTec, donde se explorará cómo las ciencias sociales se vinculan con la programación, el análisis de datos y las nuevas herramientas…\n\n\n\nAug 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n¡Bienvenidos a nuestro nuevo sitio web!\n\n\nEn este nuevo sitio web buscamos visibilizar el trabajo realizado por el Laboratorio, asi como las actividades organizadas por nuestro equipo.\n\n\n\nJul 1, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Herramientas computacionales para la investigación social reproducible\n\n\nTaller de Formación Interna CIAE 2025: Sesión práctica sobre reproducibilidad, VS Code, Quarto y Git/GitHub realizada en el CIAE.\n\n\n\nOct 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n📢 Invitación al seminario Herramientas digitales para las Ciencias Sociales\n\n\nPrimer seminario organizado por SocialTec, donde se explorará cómo las ciencias sociales se vinculan con la programación, el análisis de datos y las nuevas herramientas…\n\n\n\nAug 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n¡Bienvenidos a nuestro nuevo sitio web!\n\n\nEn este nuevo sitio web buscamos visibilizar el trabajo realizado por el Laboratorio, asi como las actividades organizadas por nuestro equipo.\n\n\n\nJul 1, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "equipo/equipo.html",
@@ -404,5 +404,26 @@
     "title": "Glosario de conceptos Ciencia Abierta ANID",
     "section": "",
     "text": "En el siguiente enlace podrán encontrar el glosario de Ciencia Abierta elaborado por ANID: https://acceso-abierto.anid.cl/recursos/glosario/"
+  },
+  {
+    "objectID": "contactos/contactos.html",
+    "href": "contactos/contactos.html",
+    "title": "Contáctenos",
+    "section": "",
+    "text": "No completar: \n  \n\n  \n    \n      Nombre\n      \n    \n    \n      Correo\n      \n    \n    \n      Asunto\n      \n    \n    \n      Mensaje\n      \n      Incluye fechas, público y enlaces si aplica.\n    \n\n    \n  \n\n  \n    Enviar"
+  },
+  {
+    "objectID": "contactos/contactos.html#información",
+    "href": "contactos/contactos.html#información",
+    "title": "Contáctenos",
+    "section": "Información",
+    "text": "Información\n\n\nCorreo: coeslisa@gmail.com\nDirección: Facultad de Ciencias Sociales de la Universidad de Chile (FACSO), Ñuñoa, Santiago, Chile.\nHorario de atención: Lunes a viernes, 9:00–17:00 (CLT)\nPropósitos de contacto - Consultas sobre componentes y protocolos LISA\n- Invitaciones a talleres o colaboraciones\n- Prensa y difusión\n- Comentarios o sugerencias del sitio\n\nEscribir correo\n\n\n\n\n\n\n\nVer en Google Maps\n\n\n\n\n\n\n\n\n\nNotePrivacidad\n\n\n\nTu correo sólo se usa para responder a tu consulta. Si compartes datos sensibles o de terceros, indícalo explícitamente."
+  },
+  {
+    "objectID": "noticias/posts/taller-ciae2025/index.html",
+    "href": "noticias/posts/taller-ciae2025/index.html",
+    "title": "Herramientas computacionales para la investigación social reproducible",
+    "section": "",
+    "text": "Taller de Formación Interna CIAE 2025\n\n\n\nTaller CIAE Repositorio del taller\n\n\nSantiago, 2 de octubre de 2025\n\n\nEl Programa de Talleres de Formación Interna 2025 del CIAE realizó la jornada “Herramientas computacionales para la investigación social reproducible”, organizada por LISA y dirigida al equipo académico y de investigación. La actividad se llevó a cabo en Casa Irma Salas (CIAE), sala Zócalo Norte, el jueves 2 de octubre, entre las 15:00 y 17:00 horas, y convocó a investigadoras/es y asistentes interesados en fortalecer la calidad técnica y la trazabilidad de sus proyectos.\nEl bloque de apertura estuvo a cargo de Juan Carlos Castillo, quien destacó la relevancia de la ciencia abierta y la reproducibilidad para garantizar transparencia, verificabilidad y acumulación de conocimiento. Subrayó que la combinación de documentación clara, control de versiones y publicación abierta permite dar seguimiento a los procesos analíticos, reducir errores y facilitar la revisión por pares, aspectos centrales para el trabajo académico de calidad.\nA continuación, Katherine Aravena presentó Visual Studio Code como un entorno unificado para organizar proyectos, editar documentos y trabajar de manera ordenada con múltiples archivos. A partir de un flujo simple (crear, guardar, revisar y sincronizar cambios) mostró cómo este editor facilita la colaboración dentro de los equipos y ayuda a mantener estructuras de trabajo consistentes a lo largo del tiempo.\nEl núcleo del taller estuvo a cargo de René Canales y Tomás Urzúa, quienes abordaron el uso conjunto de R y Quarto para elaborar documentos y presentaciones que integran texto, análisis y resultados en un mismo archivo. A partir de ejemplos prácticos, explicaron cómo este enfoque permite actualizar salidas automáticamente cuando cambian los datos, favorecer la coherencia entre el relato y los resultados y mejorar la legibilidad con criterios básicos de estilo y organización. También revisaron estrategias para mantener repositorios ordenados y estructuras de carpetas que facilitan el trabajo en equipo.\nPosteriormente, Kevin Carrasco introdujo Git y GitHub como herramientas centrales para el control de versiones y la publicación abierta de materiales. Se revisaron buenas prácticas para registrar cambios de forma clara, trabajar en ramas cuando se desarrollan nuevas funciones o análisis, y publicar sitios que permitan compartir informes, scripts y recursos docentes de manera accesible. Este componente resultó clave para conectar la producción técnica con la difusión de resultados.\nA lo largo de la jornada se reforzó un mensaje transversal: adoptar estándares reproducibles no solo mejora la calidad técnica de los productos, sino que acorta tiempos de revisión, ordena los flujos de trabajo y facilita la colaboración. La integración de herramientas abiertas (editor, lenguaje de programación, sistema de versionamiento y publicación web) habilita equipos más coordinados y procesos más transparentes.\nEl encuentro concluyó con un espacio de preguntas, intercambio de experiencias y recomendaciones para implementar estos recursos en cursos, informes y proyectos en curso del CIAE. En conjunto, el taller contribuyó a estandarizar la producción técnica de documentos y presentaciones, y promovió la adopción de prácticas reproducibles que favorecen la transparencia, la colaboración y la reutilización del trabajo académico.\n\n\n\n\n\n\n\nFigura 1: Equipo: Katherine Aravena - Ayudante de Investigación LISA; Kevin Carrasco - Coordinador LISA; René Canales - Asistente de Investigación LISA; Juan Carlos Castillo - Investigador Principal; Tomás Urzúa - Asistente de investigación OCS."
   }
 ]

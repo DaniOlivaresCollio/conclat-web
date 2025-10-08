@@ -10,6 +10,7 @@
   {
     "listing": "/noticias/noticias.html",
     "items": [
+      "/noticias/posts/taller-ciae2025/index.html",
       "/noticias/posts/evento-socialtec/index.html",
       "/noticias/posts/actualizacion-web/index.html"
     ]
@@ -72,6 +73,7 @@
       "/componentes/b-data/index.html",
       "/componentes/c-repro/index.html",
       "/componentes/d-publibres/index.html",
+      "/noticias/posts/taller-ciae2025/index.html",
       "/noticias/posts/evento-socialtec/index.html",
       "/noticias/posts/actualizacion-web/index.html",
       "/actividades/presentaciones/2025-talleres-de-formacion-interna-ciae-octubre-2025-herramientas-computacionales-para-la-investigacion-social-reproducible/index.html",

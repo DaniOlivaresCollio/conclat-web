@@ -1,0 +1,105 @@
+---
+title: "Oferta Formativa"
+page-layout: full
+listing:
+  contents: posts/*.qmd
+  type: grid
+title-block-banner: true
+---
+
+## Nuestra Misión
+
+En LISA fomentamos el desarrollo de una **ciencia social abierta y reproducible** para la comunidad científica y la ciudadanía.
+
+## Nuestro Enfoque
+
+Uno de nuestros objetivos principales ha sido generar una propuesta de trabajo integral, la cual se constituye a través de la elaboración de herramientas conceptuales y prácticas en cuatro componentes fundamentales:
+
+### Los Cuatro Componentes de la Ciencia Abierta
+
+::: {.grid}
+
+::: {.g-col-6}
+**1. Diseño Transparente**
+Promovemos la transparencia en el diseño de investigación desde la conceptualización hasta la implementación.
+:::
+
+::: {.g-col-6}
+**2. Apertura de Datos**
+Facilitamos el acceso y compartición de datos de investigación siguiendo principios FAIR.
+:::
+
+::: {.g-col-6}
+**3. Análisis Reproducibles**
+Enseñamos técnicas y herramientas para garantizar que los análisis puedan ser replicados y verificados.
+:::
+
+::: {.g-col-6}
+**4. Publicaciones Libres**
+Apoyamos la difusión del conocimiento a través de publicaciones de acceso abierto.
+:::
+
+:::
+
+## Herramientas de Capacitación
+
+Ofrecemos capacitación especializada en las siguientes herramientas tecnológicas:
+
+::: {.grid}
+
+::: {.g-col-3}
+![](../resources/imagenes/r-logo.png){fig-alt="R logo" width="80"}
+
+**R**
+Análisis estadístico y visualización de datos
+:::
+
+::: {.g-col-3}
+![](../resources/imagenes/quarto-logo.png){fig-alt="Quarto logo" width="80"}
+
+**Quarto**
+Publicación científica reproducible
+:::
+
+::: {.g-col-3}
+![](../resources/imagenes/vscode-logo.png){fig-alt="VSCode logo" width="80"}
+
+**VSCode**
+Entorno de desarrollo integrado
+:::
+
+::: {.g-col-3}
+![](../resources/imagenes/github-logo.png){fig-alt="GitHub logo" width="80"}
+
+**GitHub**
+Control de versiones y colaboración
+:::
+
+:::
+
+## Nuestros Cursos y Talleres
+
+Hacemos cursos y talleres sobre los siguientes temas:
+
+### 🔄 Talleres de Flujo Reproducible
+- Introducción a la reproducibilidad en ciencias sociales
+- Flujo de trabajo desde el diseño hasta la publicación
+- Buenas prácticas en documentación y organización de proyectos
+
+### 💻 Talleres sobre Herramientas Computacionales para las Ciencias Sociales
+- Programación en R para ciencias sociales
+- Análisis de datos con herramientas abiertas
+- Visualización de datos efectiva
+- Manejo de repositorios y control de versiones
+
+### 📊 Capacitaciones Especializadas
+- Diseño de investigación transparente
+- Gestión y apertura de datos de investigación
+- Redacción y publicación en acceso abierto
+- Preregistros y planes de análisis
+
+---
+
+## Contacto y Participación
+
+¿Interesado en nuestras capacitaciones? Contáctanos para conocer más sobre nuestros próximos talleres y cursos.

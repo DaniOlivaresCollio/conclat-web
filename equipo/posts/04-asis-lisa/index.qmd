@@ -19,3 +19,5 @@ about:
       href: https://www.linkedin.com/in/ren%C3%A9-canales-sell%C3%A9s-8777951b5/
       text: Web Personal
 ---
+
+Sociólogo de la Pontificia Universidad Católica y estudiante del Magíster en Sociología en la misma institución. Actualmente se desempeña como asistente de investigación en el Observatorio de Cohesión Social (OCS) y en el Laboratorio de Investigación Social Abierta (LISA) de COES. Además, es tesista del proyecto FONDECYT “Actitudes y Comportamiento Juvenil” (1230922). Sus intereses incluyen la participación política, estratificación social, métodos cuantitativos y ciencia abierta.

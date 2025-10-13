@@ -73,115 +73,105 @@ listing:
 ![](resources/imagenes/sharing-default.png){.img-fluid .mb-3 width=90% fig-align="center"}
 :::
 
+<!-- ====================== SOBRE LISA ====================== -->
 ::: {.parallax-container}
 ::: {.parallax-image-container2}
-::: {.button style="text-align: center; padding-top: 7em;"}
-<p align="center" style="font-size:48px; font-weight:bold; color:white;">
-<i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre LISA</p>
-
-
-<p style="font-size:36px; color:white; text-align:center;">
-El Laboratorio de Investigación Social Abierta es una iniciativa del Centro de Estudios de Conflicto y Cohesión Social (COES) que tiene como propósito ser una guía para el desarrollo de una ciencia social abierta y reproducible para la comunidad científica y la ciudadanía.
-</p>
-
+<div>
+  <p class="section-title">
+    <i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre LISA
+  </p>
+  <p class="section-lead">
+    El Laboratorio de Investigación Social Abierta es una iniciativa del Centro de Estudios de Conflicto y Cohesión Social (COES) que tiene como propósito ser una guía para el desarrollo de una ciencia social abierta y reproducible para la comunidad científica y la ciudadanía.
+  </p>
+</div>
 :::
 :::
-:::
 
+<!-- ====================== COMPONENTES ====================== -->
 ::: {.section-text}
 ::: {.section-container}
-::: {.button style="text-align: center; padding-top: 7em;"}
-
-<p align="center" style="font-size:36px; font-weight:bold;">
-<i class="bi bi-puzzle-fill" style="margin-right: 10px;"></i>Componentes</p>
-
-
-
+::: {.button}
+<p class="section-title">
+  <i class="bi bi-puzzle-fill" style="margin-right: 10px;"></i>Componentes
+</p>
+:::
 
 ::: {#componentes}
 :::
 
-
 :::
 :::
 :::
 
-
+<!-- ====================== NOTICIAS (parallax) ====================== -->
 ::: {.parallax-container}
 ::: {.parallax-image-container}
-::: {.button style="text-align: center; padding-top: 7em;"}
-<p align="center" style="font-size:36px; font-weight:bold; color:white;">
-<i class="bi bi-newspaper" style="margin-right: 10px;"></i>Noticias</p>
-
-
+<div class="parallax-inner">
+  <p class="section-title">
+    <i class="bi bi-newspaper" style="margin-right: 10px;"></i>Noticias
+  </p>
+</div>
 
 ::: {#noticias}
 :::
-
-
-:::
 :::
 :::
 
+
+
+
+<!-- ====================== ACTIVIDADES ====================== -->
 ::: {.section-text}
 ::: {.section-container}
 ::: {.section-block}
-::: {style="text-align: left;"}
-
-<p align="center" style="font-size:36px; font-weight:bold;">
-<i class="bi bi-calendar-week" style="margin-right: 10px;"></i>Actividades</p>
+<p class="section-title">
+  <i class="bi bi-calendar-week" style="margin-right: 10px;"></i>Actividades
+</p>
 
 :::{#actividades}
 :::
 
 ::: {.button}
-
-
-[Todos los eventos](actividades/actividades.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="background-color: #0693e3; margin-top: 0em;"}
-:::
-
+[Todos los eventos](actividades/actividades.qmd){.btn .btn-primary .btn-lg role="button"}
 :::
 :::
 :::
 :::
 
+<!-- ====================== RECOMENDADOS (parallax) ====================== -->
 ::: {.parallax-container}
-::: {.parallax-image-container}
-::: {.button style="text-align: center; padding-top: 7em;"}
-<p align="center" style="font-size:36px; font-weight:bold; color:white;">
-<i class="bi bi-journals" style="margin-right: 10px;"></i>Recomendados</p>
+::: {.parallax-image-container} 
+<div class="parallax-inner">
+  <p class="section-title">
+    <i class="bi bi-journals" style="margin-right: 10px;"></i>Recomendados
+  </p>
+</div>
 
 ::: {#recomendados}
 :::
-
-
-:::
 :::
 :::
 
 
-
-
+<!-- ====================== EQUIPO ====================== -->
 ::: {.section-text}
 ::: {.section-container}
 ::: {.section-block}
-::: {style="text-align: center;"}
-
-<p align="center" style="font-size:36px; font-weight:bold;">
-<i class="bi bi-people-fill" style="margin-right: 10px;"></i>Equipo</p>
+<p class="section-title">
+  <i class="bi bi-people-fill" style="margin-right: 10px;"></i>Equipo
+</p>
 
 ::: {#equipo}
 :::
 
-::: {.button style="text-align: right;"}
-[Pasaron por LISA>>](/alumni/index.qmd){.btn-template-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
-:::
-
+::: {.button}
+[Pasaron por LISA&nbsp;»](/alumni/index.qmd){.btn .btn-outline-primary .btn-lg role="button"}
 :::
 :::
 :::
 :::
 
+<!-- ====================== LOGOS ====================== -->
 ::: {.section-text .logos-bg}
 ::: {.section-container}
 ::: {.section-block}

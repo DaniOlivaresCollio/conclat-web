@@ -9,7 +9,7 @@ event: ""
 location: ""
 description: "Introducción a la Visualización de Datos con Shiny"
 bibliography: "../../posts/presentaciones/data/presentaciones.json"
-nocite: "@http://zotero.org/users/17885349/items/HJNQPRQC"
+nocite: "@iturra_taller_2022"
 ---
 
 Introducción a la Visualización de Datos con Shiny

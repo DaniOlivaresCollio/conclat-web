@@ -9,7 +9,7 @@ event: "Online"
 location: "Online"
 description: "Online"
 bibliography: "../../posts/presentaciones/data/presentaciones.json"
-nocite: "@http://zotero.org/users/17885349/items/CNDGFENF"
+nocite: "@castillo_taller_2023"
 ---
 
 Online

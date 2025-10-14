@@ -9,7 +9,7 @@ event: "Universidad Central"
 location: "Universidad Central"
 description: "El Laboratorio de Investigación Social Abierta (LISA) tiene por objetivo ofrecer herramientas y orientaciones para la apertura científica de las distintas etapas de los proyectos de investigación en ciencias sociales."
 bibliography: "../../posts/presentaciones/data/presentaciones.json"
-nocite: "@http://zotero.org/users/17885349/items/TNN29NIL"
+nocite: "@castillo_presentacion_2023a"
 ---
 
 El Laboratorio de Investigación Social Abierta (LISA) tiene por objetivo ofrecer herramientas y orientaciones para la apertura científica de las distintas etapas de los proyectos de investigación en ciencias sociales.

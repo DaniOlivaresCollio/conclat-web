@@ -9,7 +9,7 @@ event: "Universidad Iberoamericana de México"
 location: "Universidad Iberoamericana de México"
 description: "Herramientas para la apertura del flujo de investigación científica"
 bibliography: "../../posts/presentaciones/data/presentaciones.json"
-nocite: "@http://zotero.org/users/17885349/items/KPYU3Q9T"
+nocite: "@castillo_presentacion_2023"
 ---
 
 Herramientas para la apertura del flujo de investigación científica

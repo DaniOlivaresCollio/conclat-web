@@ -9,7 +9,7 @@ event: ""
 location: ""
 description: "Introducción a la Ciencia Abierta: Pre-registro y Pre-prints"
 bibliography: "../../posts/presentaciones/data/presentaciones.json"
-nocite: "@http://zotero.org/users/17885349/items/4JE3XUIZ"
+nocite: "@castillo_taller_2022"
 ---
 
 Introducción a la Ciencia Abierta: Pre-registro y Pre-prints

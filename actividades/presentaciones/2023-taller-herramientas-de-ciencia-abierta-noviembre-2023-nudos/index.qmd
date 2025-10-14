@@ -9,7 +9,7 @@ event: "Núcleo Milenio de Desigualdades y Oportunidades Digitales (NUDOS)"
 location: "Núcleo Milenio de Desigualdades y Oportunidades Digitales (NUDOS)"
 description: "Taller Herramientas CA Nudos Noviembre 2023 Herramientas de Ciencia Abierta"
 bibliography: "../../posts/presentaciones/data/presentaciones.json"
-nocite: "@http://zotero.org/users/17885349/items/YGJVQP2Y"
+nocite: "@castillo_taller_2023a"
 ---
 
 Taller Herramientas CA Nudos Noviembre 2023 Herramientas de Ciencia Abierta

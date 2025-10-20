@@ -347,26 +347,167 @@ strong code
   overflow: hidden;
 }
 
-.parallax-container {
-  position: relative;
-}
+/* ===== Parallax base ===== */
+.parallax-container { position: relative; overflow: hidden; }
 
-.parallax-image-container {
-  background-image: url(resources/imagenes/parallax-blocs.jpg);
-  height: 800px;
-  background-attachment: fixed;
-  opacity: 1;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
+.parallax-image-container,
 .parallax-image-container2 {
   background-image: url(resources/imagenes/parallax-blocs.jpg);
-  height: 600px;
-  background-attachment: fixed;
-  opacity: 1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;   /* Desktop ok */
+  position: relative;
+  isolation: isolate;
+  display: block;
+}
+
+/* Alturas por tipo (puedes ajustar) */
+.parallax-image-container  { min-height: 800px; } /* Noticias/Recomendados */
+.parallax-image-container2 { min-height: 600px; } /* Sobre LISA */
+
+/* Overlay para legibilidad */
+.parallax-image-container::before,
+.parallax-image-container2::before {
+  content: "";
+  position: absolute; inset: 0;
+  background: rgba(0,0,0,.20);  /* genérico */
+  z-index: -1;
+}
+/* Sobre LISA un poco más oscuro para texto largo */
+.parallax-image-container2::before { background: rgba(0,0,0,.35); }
+
+/* Contenido centrado dentro de parallax */
+.parallax-inner {
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 3rem 1rem 1.25rem;
+  text-align: center;
+}
+
+/* ===== Títulos y textos ===== */
+.section-title {
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0 0 .5rem 0;
+  font-size: clamp(1.6rem, 5vw, 3rem);
+  color: inherit;  /* <-- por defecto usa el color del contexto (negro en secciones claras) */
+}
+.section-lead {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 65ch;
+  font-size: clamp(1rem, 3.5vw, 1.5rem);
+  color: inherit;
+}
+/* En parallax, títulos/textos blancos */
+.parallax-image-container .section-title,
+.parallax-image-container .section-lead,
+.parallax-image-container2 .section-title,
+.parallax-image-container2 .section-lead {
+  color: #fff;
+}
+
+/* ===== Secciones normales ===== */
+.section-text { padding-block: clamp(2rem, 6vw, 5rem); }
+.section-container { width: min(100%, 1200px); margin-inline: auto; padding-inline: 1rem; }
+.section-block { position: relative; }
+
+/* Evitar scroll lateral fantasma */
+html, body { max-width: 100%; overflow-x: clip; }
+
+/* Compensar navbar fija al usar anclas (#equipo, etc.) */
+[id] { scroll-margin-top: 80px; }
+
+/* =========================================================
+   RESPONSIVE / MOBILE
+   ========================================================= */
+@media (max-width: 768px) {
+  /* Desactivar fixed en móvil para ambos */
+  .parallax-image-container,
+  .parallax-image-container2 {
+    background-attachment: scroll !important;
+    min-height: auto;
+  }
+
+  /* Noticias/Recomendados: menos padding (porque llevan listing adentro) */
+  .parallax-image-container { padding: 0; }
+
+  /* Sobre LISA: conservar aire (se veía “apretado” sin padding) */
+  .parallax-image-container2 { padding: 2rem 1rem; }
+
+  .parallax-inner { padding: 1.75rem 1rem 1rem; }
+}
+
+/* Accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  .parallax-image-container,
+  .parallax-image-container2 {
+    background-attachment: scroll !important;
+  }
+}
+
+/* =========================================================
+   (Opcional) EFECTO DEGRADADO INFERIOR SUAVE EN PARALLAX
+   ========================================================= */
+.parallax-image-container::after,
+.parallax-image-container2::after {
+  content: "";
+  position: absolute; left: 0; right: 0; bottom: 0;
+  height: 160px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.4) 100%);
+  pointer-events: none;
+}
+
+/* =========================================================
+   Limpiezas para listings dentro del parallax (móvil)
+   ========================================================= */
+@media (max-width: 768px) {
+  /* Evita márgenes superiores que empujan el listado */
+  .parallax-image-container .quarto-listing,
+  .parallax-image-container [id^="listing-"],
+  .parallax-image-container .cards,
+  .parallax-image-container .grid,
+  .parallax-image-container > *:last-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    background: transparent !important;
+  }
+}
+
+/* Centrado vertical real (flex) */
+.parallax-image-container2 {
+  display: flex;                 /* en desktop ya no es block */
+  align-items: center;           /* centra vertical */
+  justify-content: center;       /* centra horizontal el wrapper */
+  min-height: 600px;             /* la altura que ya usabas */
+}
+
+/* Wrapper centrado y un poco más abajo del centro */
+.parallax-image-container2 .parallax-inner {
+  width: min(100%, 1100px);
+  padding: 0 1rem;               /* elimina padding superior grande */
+  text-align: center;
+  transform: translateY(8%);     /* empuja ~8% hacia abajo (ajusta a gusto) */
+}
+
+/* Fuerza título y lead centrados (por si el tema les aplica estilos) */
+.parallax-image-container2 .section-title,
+.parallax-image-container2 .section-lead {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* En móvil, no bajes el bloque: que quede centrado sin desplazamiento extra */
+@media (max-width: 768px) {
+  .parallax-image-container2 {
+    display: block;              /* vuelve a flujo normal en móvil */
+    padding: 2rem 1rem;          /* conserva aire */
+    min-height: auto;
+  }
+  .parallax-image-container2 .parallax-inner {
+    transform: none;             /* sin bajar extra en pantallas chicas */
+    padding: 0;                  /* usa el padding del contenedor */
+  }
 }

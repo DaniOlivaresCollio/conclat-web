@@ -9,7 +9,7 @@ event: "Universidad de Chile,"
 location: "Universidad de Chile,"
 description: "Universidad de Chile,"
 bibliography: "../../posts/presentaciones/data/presentaciones.json"
-nocite: "@http://zotero.org/users/17885349/items/NU8FUF2M"
+nocite: "@castillo_presentacion_2023b"
 ---
 
 Universidad de Chile,

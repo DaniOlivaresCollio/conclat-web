@@ -1,0 +1,23 @@
+---
+title: Kevin Carrasco 
+subtitle: Coordinador LISA
+contacto: kevin.carrasco@ug.uchile.cl
+github: https://github.com/Kevin-carrasco
+web: https://www.linkedin.com/in/kevin-carrasco-quintanilla/
+image: "featured.jpg"
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      href: mailto:kevin.carrasco@ug.uchile.cl
+      text: Contacto
+    - icon: github
+      href: https://github.com/Kevin-carrasco
+      text: Github
+    - icon: globe
+      href: https://www.linkedin.com/in/kevin-carrasco-quintanilla/
+      text: Web Personal
+---
+
+Sociólogo y Magíster en Ciencias Sociales de la Universidad de Chile. Actualmente, se desempeña como coordinador del Laboratorio de Investigación Social Abierta (LISA-COES), asistente de investigación de la línea “Interacciones grupales e individuales” de COES y como profesor de la cátedra “Métodos Estadísticos para las Ciencias Sociales III” de la Universidad Andrés Bello. Sus intereses de investigación incluyen desigualdad, justicia distributiva, ciencia abierta y métodos cuantitativos de investigación social.

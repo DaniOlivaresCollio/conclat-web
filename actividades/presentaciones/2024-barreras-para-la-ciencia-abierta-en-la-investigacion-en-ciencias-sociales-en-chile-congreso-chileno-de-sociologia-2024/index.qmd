@@ -1,0 +1,28 @@
+---
+page-layout: full
+lang: es
+title: "Barreras para la Ciencia Abierta en la investigación en Ciencias Sociales en Chile - Congreso Chileno de Sociología 2024"
+date: 2024-05-01
+author: ["Juan Carlos Castillo", "Cristóbal Ortiz", "Kevin Carrasco", "Moira Martínez", "Valentina Frometa"]
+categories: ["charla", "LISA"]
+event: ""
+location: ""
+description: "Presentación en el Congreso de Sociología 2024, sobre barreras para la implementación de ciencia abierta en Chile."
+bibliography: "../../posts/presentaciones/data/presentaciones.json"
+nocite: "@castillo_barreras_2024"
+---
+
+Presentación en el Congreso de Sociología 2024, sobre barreras para la implementación de ciencia abierta en Chile.
+
+### Presentación
+<iframe src="https://lisa-coes.github.io/presentaciones/congreso-sociologia-stgo-Mayo2024/congreso-sociologia-stgo-Mayo2024.html#1" width="100%" height="900" allowfullscreen="true" loading="lazy"></iframe>
+
+### Recursos
+- **Enlace principal**: https://lisa-coes.github.io/presentaciones/congreso-sociologia-stgo-Mayo2024/congreso-sociologia-stgo-Mayo2024.html#1
+
+::: {.callout-note title="Cómo citar (APA)"}
+
+::: {#refs}
+:::
+
+:::

@@ -5,11 +5,32 @@ listing:
   contents: posts/*.qmd
   type: grid
 title-block-banner: true
+
 ---
 
-## Nuestra Misión
 
-En LISA fomentamos el desarrollo de una **ciencia social abierta y reproducible** para la comunidad científica y la ciudadanía.
+<style>
+h1.title {
+  text-align: center;
+  font-size: 2.8em;
+}
+.grid.g-cols-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5em;
+  align-items: start;
+}
+.grid.g-cols-5 .g-col-1 {
+  min-width: 0;
+  text-align: center;
+}
+.grid.g-cols-5 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+---
 
 ## Nuestro Enfoque
 
@@ -45,31 +66,38 @@ Apoyamos la difusión del conocimiento a través de publicaciones de acceso abie
 
 Ofrecemos capacitación especializada en las siguientes herramientas tecnológicas:
 
-::: {.grid}
+::: {.grid .g-cols-5}
 
-::: {.g-col-3}
-![](../resources/imagenes/r-logo.png){fig-alt="R logo" width="80"}
+::: {.g-col-5}
+![](../resources/imagenes/r-logo.png){fig-alt="R logo" width="40"}
 
 **R**
 Análisis estadístico y visualización de datos
 :::
 
-::: {.g-col-3}
-![](../resources/imagenes/quarto-logo.png){fig-alt="Quarto logo" width="80"}
+::: {.g-col-5}
+![](../resources/imagenes/quarto-logo.png){fig-alt="Quarto logo" width="40"}
 
 **Quarto**
 Publicación científica reproducible
 :::
 
-::: {.g-col-3}
-![](../resources/imagenes/vscode-logo.png){fig-alt="VSCode logo" width="80"}
+::: {.g-col-5}
+![](../resources/imagenes/osf-logo.png){fig-alt="OSF logo" width="40"}
+
+**OSF**
+Gestión y organización de prerregistros
+:::
+
+::: {.g-col-5}
+![](../resources/imagenes/vscode-logo.png){fig-alt="VSCode logo" width="40"}
 
 **VSCode**
 Entorno de desarrollo integrado
 :::
 
-::: {.g-col-3}
-![](../resources/imagenes/github-logo.png){fig-alt="GitHub logo" width="80"}
+::: {.g-col-5}
+![](../resources/imagenes/github-logo.png){fig-alt="GitHub logo" width="40"}
 
 **GitHub**
 Control de versiones y colaboración
@@ -91,12 +119,13 @@ Hacemos cursos y talleres sobre los siguientes temas:
 - Análisis de datos con herramientas abiertas
 - Visualización de datos efectiva
 - Manejo de repositorios y control de versiones
+- Uso de OSF para preregistros y gestión de proyectos abiertos
 
 ### 📊 Capacitaciones Especializadas
-- Diseño de investigación transparente
-- Gestión y apertura de datos de investigación
-- Redacción y publicación en acceso abierto
-- Preregistros y planes de análisis
+
+- **Preregistros y Diseño Transparente**: Uso de OSF, preregistros, y estrategias para el diseño de investigación transparente.
+- **Gestión y Apertura de Datos**: Principios FAIR, buenas prácticas para compartir, documentar y abrir datos de investigación.
+- **Escritura y Publicación en Acceso Abierto**: Uso de templates/protocolos IPO, escritura científica reproducible, y presentaciones en Quarto.
 
 ---
 

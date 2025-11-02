@@ -9,7 +9,7 @@ event: "Universidad de Valparaíso"
 location: "Universidad de Valparaíso"
 description: "Taller Herramientas CA UValpo Enero 2024 Herramientas de Ciencia Abierta Apertura y reproducibilidad de proyectos de investigación"
 bibliography: "../../posts/presentaciones/data/presentaciones.json"
-nocite: "@http://zotero.org/users/17885349/items/AVDRL3HL"
+nocite: "@castillo_taller_2024"
 ---
 
 Taller Herramientas CA UValpo Enero 2024 Herramientas de Ciencia Abierta Apertura y reproducibilidad de proyectos de investigación

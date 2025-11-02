@@ -9,7 +9,7 @@ event: "Departamento de Antropología FACSO"
 location: "Departamento de Antropología FACSO"
 description: "Introducción a la Ciencia Abierta Acceso, reproducibilidad y transparencia en la investigación social"
 bibliography: "../../posts/presentaciones/data/presentaciones.json"
-nocite: "@http://zotero.org/users/17885349/items/LWJW9NUA"
+nocite: "@carrasco_introduccion_2025"
 ---
 
 Introducción a la Ciencia Abierta Acceso, reproducibilidad y transparencia en la investigación social

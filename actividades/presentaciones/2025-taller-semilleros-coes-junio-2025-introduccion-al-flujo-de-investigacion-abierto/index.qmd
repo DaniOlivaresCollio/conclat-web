@@ -9,7 +9,7 @@ event: "COES"
 location: "COES"
 description: "Introducción al flujo de investigación reproducible Talleres Semilleros COES 2025- Línea interacciones grupales e individuales"
 bibliography: "../../posts/presentaciones/data/presentaciones.json"
-nocite: "@http://zotero.org/users/17885349/items/H4WSG6WV"
+nocite: "@carrasco_taller_2025"
 ---
 
 Introducción al flujo de investigación reproducible Talleres Semilleros COES 2025- Línea interacciones grupales e individuales

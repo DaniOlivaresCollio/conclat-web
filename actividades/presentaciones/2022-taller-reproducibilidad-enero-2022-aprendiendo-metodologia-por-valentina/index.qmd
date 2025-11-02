@@ -9,7 +9,7 @@ event: ""
 location: ""
 description: "Protocolos de análisis reproducible y reportes dinámicos"
 bibliography: "../../posts/presentaciones/data/presentaciones.json"
-nocite: "@http://zotero.org/users/17885349/items/TEFVA4FH"
+nocite: "@castillo_taller_2022a"
 ---
 
 Protocolos de análisis reproducible y reportes dinámicos

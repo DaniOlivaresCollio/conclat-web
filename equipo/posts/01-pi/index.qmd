@@ -1,0 +1,23 @@
+---
+title: Juan Carlos Castillo
+subtitle: Investigador Principal
+contacto: juancastillov@uchile
+github: https://github.com/juancarloscastillo
+web: https://jc-castillo.com
+image: "featured.png"
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      href: mailto:juancastillov@uchile.cl
+      text: Contacto
+    - icon: github
+      href: https://github.com/juancarloscastillo
+      text: Github
+    - icon: globe
+      href: https://jc-castillo.com
+      text: Web Personal
+---
+
+Investigador principal de la línea «Interacciones Grupales e Individuales» de COES, profesor titular en el Departamento de Sociología de la Universidad de Chile y Director de Investigación y Publicaciones de la Facultad de Ciencias Sociales de la misma universidad. Doctor en Sociología de la Universidad de Humboldt, Berlín y magíster en Public Management de la Universidad de Potsdam. Actualmente es investigador principal del Proyecto Fondecyt Regular Nº1250518 «Justicia de Mercado y Merecimiento del Bienestar Social», del Núcleo Milenio de Desigualdades y Oportunidades Digitales (NUDOS), y está a cargo del desarrollo y la implementación del Observatorio de Cohesión Social y del Laboratorio de Investigación Social Abierta (LISA) de COES. Anteriormente fue coordinador del área de investigación del Centro de Medición, Mide UC de la Facultad de Ciencias Sociales de la PUC y profesor del Instituto de Sociología de la PUC.

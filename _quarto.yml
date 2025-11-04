@@ -54,6 +54,9 @@ website:
       - text: Recomendados
         icon: journals
         href: recomendados/recomendados.qmd
+      - text: Contactos
+        icon: envelope
+        href: contactos/contactos.qmd
          
 format:
   html:

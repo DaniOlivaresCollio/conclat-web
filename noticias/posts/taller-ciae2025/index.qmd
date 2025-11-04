@@ -1,0 +1,65 @@
+---
+title: "Herramientas computacionales para la investigación social reproducible"
+subtitle: "Taller de Formación Interna CIAE 2025"
+description: "Taller de Formación Interna CIAE 2025: Sesión práctica sobre reproducibilidad, VS Code, Quarto y Git/GitHub realizada en el CIAE."
+date: 2025-10-02
+categories: [noticias]
+
+image: featured1.jpg
+title-block-style: default
+title-block-categories: false
+
+
+toc: false
+lang: es
+date-format: "[Santiago,] D [de] MMMM [de] YYYY"
+
+format:
+  html:
+    theme: scss-posts.scss
+    page-layout: article
+    grid:
+      body-width: 1040px
+      margin-width: 0px
+      gutter-width: 0px
+---
+
+::: {.post-hero style="--hero-edge: 160px; --hero-scale: 0.90;--hero-gap: 36px;"}
+![](featured1.jpg){.post-hero-img}
+:::
+
+<div class="post-subtitle-below">
+  {{< meta subtitle >}}
+</div>
+
+
+::: {.post-meta-row}
+::: {.post-actions}
+[**Taller CIAE**](https://lisacoes.com/actividades/presentaciones/2025-talleres-de-formacion-interna-ciae-octubre-2025-herramientas-computacionales-para-la-investigacion-social-reproducible/){.btn .btn-primary .btn-sm target="_blank" rel="noopener"}
+[Repositorio del taller](https://github.com/lisa-coes/taller-vsc-github){.btn .btn-outline-secondary .btn-sm target="_blank" rel="noopener"}
+:::
+
+::: {.post-date}
+{{< meta date format="[Santiago,] D [de] MMMM [de] YYYY" >}}
+:::
+:::
+
+El Programa de Talleres de Formación Interna 2025 del CIAE realizó la jornada **“Herramientas computacionales para la investigación social reproducible”**, organizada por LISA y dirigida al equipo académico y de investigación. La actividad se llevó a cabo en **Casa Irma Salas (CIAE), sala Zócalo Norte**, el jueves 2 de octubre, entre las **15:00 y 17:00 horas**, y convocó a investigadoras/es y asistentes interesados en fortalecer la calidad técnica y la trazabilidad de sus proyectos.
+
+El bloque de apertura estuvo a cargo de **Juan Carlos Castillo**, quien destacó la relevancia de la **ciencia abierta** y la **reproducibilidad** para garantizar transparencia, verificabilidad y acumulación de conocimiento. Subrayó que la combinación de documentación clara, control de versiones y publicación abierta permite dar seguimiento a los procesos analíticos, reducir errores y facilitar la revisión por pares, aspectos centrales para el trabajo académico de calidad.
+
+A continuación, **Katherine Aravena** presentó **Visual Studio Code** como un entorno unificado para organizar proyectos, editar documentos y trabajar de manera ordenada con múltiples archivos. A partir de un flujo simple (crear, guardar, revisar y sincronizar cambios) mostró cómo este editor facilita la colaboración dentro de los equipos y ayuda a mantener estructuras de trabajo consistentes a lo largo del tiempo.
+
+El núcleo del taller estuvo a cargo de **René Canales** y **Tomás Urzúa**, quienes abordaron el uso conjunto de **R y Quarto** para elaborar documentos y presentaciones que integran texto, análisis y resultados en un mismo archivo. A partir de ejemplos prácticos, explicaron cómo este enfoque permite **actualizar salidas automáticamente cuando cambian los datos**, favorecer la coherencia entre el relato y los resultados y mejorar la legibilidad con criterios básicos de estilo y organización. También revisaron estrategias para mantener repositorios ordenados y estructuras de carpetas que facilitan el trabajo en equipo.
+
+Posteriormente, **Kevin Carrasco** introdujo **Git y GitHub** como herramientas centrales para el **control de versiones** y la **publicación abierta** de materiales. Se revisaron buenas prácticas para registrar cambios de forma clara, trabajar en ramas cuando se desarrollan nuevas funciones o análisis, y **publicar sitios** que permitan compartir informes, scripts y recursos docentes de manera accesible. Este componente resultó clave para conectar la producción técnica con la difusión de resultados.
+
+A lo largo de la jornada se reforzó un mensaje transversal: adoptar estándares reproducibles no solo mejora la calidad técnica de los productos, sino que **acorta tiempos de revisión**, ordena los flujos de trabajo y **facilita la colaboración**. La integración de herramientas abiertas (editor, lenguaje de programación, sistema de versionamiento y publicación web) habilita equipos más coordinados y procesos más transparentes.
+
+El encuentro concluyó con un espacio de preguntas, intercambio de experiencias y recomendaciones para implementar estos recursos en cursos, informes y proyectos en curso del CIAE. En conjunto, el taller contribuyó a **estandarizar la producción técnica** de documentos y presentaciones, y promovió la adopción de **prácticas reproducibles** que favorecen la **transparencia**, la **colaboración** y la **reutilización** del trabajo académico.
+
+
+:::{.figure-plain}
+![Equipo: Katherine Aravena - Ayudante de Investigación LISA; Kevin Carrasco - Coordinador LISA; René Canales - Asistente de Investigación LISA; Juan Carlos Castillo - Investigador Principal; Tomás Urzúa - Asistente de investigación OCS.](Equipop.png){#fig-equipo-lisa fig-alt="Equipo LISA (de izquierda a derecha: Katherine Aravena, Kevin Carrasco, René Canales, Juan Carlos Castillo y Tomás Urzúa)."}
+:::
+

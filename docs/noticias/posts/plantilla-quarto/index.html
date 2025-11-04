@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Plantilla Quarto LISA para FACSO: escribe en .qmd y genera HTML y PDF con identidad institucional, portada, bibliografía APA y flujo reproducible.">
 
-<title>Jorge Atria</title>
+<title>Nueva Plantilla Quarto para reportes FACSO</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,11 +36,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-fca30eb9847a47594b8e4873b11d8021.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-9d436742b31540f128795eef3a693850.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -56,17 +58,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 
@@ -74,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed plantilla-post quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -86,8 +88,8 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../../resources/imagenes/logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -171,43 +173,103 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#presentación" id="toc-presentación" class="nav-link active" data-scroll-target="#presentación">Presentación</a></li>
+  <li><a href="#requisitos-y-cómo-empezar" id="toc-requisitos-y-cómo-empezar" class="nav-link" data-scroll-target="#requisitos-y-cómo-empezar">Requisitos y cómo empezar</a></li>
+  <li><a href="#resultados" id="toc-resultados" class="nav-link" data-scroll-target="#resultados">Resultados</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="https://coes.cl/wp-content/uploads/2025/02/Jorge-Atria_2-e1489422552229-1.jpg" class="about-image
-  round " style="height: 20em; width: 20em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Jorge Atria</h1>
-<p class="subtitle lead">Investigador Asociado</p>
+<h1 class="title">Nueva Plantilla Quarto para reportes FACSO</h1>
+<p class="subtitle lead">Formato en alta calidad: HTML y PDF en un solo proyecto</p>
+  </div>
+
+<div>
+  <div class="description">
+    Plantilla Quarto LISA para FACSO: escribe en .qmd y genera HTML y PDF con identidad institucional, portada, bibliografía APA y flujo reproducible.
+  </div>
 </div>
+
+
 <div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Santiago, 2 de noviembre de 2025</p>
+    </div>
   </div>
+  
+    
+  </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="mailto:jaatria@uc.cl" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Contacto</span>
-  </a>
-  <a href="https://github.com/" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://sociologia.uc.cl/academicos-as/planta-academica/jorge-atria-curi/" class="about-link" rel="" target="">
-    <i class="bi bi-globe"></i>
-     <span class="about-link-text">Web Personal</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Investigador asociado de la línea «Interacciones Grupales e Individuales» de COES y del Laboratorio de Investigación Social Abierta (Lisa). Profesor en el Instituto de Sociología de la Universidad Católica. Investigador Adjunto de la Red Trasandina de Sustentabilidad (TrAndes). Doctor en Sociología de la Freie Universität Berlin (Alemania), Sociólogo y Magíster en Sociología de la Pontificia Universidad Católica de Chile. Actualmente está a cargo del Proyecto Fondecyt Regular N°1231047, «Ser y parecer de la élite económica: percepciones, distinciones e interacciones en la jerarquía socioeconómica chilena».</p>
-<p>Sus áreas de investigación son: sociología económica y fiscal, elites y estratificación social, y sociología de la cultura</p>
 
 
-</main></div>
+<div class="post-hero" style="--hero-edge: 160px; --hero-scale: 0.90;--hero-gap: 36px;">
+<p><img src="cover.png" class="post-hero-img img-fluid"></p>
 </div>
- <!-- /main -->
+<div class="post-subtitle-below">
+<p>Formato en alta calidad: HTML y PDF en un solo proyecto</p>
+</div>
+<div class="post-meta-row">
+<div class="post-actions">
+<p><a href="https://github.com/KAravena/ReportesFACSO_plantillaQuarto" class="btn btn-primary btn-sm" target="_blank" rel="noopener"><strong>Usar Template Github</strong></a> <a href="https://github.com/KAravena/reportesfacsobook_template/archive/refs/heads/main.zip" class="btn btn-outline-secondary btn-sm" target="_blank" rel="noopener">Descargar ZIP</a></p>
+</div>
+<div class="post-date">
+<p>Santiago, 2 de noviembre de 2025</p>
+</div>
+</div>
+<section id="presentación" class="level2">
+<h2 class="anchored" data-anchor-id="presentación">Presentación</h2>
+<p>El Equipo LISA presenta la plantilla Quarto “Reportes FACSO”, una evolución de <a href="https://jc-castillo.com/blog/posts/tesisfacsodown/"><em>tesisfacsodown</em></a> orientada a que estudiantes, docentes y equipos de investigación escriban en Markdown (.qmd) y publiquen simultáneamente en <strong>HTML</strong> y <strong>PDF</strong> con identidad institucional, bibliografía APA y un flujo reproducible <a href="https://lisacoes.com/protocolos/a-ipo-rep/">protocolo IPO</a>. La propuesta separa contenido de formato, estandariza portadas y estilos, y facilita la trazabilidad del trabajo técnico.</p>
+<p>El objetivo es elevar el estándar técnico de informes académicos e institucionales en FACSO, reduciendo tiempos de maquetación y revisión. La plantilla es útil para informes de curso y seminario, tesis y proyectos de investigación, asistencia técnica y documentos docentes que requieren paridad entre HTML y PDF, citación consistente y publicación web.</p>
+<p>Los resultados se ven asi: <a href="https://karavena.github.io/ReportesFACSO_plantillaQuarto/">HTML</a> y <a href="https://karavena.github.io/ReportesFACSO_plantillaQuarto/reportes-facso-plantilla.pdf">PDF</a></p>
+</section>
+<section id="requisitos-y-cómo-empezar" class="level2">
+<h2 class="anchored" data-anchor-id="requisitos-y-cómo-empezar">Requisitos y cómo empezar</h2>
+<p>Para operar de forma fluida se recomienda <strong><a href="https://quarto.org/docs/download/">Quarto ≥ 1.5</a></strong> y un motor LaTeX (<strong><a href="https://yihui.org/tinytex">tinytex</a></strong>) para el PDF. <strong><a href="https://git-scm.com/downloads">Git</a></strong> es aconsejable para versionado y despliegue en <strong><a href="https://pages.github.com/">GitHub Pages</a></strong>. El uso de <strong><a href="https://cran.r-project.org/">R</a></strong> / <strong><a href="https://www.python.org/downloads/">Python</a></strong> / <strong><a href="https://julialang.org/downloads/">Julia</a></strong> es opcional: permite integrar análisis reproducibles, pero no es obligatorio para redactar.</p>
+<ol type="1">
+<li><strong>Obtener la plantilla:</strong> clonar el repositorio base o descargar el ZIP.<br>
+</li>
+<li><strong>Abrir el proyecto:</strong> VS Code o RStudio funcionan bien para editar <code>.qmd</code>.<br>
+</li>
+<li><strong>Ajustar metadatos:</strong> en <code>_quarto.yml</code> y <code>includes/cover-config.tex</code> (para portadas título, autoría, idioma, estilos).<br>
+</li>
+<li><strong>Renderizar:</strong> ejecutar en el terminal: quarto render para generar HTML y PDF en <code>docs/</code>.<br>
+</li>
+<li><strong>Publicar:</strong> activar GitHub Pages apuntando a la carpeta <code>docs/</code> para compartir.</li>
+</ol>
+<p>Para mas informacion sobre la estructura de la plantilla visitar <a href="https://github.com/KAravena/ReportesFACSO_plantillaQuarto/blob/main/README.md">README</a> en github.</p>
+</section>
+<section id="resultados" class="level2">
+<h2 class="anchored" data-anchor-id="resultados">Resultados</h2>
+<p>Se invita a la comunidad a aportar sugerencias vía <em>issues</em> y <em>pull requests</em> o contactar directamente al equipo (<a href="https://lisacoes.com/">LISA</a>) para mejorar la plantilla, fortalecer su documentación y ampliar casos de uso.</p>
+<div class="figure-plain">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="formato.png" class="img-fluid figure-img"></p>
+<figcaption>Covers de las salidas en HTML y PDF de la plantilla</figcaption>
+</figure>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
 <!-- FOOTER QUE IGNORA LA GRID DE QUARTO -->
 
 <div style="background-color: #1f1f1f; color: white;
@@ -261,6 +323,13 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -277,12 +346,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiado");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiado");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

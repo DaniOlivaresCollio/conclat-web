@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Juan Carlos Castillo">
+<meta name="author" content="Cristóbal Ortiz">
+<meta name="author" content="Kevin Carrasco">
+<meta name="author" content="Moira Martínez">
+<meta name="author" content="Valentina Frometa">
+<meta name="description" content="Presentación en el Congreso de Sociología 2024, sobre barreras para la implementación de ciencia abierta en Chile.">
 
-<title>Jorge Atria</title>
+<title>Barreras para la Ciencia Abierta en la investigación en Ciencias Sociales en Chile - Congreso Chileno de Sociología 2024</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +26,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -35,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -56,17 +83,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 
@@ -74,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -86,8 +113,8 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../../resources/imagenes/logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -168,46 +195,90 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="https://coes.cl/wp-content/uploads/2025/02/Jorge-Atria_2-e1489422552229-1.jpg" class="about-image
-  round " style="height: 20em; width: 20em;">
+<main class="content column-page" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Jorge Atria</h1>
-<p class="subtitle lead">Investigador Asociado</p>
-</div>
-<div class="quarto-title-meta">
+<h1 class="title">Barreras para la Ciencia Abierta en la investigación en Ciencias Sociales en Chile - Congreso Chileno de Sociología 2024</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">charla</div>
+    <div class="quarto-category">LISA</div>
   </div>
+  </div>
+
+<div>
+  <div class="description">
+    Presentación en el Congreso de Sociología 2024, sobre barreras para la implementación de ciencia abierta en Chile.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autores/as</div>
+    <div class="quarto-title-meta-contents">
+             <p>Juan Carlos Castillo </p>
+             <p>Cristóbal Ortiz </p>
+             <p>Kevin Carrasco </p>
+             <p>Moira Martínez </p>
+             <p>Valentina Frometa </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">1 de mayo de 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="mailto:jaatria@uc.cl" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Contacto</span>
-  </a>
-  <a href="https://github.com/" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://sociologia.uc.cl/academicos-as/planta-academica/jorge-atria-curi/" class="about-link" rel="" target="">
-    <i class="bi bi-globe"></i>
-     <span class="about-link-text">Web Personal</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Investigador asociado de la línea «Interacciones Grupales e Individuales» de COES y del Laboratorio de Investigación Social Abierta (Lisa). Profesor en el Instituto de Sociología de la Universidad Católica. Investigador Adjunto de la Red Trasandina de Sustentabilidad (TrAndes). Doctor en Sociología de la Freie Universität Berlin (Alemania), Sociólogo y Magíster en Sociología de la Pontificia Universidad Católica de Chile. Actualmente está a cargo del Proyecto Fondecyt Regular N°1231047, «Ser y parecer de la élite económica: percepciones, distinciones e interacciones en la jerarquía socioeconómica chilena».</p>
-<p>Sus áreas de investigación son: sociología económica y fiscal, elites y estratificación social, y sociología de la cultura</p>
 
 
-</main></div>
+<p>Presentación en el Congreso de Sociología 2024, sobre barreras para la implementación de ciencia abierta en Chile.</p>
+<section id="presentación" class="level3">
+<h3 class="anchored" data-anchor-id="presentación">Presentación</h3>
+<iframe src="https://lisa-coes.github.io/presentaciones/congreso-sociologia-stgo-Mayo2024/congreso-sociologia-stgo-Mayo2024.html#1" width="100%" height="900" allowfullscreen="true" loading="lazy">
+</iframe>
+</section>
+<section id="recursos" class="level3">
+<h3 class="anchored" data-anchor-id="recursos">Recursos</h3>
+<ul>
+<li><strong>Enlace principal</strong>: https://lisa-coes.github.io/presentaciones/congreso-sociologia-stgo-Mayo2024/congreso-sociologia-stgo-Mayo2024.html#1</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="Cómo citar (APA)">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
- <!-- /main -->
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Cómo citar (APA)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-castillo_barreras_2024" class="csl-entry" role="listitem">
+Castillo, Juan Carlos, Cristóbal Ortiz, Kevin Carrasco, Moira Martínez, y Valentina Frometa. 2024. <span>«Barreras para la Ciencia Abierta en la investigación en Ciencias Sociales en Chile - Congreso Chileno de Sociología 2024»</span>. Presentación, mayo. <a href="https://lisa-coes.github.io/presentaciones/congreso-sociologia-stgo-Mayo2024/congreso-sociologia-stgo-Mayo2024.html#1">https://lisa-coes.github.io/presentaciones/congreso-sociologia-stgo-Mayo2024/congreso-sociologia-stgo-Mayo2024.html#1</a>.
+</div>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
 <!-- FOOTER QUE IGNORA LA GRID DE QUARTO -->
 
 <div style="background-color: #1f1f1f; color: white;
@@ -261,6 +332,13 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -277,12 +355,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiado");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiado");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

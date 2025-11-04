@@ -362,22 +362,37 @@ strong code
   display: block;
 }
 
+
+.parallax-image-container::before,
+.parallax-image-container2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 140px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.9) 35%,
+    rgba(255, 255, 255, 0.6) 65%,
+    rgba(255, 255, 255, 0.3) 85%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+.parallax-image-container > *,
+.parallax-image-container2 > * {
+  position: relative;
+  z-index: 2;
+}
+
 /* Alturas por tipo (puedes ajustar) */
 .parallax-image-container  { min-height: 800px; } /* Noticias/Recomendados */
 .parallax-image-container2 { min-height: 600px; } /* Sobre LISA */
 
-/* Overlay para legibilidad */
-.parallax-image-container::before,
-.parallax-image-container2::before {
-  content: "";
-  position: absolute; inset: 0;
-  background: rgba(0,0,0,.20);  /* genérico */
-  z-index: -1;
-}
-/* Sobre LISA un poco más oscuro para texto largo */
-.parallax-image-container2::before { background: rgba(0,0,0,.35); }
-
-/* Contenido centrado dentro de parallax */
 .parallax-inner {
   width: min(100%, 1200px);
   margin: 0 auto;
@@ -511,3 +526,44 @@ html, body { max-width: 100%; overflow-x: clip; }
     padding: 0;                  /* usa el padding del contenedor */
   }
 }
+
+/* Hero particles*/ 
+.hero-heading-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 480px;
+  padding: 3rem 0;
+  overflow: visible;
+}
+
+
+
+\.hero-heading-content {\n  position: relative;\n  z-index: 2;
+  pointer-events: none;
+}
+
+.hero-heading-content img {
+  pointer-events: none;
+}
+
+/* Particles */
+.particles-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.particles-layer canvas {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+
+
+
+

@@ -74,9 +74,9 @@ listing:
 <div class="hero-heading-wrapper">
 <div id="particles-js" class="particles-layer" aria-hidden="true"></div>
 <div class="hero-heading-content">
-<img src="resources/imagenes/sharing-default.png"
+<img src="resources/img/conclat_ID_principal_rojo.png"
      class="img-fluid mb-3"
-     alt="Laboratorio de Investigación Social Abierta"
+     alt="Fondecyt Clases, Trabajo y Conflicto"
      style="width:90%;max-width:900px;display:block;margin:0 auto;">
 </div>
 </div>

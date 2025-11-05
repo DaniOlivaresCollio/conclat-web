@@ -25,7 +25,7 @@ website:
     # pinned: true
     left:
       - text: Sobre CONCLAT
-        icon: info-circle-fill
+        icon: info
         href: informacion/01-sobre.qmd
       - text: Nosotros
         icon: people-fill
@@ -37,15 +37,15 @@ website:
            text: "{{<ai list-ul>}} Encuesta Chile"
          - href: encuesta/02-argentina/index.html
            text: "{{<ai list-ul>}} Encuesta Argentina"
-      - text: Noticias
-        icon: newspaper
-        href: noticias/noticias.qmd
+      - text: Investigación
+        icon: journals
+        href: recomendados/recomendados.qmd
+      - text: Prensa
+        icon: journals
+        href: recomendados/recomendados.qmd
       - text: Actividades
         icon: calendar-week
         href: actividades/actividades.qmd
-      - text: Recomendados
-        icon: journals
-        href: recomendados/recomendados.qmd
       - text: Contacto
         icon: envelope
         href: contacto/contacto.qmd

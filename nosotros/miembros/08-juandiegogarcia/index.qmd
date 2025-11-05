@@ -1,0 +1,25 @@
+---
+title: Juan Diego García-Castro
+subtitle: Investigador
+contacto: juandiego.garcia@ucr.ac.cr
+github: https://github.com/
+web: https://iip.ucr.ac.cr/es/investigadores/juan-diego-garcia-castro
+image: "garcia.jpeg"
+about:
+  template: trestles
+  image-shape: rounded
+  links:
+    - icon: envelope
+      href: mailto:juandiego.garcia@ucr.ac.cr
+      text: Contacto
+    - icon: github
+      href: https://github.com/
+      text: Github
+    - icon: globe
+      href: https://iip.ucr.ac.cr/es/investigadores/juan-diego-garcia-castro
+      text: Web Personal
+---
+
+Doctor en Psicología Social y con maestría en Psicología de la Intervención Social de la Universidad de Granada, España. Obtuvo su bachillerato y licenciatura en Psicología en la Universidad de Costa Rica. 
+
+Realizó un postdoctorado en el Centro de Estudios de Conflicto y Cohesión Social (COES), Chile, donde actualmente es investigador adjunto. Profesor catedrático de la Universidad de Costa Rica (Sede de Occidente). Su línea de investigación se centra en el estudio de la psicología social de la desigualdad económica, violencia, justicia distributiva, ideología y Centroamérica.

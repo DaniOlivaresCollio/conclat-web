@@ -1,0 +1,25 @@
+---
+title: Lucila DUrso
+subtitle: Investigadora
+contacto: ldurso@campus.ungs.edu.ar
+github: https://github.com/
+web: https://ri.conicet.gov.ar/author/41636
+image: "durso.jpg"
+about:
+  template: trestles
+  image-shape: rounded
+  links:
+    - icon: envelope
+      href: mailto:ldurso@campus.ungs.edu.ar
+      text: Contacto
+    - icon: github
+      href: https://github.com/
+      text: Github
+    - icon: globe
+      href: https://ri.conicet.gov.ar/author/41636
+      text: Web Personal
+---
+
+Doctora en Ciencias Sociales por la Universidad de Buenos Aires. 
+
+Se desempeña como Investigadora Docente Adjunta en el Instituto del Conurbano de la Universidad Nacional de General Sarmiento (ICO-UNGS) y como Profesora Adjunta en la Facultad de Ciencias Sociales de la UBA, donde también es docente de posgrado. Actualmente preside la Asociación Argentina de Especialistas en Estudios del Trabajo (ASET). Investiga temáticas vinculadas con las estrategias sindicales y las políticas sociolaborales en Argentina y Brasil.

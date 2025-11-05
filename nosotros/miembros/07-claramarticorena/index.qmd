@@ -1,0 +1,25 @@
+---
+title: Clara Marticorena
+subtitle: Investigadora
+contacto: claramarticorena@gmail.com
+github: https://github.com/
+web: https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=33275&datos_academicos=yes
+image: "marticorena.jpg"
+about:
+  template: trestles
+  image-shape: rounded
+  links:
+    - icon: envelope
+      href: mailto:claramarticorena@gmail.com
+      text: Contacto
+    - icon: github
+      href: https://github.com/
+      text: Github
+    - icon: globe
+      href: https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=33275&datos_academicos=yes
+      text: Web Personal
+---
+
+Doctora en Ciencias Sociales (UBA), Magíster en Ciencias Sociales del Trabajo (UBA), Licenciada y Profesora en Sociología (UBA). 
+
+Se desempeña como Investigadora Adjunta del Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), en el Centro de Estudios e Investigaciones Laborales (CEIL), y como docente en la Facultad de Ciencias Sociales (FSOC) de la Universidad de Buenos Aires (UBA). Entre sus temas de investigación ha abordado el estudio del poder de clase y las relaciones de fuerza entre capital y trabajo a partir del análisis de las condiciones de trabajo, la negociación colectiva, el conflicto laboral y la acción sindical.

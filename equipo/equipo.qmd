@@ -1,8 +1,0 @@
----
-title: "Equipo"
-page-layout: full
-listing:
-  contents: posts/*.qmd
-  type: grid
-title-block-banner: true
----

@@ -1,12 +1,12 @@
 ---
-title: "Laboratorio de Investigación Social Abierta"
-pagetitle: "LISA Website"
+title: "Fondecyt Clases, Trabajo y Conflicto"
+pagetitle: "CONCLAT Fondecyt"
 page-layout: custom
 format: html
 page-navigation: false
 toc: false
 about:
-  image: "resources/imagenes/sharing-default.png"
+  image: "resources/img/sharing-default.png"
   id: hero-heading
   template: jolla
   image-shape: rectangle
@@ -200,7 +200,7 @@ window.addEventListener("load", function () {
 </script>
 :::
 
-<!-- ====================== SOBRE LISA ====================== -->
+<!-- ====================== SOBRE CONCLAT ====================== -->
 ::: {.parallax-container}
 ::: {.parallax-image-container2}
 <div>
@@ -208,7 +208,7 @@ window.addEventListener("load", function () {
     <i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre LISA
   </p>
   <p class="section-lead">
-    El Laboratorio de Investigación Social Abierta es una iniciativa del Centro de Estudios de Conflicto y Cohesión Social (COES) que tiene como propósito ser una guía para el desarrollo de una ciencia social abierta y reproducible para la comunidad científica y la ciudadanía.
+    El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y político en Argentina y Chile. Particularmente, el proyecto analiza cómo las personas de distintas clases y con distinto estatus sindical (por ejemplo, afiliados/as y no afiliados/as a sindicatos) perciben el conflicto dentro y fuera del lugar de trabajo. Para ello se aplicará una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases, trabajo y conflicto produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.
   </p>
 </div>
 :::
@@ -265,7 +265,7 @@ window.addEventListener("load", function () {
 :::
 :::
 
-<!-- ====================== RECOMENDADOS (parallax) ====================== -->
+<!-- ====================== NOTICIAS (parallax) ====================== -->
 ::: {.parallax-container}
 ::: {.parallax-image-container} 
 <div class="parallax-inner">
@@ -280,24 +280,6 @@ window.addEventListener("load", function () {
 :::
 
 
-<!-- ====================== EQUIPO ====================== -->
-::: {.section-text}
-::: {.section-container}
-::: {.section-block}
-<p class="section-title">
-  <i class="bi bi-people-fill" style="margin-right: 10px;"></i>Equipo
-</p>
-
-::: {#equipo}
-:::
-
-::: {.button}
-[Pasaron por LISA&nbsp;»](/alumni/index.qmd){.btn .btn-outline-primary .btn-lg role="button"}
-:::
-:::
-:::
-:::
-
 <!-- ====================== LOGOS ====================== -->
 ::: {.section-text .logos-bg}
 ::: {.section-container}
@@ -305,22 +287,15 @@ window.addEventListener("load", function () {
 ::: {style="text-align: center;"}
 
 
-::: {layout-ncol=5}
+::: {layout-ncol=3}
 
-[![](resources/imagenes/anid.png)](https://anid.cl)
+[![](resources/img/anid.png)](https://anid.cl)
 
-[![](resources/imagenes/uch.png)](https://uchile.cl)
+[![](resources/img/uch.png)](https://uchile.cl)
 
-[![](resources/imagenes/puc.png)](https://www.uc.cl)
-
-[![](resources/imagenes/udp.png)](https://www.udp.cl)
-
-[![](resources/imagenes/uai.png)](https://www.uai.cl)
+[![](resources/img/coes.png)](https://coes.cl)
 
 :::
-
-
-
 
 :::
 :::

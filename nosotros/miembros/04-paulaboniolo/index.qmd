@@ -1,0 +1,25 @@
+---
+title: Paula Boniolo
+subtitle: Investigadora
+contacto: boniolopaula@gmail.com
+github: https://github.com/
+web: https://www.conicet.gov.ar/new_scp/detalle.php?id=35364&keywords=&datos_academicos=yes
+image: "boniolo.jpg"
+about:
+  template: trestles
+  image-shape: rounded
+  links:
+    - icon: envelope
+      href: mailto:boniolopaula@gmail.com
+      text: Contacto
+    - icon: github
+      href: https://github.com/
+      text: Github
+    - icon: globe
+      href: https://www.conicet.gov.ar/new_scp/detalle.php?id=35364&keywords=&datos_academicos=yes
+      text: Web Personal
+---
+
+Doctora en Ciencias Sociales UBA y Doctora en Sociología por L'École Hautes Etudes Sciences Sociales (cotutela UBA-EHESS, París). 
+
+Actualmente es Investigadora Independiente del CONICET y del Instituto Gino Germani, Universidad de Buenos Aires, donde dirige un proyecto PICT sobre clases sociales y trayectorias ocupacionales. Además, es Profesora Adjunta Regular en la Carrera de Sociología de la Universidad de Buenos Aires en Metodología y Técnicas de la Investigación Social.  Participa de la red INCASI (International Network for Comparative Analysis of Social Inequalities)-Unión Europea y red local PIRC-ESA y co-dirige un grupo de trabajo CLACSO "Desigualdades Sociales comparadas: clase social, género y etnia”.

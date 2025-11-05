@@ -1,0 +1,25 @@
+---
+title: Rodolfo Elbert
+subtitle: Investigador
+contacto: elbert.rodolfo@gmail.com 
+github: https://github.com/
+web: https://www.conicet.gov.ar/new_scp/detalle.php?id=35394&datos_academicos=yes
+image: "elbert.jpeg"
+about:
+  template: trestles
+  image-shape: rounded
+  links:
+    - icon: envelope
+      href: mailto:elbert.rodolfo@gmail.com 
+      text: Contacto
+    - icon: github
+      href: https://github.com/
+      text: Github
+    - icon: globe
+      href: https://www.conicet.gov.ar/new_scp/detalle.php?id=35394&datos_academicos=yes
+      text: Web Personal
+---
+
+Doctor en Sociología (Universidad de Wisconsin-Madison), y Mg. en Investigación en Ciencias Sociales y Lic. en Sociología por la Universidad de Buenos Aires. 
+
+Actualmente es Investigador Adjunto en el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) con sede en el Instituto de Investigaciones Gino Germani (Universidad de Buenos Aires), donde co-dirige el Programa de Investigaciones sobre Análisis de Clases Sociales (PI-Clases). Es Profesor Adjunto en la Carrera de Sociología de la Universidad de Buenos Aires y dicta clases en la Maestría en Investigación en Ciencias Sociales (UBA).

@@ -1,0 +1,25 @@
+---
+title: Pablo Dalle
+subtitle: Investigador
+contacto: pablodalle@gmail.com
+github: https://github.com/
+web: https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=36509&datos_academicos=yes
+image: "dalle.webp"
+about:
+  template: trestles
+  image-shape: rounded
+  links:
+    - icon: envelope
+      href: mailto:pablodalle@gmail.com
+      text: Contacto
+    - icon: github
+      href: https://github.com/
+      text: Github
+    - icon: globe
+      href: https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=36509&datos_academicos=yes
+      text: Web Personal
+---
+
+Doctor en Ciencias Sociales por la Universidad de Buenos Aires. Además, realizó estancia de investigación doctoral en la University of California, Berkeley. 
+
+Actualmente es Profesor adjunto de la UBA e investigador CONICET en el Instituto de Investigaciones Gino Germani, donde dirige los proyectos AGENCIA-PICT y AGENCIA/PISAC-Covid19 085 sobre el impacto de la pandemia Concurso de Proyectos Regular 2024 10 de Covid-19 en la estructura social. Participa además de la red INCASI (International Network for Comparative Analysis of Social Inequalities)-Unión Europea. 

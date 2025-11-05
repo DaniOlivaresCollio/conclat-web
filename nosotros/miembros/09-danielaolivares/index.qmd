@@ -1,0 +1,25 @@
+---
+title: Daniela Olivares Collío
+subtitle: Asistente de Investigación
+contacto: danielaolivarescollio@gmail.com
+github: https://github.com/DaniOlivaresCollio
+web: https://www.linkedin.com/in/daniela-olivares-collio/
+image: "olivares.jpg"
+about:
+  template: trestles
+  image-shape: rounded
+  links:
+    - icon: envelope
+      href: mailto:danielaolivarescollio@gmail.com
+      text: Contacto
+    - icon: github
+      href: https://github.com/DaniOlivaresCollio
+      text: Github
+    - icon: globe
+      href: https://www.linkedin.com/in/daniela-olivares-collio/
+      text: Web Personal
+---
+
+Magíster en Estadística de la Pontificia Universidad Católica de Chile, y Licenciada en Sociología de la Universidad de Chile. 
+
+Actualmente es asistente de investigación del Proyecto Fondecyt Regular N° 1230056 “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile” (CONCLAT). Y también, es asistente de investigación del Núcleo Milenio en Política Laboral y Vida Familiar y Colectiva (LABOFAM)

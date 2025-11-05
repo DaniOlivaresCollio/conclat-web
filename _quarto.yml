@@ -11,40 +11,32 @@ website:
     left: |
       [2025]()
     center:
-      - href: https://github.com/lisa-coes/lisa-coes
+      - href: https://github.com/DaniOlivaresCollio/conclat-web
         icon: github
         aria-label: GitHub
     right: |
        Last Update: {{< modified isodate>}}
   navbar:
-    logo: resources/imagenes/logo.png
+    logo: resources/img/conclat_ID_principal_rojo.png
     background: "#FFFFFF"
     tools: 
        - icon: github
-         href: https://github.com/lisa-coes/lisa-coes
+         href: https://github.com/DaniOlivaresCollio/conclat-web
     # pinned: true
     left:
-      - href: componentes/componentes.qmd
-        text: Sobre LISA
+      - text: Sobre CONCLAT
         icon: info-circle-fill
-      - text: Componentes
-        icon: puzzle-fill
+        href: informacion/01-sobre.qmd
+      - text: Nosotros
+        icon: people-fill
+        href: nosotros/nosotros.qmd
+      - text: Encuesta
+        icon: list-ul
         menu: 
-         - href: componentes/a-diseño/index.html
-           text: "{{<ai preregistered>}} Diseño Transparente"
-         - href: componentes/b-data/index.html
-           text: "{{<ai open-data>}} Datos Abiertos"
-         - href: componentes/c-repro/index.html
-           text: "{{<ai open-materials>}} Análisis Reproducible"
-         - href: componentes/d-publibres/index.html
-           text: "{{<ai open-access-square>}} Publicaciones Libres"
-      - text: Protocolos
-        icon: list-check
-        menu: 
-         - href: protocolos/a-IPO-rep/index.html
-           text: "{{<ai ipo-rep>}} Protocolo Análisis Reproducible"
-         - href: protocolos/b-IPO-data/index.html
-           text: "{{<ai ipo-data>}} Protocolo Apertura Datos"
+         - href: encuesta/01-chile/index.html
+           text: "{{<ai list-ul>}} Encuesta Chile"
+         - href: encuesta/02-argentina/index.html
+           text: "{{<ai list-ul>}} Encuesta Argentina"
       - text: Noticias
         icon: newspaper
         href: noticias/noticias.qmd
@@ -54,9 +46,9 @@ website:
       - text: Recomendados
         icon: journals
         href: recomendados/recomendados.qmd
-      - text: Contactos
+      - text: Contacto
         icon: envelope
-        href: contactos/contactos.qmd
+        href: contacto/contacto.qmd
          
 format:
   html:

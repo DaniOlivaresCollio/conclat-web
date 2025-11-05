@@ -25,7 +25,7 @@ website:
     # pinned: true
     left:
       - text: Sobre CONCLAT
-        icon: info
+        icon: info-square-fill
         href: informacion/01-sobre.qmd
       - text: Nosotros
         icon: people-fill

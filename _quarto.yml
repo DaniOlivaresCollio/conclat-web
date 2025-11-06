@@ -58,7 +58,3 @@ format:
       - styles.css
     linkcolor: "#ECA0A0"
 include-after-body: footer/footer.html
-
-
-
-

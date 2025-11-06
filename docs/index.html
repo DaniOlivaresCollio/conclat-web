@@ -74,34 +74,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-componentes .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-componentes'] = new List('listing-componentes', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-noticias .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -116,34 +88,6 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-noticias'] = new List('listing-noticias', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-actividades .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-actividades'] = new List('listing-actividades', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -469,127 +413,6 @@ El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y polí
 </div>
 </div>
 </div>
-<!-- ====================== COMPONENTES ====================== -->
-<div class="section-text">
-<div class="section-container">
-<div class="button">
-<p class="section-title">
-<i class="bi bi-puzzle-fill" style="margin-right: 10px;"></i>Componentes
-</p>
-</div>
-<div id="listing-componentes" class="quarto-listing quarto-listing-container-custom">
-
-
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Listado de Contenido</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&amp;display=swap" rel="stylesheet">
-
-<style>
-  .wrap {
-    margin: 20px auto;
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1500px;
-    background-color: transparent;
-  }
-
-  .tile {
-    width: 263px;
-    height: 285px;
-    background-color: transparent;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.4s ease-out;
-    box-shadow: none;
-    overflow: hidden;
-    color: white;
-    font-family: 'Roboto';
-  }
-
-  .tile img {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    transition: all 0.4s ease-out;
-    object-fit: cover;
-    filter: none;
-    mix-blend-mode: normal;
-  }
-
-  .tile .text {
-    position: absolute;
-    z-index: 1;
-    padding: 30px;
-    font-size: 20px;
-    height: calc(100% - 60px);
-    background: transparent;
-  }
-
-.tile-container h1 {
-  font-weight: 300;
-  margin: 0;
-  font-size: 24px; /* Disminuye el tamaño de la fuente */
-  color: black;
-}
-
-  .tile p {
-    font-weight: 300;
-    margin-top: 20px;
-    line-height: 25px;
-    transform: translateX(-200px);
-    transition: all 0.6s ease-in-out;
-    opacity: 0;
-    color: black
-  }
-
-.tile:hover {
-  transform:scale(1.05);
-  border-style: solid;
-  border-color: #ECA0A0;
-  opacity: 1;
-}
-
-  .tile:hover img {
-    transform:scale(1.05);
-    opacity: 1;
-    transform: translateX(0);
-  }
-
-  .tile:hover p {
-    transform: translateX(0);
-    opacity: 1;
-  }
-
-  @media (max-width: 768px) {
-    .tile {
-      width: 90%;
-      height: 400px;
-    }
-  }
-</style>
-
-
-
-
-<div class="wrap">
-  
-</div>
-
-
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</div>
-<p>:::</p>
 <!-- ====================== NOTICIAS (parallax) ====================== -->
 <div class="parallax-container">
 <div class="parallax-image-container">
@@ -648,84 +471,6 @@ Herramientas computacionales para la investigación social reproducible
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</div>
-<!-- ====================== ACTIVIDADES ====================== -->
-<div class="section-text">
-<div class="section-container">
-<div class="section-block">
-<p class="section-title">
-<i class="bi bi-calendar-week" style="margin-right: 10px;"></i>Actividades
-</p>
-<div id="listing-actividades" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1759287600000" data-listing-file-modified-sort="1762280877833" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./actividades/presentaciones/2025-herramientas-computacionales-para-la-investigacion-social-reproducible/index.html" class="no-external">Herramientas computacionales para la investigación social reproducible</a>
-</h3>
-<div class="delink listing-description"><a href="./actividades/presentaciones/2025-herramientas-computacionales-para-la-investigacion-social-reproducible/index.html" class="no-external">
-<p>Herramientas computacionales para la investigación social reproducible Talleres de formación interna - CIAE octubre 2025</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./actividades/presentaciones/2025-herramientas-computacionales-para-la-investigacion-social-reproducible/index.html" class="no-external">
-<div class="listing-date">
-October 2025
-</div>
-<div class="listing-author">
-Juan Carlos Castillo, Kevin Carrasco, René Canales, Katherine Aravena, Tomás Urzúa
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1759287600000" data-listing-file-modified-sort="1762280877835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./actividades/presentaciones/2025-talleres-de-formacion-interna-ciae-octubre-2025-herramientas-computacionales-para-la-investigacion-social-reproducible/index.html" class="no-external">Talleres de formación interna - CIAE octubre 2025 - Herramientas computacionales para la investigación social reproducible</a>
-</h3>
-<div class="delink listing-description"><a href="./actividades/presentaciones/2025-talleres-de-formacion-interna-ciae-octubre-2025-herramientas-computacionales-para-la-investigacion-social-reproducible/index.html" class="no-external">
-<p>Herramientas computacionales para la investigación social reproducible Talleres de formación interna - CIAE octubre 2025</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./actividades/presentaciones/2025-talleres-de-formacion-interna-ciae-octubre-2025-herramientas-computacionales-para-la-investigacion-social-reproducible/index.html" class="no-external">
-<div class="listing-date">
-October 2025
-</div>
-<div class="listing-author">
-Juan Carlos Castillo, Kevin Carrasco, René Canales, Katherine Aravena &amp; Tomás Urzúa
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Y2hhcmxhJTJDTElTQQ==" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1762280877834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./actividades/presentaciones/2025-taller-flujo-de-investigacion-reproducible-con-github-vscode-y-quarto/index.html" class="no-external">Taller Flujo de Investigación Reproducible con Github, VSCode y Quarto</a>
-</h3>
-<div class="delink listing-description"><a href="./actividades/presentaciones/2025-taller-flujo-de-investigacion-reproducible-con-github-vscode-y-quarto/index.html" class="no-external">
-<p>En este taller abordamos distintas herramientas para implementar un flujo de Investigación reproduble. Introducción al flujo de investigación reprodubile, Visual Studio Code, Github y Quarto</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./actividades/presentaciones/2025-taller-flujo-de-investigacion-reproducible-con-github-vscode-y-quarto/index.html" class="no-external">
-<div class="listing-date">
-July 2025
-</div>
-<div class="listing-author">
-Juan Carlos Castillo, Tomás Urzúa
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<div class="button">
-<p><a href="./actividades/actividades.html" class="btn btn-primary btn-lg" role="button">Todos los eventos</a></p>
-</div>
 </div>
 </div>
 </div>
@@ -854,7 +599,7 @@ Glosario de conceptos Ciencia Abierta ANID
 
     <div style="flex: 1; min-width: 250px; margin-bottom: 2rem;">
 
-      <h3>CONCLAT: Fondecyt Clases, Trabajo y Conflicto</h3>
+      <h3>Fondecyt Clases, Trabajo y Conflicto</h3>
 
       <p>Departamento de Sociología <br> Facultad de Ciencias Sociales <br> Universidad de Chile <br> Capitán Ignacio Carrera Pinto 1045 <br> Ñuñoa – RM</p>
 

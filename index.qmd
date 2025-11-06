@@ -11,12 +11,7 @@ about:
   template: jolla
   image-shape: rectangle
   
-listing:
-  - id: componentes
-    contents: "componentes/*/index.qmd"
-    sort: "date desc"
-    template: resources/custom-listings/home-components.ejs
-    
+listing: 
   - id: noticias
     contents: 
     - noticias/posts/*/*.qmd
@@ -31,21 +26,6 @@ listing:
     sort-ui: false
     filter-ui: false
     feed: false
-    
-  - id: actividades
-    contents: 
-    - actividades/presentaciones/*/*.qmd
-    - "!actividades/posts/drafts/*qmd"
-    sort: date desc
-    type: default
-    image-height: 150px
-    fields: [title, date, author, description]
-    max-items: 3
-    categories: false
-    sort-ui: false
-    date-format: "MMMM YYYY"
-    feed: false
-    page-size: 100
     
   - id: recomendados
     contents: 
@@ -214,21 +194,6 @@ window.addEventListener("load", function () {
 :::
 :::
 
-<!-- ====================== COMPONENTES ====================== -->
-::: {.section-text}
-::: {.section-container}
-::: {.button}
-<p class="section-title">
-  <i class="bi bi-puzzle-fill" style="margin-right: 10px;"></i>Componentes
-</p>
-:::
-
-::: {#componentes}
-:::
-
-:::
-:::
-:::
 
 <!-- ====================== NOTICIAS (parallax) ====================== -->
 ::: {.parallax-container}
@@ -245,25 +210,6 @@ window.addEventListener("load", function () {
 :::
 
 
-
-
-<!-- ====================== ACTIVIDADES ====================== -->
-::: {.section-text}
-::: {.section-container}
-::: {.section-block}
-<p class="section-title">
-  <i class="bi bi-calendar-week" style="margin-right: 10px;"></i>Actividades
-</p>
-
-:::{#actividades}
-:::
-
-::: {.button}
-[Todos los eventos](actividades/actividades.qmd){.btn .btn-primary .btn-lg role="button"}
-:::
-:::
-:::
-:::
 
 <!-- ====================== NOTICIAS (parallax) ====================== -->
 ::: {.parallax-container}
@@ -296,7 +242,6 @@ window.addEventListener("load", function () {
 [![](resources/img/coes.png)](https://coes.cl)
 
 :::
-
 :::
 :::
 :::

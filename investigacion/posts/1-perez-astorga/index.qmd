@@ -1,0 +1,97 @@
+---
+title: "¿Por qué los miembros de sindicatos están más dispuestos a hacer huelga y protestar que los no sindicalizados? Evidencia de Argentina y Chile"
+subtitle: Fondecyt Clases, Trabajo y Conflicto
+description: ""
+categories: [investigacion]
+date: "2024-08-06"
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"
+format:
+  html:
+    theme: scss-posts.scss
+    css: [styles/pro.css]
+    toc: true                # activa el ToC
+    toc-location: left       # sidebar a la izquierda (usa "right" si prefieres)
+    toc-title: "En esta página"
+    toc-depth: 3             # niveles (## y ### y ####)
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: true
+    df-print: paged
+    code-copy: false
+    page-layout: article
+filters: []
+---
+
+
+<!-- Barra compacta: acceso + cita -->
+<style>
+.top-cta{display:flex;gap:.55rem;align-items:center;flex-wrap:wrap;margin:.25rem 0 1rem}
+.top-cta .btn{border-radius:9999px;padding:.35rem .75rem;font-size:.95rem;box-shadow:0 3px 10px rgba(0,0,0,.06)}
+.top-cta .btn-primary::after{content:" ↗︎";font-weight:600}
+
+.details-btn summary{list-style:none;cursor:pointer}
+.details-btn summary::-webkit-details-marker{display:none}
+.summary-chip{display:inline-block;padding:.35rem .75rem;border-radius:9999px;border:1px solid #dbe3ef;background:#f9fafb}
+.details-btn[open] .summary-chip{background:#f3f6fb}
+
+.apa-ref{margin:.5rem 0 0 0;line-height:1.6;color:#4b5563;text-indent:-1.6em;padding-left:1.6em}
+.doi-chip{display:inline-block;margin-left:.5rem;padding:.15rem .55rem;border-radius:9999px;border:1px solid #dbe3ef;background:#fff;text-decoration:none;font-family:ui-monospace,Menlo,monospace}
+.doi-chip::after{content:" ↗︎";font-weight:600}
+
+@media (max-width:680px){ .top-cta .btn{width:100%;text-align:center} }
+</style>
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://www.mdpi.com/2075-4698/11/1/9" target="_blank" rel="noopener">Leer el paper en MDPI</a>
+
+ <!-- Cita APA desplegable (sin botón de acceso) -->
+<style>
+.details-btn summary{list-style:none;cursor:pointer}
+.details-btn summary::-webkit-details-marker{display:none}
+.summary-chip{
+  display:inline-block;padding:.35rem .75rem;border-radius:9999px;
+  border:1px solid #dbe3ef;background:#f9fafb
+}
+.details-btn[open] .summary-chip{background:#f3f6fb}
+.apa-ref{
+  margin:.5rem 0 0 0; line-height:1.6; color:#4b5563;
+  text-indent:-1.6em; padding-left:1.6em; /* sangría francesa */
+}
+</style>
+
+<details class="details-btn" markdown="1">
+  <summary><span class="summary-chip">Cita (APA 7)</span></summary>
+  <p class="apa-ref"><strong>Breznau, N.</strong>. (2021). <em>Does Sociology Need Open Science?</em> <em>Societies</em>, <em>11</em>(1), 9. doi:10.3390/soc11010009</p>
+</details>
+
+## Abstract 
+Estudios empíricos han demostrado que los miembros de sindicatos tienen más probabilidades de participar en acciones colectivas que los no sindicalizados. Sin embargo, aún sabemos poco sobre los mecanismos que explican por qué ocurre esto. En este artículo, nuestro objetivo es llenar este vacío en la literatura. Utilizando datos de la Encuesta Mundial de Valores para Argentina y Chile (2006–2018), empleamos el análisis de mediación de Karlson–Holm–Breen para analizar en qué medida la relación entre la membresía sindical y la participación en manifestaciones y huelgas se explica por los mayores niveles de politización y una orientación más fuerte hacia la izquierda de los miembros sindicales, como se ha planteado en estudios previos. Encontramos que en ambos países, estos dos mediadores explican más del 30% de la relación entre la membresía sindical y la participación en manifestaciones. También hallamos que estos dos mediadores explican alrededor del 20% de la relación entre la membresía sindical y la participación en huelgas en Argentina, y casi el 40% de dicha relación en Chile. Al final del artículo, ofrecemos algunas explicaciones para estos hallazgos y mostramos cómo contribuyen a la literatura sobre sindicatos, política de clases y relaciones laborales.
+
+
+## Etiquetas
+Movimiento Sindical, Sindicalismo, Huelgas Laborales
+
+## Sobre el investigador
+
+::: {.columns .align-top}
+::: {.column width="28%"}
+![](Nate.png){.avatar-nate}
+:::
+
+::: {.column width="72%"}
+**Nate Breznau, PhD (Sociología)**, es investigador en el **German Institute for Adult Education – Leibniz Center for Lifelong Learning (DIE), Bonn**. Su trabajo se centra en **opinión pública, política social y desigualdad**, junto con la **metaciencia aplicada a las ciencias sociales**. Ha sido parte de la **Universidad de Bremen (SOCIUM/BIGSSS)** e integra el **editorial board de *PLOS ONE*** en áreas afines a educación e investigación política. Entre sus contribuciones destaca el estudio colaborativo publicado en **PNAS (2022)** que evidencia la variabilidad entre equipos al analizar la misma hipótesis con idénticos datos, un referente en metaciencia. Para más información:
+:::
+:::
+
+
+::: {.callout-tip title="Perfiles y contacto"}
+- Sitio personal: <https://sites.google.com/site/nbreznau>  
+- Perfil institucional (DIE): <https://www.die-bonn.de/institut/mitarbeitende/7326?lang=en>  
+- ORCID: <https://orcid.org/0000-0003-4983-3137>  
+- Google Scholar: <https://scholar.google.com/citations?user=4UORvGAAAAAJ>  
+:::
+

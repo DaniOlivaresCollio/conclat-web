@@ -22,6 +22,8 @@ website:
     tools: 
        - icon: github
          href: https://github.com/DaniOlivaresCollio/conclat-web
+       - icon: instagram
+         href: https://www.instagram.com/proyecto.conclat/  
     # pinned: true
     left:
       - text: Sobre CONCLAT
@@ -39,7 +41,7 @@ website:
            text: "{{<ai list-ul>}} Encuesta Argentina"
       - text: Investigación
         icon: journals
-        href: recomendados/recomendados.qmd
+        href: investigacion/investigacion.qmd
       - text: Prensa
         icon: journals
         href: recomendados/recomendados.qmd
@@ -56,5 +58,5 @@ format:
       light: flatly
     css: 
       - styles.css
-    linkcolor: "#ECA0A0"
+    linkcolor: "#CA0000"
 include-after-body: footer/footer.html

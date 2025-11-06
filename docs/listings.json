@@ -79,10 +79,7 @@
       "/noticias/posts/plantilla-quarto/index.html",
       "/noticias/posts/taller-ciae2025/index.html",
       "/noticias/posts/evento-socialtec/index.html",
-      "/noticias/posts/actualizacion-web/index.html",
-      "/recomendados/posts/Open Science - Developing World/index.html",
-      "/recomendados/posts/does-sociology/index.html",
-      "/recomendados/posts/glosario-anid/index.html"
+      "/noticias/posts/actualizacion-web/index.html"
     ]
   },
   {
@@ -92,6 +89,14 @@
       "/noticias/posts/taller-ciae2025/index.html",
       "/noticias/posts/evento-socialtec/index.html",
       "/noticias/posts/actualizacion-web/index.html"
+    ]
+  },
+  {
+    "listing": "/investigacion/investigacion.html",
+    "items": [
+      "/investigacion/posts/Open Science - Developing World/index.html",
+      "/investigacion/posts/glosario-anid/index.html",
+      "/investigacion/posts/1-perez-astorga/index.html"
     ]
   }
 ]

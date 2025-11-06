@@ -14,7 +14,7 @@ title-block-banner: true
 .banner-full {
   position: relative;
   width:100vw;
-  height: 200px;
+  height: 100px;
   margin-left: calc(50% - 50vw);
   /* Gradiente con los tonos CONCLAT */
   background: linear-gradient(135deg, #6f0000 0%, #ca0000 35%, #d02e38 70%, #ff5651 100%);
@@ -23,6 +23,7 @@ title-block-banner: true
   justify-content: center;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  margin-bottom: 2rem;
 }
 
 /* Texto centrado sin fondo */

@@ -22,6 +22,7 @@ toc: false
   justify-content: center;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  margin-bottom: 2rem;
 }
 
 /* Texto centrado sin fondo */
@@ -51,13 +52,11 @@ toc: false
 :::
 
 
-
-
+<div class="contenido">
 CONCLAT es un proyecto Fondecyt que busca analizar cómo, en el actual contexto político-económico, la posición de clase y la afiliación sindical afecta las percepciones de conflicto social y laboral, y también las actitudes hacia el conflicto político. Además, busca conocer si la relación entre clase, sindicalización y percepciones de conflicto varía a nivel nacional, es decir, si varía entre países con distintas características institucionales y políticas, y a nivel subnacional, es decir, dentro de cada país, entre ramas económicas con distintos niveles de organización sindical. 
 
 Para ello, en 2024 y 2025 se aplicará una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases, trabajo y conflicto produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.
 
 [CONCLAT](https://www.conclat.com/) es el Proyecto FONDECYT Regular (No 1230056) “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile”. Patrocinado por la [Universidad de Chile](https://uchile.cl/) y el Centro de Estudios de Conflicto y Cohesión Social ([COES](https://coes.cl/)). 
 
-
-
+</div>

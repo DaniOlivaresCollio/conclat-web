@@ -6,7 +6,7 @@ format: html
 page-navigation: false
 toc: false
 about:
-  image: "resources/img/sharing-default.png"
+  image: "resources/img/koshu-kunii-t86cJxwmBWc-unsplash.jpg"
   id: hero-heading
   template: jolla
   image-shape: rectangle
@@ -22,21 +22,6 @@ listing:
     image-height: 150px
     fields: [image, title, description]
     max-items: 3
-    categories: false
-    sort-ui: false
-    filter-ui: false
-    feed: false
-    
-  - id: recomendados
-    contents: 
-    - recomendados/posts/*/*.qmd
-    - "!recomendados/posts/drafts/*qmd"
-    sort: date desc
-    type: grid
-    grid-columns: 3
-    image-height: 150px
-    fields: [image, title, description]
-    max-items: 6
     categories: false
     sort-ui: false
     filter-ui: false
@@ -185,7 +170,7 @@ window.addEventListener("load", function () {
 ::: {.parallax-image-container2}
 <div>
   <p class="section-title">
-    <i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre LISA
+    <i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre CONCLAT
   </p>
   <p class="section-lead">
     El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y político en Argentina y Chile. Particularmente, el proyecto analiza cómo las personas de distintas clases y con distinto estatus sindical (por ejemplo, afiliados/as y no afiliados/as a sindicatos) perciben el conflicto dentro y fuera del lugar de trabajo. Para ello se aplicará una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases, trabajo y conflicto produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.
@@ -210,28 +195,11 @@ window.addEventListener("load", function () {
 :::
 
 
-
-<!-- ====================== NOTICIAS (parallax) ====================== -->
-::: {.parallax-container}
-::: {.parallax-image-container} 
-<div class="parallax-inner">
-  <p class="section-title">
-    <i class="bi bi-journals" style="margin-right: 10px;"></i>Recomendados
-  </p>
-</div>
-
-::: {#recomendados}
-:::
-:::
-:::
-
-
 <!-- ====================== LOGOS ====================== -->
 ::: {.section-text .logos-bg}
 ::: {.section-container}
 ::: {.section-block}
 ::: {style="text-align: center;"}
-
 
 ::: {layout-ncol=3}
 

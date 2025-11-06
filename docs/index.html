@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fca30eb9847a47594b8e4873b11d8021.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-85ca1e22025b1216434314ac86d6b5b3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -88,34 +88,6 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-noticias'] = new List('listing-noticias', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recomendados .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recomendados'] = new List('listing-recomendados', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -236,12 +208,12 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./recomendados/recomendados.html"> <i class="bi bi-journals" role="img">
+    <a class="nav-link" href="./investigacion/investigacion.html"> <i class="bi bi-journals" role="img">
 </i> 
 <span class="menu-text">Investigación</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./recomendados/recomendados.html"> <i class="bi bi-journals" role="img">
+    <a class="nav-link" href="./recomendados/recomendados.qmd"> <i class="bi bi-journals" role="img">
 </i> 
 <span class="menu-text">Prensa</span></a>
   </li>  
@@ -259,6 +231,7 @@ window.Quarto = {
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
     <a href="https://github.com/DaniOlivaresCollio/conclat-web" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.instagram.com/proyecto.conclat/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -405,7 +378,7 @@ window.addEventListener("load", function () {
 <div class="parallax-image-container2">
 <div>
 <p class="section-title">
-<i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre LISA
+<i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre CONCLAT
 </p>
 <p class="section-lead">
 El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y político en Argentina y Chile. Particularmente, el proyecto analiza cómo las personas de distintas clases y con distinto estatus sindical (por ejemplo, afiliados/as y no afiliados/as a sindicatos) perciben el conflicto dentro y fuera del lugar de trabajo. Para ello se aplicará una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases, trabajo y conflicto produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.
@@ -465,63 +438,6 @@ Herramientas computacionales para la investigación social reproducible
 </h5>
 <div class="card-text listing-description delink">
 <p>Primer seminario organizado por SocialTec, donde se explorará cómo las ciencias sociales se vinculan con la programación, el análisis de datos y las nuevas herramientas…</p>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</div>
-<!-- ====================== NOTICIAS (parallax) ====================== -->
-<div class="parallax-container">
-<div class="parallax-image-container">
-<div class="parallax-inner">
-<p class="section-title">
-<i class="bi bi-journals" style="margin-right: 10px;"></i>Recomendados
-</p>
-</div>
-<div id="listing-recomendados" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cmVjb21lbmRhZG9z" data-listing-date-sort="1756353600000" data-listing-file-modified-sort="1762280878142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1556">
-<a href="./recomendados/posts/Open Science - Developing World/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="recomendados\posts\Open Science - Developing World\featured.jpg" alt="Ilustración de ciencia abierta con iconos de datos y colaboración" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)
-</h5>
-<div class="card-text listing-description delink">
-<p>Lectura recomendada: colección de guías prácticas para adoptar y liderar ciencia abierta en contextos con recursos limitados.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="cmVjb21lbmRhZG9z" data-listing-date-sort="1755835200000" data-listing-file-modified-sort="1762280878144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="703">
-<a href="./recomendados/posts/does-sociology/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="recomendados\posts\does-sociology\featured1.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-¿Necesita la sociología la ciencia abierta? (Breznau, 2021)
-</h5>
-<div class="card-text listing-description delink">
-<p>Lectura recomendada: abstract ampliado del artículo de Nate Breznau, con motivos para leerlo y claves de aplicación inmediata.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="cmVjb21lbmRhZG9z" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1762280878145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<a href="./recomendados/posts/glosario-anid/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="recomendados\posts\glosario-anid\featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Glosario de conceptos Ciencia Abierta ANID
-</h5>
-<div class="card-text listing-description delink">
-<p>Compartimos el glosario de conceptos de Ciencia Abierta elaborado por ANID</p>
 </div>
 </div>
 </div></a>

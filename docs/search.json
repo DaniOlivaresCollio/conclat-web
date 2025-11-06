@@ -158,7 +158,7 @@
     "href": "informacion/01-sobre.html",
     "title": "",
     "section": "",
-    "text": "Sobre CONCLAT\n\n\nCONCLAT es un proyecto Fondecyt que busca analizar cómo, en el actual contexto político-económico, la posición de clase y la afiliación sindical afecta las percepciones de conflicto social y laboral, y también las actitudes hacia el conflicto político. Además, busca conocer si la relación entre clase, sindicalización y percepciones de conflicto varía a nivel nacional, es decir, si varía entre países con distintas características institucionales y políticas, y a nivel subnacional, es decir, dentro de cada país, entre ramas económicas con distintos niveles de organización sindical.\nPara ello, en 2024 y 2025 se aplicará una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases, trabajo y conflicto produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.\nCONCLAT es el Proyecto FONDECYT Regular (No 1230056) “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile”. Patrocinado por la Universidad de Chile y el Centro de Estudios de Conflicto y Cohesión Social (COES)."
+    "text": "Sobre CONCLAT\n\n\n\nCONCLAT es un proyecto Fondecyt que busca analizar cómo, en el actual contexto político-económico, la posición de clase y la afiliación sindical afecta las percepciones de conflicto social y laboral, y también las actitudes hacia el conflicto político. Además, busca conocer si la relación entre clase, sindicalización y percepciones de conflicto varía a nivel nacional, es decir, si varía entre países con distintas características institucionales y políticas, y a nivel subnacional, es decir, dentro de cada país, entre ramas económicas con distintos niveles de organización sindical.\nPara ello, en 2024 y 2025 se aplicará una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases, trabajo y conflicto produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.\nCONCLAT es el Proyecto FONDECYT Regular (No 1230056) “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile”. Patrocinado por la Universidad de Chile y el Centro de Estudios de Conflicto y Cohesión Social (COES)."
   },
   {
     "objectID": "encuesta/02-argentina/index.html",
@@ -509,5 +509,152 @@
     "title": "Glosario de conceptos Ciencia Abierta ANID",
     "section": "",
     "text": "En el siguiente enlace podrán encontrar el glosario de Ciencia Abierta elaborado por ANID: https://acceso-abierto.anid.cl/recursos/glosario/"
+  },
+  {
+    "objectID": "investigacion/investigacion.html",
+    "href": "investigacion/investigacion.html",
+    "title": "Investigación",
+    "section": "",
+    "text": "Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)\n\n\nLectura recomendada: colección de guías prácticas para adoptar y liderar ciencia abierta en contextos con recursos limitados.\n\n\n\nAug 28, 2025\n\n\n\n\n\n\n\n\n\n\n\nGlosario de conceptos Ciencia Abierta ANID\n\n\nCompartimos el glosario de conceptos de Ciencia Abierta elaborado por ANID\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n¿Por qué los miembros de sindicatos están más dispuestos a hacer huelga y protestar que los no sindicalizados? Evidencia de Argentina y Chile\n\n\n\n\n\n\nAug 6, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "investigacion/posts/does-sociology/index.html",
+    "href": "investigacion/posts/does-sociology/index.html",
+    "title": "¿Necesita la sociología la ciencia abierta? (Breznau, 2021)",
+    "section": "",
+    "text": "Leer el paper en MDPI\n\n\n\n\nCita (APA 7)\n\n\nBreznau, N.. (2021). Does Sociology Need Open Science? Societies, 11(1), 9. doi:10.3390/soc11010009\n\n\n\n\nEste abstract sintetiza el argumento de Nate Breznau (2021): la sociología necesita la ciencia abierta para mejorar su confiabilidad, transparencia y utilidad pública. El artículo ubica la discusión en tensiones persistentes de las ciencias sociales —reproducibilidad limitada, sesgo de publicación, barreras de acceso y documentación insuficiente— y propone una agenda práctica y transversal que combine apertura de datos y materiales con metadatos y licencias claras; preregistro y/o registered reports para distinguir lo confirmatorio de lo exploratorio; protocolos de replicación y reproducibilidad computacional con guías mínimas (scripts, versiones y entornos); y acceso abierto mediante preprints y repositorios con identificadores persistentes.\nLejos de imponer un método único, la apertura operacionaliza valores profesionales —comunalismo, escepticismo organizado y rendición de cuentas— y es compatible con el pluralismo metodológico. Para que sea efectiva, Breznau subraya cambios institucionales: lineamientos editoriales exigibles, incentivos de evaluación y financiamiento alineados con transparencia, formación en gestión de datos/ética y soporte técnico para flujos reproducibles. La promesa es doble: avanzar hacia conocimiento acumulativo y verificable y democratizar el acceso, clave para equipos con menos recursos y para el intercambio Norte–Sur. En síntesis, la adopción de estas prácticas refuerza la credibilidad de la sociología y maximiza su impacto social.\n\n\n\nEl aporte principal es práctico: ofrece un lenguaje común y un conjunto de herramientas para elevar estándares de calidad, trazabilidad y responsabilidad pública. Resulta especialmente útil para estudiantes y tesistas que planifican investigaciones replicables, para equipos que desean ordenar su gestión de datos y código, y para editoriales y agencias interesadas en alinear sus incentivos con la transparencia. Al mismo tiempo, la propuesta responde a demandas de rendición de cuentas en investigación financiada con fondos públicos.\n\n\n\nLa columna vertebral del artículo articula cinco componentes: apertura de datos y materiales con metadatos y licencias claras; preregistro y/o registered reports que separan con precisión lo confirmatorio de lo exploratorio; protocolos de replicación y reproducibilidad computacional que describen scripts, versiones y entornos; acceso abierto mediante preprints y repositorios con DOI; y alineación institucional para que estas prácticas se vuelvan norma y no excepción. Todo ello se plantea como una manera de operacionalizar valores profesionales sin clausurar el pluralismo metodológico de la disciplina.\n\n\n\nAdoptar estas prácticas permite acumular evidencia de forma verificable, facilita la colaboración entre grupos con recursos dispares y fortalece la legitimidad pública de la sociología. La apertura, entendida como ética profesional y no como moda metodológica, favorece la circulación del conocimiento y reduce asimetrías de acceso, algo decisivo para comunidades académicas del Sur Global.\n\n\n\nSi universidades, revistas y agencias incorporan criterios de transparencia en evaluación y financiamiento, la ciencia abierta puede consolidar un ecosistema donde publicar con datos, materiales y código disponibles sea lo habitual. A corto plazo, se recomienda iniciar con preregistros breves y repositorios con DOI; a mediano plazo, avanzar hacia registered reports, guías de reproducibilidad y políticas editoriales que exijan documentación mínima y fomenten réplicas.\n\n\n\n\n\n\n\nNate Breznau, PhD (Sociología), es investigador en el German Institute for Adult Education – Leibniz Center for Lifelong Learning (DIE), Bonn. Su trabajo se centra en opinión pública, política social y desigualdad, junto con la metaciencia aplicada a las ciencias sociales. Ha sido parte de la Universidad de Bremen (SOCIUM/BIGSSS) e integra el editorial board de PLOS ONE en áreas afines a educación e investigación política. Entre sus contribuciones destaca el estudio colaborativo publicado en PNAS (2022) que evidencia la variabilidad entre equipos al analizar la misma hipótesis con idénticos datos, un referente en metaciencia. Para más información:\n\n\n\n\n\n\n\n\nTipPerfiles y contacto\n\n\n\n\nSitio personal: https://sites.google.com/site/nbreznau\n\nPerfil institucional (DIE): https://www.die-bonn.de/institut/mitarbeitende/7326?lang=en\n\nORCID: https://orcid.org/0000-0003-4983-3137\n\nGoogle Scholar: https://scholar.google.com/citations?user=4UORvGAAAAAJ"
+  },
+  {
+    "objectID": "investigacion/posts/does-sociology/index.html#abstract",
+    "href": "investigacion/posts/does-sociology/index.html#abstract",
+    "title": "¿Necesita la sociología la ciencia abierta? (Breznau, 2021)",
+    "section": "",
+    "text": "Este abstract sintetiza el argumento de Nate Breznau (2021): la sociología necesita la ciencia abierta para mejorar su confiabilidad, transparencia y utilidad pública. El artículo ubica la discusión en tensiones persistentes de las ciencias sociales —reproducibilidad limitada, sesgo de publicación, barreras de acceso y documentación insuficiente— y propone una agenda práctica y transversal que combine apertura de datos y materiales con metadatos y licencias claras; preregistro y/o registered reports para distinguir lo confirmatorio de lo exploratorio; protocolos de replicación y reproducibilidad computacional con guías mínimas (scripts, versiones y entornos); y acceso abierto mediante preprints y repositorios con identificadores persistentes.\nLejos de imponer un método único, la apertura operacionaliza valores profesionales —comunalismo, escepticismo organizado y rendición de cuentas— y es compatible con el pluralismo metodológico. Para que sea efectiva, Breznau subraya cambios institucionales: lineamientos editoriales exigibles, incentivos de evaluación y financiamiento alineados con transparencia, formación en gestión de datos/ética y soporte técnico para flujos reproducibles. La promesa es doble: avanzar hacia conocimiento acumulativo y verificable y democratizar el acceso, clave para equipos con menos recursos y para el intercambio Norte–Sur. En síntesis, la adopción de estas prácticas refuerza la credibilidad de la sociología y maximiza su impacto social."
+  },
+  {
+    "objectID": "investigacion/posts/does-sociology/index.html#impacto",
+    "href": "investigacion/posts/does-sociology/index.html#impacto",
+    "title": "¿Necesita la sociología la ciencia abierta? (Breznau, 2021)",
+    "section": "",
+    "text": "El aporte principal es práctico: ofrece un lenguaje común y un conjunto de herramientas para elevar estándares de calidad, trazabilidad y responsabilidad pública. Resulta especialmente útil para estudiantes y tesistas que planifican investigaciones replicables, para equipos que desean ordenar su gestión de datos y código, y para editoriales y agencias interesadas en alinear sus incentivos con la transparencia. Al mismo tiempo, la propuesta responde a demandas de rendición de cuentas en investigación financiada con fondos públicos."
+  },
+  {
+    "objectID": "investigacion/posts/does-sociology/index.html#conceptos-centrales",
+    "href": "investigacion/posts/does-sociology/index.html#conceptos-centrales",
+    "title": "¿Necesita la sociología la ciencia abierta? (Breznau, 2021)",
+    "section": "",
+    "text": "La columna vertebral del artículo articula cinco componentes: apertura de datos y materiales con metadatos y licencias claras; preregistro y/o registered reports que separan con precisión lo confirmatorio de lo exploratorio; protocolos de replicación y reproducibilidad computacional que describen scripts, versiones y entornos; acceso abierto mediante preprints y repositorios con DOI; y alineación institucional para que estas prácticas se vuelvan norma y no excepción. Todo ello se plantea como una manera de operacionalizar valores profesionales sin clausurar el pluralismo metodológico de la disciplina."
+  },
+  {
+    "objectID": "investigacion/posts/does-sociology/index.html#relevancia",
+    "href": "investigacion/posts/does-sociology/index.html#relevancia",
+    "title": "¿Necesita la sociología la ciencia abierta? (Breznau, 2021)",
+    "section": "",
+    "text": "Adoptar estas prácticas permite acumular evidencia de forma verificable, facilita la colaboración entre grupos con recursos dispares y fortalece la legitimidad pública de la sociología. La apertura, entendida como ética profesional y no como moda metodológica, favorece la circulación del conocimiento y reduce asimetrías de acceso, algo decisivo para comunidades académicas del Sur Global."
+  },
+  {
+    "objectID": "investigacion/posts/does-sociology/index.html#proyecciones",
+    "href": "investigacion/posts/does-sociology/index.html#proyecciones",
+    "title": "¿Necesita la sociología la ciencia abierta? (Breznau, 2021)",
+    "section": "",
+    "text": "Si universidades, revistas y agencias incorporan criterios de transparencia en evaluación y financiamiento, la ciencia abierta puede consolidar un ecosistema donde publicar con datos, materiales y código disponibles sea lo habitual. A corto plazo, se recomienda iniciar con preregistros breves y repositorios con DOI; a mediano plazo, avanzar hacia registered reports, guías de reproducibilidad y políticas editoriales que exijan documentación mínima y fomenten réplicas."
+  },
+  {
+    "objectID": "investigacion/posts/does-sociology/index.html#sobre-el-investigador",
+    "href": "investigacion/posts/does-sociology/index.html#sobre-el-investigador",
+    "title": "¿Necesita la sociología la ciencia abierta? (Breznau, 2021)",
+    "section": "",
+    "text": "Nate Breznau, PhD (Sociología), es investigador en el German Institute for Adult Education – Leibniz Center for Lifelong Learning (DIE), Bonn. Su trabajo se centra en opinión pública, política social y desigualdad, junto con la metaciencia aplicada a las ciencias sociales. Ha sido parte de la Universidad de Bremen (SOCIUM/BIGSSS) e integra el editorial board de PLOS ONE en áreas afines a educación e investigación política. Entre sus contribuciones destaca el estudio colaborativo publicado en PNAS (2022) que evidencia la variabilidad entre equipos al analizar la misma hipótesis con idénticos datos, un referente en metaciencia. Para más información:\n\n\n\n\n\n\n\n\nTipPerfiles y contacto\n\n\n\n\nSitio personal: https://sites.google.com/site/nbreznau\n\nPerfil institucional (DIE): https://www.die-bonn.de/institut/mitarbeitende/7326?lang=en\n\nORCID: https://orcid.org/0000-0003-4983-3137\n\nGoogle Scholar: https://scholar.google.com/citations?user=4UORvGAAAAAJ"
+  },
+  {
+    "objectID": "investigacion/posts/Open Science - Developing World/index.html",
+    "href": "investigacion/posts/Open Science - Developing World/index.html",
+    "title": "Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)",
+    "section": "",
+    "text": "Leer en AMPPS (SAGE/APS) \n\n\nCita (APA 7)\n\n\nChuan-Peng, H., Xu, Z., Lazić, A., Bhattacharya, P., Seda, L., Hossain, S., … & Azevedo, F. (2025). Open Science in the Developing World: A Collection of Practical Guides for Researchers in Developing Countries. Advances in Methods and Practices in Psychological Science, 8(3). doi:10.1177/25152459251357565 CC BY-NC 4.0\n¿Cómo puede la ciencia abierta adaptarse a contextos con recursos limitados? ¿Qué oportunidades reales existen para iniciar prácticas abiertas y cuáles son las barreras que frenan su adopción? Estas preguntas son centrales para ampliar la participación y la relevancia social de la investigación. Un aporte clave a estas reflexiones es el artículo “Open Science in the Developing World: A Collection of Practical Guides for Researchers in Developing Countries” (2025), publicado en Advances in Methods and Practices in Psychological Science (AMPPS). A partir de experiencias de 44 investigadores/as con trabajo en 20 países/regiones, los autores proponen una hoja de ruta gradual para aprender, implementar, contribuir y liderar ciencia abierta en entornos con restricciones de recursos, con recomendaciones concretas y sensibilidad al contexto local."
+  },
+  {
+    "objectID": "investigacion/posts/Open Science - Developing World/index.html#mirando-los-niveles-de-la-guía",
+    "href": "investigacion/posts/Open Science - Developing World/index.html#mirando-los-niveles-de-la-guía",
+    "title": "Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)",
+    "section": "Mirando los niveles de la guía",
+    "text": "Mirando los niveles de la guía\nEl artículo organiza su propuesta en cuatro niveles de involucramiento. En la Base (foundation), invita a aprovechar recursos abiertos para cimentar investigación rigurosa—literatura de acceso abierto, datos y materiales abiertos, y software/hardware libre. En Crecimiento (growth), sugiere incorporar prácticas de bajo costo y alto impacto, como preregistro, registered reports, y una gestión cuidadosa de datos, código y entornos con flujos reproducibles. En Comunidad (community), plantea sumarse y contribuir a redes de ciencia abierta (replicación, metaciencia, desarrollo de FOSS y pequeñas infraestructuras colaborativas). Finalmente, en Liderazgo (leadership), llama a impulsar cambios culturales e institucionales en evaluación académica, formación, gobernanza y políticas de apertura."
+  },
+  {
+    "objectID": "investigacion/posts/Open Science - Developing World/index.html#hallazgos-y-factores-influyentes",
+    "href": "investigacion/posts/Open Science - Developing World/index.html#hallazgos-y-factores-influyentes",
+    "title": "Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)",
+    "section": "Hallazgos y factores influyentes",
+    "text": "Hallazgos y factores influyentes\nLa obra identifica oportunidades para investigadores/as en países en desarrollo—acceso a plataformas abiertas (OSF, GitHub, Zenodo, preprints), colaboración internacional y mayor visibilidad—y describe barreras de dos tipos: macro (financiamiento, infraestructura, idioma, marcos legales/culturales) y micro (tiempo, capacitación metodológica, incentivos, sostenibilidad). Un aporte central es el énfasis en la interseccionalidad de estas barreras: se combinan y se refuerzan, por lo que las soluciones deben considerar las condiciones locales y las asimetrías en colaboración y autoría."
+  },
+  {
+    "objectID": "investigacion/posts/Open Science - Developing World/index.html#proyecciones-y-desafíos",
+    "href": "investigacion/posts/Open Science - Developing World/index.html#proyecciones-y-desafíos",
+    "title": "Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)",
+    "section": "Proyecciones y desafíos",
+    "text": "Proyecciones y desafíos\nEl artículo advierte sobre costos ocultos (tiempo, APC, carga de documentación) si se importan estándares sin adaptación contextual, y sobre riesgos de colaboraciones inequitativas (liderazgo concentrado, “helicopter research”). A la vez, muestra un horizonte cauto pero optimista: con políticas y apoyos adecuados—criterios de evaluación que premien apertura, financiamiento para infraestructuras locales y formación técnica—es posible consolidar comunidades sostenibles de ciencia abierta que democraticen el acceso y fortalezcan la credibilidad de la investigación.\nAquí tienes una guía breve y accionable para pasar de la intención a la práctica. Si estás iniciando una iniciativa local de ciencia abierta —un journal club, un curso, un laboratorio o una red estudiantil— el siguiente recuadro resume diez pasos concretos para organizarse, ganar visibilidad y sostener el trabajo en el tiempo. Es un esquema flexible y adaptable: puedes empezar por el punto con más tracción en tu contexto y ajustar roles, plazos y recursos según tus posibilidades."
+  },
+  {
+    "objectID": "investigacion/posts/Open Science - Developing World/index.html#guía-de-ciencia-abierta-para-la-comunidad",
+    "href": "investigacion/posts/Open Science - Developing World/index.html#guía-de-ciencia-abierta-para-la-comunidad",
+    "title": "Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)",
+    "section": "Guía de ciencia abierta para la comunidad",
+    "text": "Guía de ciencia abierta para la comunidad\n\n\n\n\n\n\n\n\nNotaGuía rápida para organizar una comunidad local\n\n\n\n\n\n\n\nPaso\n\n\nAcción\n\n\nResultado esperado\n\n\n\n\n\n\n1\n\n\nIdentificar las necesidades de tu comunidad objetivo.\n\n\nDefinir foco y prioridades locales.\n\n\n\n\n2\n\n\nLanzar el primer hito: evento, journal club o blog.\n\n\nCrear el primer punto de contacto.\n\n\n\n\n3\n\n\nAbrir cuentas en redes y gestionar materiales digitales.\n\n\nDar visibilidad y acceso a la iniciativa.\n\n\n\n\n4\n\n\nRealizar la primera reunión y formar un equipo coordinador.\n\n\nEstablecer liderazgo y rumbo de la red.\n\n\n\n\n5\n\n\nVincularse con comunidades internacionales.\n\n\nTejer conexiones globales y acceder a recursos.\n\n\n\n\n6\n\n\nPlanificar eventos regulares y activar a las/los miembros.\n\n\nMantener el compromiso sostenido.\n\n\n\n\n7\n\n\nPromover proyectos colaborativos a través de la red.\n\n\nGenerar incentivos e impacto colectivo.\n\n\n\n\n8\n\n\nAmplificar el alcance de la red.\n\n\nAumentar visibilidad, reconocimiento y financiamiento.\n\n\n\n\n9\n\n\nPublicar un artículo o nota sobre la comunidad.\n\n\nDocumentar y expandir la influencia.\n\n\n\n\n10\n\n\nFormalizar la organización y planificar su sostenibilidad.\n\n\nConsolidar una estructura estable y duradera.\n\n\n\n\n\n\nFuente: Adaptado de “Ten Simple Steps for Starting a Local Open-Science Community”, Tabla 2 del artículo citado abajo."
+  },
+  {
+    "objectID": "investigacion/posts/Open Science - Developing World/index.html#claves-de-aplicación-inmediata",
+    "href": "investigacion/posts/Open Science - Developing World/index.html#claves-de-aplicación-inmediata",
+    "title": "Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)",
+    "section": "Claves de aplicación inmediata",
+    "text": "Claves de aplicación inmediata\nEmpieza por lo posible: prioriza acceso abierto “verde” (pre/postprints) y deposita tus materiales en repositorios con DOI; para elevar la credibilidad sin grandes costos, ensaya un preregistro breve en análisis secundarios o réplicas directas; documenta el entorno (versiones y paquetes) y acompaña tus resultados con un paquete mínimo de reproducibilidad (datos/metadata, código ejecutable y README claro); finalmente, vincúlate a redes locales e internacionales (journal clubs, grupos de reproducibilidad, comunidades FOSS) y comparte activamente plantillas y materiales didácticos. En síntesis, la ciencia abierta es una estrategia incremental para mejorar el rigor, reducir inequidades y ampliar el impacto público del conocimiento: comprender sus niveles de involucramiento, alongside sus oportunidades y límites, es clave para construir comunidades científicas más justas, inclusivas y sostenibles."
+  },
+  {
+    "objectID": "investigacion/posts/Open Science - Developing World/index.html#sobre-el-equipo-autor",
+    "href": "investigacion/posts/Open Science - Developing World/index.html#sobre-el-equipo-autor",
+    "title": "Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)",
+    "section": "Sobre el equipo autor",
+    "text": "Sobre el equipo autor\nHu Chuan-Peng (Nanjing Normal University) y Flavio Azevedo (Utrecht University) coordinan un equipo amplio con trayectoria en contextos del Sur Global y otras regiones con recursos limitados. La colaboración reúne 44 coautores/as de 20 países/regiones, y combina guía práctica, ejemplos, y materiales complementarios para aprender, adaptar y liderar prácticas abiertas."
+  },
+  {
+    "objectID": "investigacion/posts/Open Science - Developing World/index.html#sobre-los-investigadores-coordinadores",
+    "href": "investigacion/posts/Open Science - Developing World/index.html#sobre-los-investigadores-coordinadores",
+    "title": "Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)",
+    "section": "Sobre los investigadores coordinadores",
+    "text": "Sobre los investigadores coordinadores\n\n\n\n\n\nHu Chuan-Peng, PhD (Psicología)\nNanjing Normal University (China) · Meta-Self Lab\nProfesor en la School of Psychology. Investiga metaciencia, medición psicológica y cognición del self; impulsor de la Chinese Open Science Network (COSN).\n\nRedes y liderazgo: COSN; formación y recursos de ciencia abierta\n\n\n\n\n\n\n\n\n\n\nTipPerfiles y contacto\n\n\n\nMeta-Self Lab ORCID COSN"
+  },
+  {
+    "objectID": "investigacion/posts/glosario-anid/index.html",
+    "href": "investigacion/posts/glosario-anid/index.html",
+    "title": "Glosario de conceptos Ciencia Abierta ANID",
+    "section": "",
+    "text": "En el siguiente enlace podrán encontrar el glosario de Ciencia Abierta elaborado por ANID: https://acceso-abierto.anid.cl/recursos/glosario/"
+  },
+  {
+    "objectID": "investigacion/posts/1-perez-astorga/index.html",
+    "href": "investigacion/posts/1-perez-astorga/index.html",
+    "title": "¿Por qué los miembros de sindicatos están más dispuestos a hacer huelga y protestar que los no sindicalizados? Evidencia de Argentina y Chile",
+    "section": "",
+    "text": "Leer el paper en MDPI\n\n\n\n\nCita (APA 7)\n\n\nBreznau, N.. (2021). Does Sociology Need Open Science? Societies, 11(1), 9. doi:10.3390/soc11010009\n\n\n\n\nEstudios empíricos han demostrado que los miembros de sindicatos tienen más probabilidades de participar en acciones colectivas que los no sindicalizados. Sin embargo, aún sabemos poco sobre los mecanismos que explican por qué ocurre esto. En este artículo, nuestro objetivo es llenar este vacío en la literatura. Utilizando datos de la Encuesta Mundial de Valores para Argentina y Chile (2006–2018), empleamos el análisis de mediación de Karlson–Holm–Breen para analizar en qué medida la relación entre la membresía sindical y la participación en manifestaciones y huelgas se explica por los mayores niveles de politización y una orientación más fuerte hacia la izquierda de los miembros sindicales, como se ha planteado en estudios previos. Encontramos que en ambos países, estos dos mediadores explican más del 30% de la relación entre la membresía sindical y la participación en manifestaciones. También hallamos que estos dos mediadores explican alrededor del 20% de la relación entre la membresía sindical y la participación en huelgas en Argentina, y casi el 40% de dicha relación en Chile. Al final del artículo, ofrecemos algunas explicaciones para estos hallazgos y mostramos cómo contribuyen a la literatura sobre sindicatos, política de clases y relaciones laborales.\n\n\n\nMovimiento Sindical, Sindicalismo, Huelgas Laborales\n\n\n\n\n\n\n\nNate Breznau, PhD (Sociología), es investigador en el German Institute for Adult Education – Leibniz Center for Lifelong Learning (DIE), Bonn. Su trabajo se centra en opinión pública, política social y desigualdad, junto con la metaciencia aplicada a las ciencias sociales. Ha sido parte de la Universidad de Bremen (SOCIUM/BIGSSS) e integra el editorial board de PLOS ONE en áreas afines a educación e investigación política. Entre sus contribuciones destaca el estudio colaborativo publicado en PNAS (2022) que evidencia la variabilidad entre equipos al analizar la misma hipótesis con idénticos datos, un referente en metaciencia. Para más información:\n\n\n\n\n\n\n\n\nTipPerfiles y contacto\n\n\n\n\nSitio personal: https://sites.google.com/site/nbreznau\n\nPerfil institucional (DIE): https://www.die-bonn.de/institut/mitarbeitende/7326?lang=en\n\nORCID: https://orcid.org/0000-0003-4983-3137\n\nGoogle Scholar: https://scholar.google.com/citations?user=4UORvGAAAAAJ"
+  },
+  {
+    "objectID": "investigacion/posts/1-perez-astorga/index.html#abstract",
+    "href": "investigacion/posts/1-perez-astorga/index.html#abstract",
+    "title": "¿Por qué los miembros de sindicatos están más dispuestos a hacer huelga y protestar que los no sindicalizados? Evidencia de Argentina y Chile",
+    "section": "",
+    "text": "Estudios empíricos han demostrado que los miembros de sindicatos tienen más probabilidades de participar en acciones colectivas que los no sindicalizados. Sin embargo, aún sabemos poco sobre los mecanismos que explican por qué ocurre esto. En este artículo, nuestro objetivo es llenar este vacío en la literatura. Utilizando datos de la Encuesta Mundial de Valores para Argentina y Chile (2006–2018), empleamos el análisis de mediación de Karlson–Holm–Breen para analizar en qué medida la relación entre la membresía sindical y la participación en manifestaciones y huelgas se explica por los mayores niveles de politización y una orientación más fuerte hacia la izquierda de los miembros sindicales, como se ha planteado en estudios previos. Encontramos que en ambos países, estos dos mediadores explican más del 30% de la relación entre la membresía sindical y la participación en manifestaciones. También hallamos que estos dos mediadores explican alrededor del 20% de la relación entre la membresía sindical y la participación en huelgas en Argentina, y casi el 40% de dicha relación en Chile. Al final del artículo, ofrecemos algunas explicaciones para estos hallazgos y mostramos cómo contribuyen a la literatura sobre sindicatos, política de clases y relaciones laborales."
+  },
+  {
+    "objectID": "investigacion/posts/1-perez-astorga/index.html#etiquetas",
+    "href": "investigacion/posts/1-perez-astorga/index.html#etiquetas",
+    "title": "¿Por qué los miembros de sindicatos están más dispuestos a hacer huelga y protestar que los no sindicalizados? Evidencia de Argentina y Chile",
+    "section": "",
+    "text": "Movimiento Sindical, Sindicalismo, Huelgas Laborales"
+  },
+  {
+    "objectID": "investigacion/posts/1-perez-astorga/index.html#sobre-el-investigador",
+    "href": "investigacion/posts/1-perez-astorga/index.html#sobre-el-investigador",
+    "title": "¿Por qué los miembros de sindicatos están más dispuestos a hacer huelga y protestar que los no sindicalizados? Evidencia de Argentina y Chile",
+    "section": "",
+    "text": "Nate Breznau, PhD (Sociología), es investigador en el German Institute for Adult Education – Leibniz Center for Lifelong Learning (DIE), Bonn. Su trabajo se centra en opinión pública, política social y desigualdad, junto con la metaciencia aplicada a las ciencias sociales. Ha sido parte de la Universidad de Bremen (SOCIUM/BIGSSS) e integra el editorial board de PLOS ONE en áreas afines a educación e investigación política. Entre sus contribuciones destaca el estudio colaborativo publicado en PNAS (2022) que evidencia la variabilidad entre equipos al analizar la misma hipótesis con idénticos datos, un referente en metaciencia. Para más información:\n\n\n\n\n\n\n\n\nTipPerfiles y contacto\n\n\n\n\nSitio personal: https://sites.google.com/site/nbreznau\n\nPerfil institucional (DIE): https://www.die-bonn.de/institut/mitarbeitende/7326?lang=en\n\nORCID: https://orcid.org/0000-0003-4983-3137\n\nGoogle Scholar: https://scholar.google.com/citations?user=4UORvGAAAAAJ"
   }
 ]

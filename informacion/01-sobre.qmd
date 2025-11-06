@@ -16,7 +16,8 @@ toc: false
   width:100vw;
   height: 100px;
   margin-left: calc(50% - 50vw);
-  background: #ca0000;
+/* Gradiente con los tonos CONCLAT */
+  background: linear-gradient(135deg, #6f0000 0%, #ca0000 35%, #d02e38 70%, #ff5651 100%);
   display: flex;
   align-items: center;
   justify-content: center;

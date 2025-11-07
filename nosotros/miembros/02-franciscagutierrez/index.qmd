@@ -5,6 +5,7 @@ contacto: francisca.gutierrez@uach.cl
 github: https://github.com/
 web: https://www.economicas.uach.cl/academico/francisca-gutierrez-crocco/
 image: "gutierrez.jpg"
+orden: 2
 about:
   template: trestles
   image-shape: rounded

@@ -5,6 +5,7 @@ contacto: ldurso@campus.ungs.edu.ar
 github: https://github.com/
 web: https://ri.conicet.gov.ar/author/41636
 image: "durso.jpg"
+orden: 6
 about:
   template: trestles
   image-shape: rounded

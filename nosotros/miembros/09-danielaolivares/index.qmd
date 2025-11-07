@@ -5,6 +5,7 @@ contacto: danielaolivarescollio@gmail.com
 github: https://github.com/DaniOlivaresCollio
 web: https://www.linkedin.com/in/daniela-olivares-collio/
 image: "olivares.jpg"
+orden: 9
 about:
   template: trestles
   image-shape: rounded
@@ -22,4 +23,6 @@ about:
 
 Magíster en Estadística de la Pontificia Universidad Católica de Chile, y Licenciada en Sociología de la Universidad de Chile. 
 
-Actualmente es asistente de investigación del Proyecto Fondecyt Regular N° 1230056 “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile” (CONCLAT). Y también, es asistente de investigación del Núcleo Milenio en Política Laboral y Vida Familiar y Colectiva (LABOFAM)
+Actualmente es asistente de investigación del Proyecto Fondecyt Regular N° 1230056 “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile” (CONCLAT). Y también, es asistente de investigación del Núcleo Milenio en Política Laboral y Vida Familiar y Colectiva (LABOFAM).
+
+Anteriormente, ha participado en diversas investigaciones elaborando cuestionarios, procesando y analizando datos y generando informes. También coordinó el Estudio Longitudinal Social de Chile (ELSOC) del Centro de Estudios de Conflicto y Cohesión Social (COES).

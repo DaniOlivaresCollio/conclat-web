@@ -5,6 +5,7 @@ contacto: juandiego.garcia@ucr.ac.cr
 github: https://github.com/
 web: https://iip.ucr.ac.cr/es/investigadores/juan-diego-garcia-castro
 image: "garcia.jpeg"
+orden: 8
 about:
   template: trestles
   image-shape: rounded

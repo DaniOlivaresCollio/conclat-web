@@ -5,6 +5,7 @@ contacto: pablodalle@gmail.com
 github: https://github.com/
 web: https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=36509&datos_academicos=yes
 image: "dalle.webp"
+orden: 5
 about:
   template: trestles
   image-shape: rounded

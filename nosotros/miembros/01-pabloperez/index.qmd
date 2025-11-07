@@ -5,6 +5,7 @@ contacto: pabloperez@uchile
 github: https://github.com/
 web: https://facso.uchile.cl/sociologia/cuerpo-academico/pablo-perez-ahumada
 image: "perez.jpg"
+orden: 1
 about:
   template: trestles
   image-shape: rounded

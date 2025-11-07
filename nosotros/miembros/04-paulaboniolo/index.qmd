@@ -5,6 +5,7 @@ contacto: boniolopaula@gmail.com
 github: https://github.com/
 web: https://www.conicet.gov.ar/new_scp/detalle.php?id=35364&keywords=&datos_academicos=yes
 image: "boniolo.jpg"
+orden: 4
 about:
   template: trestles
   image-shape: rounded

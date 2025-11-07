@@ -4,6 +4,9 @@ page-layout: full
 listing:
   contents: miembros/*/*.qmd
   type: grid
+  sort: [orden]
+  sort-ui: false
+  fields: [image, title, subtitle]
 title-block-banner: true
 ---
 

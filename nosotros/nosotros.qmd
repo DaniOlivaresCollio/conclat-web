@@ -6,7 +6,7 @@ listing:
   type: grid
   sort: [orden]
   sort-ui: false
-  fields: [image, title, subtitle]
+  fields: [image, title, subtitle, contacto]
 title-block-banner: true
 ---
 

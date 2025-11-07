@@ -445,51 +445,96 @@ html, body { max-width: 100%; overflow-x: clip; }
 /* --------------------------------------------------------------*/
 /* Ajustes para las tarjetas del equipo (pestaña "Nosotros") */
 
-.quarto-listing .card {
-  display: flex;
-  flex-direction: column;
-  border: none; /* opcional: elimina el borde gris si lo prefieres */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  height: 400px; /* altura total más contenida */
+/* 1) La tarjeta NO debe estirarse a 100% */
+.quarto-listing .quarto-grid-item.card,
+.quarto-listing .quarto-grid-item.card.h-100,
+.quarto-listing .cards .card {
+  height: auto !important;
+  min-height: 0 !important;
 }
 
-/* Imagen ocupa más espacio en la tarjeta */
-.quarto-listing .card-img-top {
-  height: 300px !important;  /* ↑ aumenta el área de imagen */
-  width: 100%;
-  object-fit: cover !important;
-  border-top-left-radius: 0.375rem;
-  border-top-right-radius: 0.375rem;
-}
-
-/* Efecto suave al pasar el mouse */
-.quarto-listing .card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}
-
-/* ----- Tarjetas del equipo: hacer la imagen más alta y dominante ----- */
-
-/* 1) Forzar altura del contenedor de imagen */
-.quarto-listing .quarto-grid-item .thumbnail,
-.quarto-listing .listing-image,
-.quarto-listing .card-img-top {
-  height: 260px !important;     /* ↑ ajusta a 280/300 si quieres */
-  max-height: none !important;
+/* 2) La caja de imagen ocupa un alto consistente */
+.quarto-listing p.card-img-top {
+  height: 280px !important;       /* prueba 240–280px */
+  margin-bottom: 0 !important;
   overflow: hidden;
-  display: block;
 }
 
-/* 2) Hacer que la imagen llene ese alto sin deformarse */
-.quarto-listing .quarto-grid-item .thumbnail img,
-.quarto-listing .listing-image img,
-.quarto-listing .card img,
-.quarto-listing .card-img-top {
+/* 3) La imagen llena esa caja (vence el style="height:150px") */
+.quarto-listing p.card-img-top > img {
   width: 100% !important;
-  height: 100% !important;       /* en vez de auto */
-  object-fit: cover !important;  /* recorta sin estirar */
-  aspect-ratio: auto !important; /* anula relaciones impuestas */
+  height: 100% !important;         /* ← anula el inline height */
+  object-fit: cover !important;
+  aspect-ratio: auto !important;
+}
+
+/* 4) Compactar el bloque de texto */
+.quarto-listing .card-body {
+  padding: .75rem 1rem .75rem !important;
+}
+.quarto-listing .card-title {
+  margin-bottom: .25rem !important;
+}
+.quarto-listing .card-subtitle,
+.quarto-listing .listing-subtitle {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.quarto-listing .card-text { 
+  margin-bottom: 0 !important; 
+}
+
+/* ======= Ajustes visuales tarjetas "Nosotros" ======= */
+
+/* Centrar todo el texto dentro de la tarjeta */
+.quarto-listing .card-body {
+  text-align: center !important;
+  padding: 0.75rem 1rem 0.75rem !important;
+}
+
+/* Nombre (título) más destacado */
+.quarto-listing .card-title {
+  font-weight: 700 !important;     /* negrita */
+  font-size: 1.05rem !important;
+  margin-bottom: 0.25rem !important;
+  color: #212121 !important;
+}
+
+/* Cargo (subtítulo) en gris suave */
+.quarto-listing .card-subtitle,
+.quarto-listing .listing-subtitle {
+  color: #666 !important;
+  font-size: 0.95rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Bloque de contacto */
+.quarto-listing .card-text,
+.quarto-listing .listing-description {
+  font-size: 0.9rem !important;
+  color: #333 !important;
+  margin-top: 0.25rem !important;
+}
+
+/* Añadir estilo visual a "contacto:" */
+.quarto-listing .card-text strong,
+.quarto-listing .listing-description strong {
+  display: block;
+  text-transform: lowercase;
+  color: #000 !important;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+}
+
+/* Enlaces de contacto */
+.quarto-listing .card-text a,
+.quarto-listing .listing-description a {
+  color: #c22828 !important;         /* rojo CONCLAT */
+  text-decoration: none !important;
+  font-weight: 500;
+}
+.quarto-listing .card-text a:hover {
+  text-decoration: underline !important;
 }
 
 /* =========================================================

@@ -463,27 +463,33 @@ html, body { max-width: 100%; overflow-x: clip; }
   border-top-right-radius: 0.375rem;
 }
 
-/* El cuerpo del texto (nombre y cargo) ocupa menos espacio */
-.quarto-listing .card-body {
-  flex-grow: 0;
-  padding: 0.75rem 1rem 1rem;
-}
-
-/* Ajuste del nombre y cargo */
-.quarto-listing .card-title {
-  font-size: 1rem;
-  margin-bottom: 0.25rem;
-}
-
-.quarto-listing .card-subtitle {
-  font-size: 0.9rem;
-  color: #555;
-}
-
 /* Efecto suave al pasar el mouse */
 .quarto-listing .card:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* ----- Tarjetas del equipo: hacer la imagen más alta y dominante ----- */
+
+/* 1) Forzar altura del contenedor de imagen */
+.quarto-listing .quarto-grid-item .thumbnail,
+.quarto-listing .listing-image,
+.quarto-listing .card-img-top {
+  height: 260px !important;     /* ↑ ajusta a 280/300 si quieres */
+  max-height: none !important;
+  overflow: hidden;
+  display: block;
+}
+
+/* 2) Hacer que la imagen llene ese alto sin deformarse */
+.quarto-listing .quarto-grid-item .thumbnail img,
+.quarto-listing .listing-image img,
+.quarto-listing .card img,
+.quarto-listing .card-img-top {
+  width: 100% !important;
+  height: 100% !important;       /* en vez de auto */
+  object-fit: cover !important;  /* recorta sin estirar */
+  aspect-ratio: auto !important; /* anula relaciones impuestas */
 }
 
 /* =========================================================

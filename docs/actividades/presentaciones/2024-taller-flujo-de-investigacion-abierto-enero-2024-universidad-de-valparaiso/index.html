@@ -52,6 +52,7 @@ div.csl-indent {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
+<link href="../../../resources/img/conclat_ID_principal_rojo.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -95,6 +96,7 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="../../../resources/css/home.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -133,11 +135,11 @@ div.csl-indent {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-encuesta">    
         <li>
-    <a class="dropdown-item" href="../../../encuesta/01-chile/index.html">
+    <a class="dropdown-item" href="../../../encuesta/01-chile/">
  <span class="dropdown-text"><i class="ai  ai-list-ul" aria-label="list-ul"></i> Encuesta Chile</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../encuesta/02-argentina/index.html">
+    <a class="dropdown-item" href="../../../encuesta/02-argentina/">
  <span class="dropdown-text"><i class="ai  ai-list-ul" aria-label="list-ul"></i> Encuesta Argentina</span></a>
   </li>  
     </ul>
@@ -148,7 +150,7 @@ div.csl-indent {
 <span class="menu-text">Investigación</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../recomendados/recomendados.qmd"> <i class="bi bi-journals" role="img">
+    <a class="nav-link" href="../../../recomendados/recomendados.qmd"> <i class="bi bi-newspaper" role="img">
 </i> 
 <span class="menu-text">Prensa</span></a>
   </li>  
@@ -303,6 +305,70 @@ Castillo, Juan Carlos. 2024. <span>«Taller Flujo de investigación abierto - En
   </div>
 
 </div>
+<!-- Carga librería -->
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" crossorigin="anonymous"></script>
+
+
+
+<script>
+
+(function() {
+
+  function initParticles() {
+
+    const container = document.getElementById("particles-js");
+
+    if (!window.particlesJS || !container) return;
+
+    window.particlesJS("particles-js", {
+
+      particles: {
+
+        number: { value: 100, density: { enable: true, value_area: 800 } },
+
+        color: { value: "#ca0000" },
+
+        shape: { type: "circle" },
+
+        opacity: { value: 0.5 },
+
+        size: { value: 3, random: true },
+
+        line_linked: { enable: true, distance: 140, color: "#ca0000", opacity: 0.35, width: 1 },
+
+        move: { enable: true, speed: 4, direction: "top-right", out_mode: "out" }
+
+      },
+
+      interactivity: {
+
+        detect_on: "canvas",
+
+        events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }, resize: true },
+
+        modes: { repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 } }
+
+      },
+
+      retina_detect: true
+
+    });
+
+  }
+
+
+
+  // Respeta preferencias de usuarios que reducen animaciones
+
+  const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  if (!mq.matches) window.addEventListener("load", initParticles);
+
+})();
+
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -376,7 +442,7 @@ Castillo, Juan Carlos. 2024. <span>«Taller Flujo de investigación abierto - En
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/conclat\.com\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

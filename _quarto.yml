@@ -6,6 +6,11 @@ project:
   output-dir: "docs"
 website:
   title: ""
+  site-url: https://conclat.com/
+  description: "Fondecyt Clases, Trabajo y Conflicto"
+  favicon: resources/img/conclat_ID_principal_rojo.png
+  search: true
+  repo-url: https://github.com/DaniOlivaresCollio/conclat-web
   page-footer:
     background: "#121212"
     left: |
@@ -35,15 +40,15 @@ website:
       - text: Encuesta
         icon: list-ul
         menu: 
-         - href: encuesta/01-chile/index.html
+         - href: encuesta/01-chile/
            text: "{{<ai list-ul>}} Encuesta Chile"
-         - href: encuesta/02-argentina/index.html
+         - href: encuesta/02-argentina/
            text: "{{<ai list-ul>}} Encuesta Argentina"
       - text: Investigación
         icon: journals
         href: investigacion/investigacion.qmd
       - text: Prensa
-        icon: journals
+        icon: newspaper
         href: recomendados/recomendados.qmd
       - text: Actividades
         icon: calendar-week
@@ -51,12 +56,15 @@ website:
       - text: Contacto
         icon: envelope
         href: contacto/contacto.qmd
-         
+     
 format:
   html:
     theme: 
       light: flatly
     css: 
       - styles.css
+      - resources/css/home.css
     linkcolor: "#CA0000"
-include-after-body: footer/footer.html
+    include-after-body: 
+      - footer/footer.html
+      - resources/js/particles-init.html

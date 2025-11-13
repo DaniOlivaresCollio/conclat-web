@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../resources/img/conclat_ID_principal_rojo.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -82,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-date"],
     };
@@ -133,6 +134,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../resources/css/home.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -171,11 +173,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-encuesta">    
         <li>
-    <a class="dropdown-item" href="../encuesta/01-chile/index.html">
+    <a class="dropdown-item" href="../encuesta/01-chile/">
  <span class="dropdown-text"><i class="ai  ai-list-ul" aria-label="list-ul"></i> Encuesta Chile</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../encuesta/02-argentina/index.html">
+    <a class="dropdown-item" href="../encuesta/02-argentina/">
  <span class="dropdown-text"><i class="ai  ai-list-ul" aria-label="list-ul"></i> Encuesta Argentina</span></a>
   </li>  
     </ul>
@@ -186,7 +188,7 @@ window.Quarto = {
 <span class="menu-text">Investigación</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../recomendados/recomendados.qmd"> <i class="bi bi-journals" role="img">
+    <a class="nav-link" href="../recomendados/recomendados.qmd"> <i class="bi bi-newspaper" role="img">
 </i> 
 <span class="menu-text">Prensa</span></a>
   </li>  
@@ -282,8 +284,8 @@ Investigación
 <h5 class="no-anchor card-title listing-title">
 Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)
 </h5>
-<div class="card-text listing-description delink">
-<p>Lectura recomendada: colección de guías prácticas para adoptar y liderar ciencia abierta en contextos con recursos limitados.</p>
+<div class="card-subtitle listing-subtitle">
+Laboratorio de Investigación Social Abierta
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -301,8 +303,8 @@ Aug 28, 2025
 <h5 class="no-anchor card-title listing-title">
 Glosario de conceptos Ciencia Abierta ANID
 </h5>
-<div class="card-text listing-description delink">
-<p>Compartimos el glosario de conceptos de Ciencia Abierta elaborado por ANID</p>
+<div class="card-subtitle listing-subtitle">
+Laboratorio de Investigación Social Abierta
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -312,16 +314,16 @@ Jul 1, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="aW52ZXN0aWdhY2lvbg==" data-listing-date-sort="1722916800000" data-listing-file-modified-sort="1763049614178" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="428">
+<div class="g-col-1" data-index="2" data-categories="aW52ZXN0aWdhY2lvbg==" data-listing-date-sort="1722916800000" data-listing-file-modified-sort="1763058823208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
 <a href="../investigacion/posts/1-perez-astorga/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\1-perez-astorga\Nate.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 ¿Por qué los miembros de sindicatos están más dispuestos a hacer huelga y protestar que los no sindicalizados? Evidencia de Argentina y Chile
 </h5>
-<div class="card-text listing-description delink">
-Leer el paper en MDPI
+<div class="card-subtitle listing-subtitle">
+Pérez Ahumada, Pablo &amp; Astorga, Charo (2024)
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -385,6 +387,70 @@ Aug 6, 2024
   </div>
 
 </div>
+<!-- Carga librería -->
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" crossorigin="anonymous"></script>
+
+
+
+<script>
+
+(function() {
+
+  function initParticles() {
+
+    const container = document.getElementById("particles-js");
+
+    if (!window.particlesJS || !container) return;
+
+    window.particlesJS("particles-js", {
+
+      particles: {
+
+        number: { value: 100, density: { enable: true, value_area: 800 } },
+
+        color: { value: "#ca0000" },
+
+        shape: { type: "circle" },
+
+        opacity: { value: 0.5 },
+
+        size: { value: 3, random: true },
+
+        line_linked: { enable: true, distance: 140, color: "#ca0000", opacity: 0.35, width: 1 },
+
+        move: { enable: true, speed: 4, direction: "top-right", out_mode: "out" }
+
+      },
+
+      interactivity: {
+
+        detect_on: "canvas",
+
+        events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }, resize: true },
+
+        modes: { repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 } }
+
+      },
+
+      retina_detect: true
+
+    });
+
+  }
+
+
+
+  // Respeta preferencias de usuarios que reducen animaciones
+
+  const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  if (!mq.matches) window.addEventListener("load", initParticles);
+
+})();
+
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -458,7 +524,7 @@ Aug 6, 2024
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/conclat\.com\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

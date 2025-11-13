@@ -6,7 +6,7 @@ listing:
   sort: "date desc"
   type: grid
   categories: false
-  fields: [image, title, description, date]
+  fields: [image, title, subtitle, date]
   image-align: left
   filter-ui: [title, date]
 title-block-banner: true

@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./resources/img/conclat_ID_principal_rojo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -99,34 +100,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-equipo .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-equipo'] = new List('listing-equipo', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -160,6 +133,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="resources/css/home.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -198,11 +172,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-encuesta">    
         <li>
-    <a class="dropdown-item" href="./encuesta/01-chile/index.html">
+    <a class="dropdown-item" href="./encuesta/01-chile/">
  <span class="dropdown-text"><i class="ai  ai-list-ul" aria-label="list-ul"></i> Encuesta Chile</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./encuesta/02-argentina/index.html">
+    <a class="dropdown-item" href="./encuesta/02-argentina/">
  <span class="dropdown-text"><i class="ai  ai-list-ul" aria-label="list-ul"></i> Encuesta Argentina</span></a>
   </li>  
     </ul>
@@ -213,7 +187,7 @@ window.Quarto = {
 <span class="menu-text">Investigación</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./recomendados/recomendados.qmd"> <i class="bi bi-journals" role="img">
+    <a class="nav-link" href="./recomendados/recomendados.qmd"> <i class="bi bi-newspaper" role="img">
 </i> 
 <span class="menu-text">Prensa</span></a>
   </li>  
@@ -245,133 +219,16 @@ window.Quarto = {
 
 
 
+<!-- ========================== BANNER =========================== -->
 <div class="hero-heading">
 <div class="hero-heading-wrapper">
 <div id="particles-js" class="particles-layer" aria-hidden="true">
 
 </div>
 <div class="hero-heading-content">
-<p><img src="resources/img/conclat_ID_principal_rojo.png" class="img-fluid mb-3" alt="Fondecyt Clases, Trabajo y Conflicto" style="width:90%;max-width:900px;display:block;margin:0 auto;"></p>
+<img src="resources/img/conclat_ID_principal_rojo.png" class="img-fluid mb-3" alt="Fondecyt Clases, Trabajo y Conflicto" style="width:90%;max-width:900px;display:block;margin:0 auto;" loading="eager" fetchpriority="high">
 </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" integrity="sha384-oHYQNeDBTZNj6KnIfJMAzcEn2OTbeMKKXFeEwU6T+pH0oS1yTIzEBaW6BXmCtvs2" crossorigin="anonymous"></script>
-<script>
-window.addEventListener("load", function () {
-  var container = document.getElementById("particles-js");
-  if (window.particlesJS && container) {
-    window.particlesJS("particles-js", {
-      "particles": {
-        "number": {
-          "value": 130,
-          "density": {
-            "enable": true,
-            "value_area": 800
-          }
-        },
-        "color": {
-          "value": "#ff0000"
-        },
-        "shape": {
-          "type": "circle",
-          "stroke": {
-            "width": 0,
-            "color": "#000000"
-          },
-          "polygon": {
-            "nb_sides": 3
-          },
-          "image": {
-            "src": "img/github.svg",
-            "width": 100,
-            "height": 100
-          }
-        },
-        "opacity": {
-          "value": 0.5,
-          "random": false,
-          "anim": {
-            "enable": false,
-            "speed": 1,
-            "opacity_min": 0.1,
-            "sync": false
-          }
-        },
-        "size": {
-          "value": 3,
-          "random": true,
-          "anim": {
-            "enable": true,
-            "speed": 40,
-            "size_min": 0.1,
-            "sync": false
-          }
-        },
-        "line_linked": {
-          "enable": true,
-          "distance": 143.94242303078775,
-          "color": "#ff0000",
-          "opacity": 0.4,
-          "width": 1
-        },
-        "move": {
-          "enable": true,
-          "speed": 6,
-          "direction": "top-right",
-          "random": false,
-          "straight": false,
-          "out_mode": "out",
-          "bounce": false,
-          "attract": {
-            "enable": false,
-            "rotateX": 600,
-            "rotateY": 1200
-          }
-        }
-      },
-      "interactivity": {
-        "detect_on": "canvas",
-        "events": {
-          "onhover": {
-            "enable": true,
-            "mode": "repulse"
-          },
-          "onclick": {
-            "enable": true,
-            "mode": "push"
-          },
-          "resize": true
-        },
-        "modes": {
-          "grab": {
-            "distance": 400,
-            "line_linked": {
-              "opacity": 1
-            }
-          },
-          "bubble": {
-            "distance": 400,
-            "size": 40,
-            "duration": 2,
-            "opacity": 8,
-            "speed": 3
-          },
-          "repulse": {
-            "distance": 200,
-            "duration": 0.4
-          },
-          "push": {
-            "particles_nb": 4
-          },
-          "remove": {
-            "particles_nb": 2
-          }
-        }
-      },
-      "retina_detect": false
-    });
-  }
-});
-</script>
 </div>
 <!-- ====================== SOBRE CONCLAT ====================== -->
 <div class="parallax-container">
@@ -382,7 +239,7 @@ window.addEventListener("load", function () {
 <i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre CONCLAT
 </p>
 <p class="section-lead">
-El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y político en Argentina y Chile. Particularmente, el proyecto analiza cómo las personas de distintas clases y con distinto estatus sindical (por ejemplo, afiliados/as y no afiliados/as a sindicatos) perciben el conflicto dentro y fuera del lugar de trabajo. Para ello se aplicará una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases, trabajo y conflicto produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.
+El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y político en Argentina y Chile. Particularmente, el proyecto analiza cómo las personas de distintas clases y con distinto estatus sindical perciben el conflicto dentro y fuera del lugar de trabajo. Para ello se ha aplicado una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases, trabajo y conflicto produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.
 </p>
 </div>
 </div>
@@ -528,6 +385,70 @@ Herramientas computacionales para la investigación social reproducible
   </div>
 
 </div>
+<!-- Carga librería -->
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" crossorigin="anonymous"></script>
+
+
+
+<script>
+
+(function() {
+
+  function initParticles() {
+
+    const container = document.getElementById("particles-js");
+
+    if (!window.particlesJS || !container) return;
+
+    window.particlesJS("particles-js", {
+
+      particles: {
+
+        number: { value: 100, density: { enable: true, value_area: 800 } },
+
+        color: { value: "#ca0000" },
+
+        shape: { type: "circle" },
+
+        opacity: { value: 0.5 },
+
+        size: { value: 3, random: true },
+
+        line_linked: { enable: true, distance: 140, color: "#ca0000", opacity: 0.35, width: 1 },
+
+        move: { enable: true, speed: 4, direction: "top-right", out_mode: "out" }
+
+      },
+
+      interactivity: {
+
+        detect_on: "canvas",
+
+        events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }, resize: true },
+
+        modes: { repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 } }
+
+      },
+
+      retina_detect: true
+
+    });
+
+  }
+
+
+
+  // Respeta preferencias de usuarios que reducen animaciones
+
+  const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  if (!mq.matches) window.addEventListener("load", initParticles);
+
+})();
+
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
@@ -594,7 +515,7 @@ Herramientas computacionales para la investigación social reproducible
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/conclat\.com\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -921,19 +842,7 @@ Herramientas computacionales para la investigación social reproducible
     }
   });
   </script>
-<div class="quarto-listing quarto-listing-container-custom" id="listing-equipo">
-
-<div class="quarto-listing quarto-listing-container-grid" section-block="">
-  
-  <div class="list grid quarto-listing-cols-4"> 
-
-    
-  
-</div>
-</div>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div></div> <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">

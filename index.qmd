@@ -2,7 +2,9 @@
 title: "Fondecyt Clases, Trabajo y Conflicto"
 pagetitle: "CONCLAT Fondecyt"
 page-layout: custom
-format: html
+format: 
+  html:
+    raw-html: true
 page-navigation: false
 toc: false
 about:
@@ -168,12 +170,12 @@ window.addEventListener("load", function () {
 <!-- ====================== SOBRE CONCLAT ====================== -->
 ::: {.parallax-container}
 ::: {.parallax-image-container2}
-<div>
+<div class="parallax-inner banner-readable">
   <p class="section-title">
     <i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre CONCLAT
   </p>
   <p class="section-lead">
-    El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y político en Argentina y Chile. Particularmente, el proyecto analiza cómo las personas de distintas clases y con distinto estatus sindical (por ejemplo, afiliados/as y no afiliados/as a sindicatos) perciben el conflicto dentro y fuera del lugar de trabajo. Para ello se aplicará una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases, trabajo y conflicto produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.
+      El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y político en Argentina y Chile. Particularmente, el proyecto analiza cómo las personas de distintas clases y con distinto estatus sindical (por ejemplo, afiliados/as y no afiliados/as a sindicatos) perciben el conflicto dentro y fuera del lugar de trabajo. Para ello se aplicará una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases, trabajo y conflicto produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.
   </p>
 </div>
 :::

@@ -537,107 +537,31 @@ html, body { max-width: 100%; overflow-x: clip; }
   text-decoration: underline !important;
 }
 
-/* =======================
-   FIX de sintaxis
-   ======================= */
-.post-contents {
-  padding-left: 1.5em;  /* ← faltaba ; */
-  padding-right: 1.5em;
-  margin: 1rem;
-}
-
-/* ← quita la barra invertida y saltos raros en el selector */
-.hero-heading-content {
-  position: relative;
-  z-index: 2;
-  pointer-events: none;
-}
-
-/* =======================
-   Mejoras de legibilidad en héroes/parallax
-   ======================= */
-
-/* 1) Superposición oscura (vino→negro) para mejorar contraste del texto */
-.parallax-image-container::before,
-.parallax-image-container2::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  /* capa rojiza institucional que se oscurece hacia abajo */
-  background: linear-gradient(
-    to bottom,
-    rgba(111, 0, 0, 0.60) 0%,
-    rgba(0, 0, 0, 0.55) 60%,
-    rgba(0, 0, 0, 0.45) 100%
-  );
-  z-index: 1;
-  pointer-events: none;
-}
-
-/* conservamos el fade inferior existente (oscuro→transparente) */
-.parallax-image-container::after,
-.parallax-image-container2::after {
-  content: "";
-  position: absolute; left: 0; right: 0; bottom: 0;
-  height: 160px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.45) 100%);
-  pointer-events: none;
-  z-index: 1;
-}
-
-/* 2) Texto siempre por encima del overlay */
-.parallax-image-container > *,
-.parallax-image-container2 > * {
-  position: relative;
-  z-index: 2;
-}
-
-/* 3) Títulos y párrafos en blanco + sombra sutil para crispness */
-.parallax-image-container .section-title,
-.parallax-image-container2 .section-title,
-.parallax-image-container .section-lead,
-.parallax-image-container2 .section-lead {
-  color: #fff !important;
-  text-shadow: 0 2px 12px rgba(0,0,0,.35);
-  font-weight: 700;
-}
-
-/* 4) (Opcional) “Glass card” atrás del texto largo: añade class .banner-readable al wrapper de texto */
+/* ===============================================
+   Glass oscuro detrás del bloque de texto principal
+   =============================================== */
 .banner-readable {
-  background: rgba(0,0,0,0.28);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.45);         /* tono oscuro translúcido */
+  backdrop-filter: blur(6px);              /* efecto vidrio */
+  -webkit-backdrop-filter: blur(6px);
   border-radius: 16px;
-  padding: 1rem 1.25rem;
-  margin-inline: auto;
-  max-width: 70ch;
+  padding: 1.5rem 2rem;
+  max-width: 70ch;                         /* ancho legible */
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
-/* 5) Enlaces sobre fondo oscuro: usa rojo Conclat y subraya al hover */
-.parallax-image-container a,
-.parallax-image-container2 a {
-  color: #ff5651;                  /* acento */
-  text-decoration: none;
-  font-weight: 600;
-}
-.parallax-image-container a:hover,
-.parallax-image-container2 a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-/* 6) Mobile: baja un poco la opacidad para no “apagar” demasiado la imagen en pantallas chicas */
+/* ===============================================
+   Glass oscuro detrás del bloque de texto principal
+   =============================================== */
+/* En pantallas pequeñas, un poco más transparente */
 @media (max-width: 768px) {
-  .parallax-image-container::before,
-  .parallax-image-container2::before {
-    background: linear-gradient(
-      to bottom,
-      rgba(111, 0, 0, 0.45) 0%,
-      rgba(0, 0, 0, 0.40) 60%,
-      rgba(0, 0, 0, 0.35) 100%
-    );
+  .banner-readable {
+    background: rgba(0, 0, 0, 0.35);
+    padding: 1rem 1.25rem;
   }
 }
+
 
 
 /* =========================================================

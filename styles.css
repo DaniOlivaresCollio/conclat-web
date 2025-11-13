@@ -550,6 +550,10 @@ html, body { max-width: 100%; overflow-x: clip; }
   margin: 0 auto;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
+.banner-readable.wide {
+  max-width: min(95vw, 1100px);   /* ancho grande pero responsivo */
+  padding: 2rem 2.25rem;          /* un poco más de aire */
+}
 
 /* ===============================================
    Glass oscuro detrás del bloque de texto principal

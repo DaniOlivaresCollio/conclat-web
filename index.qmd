@@ -12,21 +12,6 @@ about:
   id: hero-heading
   template: jolla
   image-shape: rectangle
-listing: 
-  - id: noticias
-    contents: 
-    - noticias/posts/*/*.qmd
-    - "!noticias/posts/drafts/*qmd"
-    sort: date desc
-    type: grid
-    grid-columns: 3
-    image-height: 150px
-    fields: [image, title, description]
-    max-items: 3
-    categories: false
-    sort-ui: false
-    filter-ui: false
-    feed: false
 ---
 
 <!-- ========================== BANNER =========================== -->
@@ -57,21 +42,6 @@ listing:
   </p>
 </div>
 </div>
-:::
-:::
-
-
-<!-- ====================== NOTICIAS (parallax) ====================== -->
-::: {.parallax-container}
-::: {.parallax-image-container}
-<div class="parallax-inner">
-  <p class="section-title">
-    <i class="bi bi-newspaper" style="margin-right: 10px;"></i>Noticias
-  </p>
-</div>
-
-::: {#noticias}
-:::
 :::
 :::
 

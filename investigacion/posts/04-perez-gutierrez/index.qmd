@@ -1,0 +1,37 @@
+---
+title: "Organizaciones laborales y protesta: Reflexiones sobre la fragmentación sindical, el pluralismo sindical y las huelgas"
+subtitle: "Pablo Pérez Ahumada & Francisca Gutierrez"
+date: "2024-08-10"
+image: "alyssa-kibiloski-WHYHfmBuCB4-unsplash.jpg"
+description: ""
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "alyssa-kibiloski-WHYHfmBuCB4-unsplash.jpg"
+---
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://doi.org/10.1002/casp.2831" target="_blank" rel="noopener">Leer el paper</a>
+</div>
+
+<details class="details-btn" markdown="1">
+  <summary><span class="summary-chip">Cita (APA 7)</span></summary>
+  <p class="apa-ref"><strong>Pérez-Ahumada, P. & Gutiérrez-Crocco, F. </strong> (2024). <em>Labor Organizations and Protest: Reflections on the Fragmentation of Unions, Union Pluralism, and Strikes.</em> <em>Journal of Community & Applied Psychology</em>, 34(4). https://doi.org/10.1002/casp.2831</p>
+</details>
+
+## Abstract 
+El artículo examina cómo la estructura de los sindicatos en Chile ha afectado la dinámica de las protestas laborales durante la última década. Estudiamos la relación entre la fragmentación y el pluralismo sindical y la actividad huelguística en el sector privado (2011–2019). La hipótesis central es que las industrias económicas con mayor pluralismo y fragmentación sindical tienen niveles más altos de conflicto laboral. 
+
+De acuerdo con la hipótesis, los resultados indican una relación positiva entre el pluralismo y la fragmentación sindical y la frecuencia de huelgas, una relación que no se explica completamente por las diferencias en el poder sindical entre sectores. 
+
+Argumentamos que la existencia de regulaciones que promueven la fragmentación sindical es crucial para entender el débil poder de negociación de los sindicatos y, de manera algo paradójica, los altos niveles de actividad huelguística en Chile. De manera más general, el capítulo contribuye al debate sobre cómo las organizaciones laborales influyeron en el crecimiento de la protesta social en Chile antes del estallido social de 2019.
+
+## Etiquetas
+Desigualdad, Sindicalismo, Huelgas Laborales.
+
+
+
+
+
+      

@@ -1,0 +1,32 @@
+---
+title: "¿Por qué los miembros de sindicatos están más dispuestos a hacer huelga y protestar que los no sindicalizados? Evidencia de Argentina y Chile"
+subtitle: "Pablo Pérez Ahumada & Charo Astorga-Pinto"
+date: "2024-08-06"
+image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"
+description: ""
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"
+---
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://doi.org/10.1177/00221856241269660" target="_blank" rel="noopener">Leer el paper</a>
+</div>
+
+<details class="details-btn" markdown="1">
+  <summary><span class="summary-chip">Cita (APA 7)</span></summary>
+  <p class="apa-ref"><strong>Pérez-Ahumada, P., & Astorga-Pinto, C.</strong> (2024). <em>Why are union members more willing to strike and protest than nonunion members? Evidence from Argentina and Chile.</em> <em>Journal of Industrial Relations</em>, 1–67. https://doi.org/10.1177/00221856241269660</p>
+</details>
+
+## Abstract 
+Estudios empíricos han demostrado que los miembros de sindicatos tienen más probabilidades de participar en acciones colectivas que los no sindicalizados. Sin embargo, aún sabemos poco sobre los mecanismos que explican por qué ocurre esto. En este artículo, nuestro objetivo es llenar este vacío en la literatura. 
+
+Utilizando datos de la Encuesta Mundial de Valores para Argentina y Chile (2006–2018), empleamos el análisis de mediación de Karlson–Holm–Breen para analizar en qué medida la relación entre la membresía sindical y la participación en manifestaciones y huelgas se explica por los mayores niveles de politización y una orientación más fuerte hacia la izquierda de los miembros sindicales, como se ha planteado en estudios previos. 
+
+Encontramos que en ambos países, estos dos mediadores explican más del 30% de la relación entre la membresía sindical y la participación en manifestaciones. También hallamos que estos dos mediadores explican alrededor del 20% de la relación entre la membresía sindical y la participación en huelgas en Argentina, y casi el 40% de dicha relación en Chile. Al final del artículo, ofrecemos algunas explicaciones para estos hallazgos y mostramos cómo contribuyen a la literatura sobre sindicatos, política de clases y relaciones laborales.
+
+## Etiquetas
+Movimiento Sindical, Sindicalismo, Huelgas Laborales.
+

@@ -1,0 +1,36 @@
+---
+title: "Desigualdad subjetiva y actitudes hacia los sindicatos: evidencia de América Latina"
+subtitle: "Pablo Pérez Ahumada & Juan Diego García-Castro"
+date: "2024-10-01"
+image: "camille-airvault-rMWqgy5_1ik-unsplash.jpg"
+description: ""
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "camille-airvault-rMWqgy5_1ik-unsplash.jpg"
+---
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://doi.org/10.1016/j.rssm.2024.100982" target="_blank" rel="noopener">Leer el paper</a>
+</div>
+
+<details class="details-btn" markdown="1">
+  <summary><span class="summary-chip">Cita (APA 7)</span></summary>
+  <p class="apa-ref"><strong>Pérez-Ahumada, P., & García-Castro, J.D.</strong> (2024). <em>Subjective inequality and attitudes to labor unions: Evidence from Latin America.</em> <em>Research in Social Stratification and Mobility</em>, 93. https://doi.org/10.1016/j.rssm.2024.100982</p>
+</details>
+
+## Abstract 
+Los sindicatos juegan un papel clave en la defensa de los derechos de las y los trabajadores y en la construcción de sociedades más igualitarias. A pesar de esto, pocas investigaciones empíricas han analizado cómo las actitudes hacia los sindicatos son moldeadas por manifestaciones subjetivas de desigualdad. Reuniendo la investigación sociológica y socio-psicológica sobre desigualdad, en este artículo abordamos el tema estudiando cómo las actitudes hacia los sindicatos están influenciadas por la identificación de clase y la desigualdad ideal, entendida como el nivel de desigualdad que las personas consideran ideal o justa. 
+
+Utilizando datos de la encuesta Latinobarómetro 2020 para 18 países latinoamericanos, encontramos que las actitudes a favor de los sindicatos son significativamente mayores entre aquellos que se identifican con la clase media-baja, pero no entre quienes se identifican con la clase baja. También encontramos una relación negativa entre la desigualdad ideal, medida por un pseudoíndice de Gini de desigualdad ideal, y las actitudes a favor de los sindicatos: aquellos que desean menos desigualdad económica tienen actitudes más positivas hacia los sindicatos. 
+
+Finalmente, descubrimos que el efecto de la identificación de clase y la desigualdad ideal está moderado por las orientaciones políticas individuales. Al final de este artículo, explicamos estos hallazgos y mostramos cómo contribuyen a la investigación reciente sobre desigualdad subjetiva y actitudes hacia los sindicatos.
+
+## Etiquetas
+Desigualdad, Sindicatos, América Latina.
+
+
+
+
+      

@@ -1,0 +1,37 @@
+---
+title: "La confianza en los sindicatos impulsa el igualitarismo: evidencia longitudinal"
+subtitle: "Juan Diego García-Castro, Martín Venegas & Pablo Pérez Ahumada"
+date: "2024-06-24"
+image: "aaron-blanco-tejedor-yH18lOSaZVQ-unsplash.jpg"
+description: ""
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "aaron-blanco-tejedor-yH18lOSaZVQ-unsplash.jpg"
+---
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://doi.org/10.1002/casp.2831" target="_blank" rel="noopener">Leer el paper</a>
+</div>
+
+<details class="details-btn" markdown="1">
+  <summary><span class="summary-chip">Cita (APA 7)</span></summary>
+  <p class="apa-ref"><strong>García-Castro, J.; Venegas Márquez, M. & Pérez Ahumada, P.</strong> (2024). <em>Trust in unions drives egalitarianism: longitudinal evidence.</em> <em>Journal of Community & Applied Psychology</em>, 34(4). https://doi.org/10.1002/casp.2831</p>
+</details>
+
+## Abstract 
+A pesar del papel fundamental de los sindicatos en la reducción de la desigualdad económica, la psicología social aún necesita incorporar el estudio sistemático de los sindicatos en las teorías contemporáneas de desigualdad intergrupal. En este estudio, abordamos este tema al probar la relación recíproca entre la confianza en los sindicatos y el igualitarismo de la orientación de dominancia social (SDO-E) a lo largo del tiempo. 
+
+Utilizando datos de la Encuesta Longitudinal Social de Chile, que es un estudio panel con una muestra representativa de áreas urbanas, realizamos un Modelo de Panel Cruzado con Intercepto Aleatorio con cuatro oleadas (2016-2019, N = 2972-2153). Controlamos el efecto principal por sexo, edad, ideología política y nivel educativo. 
+
+Los resultados muestran una relación positiva entre SDO-E y la confianza en los sindicatos tanto en niveles intraindividuales como interindividuales. Esto significa que las personas que confían en los sindicatos también tienden a tener un mayor SDO-E (efecto interindividual), y un aumento intraindividual en la confianza en los sindicatos tiende a ser seguido por un aumento en SDO-E (efecto intraindividual). Confiar en los sindicatos como una institución que promueve la reducción de la jerarquía entre trabajadores y empleadores ayuda a aumentar el SDO-E de las personas con el tiempo. Consulte la sección de Material Suplementario para encontrar la Declaración de Impacto Social y Comunitario de este artículo.
+
+## Etiquetas
+Desigualdad, Sindicalismo, Longitudinal.
+
+
+
+
+
+      

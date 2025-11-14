@@ -23,56 +23,51 @@
 }
 @media (max-width:680px){ .top-cta .btn{ width:100%; text-align:center; } }
 
-/* ===================== Estilo del ToC lateral (sidebar) ===================== */
-
-/* Fondo del contenedor del ToC */
-.sidebar nav.toc {
-  background: #ffffff;
-  border-left: 4px solid #ca0000;
-  padding-left: 0.8rem;
+/* ====== Contenedor y título ====== */
+.sidebar nav.toc{ background:#fff; border-left:4px solid #ca0000; padding-left:.8rem; }
+.sidebar nav.toc h2, .sidebar nav.toc .toc-title{
+  font-weight:800; color:#6f0000; text-transform:uppercase; letter-spacing:.5px; font-size:.95rem;
 }
 
-/* Título "En esta página" */
-.sidebar nav.toc h2,
-.sidebar nav.toc .toc-title {
-  font-weight: 800;
-  color: #6f0000;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  font-size: 0.95rem;
+/* ====== Enlaces (varias firmas según versión Quarto) ====== */
+.sidebar nav.toc .nav-link,
+.sidebar nav.toc ul > li > a,
+#TOC .nav-link,
+#TOC a{
+  color:#d02e38 !important;
+  background: transparent !important;
+  border-radius:4px;
+  padding:2px 6px;
+  transition:all .15s ease;
 }
 
-/* Enlaces del ToC */
-.sidebar nav.toc ul > li > a {
-  color: #d02e38 !important;
-  background-color: transparent !important;
-  border-radius: 4px;
-  padding: 2px 6px;
-  transition: all 0.15s ease;
+/* Hover */
+.sidebar nav.toc .nav-link:hover,
+.sidebar nav.toc ul > li > a:hover,
+#TOC .nav-link:hover,
+#TOC a:hover{
+  color:#fff !important;
+  background:#ca0000 !important;
 }
 
-/* Hover y enlace activo */
-.sidebar nav.toc ul > li > a:hover {
-  color: #fff !important;
-  background-color: #ca0000 !important;
-}
-.sidebar nav.toc ul > li > a.active,
-.sidebar nav.toc ul > li > a:focus {
-  color: #fff !important;
-  background-color: #6f0000 !important;
-  font-weight: 700;
+/* Activo */
+.sidebar nav.toc .nav-link.active,
+#TOC .nav-link.active{
+  color:#fff !important;
+  background:#6f0000 !important;
+  font-weight:700;
 }
 
 /* Subniveles */
-.sidebar nav.toc ul ul a {
-  color: #d02e38 !important;
-  font-size: 0.9rem;
-  padding-left: 1rem;
+.sidebar nav.toc ul ul a,
+#TOC ul ul a{
+  color:#d02e38 !important;
+  font-size:.9rem;
+  padding-left:1rem;
 }
 
-/* Sutil borde divisorio */
-.sidebar nav.toc ul {
-  border-top: 1px solid #ff5651;
-  margin-top: 0.4rem;
-  padding-top: 0.4rem;
+/* Línea divisoria sutil */
+.sidebar nav.toc ul, #TOC ul{
+  border-top:1px solid #ff5651;
+  margin-top:.4rem; padding-top:.4rem;
 }

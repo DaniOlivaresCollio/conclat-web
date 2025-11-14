@@ -3,10 +3,9 @@ title: "¿Por qué los miembros de sindicatos están más dispuestos a hacer hue
 subtitle: "Pérez Ahumada, Pablo & Astorga, Charo (2024)"
 date: "2024-08-06"
 image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"
-description: "Evidencia de Argentina y Chile usando WVS y KHB."
+description: ""
 lang: es
 draft: false
-
 about:
   template: marquee
   image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"

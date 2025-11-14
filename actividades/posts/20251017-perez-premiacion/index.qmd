@@ -12,7 +12,7 @@ about:
   image: ""
 ---
 
-# Encuentro de Investigación U. de Chile 2025k
+# Encuentro de Investigación U. de Chile 2025
 El pasado miércoles 15, jueves 16 y viernes 17 de octubre se realizó el [Encuentro de Investigación 2025: Ciencia y Conocimiento frente a los desafíos país](https://uchile.cl/agenda/231109/encuentro-de-investigacion-uchile-2025), de la [Universidad de Chile](https://uchile.cl/). Este espacio convocó a académicos/as, estudiantes e investigadores/as de la universidad a reflexionar en torno a la investigación desarrollada. La instancia contempló la exposición de charlas magistrales, poster académicos/as, talleres y participación de distintas instancias universitarias. 
 
 # Ceremonia de Premiación

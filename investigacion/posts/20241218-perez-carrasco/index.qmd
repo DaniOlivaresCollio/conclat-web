@@ -1,0 +1,32 @@
+---
+title: "Política de clases y confianza en los sindicatos en América Latina"
+subtitle: "Pablo Pérez Ahumada & Kevin Carrasco"
+date: "2024-12-18"
+image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"
+description: ""
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"
+---
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://doi.org/10.1017/lar.2024.64 " target="_blank" rel="noopener">Leer el paper</a>
+</div>
+
+<details class="details-btn" markdown="1">
+  <summary><span class="summary-chip">Cita (APA 7)</span></summary>
+  <p class="apa-ref"><strong>Pérez-Ahumada, P., & Carrasco, K.</strong> (2024). <em>Política de clases y confianza en los sindicatos en América Latina.</em> <em>Latin American Research Reviews</em>, 60(2). https://doi.org/10.1017/lar.2024.64 </p>
+</details>
+
+## Abstract 
+En este artículo, estudiamos qué factores individuales y contextuales explican la confianza en los sindicatos latinoamericanos. Utilizando datos de Latinobarómetro (2018–2020), mostramos que la confianza en los sindicatos es mayor entre personas de clase trabajadora y clase media asalariada, así como entre quienes se identifican con la izquierda y confían más en las instituciones políticas. 
+
+A nivel contextual, la confianza es mayor en países neo-desarrollistas (por ejemplo, Brasil y Uruguay) y menor en países capitalistas tercerizados (por ejemplo, México y países centroamericanos). Contrario a nuestra hipótesis, también encontramos que la confianza en los sindicatos es alta en Chile (un país liberal-rentista con sindicatos débiles) y baja en algunos países redistributivo-rentistas (Venezuela) y neo-desarrollistas (Argentina). 
+
+Para explicar estos resultados, analizamos cómo la confianza en los sindicatos depende de aspectos contextuales como la informalidad laboral, el desempleo, la inflación, el poder de los partidos de izquierda y el nivel de movilización social.
+
+## Etiquetas
+Sindicatos, Clase Social, Partidos, Movilizaciones Sociales.
+

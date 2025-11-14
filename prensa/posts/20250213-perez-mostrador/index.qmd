@@ -4,7 +4,7 @@ subtitle: "Pablo Pérez Ahumada"
 date: "2025-02-13" 
 image: "A_UNO_1084386-700x467.jpg"
 description: ""
-categories: [opinión]
+categories: [opinión, noticias]
 lang: es
 draft: false
 about:

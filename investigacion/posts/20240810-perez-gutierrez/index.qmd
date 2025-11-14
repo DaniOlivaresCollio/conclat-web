@@ -4,6 +4,7 @@ subtitle: "Pablo Pérez Ahumada & Francisca Gutierrez"
 date: "2024-08-10"
 image: "alyssa-kibiloski-WHYHfmBuCB4-unsplash.jpg"
 description: ""
+categories: [paper, investigación]
 lang: es
 draft: false
 about:

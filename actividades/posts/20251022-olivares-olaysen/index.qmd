@@ -4,7 +4,7 @@ subtitle: "Observatorio Laboral Aysén"
 date: "2025-10-22" 
 image: "d1cfefe6-0504-4928-baa5-18f5df7b885a.jpg"
 description: ""
-categories: [Charla]
+categories: [charla, noticias]
 lang: es
 draft: false
 about:

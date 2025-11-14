@@ -4,7 +4,7 @@ subtitle: "Pablo Pérez Ahumada"
 date: "2024-03-07" 
 image: "CUT-paro-Codelco.jpg"
 description: ""
-categories: [opinión]
+categories: [opinión, noticias]
 lang: es
 draft: false
 about:

@@ -4,7 +4,7 @@ subtitle: "Pablo Pérez Ahumada"
 date: "2023-12-24" 
 image: "Golpe-700x311.jpeg"
 description: ""
-categories: [opinión]
+categories: [opinión, noticias]
 lang: es
 draft: false
 about:

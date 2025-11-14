@@ -4,6 +4,7 @@ subtitle: "Juan Diego García-Castro, Martín Venegas & Pablo Pérez Ahumada"
 date: "2024-06-24"
 image: "aaron-blanco-tejedor-yH18lOSaZVQ-unsplash.jpg"
 description: ""
+categories: [paper, investigación]
 lang: es
 draft: false
 about:

@@ -4,7 +4,7 @@ subtitle: "Pablo Pérez Ahumada"
 date: "2025-05-04" 
 image: "CUT-chile--e1743549125897.jpg"
 description: ""
-categories: [opinión]
+categories: [opinión, noticias]
 lang: es
 draft: false
 about:

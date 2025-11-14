@@ -4,6 +4,7 @@ subtitle: "Pablo Pérez Ahumada & Kevin Carrasco"
 date: "2024-12-18"
 image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"
 description: ""
+categories: [paper, investigación]
 lang: es
 draft: false
 about:

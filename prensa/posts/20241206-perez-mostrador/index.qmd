@@ -4,7 +4,7 @@ subtitle: "Pablo Pérez Ahumada"
 date: "2024-12-06" 
 image: "Elecciones1_AUNO.jpeg"
 description: ""
-categories: [opinión]
+categories: [opinión, noticias]
 lang: es
 draft: false
 about:

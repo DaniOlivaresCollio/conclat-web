@@ -12,7 +12,7 @@ listing:
   contents: posts
   type: grid
   sort: "date desc"
-  fields: [image, title, subtitle, date]
+  fields: [image, title, subtitle, categories, date]
   grid-columns: 3
   image-height: 170px
   date-format: "DD MMM YYYY"

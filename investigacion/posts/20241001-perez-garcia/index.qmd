@@ -4,6 +4,7 @@ subtitle: "Pablo Pérez Ahumada & Juan Diego García-Castro"
 date: "2024-10-01"
 image: "camille-airvault-rMWqgy5_1ik-unsplash.jpg"
 description: ""
+categories: [paper, investigación]
 lang: es
 draft: false
 about:

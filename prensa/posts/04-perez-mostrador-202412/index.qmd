@@ -1,0 +1,27 @@
+---
+title: "Lecciones para la izquierda a partir del informe de Desarrollo Humano del PNUD"
+subtitle: "Pablo Pérez Ahumada"
+date: "2024-12-06" 
+image: "Elecciones1_AUNO.jpeg"
+description: ""
+lang: es
+draft: false
+about:
+  template: marquee
+  image: ""
+---
+
+# Columna de opinión
+Recientemente, el informe del PNUD ha mostrado que las demandas de cambio social (por ejemplo, la demanda por mayor igualdad) siguen estando presentes en gran parte de los chilenos y chilenas. Sin embargo, dicho informe señala también que el país no tiene las capacidades sociales suficientes para conducir dichos cambios.
+
+La falta de estas capacidades obedece, en primer lugar, a relaciones disfuncionales entre los actores que deberían conducir los cambios, como movimientos sociales, elites y ciudadanía.
+
+Estas relaciones disfuncionales se observan –según muestra el informe–, en la desconfianza ciudadana en las instituciones políticas o en la separación entre movimientos sociales y partidos políticos, lo cual dificulta la construcción de agendas unitarias (que superen las demandas fragmentadas) y orientadas en torno a estrategias consistentes de cambio social.
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://www.elmostrador.cl/noticias/opinion/columnas/2024/12/06/lecciones-para-la-izquierda-a-partir-del-informe-de-desarrollo-humano-del-pnud" target="_blank" rel="noopener">Seguir leyendo</a>
+</div>
+
+## Etiquetas
+Desarrollo Humano, PNUD, Cambio Social.
+

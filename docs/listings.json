@@ -2,13 +2,13 @@
   {
     "listing": "/prensa/prensa.html",
     "items": [
-      "/prensa/posts/07-perez-mostrador-202510/index.html",
-      "/prensa/posts/06-perez-mostrador-202505/index.html",
-      "/prensa/posts/05-perez-mostrador-202502/index.html",
-      "/prensa/posts/04-perez-mostrador-202412/index.html",
-      "/prensa/posts/02-perez-mostrador-202403/index.html",
-      "/prensa/posts/03-perez-mostrador-202405/index.html",
-      "/prensa/posts/01-perez-mostrador-202312/index.html"
+      "/prensa/posts/20251025-perez-mostrador/index.html",
+      "/prensa/posts/20250504-perez-mostrador/index.html",
+      "/prensa/posts/20250213-perez-mostrador/index.html",
+      "/prensa/posts/20241206-perez-mostrador/index.html",
+      "/prensa/posts/20240307-perez-mostrador/index.html",
+      "/prensa/posts/20240517-perez-mostrador/index.html",
+      "/prensa/posts/20231224-perez-mostrador/index.html"
     ]
   },
   {
@@ -28,18 +28,17 @@
   {
     "listing": "/investigacion/investigacion.html",
     "items": [
-      "/investigacion/posts/02-perez-garcia/index.html",
-      "/investigacion/posts/04-perez-gutierrez/index.html",
-      "/investigacion/posts/01-perez-astorga/index.html",
-      "/investigacion/posts/03-garcia-venegas-perez/index.html"
+      "/investigacion/posts/20241001-perez-garcia/index.html",
+      "/investigacion/posts/20240810-perez-gutierrez/index.html",
+      "/investigacion/posts/20240806-perez-astorga/index.html",
+      "/investigacion/posts/20240624-garcia-venegas-perez/index.html"
     ]
   },
   {
     "listing": "/actividades/actividades.html",
     "items": [
-      "/actividades/posts/05-olivares-olaysen-20251022/index.html",
-      "/actividades/posts/06-perez-premiacion-20251017/index.html",
-      "/actividades/posts/06-perez-premiacion-202510/index.html"
+      "/actividades/posts/20251022-olivares-olaysen/index.html",
+      "/actividades/posts/20251017-perez-premiacion/index.html"
     ]
   }
 ]

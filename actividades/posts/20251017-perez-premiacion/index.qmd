@@ -1,8 +1,8 @@
 ---
-title: "Reconocimiento a nuesto IP Pablo Pérez Ahumada por su aporte en Investigación"
+title: "Reconocimiento a IP Pablo Pérez Ahumada por su aporte en Investigación"
 subtitle: "Universidad de Chile"
-date: "2025-10-25" 
-image: "CUT-chile--e1743549125897.jpg"
+date: "2025-10-17" 
+image: "IMG_5152.jpg"
 description: ""
 categories: [premiación]
 lang: es
@@ -12,17 +12,16 @@ about:
   image: ""
 ---
 
-# Columna de opinión
-En mayo pasado, la Central Unitaria de Trabajadores y Trabajadoras (CUT) realizó su último proceso electoral. En la elección participaron cerca de 46 mil trabajadores, quienes eligieron a través de voto universal y directo a los 45 consejeros nacionales y a los 11 miembros del comité ejecutivo que conducirán los destinos de la central sindical hasta 2029.
+# Encuentro de Investigación U. de Chile 2025k
+El pasado miércoles 15, jueves 16 y viernes 17 de octubre se realizó el [Encuentro de Investigación 2025: Ciencia y Conocimiento frente a los desafíos país](https://uchile.cl/agenda/231109/encuentro-de-investigacion-uchile-2025), de la [Universidad de Chile](https://uchile.cl/). Este espacio convocó a académicos/as, estudiantes e investigadores/as de la universidad a reflexionar en torno a la investigación desarrollada. La instancia contempló la exposición de charlas magistrales, poster académicos/as, talleres y participación de distintas instancias universitarias. 
 
-La elección de la CUT tiene una serie de aspectos relevantes cuyas consecuencias, a mi parecer, trascienden lo meramente sindical. En primer lugar, destaca la importante presencia de mujeres en el Consejo Nacional. Por primera vez en la historia de la central, la mayoría del consejo (casi el 60% de los 45 cargos) está compuesto por mujeres. Como bien lo destacó la vicepresidenta de la Mujer e Igualdad de Género de la CUT, Karen Palma, este hecho no es menor si se considera que, según cifras de la Dirección del Trabajo, a nivel nacional apenas un 37% de los cargos de dirigencia sindical está ocupado por mujeres.
+# Ceremonia de Premiación
+En dicha instancia se realizó la ceremonia de reconocimiento a distintos/as investigadores/as por su aporte al desarrollo de la investigación. [**Pablo Pérez Ahumada**](https://conclat.com/nosotros/miembros/01-pabloperez/), Investigador Principal del [Proyecto Conclat](https://conclat.com/) y académico de la [Facultad de Ciencias Sociales](https://facso.uchile.cl/), recibió un importante reconocimiento por su labor y aporte a la investigación en la categoría **Resolución de los Problemas País**. 
 
-Más aún, este cambio no solo implica una mayor representación formal, sino también una potencial transformación en la agenda sindical. El aumento de la influencia femenina abre la posibilidad de revitalizar a los sindicatos, ampliando sus horizontes y generando mayor apertura hacia la integración de demandas históricamente relegadas, como la igualdad de género, la conciliación entre trabajo y vida familiar o la lucha contra la discriminación laboral hacia las mujeres.
 
 <div class="top-cta">
-  <a class="btn btn-sm btn-primary" href="https://www.elmostrador.cl/noticias/opinion/columnas/2025/10/25/elecciones-sindicatos-y-partidos/" target="_blank" rel="noopener">Seguir leyendo</a>
+  <a class="btn btn-sm btn-primary" href="https://facso.uchile.cl/noticias/233858/academicos-de-facso-fueron-premiados-en-encuentro-de-investigacion" target="_blank" rel="noopener">Leer más</a>
 </div>
 
-## Etiquetas
-Movimiento Sindical, Partidos políticos, Elecciones.
+
 

@@ -1,0 +1,28 @@
+---
+title: "Elecciones, sindicatos y partidos"
+subtitle: "Pablo Pérez Ahumada"
+date: "2025-10-25" 
+image: "CUT-chile--e1743549125897.jpg"
+description: ""
+categories: [opinión]
+lang: es
+draft: false
+about:
+  template: marquee
+  image: ""
+---
+
+# Columna de opinión
+En mayo pasado, la Central Unitaria de Trabajadores y Trabajadoras (CUT) realizó su último proceso electoral. En la elección participaron cerca de 46 mil trabajadores, quienes eligieron a través de voto universal y directo a los 45 consejeros nacionales y a los 11 miembros del comité ejecutivo que conducirán los destinos de la central sindical hasta 2029.
+
+La elección de la CUT tiene una serie de aspectos relevantes cuyas consecuencias, a mi parecer, trascienden lo meramente sindical. En primer lugar, destaca la importante presencia de mujeres en el Consejo Nacional. Por primera vez en la historia de la central, la mayoría del consejo (casi el 60% de los 45 cargos) está compuesto por mujeres. Como bien lo destacó la vicepresidenta de la Mujer e Igualdad de Género de la CUT, Karen Palma, este hecho no es menor si se considera que, según cifras de la Dirección del Trabajo, a nivel nacional apenas un 37% de los cargos de dirigencia sindical está ocupado por mujeres.
+
+Más aún, este cambio no solo implica una mayor representación formal, sino también una potencial transformación en la agenda sindical. El aumento de la influencia femenina abre la posibilidad de revitalizar a los sindicatos, ampliando sus horizontes y generando mayor apertura hacia la integración de demandas históricamente relegadas, como la igualdad de género, la conciliación entre trabajo y vida familiar o la lucha contra la discriminación laboral hacia las mujeres.
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://www.elmostrador.cl/noticias/opinion/columnas/2025/10/25/elecciones-sindicatos-y-partidos/" target="_blank" rel="noopener">Seguir leyendo</a>
+</div>
+
+## Etiquetas
+Movimiento Sindical, Partidos políticos, Elecciones.
+

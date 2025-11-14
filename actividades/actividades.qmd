@@ -1,21 +1,25 @@
 ---
-title: "Actividades"
+title: ""
 page-layout: full
-title-block-banner: true
-lang: es
-listing:
-  contents:
-    - "presentaciones/*/index.qmd"
-  sort: "date desc"
-  type: default
-  fields: [date, author, title, description]  # sin categorías
-  filter-ui: [search]
-  date-format: "MMM YYYY" 
-  page-size: 10
-  max-items: 999
-format:
+title-block-banner: false
+comments: false
+toc: false
+format: 
   html:
     css:
-      - "styles_actividades.css"  # << debe ir al final para que tenga prioridad
+      - /resources/css/actividades.css
+listing:
+  contents: posts
+  type: grid
+  sort: "date desc"
+  fields: [image, title, subtitle, date]
+  grid-columns: 3
+  image-height: 170px
+  date-format: "DD MMM YYYY"
+  categories: false
+  filter-ui: false
 ---
 
+::: {.banner-full .full-bleed}
+# Actividades {.banner-text}
+:::

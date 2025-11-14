@@ -1,0 +1,28 @@
+---
+title: " ¿Fin del proceso constituyente y comienzo de la movilización sindical? El llamado a paro de la CUT"
+subtitle: "Pablo Pérez Ahumada"
+date: "2024-03-07" 
+image: "CUT-paro-Codelco.jpg"
+description: ""
+categories: [opinión]
+lang: es
+draft: false
+about:
+  template: marquee
+  image: ""
+---
+
+# Columna de opinión
+El resultado del plebiscito de salida del 17 de diciembre de 2023 cerró la posibilidad de aprobar una propuesta constitucional llena de retrocesos para las trabajadoras y los trabajadores chilenos. Sin embargo, como era de esperar, dicho resultado no produjo entusiasmo entre las organizaciones sociales y partidos políticos de izquierda. Más bien, produjo alivio y especialmente incertidumbre respecto de cuál será el panorama político en 2024. La minoría del Gobierno en ambas Cámaras y las dificultades que este ha tenido para llevar a cabo reformas claves de su programa (por ejemplo, la reforma de pensiones) no han hecho más que incrementar la incertidumbre. Asimismo, aún impactados por el devenir del proceso constituyente, los movimientos sociales continúan careciendo del ímpetu de movilización observado hasta 2019.
+
+En este contexto, la principal organización sindical del país, la Central Unitaria de Trabajadores y Trabajadoras (CUT), ha dado pasos concretos para reactivar la movilización social en el país. En el marco de su 13º Congreso, más de 300 dirigentes(as) de sindicatos, federaciones y confederaciones sindicales de todo el país acordaron convocar un paro general para el 11 de abril de 2024.
+
+Como suele suceder en estos casos, la convocatoria a paro no surgió de la nada. En diversas entrevistas, dirigentes de la CUT han señalado que el Gobierno los “escucha poco” y que “mira en menos” a los sindicatos. Más aún, estos(as) dirigentes han sostenido que, a diferencia de lo que ocurre con otros actores sociales de la sociedad civil, el Gobierno ha mostrado poco interés en integrar a los sindicatos en la formulación de reformas clave para los(as) trabajadores(as), como lo fue la recién aprobada ley de conciliación trabajo-familia. Sumado a esto, los(as) sindicalistas de la CUT han insistido en que el Gobierno debe cumplir su promesa de ingresar al Parlamento un proyecto de ley que fortalezca un sistema de negociación colectiva multinivel.
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://www.elmostrador.cl/noticias/opinion/columnas/2024/03/07/fin-del-proceso-constituyente-y-comienzo-de-la-movilizacion-sindical-el-llamado-a-paro-de-la-cut/" target="_blank" rel="noopener">Seguir leyendo</a>
+</div>
+
+## Etiquetas
+Movimiento Sindical, CUT, Sindicalismo
+

@@ -50,7 +50,7 @@ website:
         href: investigacion/investigacion.qmd
       - text: Prensa
         icon: newspaper
-        href: recomendados/recomendados.qmd
+        href: prensa/prensa.qmd
       - text: Actividades
         icon: calendar-week
         href: actividades/actividades.qmd

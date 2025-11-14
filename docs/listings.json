@@ -1,7 +1,11 @@
 [
   {
-    "listing": "/oferta_formativa/oferta_formativa.html",
-    "items": []
+    "listing": "/prensa/prensa.html",
+    "items": [
+      "/prensa/posts/02-perez-mostrador-202403/index.html",
+      "/prensa/posts/03-perez-mostrador-202405/index.html",
+      "/prensa/posts/01-perez-mostrador-202312/index.html"
+    ]
   },
   {
     "listing": "/nosotros/nosotros.html",
@@ -72,15 +76,6 @@
       "/actividades/presentaciones/2022-taller-introduccion-a-shiny-enero-2022-aprendiendo-metodologia-por-valentina/index.html",
       "/actividades/presentaciones/2022-taller-pre-registros-y-pre-prints-enero-2022/index.html",
       "/actividades/presentaciones/2022-taller-reproducibilidad-enero-2022-aprendiendo-metodologia-por-valentina/index.html"
-    ]
-  },
-  {
-    "listing": "/noticias/noticias.html",
-    "items": [
-      "/noticias/posts/plantilla-quarto/index.html",
-      "/noticias/posts/taller-ciae2025/index.html",
-      "/noticias/posts/evento-socialtec/index.html",
-      "/noticias/posts/actualizacion-web/index.html"
     ]
   }
 ]

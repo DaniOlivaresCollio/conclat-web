@@ -1,11 +1,14 @@
 ---
 title: Clara Marticorena
 subtitle: Investigadora
-contacto: claramarticorena@gmail.com
-github: https://github.com/
-web: https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=33275&datos_academicos=yes
 image: "marticorena.jpg"
 orden: 7
+contacto: | 
+  <div class="card-contacto"> 
+    <a href="mailto:claramarticorena@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> 
+    <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a> 
+    <a href="https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=33275&datos_academicos=yes" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> 
+  </div> 
 about:
   template: trestles
   image-shape: rounded

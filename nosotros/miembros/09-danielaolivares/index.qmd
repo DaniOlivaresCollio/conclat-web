@@ -1,24 +1,27 @@
----
-title: Daniela Olivares Collío
-subtitle: Asistente de Investigación
-contacto: danielaolivarescollio@gmail.com
-github: https://github.com/DaniOlivaresCollio
-web: https://www.linkedin.com/in/daniela-olivares-collio/
-image: "olivares.jpg"
-orden: 9
-about:
-  template: trestles
-  image-shape: rounded
-  links:
-    - icon: envelope
-      href: mailto:danielaolivarescollio@gmail.com
-      text: Contacto
-    - icon: github
-      href: https://github.com/DaniOlivaresCollio
-      text: Github
-    - icon: globe
-      href: https://www.linkedin.com/in/daniela-olivares-collio/
-      text: Web Personal
+--- 
+title: "Daniela Olivares Collío" 
+subtitle: "Asistente de Investigación" 
+image: "olivares.jpg" 
+orden: 9 
+contacto: | 
+  <div class="card-contacto"> 
+    <a href="mailto:danielaolivarescollio@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> 
+    <a href="https://github.com/DaniOlivaresCollio" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a> 
+    <a href="https://www.linkedin.com/in/daniela-olivares-collio/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> 
+  </div> 
+about: 
+  template: trestles 
+  image-shape: rounded 
+  links: 
+    - icon: envelope 
+      href: mailto:danielaolivarescollio@gmail.com 
+      text: Contacto 
+    - icon: github 
+      href: https://github.com/DaniOlivaresCollio 
+      text: Github 
+    - icon: globe 
+      href: https://www.linkedin.com/in/daniela-olivares-collio/ 
+      text: Web Personal ---
 ---
 
 Magíster en Estadística de la Pontificia Universidad Católica de Chile, y Licenciada en Sociología de la Universidad de Chile. 

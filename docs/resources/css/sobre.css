@@ -1,0 +1,35 @@
+/* ===== Full-bleed util ===== */
+.full-bleed{
+  position:relative;
+  left:50%; right:50%;
+  margin-left:-50vw; margin-right:-50vw;
+  width:100vw;
+}
+
+/* ===== Banner ===== */
+.banner-full{
+  min-height: clamp(80px, 12vw, 140px);
+  display:flex;                 /* asegura centrado robusto */
+  align-items:center;
+  justify-content:center;
+  position:relative;            /* para stacking y evitar colapsos */
+  background: #6f0000;
+  color:#fff;
+  box-shadow:0 4px 12px rgba(0,0,0,.18);
+  margin-bottom:2rem;
+  overflow:hidden;              /* evita fugas de márgenes */
+}
+
+/* Aumenta especificidad: h1 dentro del banner */
+.banner-full .banner-text{
+  margin:0 !important;          /* pisa cualquier regla global */
+  padding:0 .5rem;              /* respiración mínima lateral */
+  font-weight:800;
+  letter-spacing:.5px;
+  text-transform:uppercase;
+  text-align:center;
+  text-shadow:0 2px 6px rgba(0,0,0,.25);
+  font-size:clamp(1.6rem,3.5vw,2.3rem);
+  line-height:1.1;
+  z-index:1;
+}

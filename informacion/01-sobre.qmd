@@ -2,55 +2,18 @@
 title: ""
 page-layout: full
 title-block-banner: false
-# include-in-header: meta.html
 comments: false
 toc: false
+format: 
+  html:
+    css:
+      - /resources/css/sobre.css
 ---
 
-::: {.banner-full}
-
-```{=html}
-<style>
-.banner-full {
-  position: relative;
-  width:100vw;
-  height: 100px;
-  margin-left: calc(50% - 50vw);
-/* Gradiente con los tonos CONCLAT */
-  background: linear-gradient(135deg, #6f0000 0%, #ca0000 35%, #d02e38 70%, #ff5651 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-  margin-bottom: 2rem;
-}
-
-/* Texto centrado sin fondo */
-.banner-text {
-  color: #ffffff;
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.25); /* leve sombra para contraste */
-}
-
-/* Responsive para pantallas pequeñas */
-@media (max-width: 768px) {
-  .banner-full {
-    height: 150px;
-  }
-  .banner-text {
-    font-size: 1.6rem;
-  }
-}
-</style>
-
-<div class="banner-text">Sobre CONCLAT</div>
-
+::: {.banner-full .full-bleed}
+# Sobre CONCLAT {.banner-text}
 :::
+
 
 ::: {.columns}
 ::: {.column width="70%"}
@@ -61,7 +24,7 @@ Para ello, en 2024 y 2025 se aplicará una encuesta representativa de la poblaci
 [CONCLAT](https://www.conclat.com/) es el Proyecto FONDECYT Regular (No 1230056) “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile”. Patrocinado por la [Universidad de Chile](https://uchile.cl/) y el Centro de Estudios de Conflicto y Cohesión Social ([COES](https://coes.cl/)). 
 :::
 ::: {.column width="30%"}
-![](conclat_web_sobre.png){width=100% fig-alt="Imagenes CONCLAT"}
+![](conclat_web_sobre.png){width=100% fig-alt="Imagenes CONCLAT" loading="lazy"}
 :::
 :::
 

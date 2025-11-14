@@ -1,11 +1,14 @@
 ---
 title: Juan Diego García-Castro
 subtitle: Investigador
-contacto: juandiego.garcia@ucr.ac.cr
-github: https://github.com/
-web: https://iip.ucr.ac.cr/es/investigadores/juan-diego-garcia-castro
 image: "garcia.jpeg"
 orden: 8
+contacto: | 
+  <div class="card-contacto"> 
+    <a href="mailto:juandiego.garcia@ucr.ac.cr" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> 
+    <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a> 
+    <a href="https://iip.ucr.ac.cr/es/investigadores/juan-diego-garcia-castro" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> 
+  </div> 
 about:
   template: trestles
   image-shape: rounded

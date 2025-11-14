@@ -1,0 +1,26 @@
+<div class="person-card card">
+  <% if (item.image) { %>
+    <img src="<%= item.image %>" class="card-img-top person-img" alt="<%= item.title %>">
+  <% } %>
+
+  <div class="card-body">
+    <h3 class="card-title"><%= item.title %></h3>
+    <% if (item.subtitle) { %>
+      <p class="card-subtitle"><%= item.subtitle %></p>
+    <% } %>
+
+    <% 
+      // Usamos los mismos enlaces que se usan en la página individual
+      const links = (item.attributes.about && item.attributes.about.links) || item.attributes.links || [];
+    %>
+    <% if (links.length) { %>
+      <div class="card-contacto">
+        <% links.forEach(l => { %>
+          <a href="<%= l.href %>" <%= (l.href||'').startsWith('http') ? 'target="_blank" rel="noopener"' : '' %> aria-label="<%= l.text || l.icon %>">
+            <i class="bi bi-<%= l.icon %>"></i>
+          </a>
+        <% }); %>
+      </div>
+    <% } %>
+  </div>
+</div>

@@ -1,8 +1,9 @@
 project:
   type: website
-  # resources:
+  resources:
+    - resources/
   render:
-        - "*.qmd"
+    - "*.qmd"
   output-dir: "docs"
 website:
   title: ""

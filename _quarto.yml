@@ -38,13 +38,13 @@ website:
       - text: Nosotros
         icon: people-fill
         href: nosotros/nosotros.qmd
-      - text: Encuesta
-        icon: list-ul
-        menu: 
-         - href: encuesta/01-chile/
-           text: "{{<ai list-ul>}} Encuesta Chile"
-         - href: encuesta/02-argentina/
-           text: "{{<ai list-ul>}} Encuesta Argentina"
+#      - text: Encuesta
+ #       icon: list-ul
+  #      menu: 
+   #      - href: encuesta/01-chile/
+    #       text: "{{<ai list-ul>}} Encuesta Chile"
+     #    - href: encuesta/02-argentina/
+      #     text: "{{<ai list-ul>}} Encuesta Argentina"
       - text: Investigación
         icon: journals
         href: investigacion/investigacion.qmd

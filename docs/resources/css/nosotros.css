@@ -6,9 +6,9 @@
   width: 100vw;
 }
 
-/* ====================== Banner ====================== */
+/* ======================= Banner ======================= */
 .banner-full{
-  min-height: clamp(80px, 12vw, 140px);
+  min-height: clamp(60px, 10vw, 120px);
   display: flex; align-items: center; justify-content: center;
   position: relative;
   background: #6f0000;

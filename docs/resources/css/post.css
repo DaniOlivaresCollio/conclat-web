@@ -1,0 +1,78 @@
+/* CTA superior (botones DOI, PDF, etc.) */
+.top-cta{
+  display:flex; gap:.55rem; align-items:center; flex-wrap:wrap;
+  margin:.25rem 0 1rem;
+}
+.top-cta .btn{
+  border-radius:9999px; padding:.35rem .75rem; font-size:.95rem;
+  box-shadow:0 3px 10px rgba(0,0,0,.06);
+}
+.top-cta .btn-primary::after{ content:" ↗︎"; font-weight:600; }
+
+/* Bloque “Cita (APA 7)” */
+.details-btn summary{ list-style:none; cursor:pointer; }
+.details-btn summary::-webkit-details-marker{ display:none; }
+.summary-chip{
+  display:inline-block; padding:.35rem .75rem; border-radius:9999px;
+  border:1px solid #dbe3ef; background:#f9fafb;
+}
+.details-btn[open] .summary-chip{ background:#f3f6fb; }
+.apa-ref{
+  margin:.5rem 0 0 0; line-height:1.6; color:#4b5563;
+  text-indent:-1.6em; padding-left:1.6em; /* sangría francesa */
+}
+@media (max-width:680px){ .top-cta .btn{ width:100%; text-align:center; } }
+
+/* ===================== Estilo del ToC lateral (sidebar) ===================== */
+
+/* Fondo del contenedor del ToC */
+.sidebar nav.toc {
+  background: #ffffff;
+  border-left: 4px solid #ca0000;
+  padding-left: 0.8rem;
+}
+
+/* Título "En esta página" */
+.sidebar nav.toc h2,
+.sidebar nav.toc .toc-title {
+  font-weight: 800;
+  color: #6f0000;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.95rem;
+}
+
+/* Enlaces del ToC */
+.sidebar nav.toc ul > li > a {
+  color: #d02e38 !important;
+  background-color: transparent !important;
+  border-radius: 4px;
+  padding: 2px 6px;
+  transition: all 0.15s ease;
+}
+
+/* Hover y enlace activo */
+.sidebar nav.toc ul > li > a:hover {
+  color: #fff !important;
+  background-color: #ca0000 !important;
+}
+.sidebar nav.toc ul > li > a.active,
+.sidebar nav.toc ul > li > a:focus {
+  color: #fff !important;
+  background-color: #6f0000 !important;
+  font-weight: 700;
+}
+
+/* Subniveles */
+.sidebar nav.toc ul ul a {
+  color: #d02e38 !important;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+}
+
+/* Sutil borde divisorio */
+.sidebar nav.toc ul {
+  border-top: 1px solid #ff5651;
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+}

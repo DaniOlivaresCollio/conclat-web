@@ -1,4 +1,4 @@
-/* ===== Full-bleed util ===== */
+/* =================== Full-bleed util =================== */
 .full-bleed{
   position:relative;
   left:50%; right:50%;
@@ -6,9 +6,9 @@
   width:100vw;
 }
 
-/* ===== Banner ===== */
+/* ======================= Banner ======================= */
 .banner-full{
-  min-height: clamp(80px, 12vw, 140px);
+  min-height: clamp(60px, 10vw, 120px);
   display:flex;                 /* asegura centrado robusto */
   align-items:center;
   justify-content:center;
@@ -20,7 +20,6 @@
   overflow:hidden;              /* evita fugas de márgenes */
 }
 
-/* Aumenta especificidad: h1 dentro del banner */
 .banner-full .banner-text{
   margin:0 !important;          /* pisa cualquier regla global */
   padding:0 .5rem;              /* respiración mínima lateral */

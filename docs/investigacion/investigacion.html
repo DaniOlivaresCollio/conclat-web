@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-date"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -135,12 +135,13 @@ window.Quarto = {
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../resources/css/home.css">
+<link rel="stylesheet" href="../resources/css/investigacion.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -212,74 +213,29 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div class="banner-full">
-<style>
-.banner-full {
-  position: relative;
-  width:100vw;
-  height: 100px;
-  margin-left: calc(50% - 50vw);
-  /* Gradiente con los tonos CONCLAT */
-  background: linear-gradient(135deg, #6f0000 0%, #ca0000 35%, #d02e38 70%, #ff5651 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-  margin-bottom: 2rem;
-}
-
-/* Texto centrado sin fondo */
-.banner-text {
-  color: #ffffff;
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.25); /* leve sombra para contraste */
-}
-
-/* Responsive para pantallas pequeñas */
-@media (max-width: 768px) {
-  .banner-full {
-    height: 150px;
-  }
-  .banner-text {
-    font-size: 1.6rem;
-  }
-}
-</style>
-<div class="banner-text">
-Investigación
-</div>
-</div>
+<section id="investigación" class="level1 banner-text banner-full full-bleed">
+<h1 class="banner-text">Investigación</h1>
+</section>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="cmVjb21lbmRhZG9z" data-listing-date-sort="1756353600000" data-listing-file-modified-sort="1762280878142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1556">
 <a href="../investigacion/posts/Open Science - Developing World/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\Open Science - Developing World\featured.jpg" alt="Ilustración de ciencia abierta con iconos de datos y colaboración" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\Open Science - Developing World\featured.jpg" alt="Ilustración de ciencia abierta con iconos de datos y colaboración" style="height: 170px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Ciencia abierta en el mundo en desarrollo: guía práctica (Chuan-Peng et al., 2025)
@@ -289,7 +245,7 @@ Laboratorio de Investigación Social Abierta
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Aug 28, 2025
+28 Aug 2025
 </div>
 </div>
 </div>
@@ -298,7 +254,7 @@ Aug 28, 2025
 <div class="g-col-1" data-index="1" data-categories="cmVjb21lbmRhZG9z" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1762280878145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <a href="../investigacion/posts/glosario-anid/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\glosario-anid\featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\glosario-anid\featured.png" style="height: 170px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Glosario de conceptos Ciencia Abierta ANID
@@ -308,16 +264,18 @@ Laboratorio de Investigación Social Abierta
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jul 1, 2025
+01 Jul 2025
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="aW52ZXN0aWdhY2lvbg==" data-listing-date-sort="1722916800000" data-listing-file-modified-sort="1763058823208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1722916800000" data-listing-file-modified-sort="1763090250024" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
 <a href="../investigacion/posts/1-perez-astorga/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="../investigacion/posts/1-perez-astorga/koshu-kunii-t86cJxwmBWc-unsplash.jpg" class="thumbnail-image card-img" style="height: 170px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 ¿Por qué los miembros de sindicatos están más dispuestos a hacer huelga y protestar que los no sindicalizados? Evidencia de Argentina y Chile
@@ -327,7 +285,7 @@ Pérez Ahumada, Pablo &amp; Astorga, Charo (2024)
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Aug 6, 2024
+06 Aug 2024
 </div>
 </div>
 </div>

@@ -1,59 +1,27 @@
 ---
 title: ""
 page-layout: full
+title-block-banner: false
+comments: false
+toc: false
+format: 
+  html:
+    css:
+      - /resources/css/investigacion.css
 listing:
   contents: posts
-  sort: "date desc"
   type: grid
-  categories: false
+  sort: "date desc"
   fields: [image, title, subtitle, date]
-  image-align: left
-  filter-ui: [title, date]
-title-block-banner: true
+  grid-columns: 3
+  image-height: 170px
+  date-format: "DD MMM YYYY"
+  categories: false
+  filter-ui: false
 ---
 
-::: {.banner-full}
-
-```{=html}
-<style>
-.banner-full {
-  position: relative;
-  width:100vw;
-  height: 100px;
-  margin-left: calc(50% - 50vw);
-  /* Gradiente con los tonos CONCLAT */
-  background: linear-gradient(135deg, #6f0000 0%, #ca0000 35%, #d02e38 70%, #ff5651 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-  margin-bottom: 2rem;
-}
-
-/* Texto centrado sin fondo */
-.banner-text {
-  color: #ffffff;
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.25); /* leve sombra para contraste */
-}
-
-/* Responsive para pantallas pequeñas */
-@media (max-width: 768px) {
-  .banner-full {
-    height: 150px;
-  }
-  .banner-text {
-    font-size: 1.6rem;
-  }
-}
-</style>
-
-<div class="banner-text">Investigación</div>
-
+::: {.banner-full .full-bleed}
+# Investigación {.banner-text}
 :::
+
 

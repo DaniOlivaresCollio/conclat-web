@@ -58,8 +58,6 @@ about:
 
 [![](resources/img/uch.png)](https://uchile.cl)
 
-[![](resources/img/coes.png)](https://coes.cl)
-
 :::
 :::
 :::

@@ -21,5 +21,5 @@ listing:
 ---
 
 ::: {.banner-full .full-bleed}
-# Nosotros {.banner-text}
+# Nuestro Equipo {.banner-text}
 :::

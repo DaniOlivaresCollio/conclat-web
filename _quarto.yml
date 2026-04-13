@@ -35,7 +35,7 @@ website:
       - text: Sobre CONCLAT
         icon: info-square-fill
         href: informacion/01-sobre.qmd
-      - text: Nosotros
+      - text: Nuestro equipo
         icon: people-fill
         href: nosotros/nosotros.qmd
 #      - text: Encuesta

@@ -1,8 +1,8 @@
 --- 
-title: "Daniela Olivares Collío" 
+title: "Javiera Romo Sánchez" 
 subtitle: "Asistente de Investigación" 
-image: "olivares.jpg" 
-orden: 9 
+image: "10_romo.jpeg" 
+orden: 10
 contacto: | 
   <div class="card-contacto"> 
     <a href="mailto:danielaolivarescollio@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> 
@@ -19,13 +19,9 @@ about:
     - icon: github 
       href: https://github.com/DaniOlivaresCollio 
       text: Github 
-    - icon: linkedin 
+    - icon: linkedin
       href: https://www.linkedin.com/in/daniela-olivares-collio/ 
       text: Linkedin
 ---
 
-Magíster en Estadística de la Pontificia Universidad Católica de Chile y Licenciada en Sociología de la Universidad de Chile. 
-
-Actualmente es asistente de investigación del Proyecto Fondecyt Regular N° 1230056 “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile” (CONCLAT). Y también es asistente de investigación del Núcleo Milenio en Política Laboral y Vida Familiar y Colectiva (LABOFAM).
-
-Anteriormente, ha participado en diversas investigaciones elaborando cuestionarios, procesando y analizando datos y generando informes. También coordinó el Estudio Longitudinal Social de Chile (ELSOC) del Centro de Estudios de Conflicto y Cohesión Social (COES).
+Socióloga de la Universidad de Chile. Es asistente de investigación en el proyecto Fondecyt Regular N°1230056 “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo en Argentina y Chile” (CONCLAT). Anteriormente ha trabajado en diversos  proyectos de investigación, incluyendo el Núcleo Milenio en Política laboral y Vida Familiar y Colectiva (LABOFAM).

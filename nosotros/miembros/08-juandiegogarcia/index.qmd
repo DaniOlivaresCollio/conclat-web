@@ -1,7 +1,7 @@
 ---
 title: Juan Diego García-Castro
 subtitle: Investigador
-image: "garcia.jpeg"
+image: "08_garciacastro.jpeg"
 orden: 8
 contacto: | 
   <div class="card-contacto"> 

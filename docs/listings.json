@@ -22,15 +22,10 @@
       "/nosotros/miembros/06-luciladurso/index.html",
       "/nosotros/miembros/07-claramarticorena/index.html",
       "/nosotros/miembros/08-juandiegogarcia/index.html",
-      "/nosotros/miembros/09-danielaolivares/index.html"
-    ]
-  },
-  {
-    "listing": "/actividades/actividades.html",
-    "items": [
-      "/actividades/posts/20251022-olivares-olaysen/index.html",
-      "/actividades/posts/20251017-perez-premiacion/index.html",
-      "/actividades/posts/20250224-ilpc/index.html"
+      "/nosotros/miembros/09-danielaolivares/index.html",
+      "/nosotros/miembros/10-javieraromo/index.html",
+      "/nosotros/miembros/11-isaiguzman/index.html",
+      "/nosotros/miembros/12-derekjamet/index.html"
     ]
   },
   {
@@ -41,6 +36,14 @@
       "/investigacion/posts/20240810-perez-gutierrez/index.html",
       "/investigacion/posts/20240806-perez-astorga/index.html",
       "/investigacion/posts/20240624-garcia-venegas-perez/index.html"
+    ]
+  },
+  {
+    "listing": "/actividades/actividades.html",
+    "items": [
+      "/actividades/posts/20251022-olivares-olaysen/index.html",
+      "/actividades/posts/20251017-perez-premiacion/index.html",
+      "/actividades/posts/20250224-ilpc/index.html"
     ]
   }
 ]

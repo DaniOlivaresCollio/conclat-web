@@ -6,8 +6,8 @@ orden: 6
 contacto: | 
   <div class="card-contacto"> 
     <a href="mailto:ldurso@campus.ungs.edu.ar" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> 
-    <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a> 
-    <a href="https://ri.conicet.gov.ar/author/41636" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> 
+    <a href="https://ri.conicet.gov.ar/author/41636" target="_blank" rel="noopener" aria-label="Web Personal"><i class="bi bi-globe"></i></a>
+    <a href="https://www.researchgate.net/profile/Lucila-Durso-2" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="bi bi-researchgate"></i></a>  
   </div> 
 about:
   template: trestles
@@ -16,12 +16,12 @@ about:
     - icon: envelope
       href: mailto:ldurso@campus.ungs.edu.ar
       text: Contacto
-    - icon: github
-      href: https://github.com/
-      text: Github
     - icon: globe
       href: https://ri.conicet.gov.ar/author/41636
-      text: Web Personal
+      text: Web Personal      
+    - icon: researchgate
+      href: https://www.researchgate.net/profile/Lucila-Durso-2
+      text: ResearchGate
 ---
 
 Doctora en Ciencias Sociales por la Universidad de Buenos Aires. 

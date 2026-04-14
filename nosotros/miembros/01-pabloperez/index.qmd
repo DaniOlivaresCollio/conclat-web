@@ -6,8 +6,8 @@ orden: 1
 contacto: | 
   <div class="card-contacto"> 
     <a href="mailto:pabloperez@uchile" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> 
-    <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a> 
-    <a href="https://facso.uchile.cl/sociologia/cuerpo-academico/pablo-perez-ahumada" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> 
+    <a href="https://pperezahumada.com/" target="_blank" rel="noopener" aria-label="Web Personal"><i class="bi bi-globe"></i></a> 
+    <a href="https://orcid.org/0000-0002-0410-0725" target="_blank" rel="noopener" aria-label="ORCID"><i class="bi bi-orcid"></i></a> 
   </div> 
 about:
   template: trestles
@@ -16,16 +16,19 @@ about:
     - icon: envelope
       href: mailto:pabloperez@uchile.cl
       text: Contacto
-    - icon: github
-      href: https://github.com/
-      text: Github
     - icon: globe
-      href: https://facso.uchile.cl/sociologia/cuerpo-academico/pablo-perez-ahumada
+      href: https://pperezahumada.com/
       text: Web Personal
+    - icon: orcid
+      href: https://orcid.org/0000-0002-0410-0725
+      text: ORCID 
+    - icon: twitter
+      href: https://x.com/pablo_perez_a
+      text: X
 ---
 
 Doctor en Sociología de la Universidad de California (San Diego, USA), Magíster en Sociología de la Pontificia Universidad Católica de Chile, y Sociólogo de la Universidad de Chile. 
 
-Actualmente, es Profesor Asistente del Departamento de Sociología de la Universidad de Chile, y también, Investigador adjunto de la línea Las Dimensiones Socioeconómicas del Conflicto del Centro de Estudios de Conflicto y Cohesión Social (COES). 
+Actualmente, es Profesor Asistente del Departamento de Sociología de la Universidad de Chile.
 
 Es Investigador Principal del Proyecto Fondecyt Regular N° 1230056 “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile” (CONCLAT). Además, es Director del Núcleo Milenio en Política Laboral y Vida Familiar y Colectiva (LABOFAM).

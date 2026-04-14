@@ -6,8 +6,8 @@ orden: 9
 contacto: | 
   <div class="card-contacto"> 
     <a href="mailto:danielaolivarescollio@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> 
-    <a href="https://github.com/DaniOlivaresCollio" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a> 
     <a href="https://www.linkedin.com/in/daniela-olivares-collio/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> 
+    <a href="https://github.com/DaniOlivaresCollio" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
   </div> 
 about: 
   template: trestles 
@@ -16,12 +16,16 @@ about:
     - icon: envelope 
       href: mailto:danielaolivarescollio@gmail.com 
       text: Contacto 
-    - icon: github 
-      href: https://github.com/DaniOlivaresCollio 
-      text: Github 
     - icon: linkedin 
       href: https://www.linkedin.com/in/daniela-olivares-collio/ 
       text: Linkedin
+    - icon: github 
+      href: https://github.com/DaniOlivaresCollio 
+      text: Github 
+    - icon: orcid
+      href: https://orcid.org/0009-0009-4783-4030
+      text: ORCID
+
 ---
 
 Magíster en Estadística de la Pontificia Universidad Católica de Chile y Licenciada en Sociología de la Universidad de Chile. 

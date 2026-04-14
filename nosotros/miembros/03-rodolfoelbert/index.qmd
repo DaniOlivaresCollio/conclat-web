@@ -6,8 +6,7 @@ orden: 3
 contacto: | 
   <div class="card-contacto"> 
     <a href="mailto:elbert.rodolfo@gmail.com " aria-label="Email"><i class="bi bi-envelope-fill"></i></a> 
-    <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a> 
-    <a href="https://www.conicet.gov.ar/new_scp/detalle.php?id=35394&datos_academicos=yes" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> 
+    <a href="https://www.conicet.gov.ar/new_scp/detalle.php?id=35394&datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web Personal"><i class="bi bi-globe"></i></a> 
   </div> 
 about:
   template: trestles
@@ -16,9 +15,6 @@ about:
     - icon: envelope
       href: mailto:elbert.rodolfo@gmail.com 
       text: Contacto
-    - icon: github
-      href: https://github.com/
-      text: Github
     - icon: globe
       href: https://www.conicet.gov.ar/new_scp/detalle.php?id=35394&datos_academicos=yes
       text: Web Personal
@@ -26,6 +22,6 @@ about:
 
 Coordinador del Trabajo de campo en Argentina.
 
-Doctor en Sociología (Universidad de Wisconsin-Madison), y Mg. en Investigación en Ciencias Sociales y Lic. en Sociología por la Universidad de Buenos Aires. 
+Doctor en Sociología (Universidad de Wisconsin-Madison) y Mg. en Investigación en Ciencias Sociales y Lic. en Sociología por la Universidad de Buenos Aires. 
 
 Actualmente es Investigador Adjunto en el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) con sede en el Instituto de Investigaciones Gino Germani (Universidad de Buenos Aires), donde co-dirige el Programa de Investigaciones sobre Análisis de Clases Sociales (PI-Clases). Es Profesor Adjunto en la Carrera de Sociología de la Universidad de Buenos Aires y dicta clases en la Maestría en Investigación en Ciencias Sociales (UBA).

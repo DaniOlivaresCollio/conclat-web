@@ -9,7 +9,7 @@ website:
   title: ""
   site-url: https://conclat.com/
   description: "Fondecyt Clases, Trabajo y Conflicto"
-  favicon: resources/img/conclat_ID_principal_rojo.png
+  favicon: resources/img/conclat_logo_principal_rojo.png
   search: true
   repo-url: https://github.com/DaniOlivaresCollio/conclat-web
   page-footer:
@@ -38,12 +38,12 @@ website:
       - text: Nuestro equipo
         icon: people-fill
         href: nosotros/nosotros.qmd
-#      - text: Encuesta
- #       icon: list-ul
-  #      menu: 
-   #      - href: encuesta/01-chile/
-    #       text: "{{<ai list-ul>}} Encuesta Chile"
-     #    - href: encuesta/02-argentina/
+     # - text: Encuesta
+     #   icon: list-ul
+     #   menu: 
+      #   - href: encuesta/01-chile/
+      #     text: "{{<ai list-ul>}} Encuesta Chile"
+      #   - href: encuesta/02-argentina/
       #     text: "{{<ai list-ul>}} Encuesta Argentina"
       - text: Investigación
         icon: journals

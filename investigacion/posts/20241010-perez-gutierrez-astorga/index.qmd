@@ -1,0 +1,34 @@
+---
+title: "Desigualdad de clase, poder y confianza en las empresas privadas: evidencia desde América Latina"
+subtitle: "Pablo Pérez Ahumada & Kevin Carrasco"
+date: "2024-10-10"
+image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"
+description: ""
+categories: [paper, investigación]
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"
+---
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://doi.org/10.1017/bap.2024.17" target="_blank" rel="noopener">Leer el paper</a>
+</div>
+
+<details class="details-btn" markdown="1">
+  <summary><span class="summary-chip">Cita (APA 7)</span></summary>
+  <p class="apa-ref"><strong>Pérez-Ahumada, P., Gutiérrez-Crocco, F., & Astorga-Pinto, C. </strong> (2024). <em>Desigualdad de clase, poder y confianza en las empresas privadas: evidencia desde América Latina.</em> <em>Business and Politics</em>, 26(4). https://doi.org/10.1017/bap.2024.17 </p>
+</details>
+
+## Abstract 
+En los últimos años, la legitimidad ha demostrado ser un recurso de poder fundamental para la clase empresarial. A partir del concepto de "poder discursivo", diversas investigaciones han demostrado que cuando la clase empresarial logra moldear los discursos públicos y la opinión pública, su poder se incrementa. Con este artículo contribuimos a esta línea de investigación mostrando que el éxito de las empresas en la construcción de poder discursivo —expresado en la confianza individual hacia las empresas privadas— se encuentra limitado por factores de nivel individual y macro asociados a la desigualdad de clase, la política de clases y el poder.
+
+A partir de datos de 15 países latinoamericanos (2005–2015), mostramos que, en el período estudiado, la propensión a confiar en las empresas privadas fue significativamente menor entre quienes ocupan posiciones de clase desfavorecida —como trabajadores de clase obrera o trabajadores independientes informales— y entre quienes se identifican con la izquierda política y tienen menor confianza en las instituciones políticas. A nivel macro, la confianza en las empresas fue menor en países gobernados por la izquierda, en países donde la desigualdad aumentó o donde mejoró la confianza ciudadana en las instituciones políticas.
+
+Al final del artículo, identificamos tres patrones de legitimidad empresarial en América Latina y mostramos cómo nuestros resultados contribuyen a la investigación reciente sobre confianza, clase y poder.
+
+
+## Etiquetas
+Clases sociales, Latinoamérica, Poder discursivo.
+

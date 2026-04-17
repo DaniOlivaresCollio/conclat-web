@@ -29,15 +29,22 @@
     ]
   },
   {
-    "listing": "/investigacion/investigacion.html",
-    "items": []
-  },
-  {
     "listing": "/actividades/actividades.html",
     "items": [
       "/actividades/posts/20251022-olivares-olaysen/index.html",
       "/actividades/posts/20251017-perez-premiacion/index.html",
       "/actividades/posts/20250224-ilpc/index.html"
+    ]
+  },
+  {
+    "listing": "/investigacion/investigacion.html",
+    "items": [
+      "/investigacion/posts/20241218-perez-carrasco/index.html",
+      "/investigacion/posts/20241010-perez-gutierrez-astorga/index.html",
+      "/investigacion/posts/20241001-perez-garcia/index.html",
+      "/investigacion/posts/20240810-perez-gutierrez/index.html",
+      "/investigacion/posts/20240806-perez-astorga/index.html",
+      "/investigacion/posts/20240624-garcia-venegas-perez/index.html"
     ]
   }
 ]

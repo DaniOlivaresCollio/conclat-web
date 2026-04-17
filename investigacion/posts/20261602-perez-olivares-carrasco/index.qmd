@@ -1,0 +1,35 @@
+---
+title: "El poder condicionante de la clase: Acción colectiva y actitudes hacia la desigualdad en el Chile neoliberal (2016–2023)"
+subtitle: "Pablo Pérez Ahumada, Daniela Olivares Collío & Kevin Carrasco"
+date: "2026-02-16"
+image: "foto_2.jpg"
+description: ""
+categories: [paper, investigación]
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "foto_2.jpg"
+---
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://doi.org/10.1177/08969205261417585" target="_blank" rel="noopener">Leer el paper</a>
+</div>
+
+<details class="details-btn" markdown="1">
+  <summary><span class="summary-chip">Cita (APA 7)</span></summary>
+  <p class="apa-ref"><strong>Pérez-Ahumada, P., Olivares-Collío, D., & Carrasco, K. </strong> (2026). <em>The conditioning power of class: Collective action and attitudes toward inequality in neoliberal Chile (2016–2023). </em> <em>Critical Sociology</em>, 0(0). https://doi.org/10.1177/08969205261417585 </p>
+</details>
+
+## Abstract 
+En una era de desigualdad creciente, la mayor parte de la investigación sociológica ha examinado cómo las percepciones de injusticia motivan la acción colectiva. Este artículo invierte esa perspectiva para explorar cómo la participación en la acción colectiva moldea las actitudes hacia la desigualdad de ingresos, y cómo este proceso está condicionado por la clase social.
+
+A partir de datos de panel representativos a nivel nacional de Chile (2016–2023), analizamos las percepciones sobre brechas salariales justas entre altos directivos y trabajadores no calificados. Mostramos que los individuos en posiciones de clase subordinada —por ejemplo, trabajadores no directivos— apoyan brechas salariales significativamente menores que quienes se encuentran en posiciones de clase privilegiada. Además, si bien la participación en protestas se asocia con actitudes más igualitarias en general, este efecto persiste en el tiempo únicamente entre los trabajadores no directivos. 
+
+A partir del análisis de clase marxista, conceptualizamos este patrón como el poder condicionante de la clase: la clase no es simplemente una ubicación estructural, sino una fuerza formativa que moldea cómo la acción colectiva politiza a las personas. Un análisis de mediación causal indica que, entre los trabajadores no directivos, la participación en protestas fomenta orientaciones igualitarias en parte mediante el fortalecimiento de identidades políticas de izquierda. Al revelar cómo la clase social moldea el potencial transformador de la acción colectiva, este artículo contribuye a la investigación sobre desigualdad, formación de clase y política contenciosa en economías neoliberales.
+
+
+
+## Etiquetas
+Clases sociales, desigualdad, acción colectiva.
+

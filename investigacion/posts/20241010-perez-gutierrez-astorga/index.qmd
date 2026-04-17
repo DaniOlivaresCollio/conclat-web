@@ -1,15 +1,15 @@
 ---
 title: "Desigualdad de clase, poder y confianza en las empresas privadas: evidencia desde América Latina"
-subtitle: "Pablo Pérez Ahumada & Kevin Carrasco"
+subtitle: "Pablo Pérez Ahumada, Francisca Gutiérrez & Charo Astorga-Pinto"
 date: "2024-10-10"
-image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"
+image: "foto_3.jpg"
 description: ""
 categories: [paper, investigación]
 lang: es
 draft: false
 about:
   template: marquee
-  image: "koshu-kunii-t86cJxwmBWc-unsplash.jpg"
+  image: "foto_3.jpg"
 ---
 
 <div class="top-cta">
@@ -18,7 +18,7 @@ about:
 
 <details class="details-btn" markdown="1">
   <summary><span class="summary-chip">Cita (APA 7)</span></summary>
-  <p class="apa-ref"><strong>Pérez-Ahumada, P., Gutiérrez-Crocco, F., & Astorga-Pinto, C. </strong> (2024). <em>Desigualdad de clase, poder y confianza en las empresas privadas: evidencia desde América Latina.</em> <em>Business and Politics</em>, 26(4). https://doi.org/10.1017/bap.2024.17 </p>
+  <p class="apa-ref"><strong>Pérez-Ahumada, P., Gutiérrez-Crocco, F., & Astorga-Pinto, C. </strong> (2024). <em>Class inequality, power, and trust in private companies: evidence from Latin America. </em> <em>Business and Politics</em>, 26(4). https://doi.org/10.1017/bap.2024.17 </p>
 </details>
 
 ## Abstract 

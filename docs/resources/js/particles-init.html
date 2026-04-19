@@ -1,0 +1,32 @@
+<!-- Carga librería -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" crossorigin="anonymous"></script>
+
+<script>
+(function() {
+  function initParticles() {
+    const container = document.getElementById("particles-js");
+    if (!window.particlesJS || !container) return;
+    window.particlesJS("particles-js", {
+      particles: {
+        number: { value: 100, density: { enable: true, value_area: 800 } },
+        color: { value: "#ca0000" },
+        shape: { type: "circle" },
+        opacity: { value: 0.5 },
+        size: { value: 3, random: true },
+        line_linked: { enable: true, distance: 140, color: "#ca0000", opacity: 0.35, width: 1 },
+        move: { enable: true, speed: 4, direction: "top-right", out_mode: "out" }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }, resize: true },
+        modes: { repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 } }
+      },
+      retina_detect: true
+    });
+  }
+
+  // Respeta preferencias de usuarios que reducen animaciones
+  const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+  if (!mq.matches) window.addEventListener("load", initParticles);
+})();
+</script>

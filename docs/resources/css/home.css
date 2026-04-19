@@ -1,0 +1,36 @@
+/* ====== HERO CON PARTICULAS ====== */
+
+.hero-heading-wrapper {
+  position: relative;
+  height: 55vh;                /* altura fija estable */
+  min-height: 400px;           /* límite mínimo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.particles-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.hero-heading-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+/* Imagen del logo */
+.hero-heading-content img {
+  width: 85%;
+  max-width: 900px;
+  height: auto;
+}
+
+/* Modo accesible: desactiva partículas si el usuario prefiere menos movimiento */
+@media (prefers-reduced-motion: reduce) {
+  .particles-layer { display: none !important; }
+}

@@ -1,0 +1,31 @@
+---
+title: "La política laboral del Gobierno de Gabriel Boric: un balance "
+subtitle: "Pablo Pérez Ahumada"
+date: "2026-02-20" 
+image: "foto2.jpg"
+description: ""
+categories: [opinión, noticias]
+lang: es
+draft: false
+about:
+  template: marquee
+  image: ""
+---
+
+# Columna de opinión
+**Al menos en materia laboral, la administración de Gabriel Boric no se diferenció sustantivamente de los gobiernos de la Concertación y la Nueva Mayoría.**
+
+En el plano de los derechos individuales, la administración del Presidente Boric –y en particular la gestión de la exministra del Trabajo, Jeannette Jara– será recordada por haber liderado cambios significativos. El más emblemático de ellos fue, sin duda, la reducción de la jornada laboral de 45 a 40 horas semanales.
+
+Aunque este cambio no formaba parte de una agenda originalmente planificada por el Ejecutivo, su concreción puede considerarse un resultado políticamente exitoso, especialmente si se toma en cuenta la condición de minoría parlamentaria en la que se encontraron los partidos de gobierno. Para lograr la aprobación de esta reforma, el Ejecutivo debió ceder en aspectos sustantivos que no estaban contemplados en el proyecto original, impulsado años antes por la entonces diputada Camila Vallejo.
+
+Con todo, y a pesar de estas limitaciones, la aprobación e implementación de estas reformas debería evaluarse con cierta perspectiva. Se trata de un Gobierno que operó en condiciones de minoría parlamentaria y que, tras el plebiscito constitucional del 4 de septiembre de 2022, vio drásticamente reducidas su capacidad política y su iniciativa legislativa.
+
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://www.elmostrador.cl/noticias/opinion/columnas/2026/02/20/la-politica-laboral-del-gobierno-de-gabriel-boric-un-balance/" target="_blank" rel="noopener">Seguir leyendo</a>
+</div>
+
+## Etiquetas
+Política laboral, Movimiento sindical.
+

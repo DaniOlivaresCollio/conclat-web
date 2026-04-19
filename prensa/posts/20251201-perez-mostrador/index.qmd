@@ -1,0 +1,31 @@
+---
+title: "40 horas laborales"
+subtitle: "Pablo Pérez Ahumada"
+date: "2025-12-02" 
+image: "foto1.jpg"
+description: ""
+categories: [opinión, noticias]
+lang: es
+draft: false
+about:
+  template: marquee
+  image: ""
+---
+
+# Carta al director
+Señor Director:
+
+A semanas de la segunda vuelta, hemos visto cómo la candidatura de José A. Kast se ha posicionado en contra avances recientes en materia laboral, como lo es la Ley de 40 horas. Dicha posición no sorprende: durante su trámite legislativo, la bancada del Partido Republicano votó en contra del proyecto de ley, a pesar de que el proyecto contó con el respaldo transversal del mundo político y social, desde gremios empresariales y partidos de derecha hasta sindicatos y partidos de izquierda. La aprobación de la ley de 40 horas en 2023 demostró que cuando existe voluntad de acuerdo, sí se puede avanzar en medidas que favorezcan a la población. La evidencia internacional muestra que la aprobación de este tipo de leyes son pasos concretos para que los trabajadores puedan conciliar su vida laboral y familiar. Esta ley, además, permite que Chile alcance estándares que hace décadas son la norma en países desarrollados (Chile es, junto a México y Turquía, el país OCDE donde se trabajan jornadas laborales más extensas). Considerando esto, es preocupante que la candidatura de José A. Kast no sólo desconozca tales avances legislativos y la evidencia internacional que los respalda, sino que también los consensos políticos transversales a través de los cuales ellos se construyeron.
+
+Pablo Pérez Ahumada
+
+Director Núcleo Milenio LABOFAM
+
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://www.elmostrador.cl/noticias/opinion/cartas/2025/12/02/40-horas-laborales/" target="_blank" rel="noopener">Link</a>
+</div>
+
+## Etiquetas
+Trabajo, Elecciones, Sindicatos.
+

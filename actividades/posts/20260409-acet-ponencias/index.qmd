@@ -1,0 +1,31 @@
+---
+title: "Participación en el Primer Congreso Chileno de Estudios del Trabajo (Pre-ALAST 2026): “Los nuevos escenarios del trabajo en América Latina”"
+subtitle: "Asociación Chilena de Estudios del Trabajo"
+date: "2026-04-11" 
+image: "conclat-web-acet-ponencias.jpg"
+description: ""
+categories: [ponencias, investigación]
+lang: es
+draft: false
+about:
+  template: marquee
+  image: ""
+---
+
+# Primer Congreso Chileno de Estudios del Trabajo
+La iniciativa impulsada por la [Asociación Chilena de Estudios del Trabajo](https://acetchile.cl/index.php) reunió a más de 100 personas del mundo académico, sindical y político a reflexionar en torno a los nuevos escenarios del trabajo en América Latina. El evento se desarrolló el 9, 10 y 11 de abril en la [Universidad Austral de Chile](https://www.uach.cl/) y contó con numerosas ponencias, simposios, exposiciones fotográficas y presentaciones de pósters y libros.
+
+
+## Ponencia “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile”
+El día jueves 09 de abril, [Pablo Pérez Ahumada](https://conclat.com/nosotros/miembros/01-pabloperez/) y [Daniela Olivares Collío](https://conclat.com/nosotros/miembros/09-danielaolivares/), presentaron la encuesta desarrollada en el marco del [Proyecto Conclat](https://conclat.com/). 
+En la ponencia se abordaron algunos aspectos metodológicos de la encuesta y de qué manera permite medir conceptos como la posición de clase, la conciencia de clase y la explotación percibida.
+
+## Ponencia “Conflicto laboral, recursos de poder y afiliación a asociaciones empresariales: evidencia desde Chile en perspectiva comparada”
+Además, en la jornada del 11 de abril, [Pablo Pérez Ahumada](https://conclat.com/nosotros/miembros/01-pabloperez/) y [Javiera Romo Sánchez](https://conclat.com/nosotros/miembros/10-javieraromo/) presentaron una investigación sobre la incidencia del conflicto laboral en la afiliación a asociaciones empresariales, usando datos de la [X Encuesta Laboral (ENCLA) del INE](https://www.ine.gob.cl/encla). Entre los hallazgos más relevantes, se mostró evidencia que apuntaba a que el poder de los trabajadores es un factor relevante en la coordinación empresarial, en especial en las empresas más vulnerables a los conflictos laborales.
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://drive.google.com/file/d/1VrQSj6-s5guCl1FMDyRhnC_u_Ix0leQe/view" target="_blank" rel="noopener">Ver programa</a>
+</div>
+
+
+

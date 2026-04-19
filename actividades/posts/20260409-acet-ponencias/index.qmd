@@ -1,5 +1,5 @@
 ---
-title: "Participación en el Primer Congreso Chileno de Estudios del Trabajo (Pre-ALAST 2026): “Los nuevos escenarios del trabajo en América Latina”"
+title: "Participación con dos ponencias en el Primer Congreso Chileno de Estudios del Trabajo (Pre-ALAST 2026): “Los nuevos escenarios del trabajo en América Latina”"
 subtitle: "Asociación Chilena de Estudios del Trabajo"
 date: "2026-04-11" 
 image: "conclat-web-acet-ponencias.jpg"
@@ -17,11 +17,10 @@ La iniciativa impulsada por la [Asociación Chilena de Estudios del Trabajo](htt
 
 
 ## Ponencia “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile”
-El día jueves 09 de abril, [Pablo Pérez Ahumada](https://conclat.com/nosotros/miembros/01-pabloperez/) y [Daniela Olivares Collío](https://conclat.com/nosotros/miembros/09-danielaolivares/), presentaron la encuesta desarrollada en el marco del [Proyecto Conclat](https://conclat.com/). 
-En la ponencia se abordaron algunos aspectos metodológicos de la encuesta y de qué manera permite medir conceptos como la posición de clase, la conciencia de clase y la explotación percibida.
+Durante la jornada del 09 de abril, se presentó la ponencia **“Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile”**, a cargo de [Pablo Pérez Ahumada](https://conclat.com/nosotros/miembros/01-pabloperez/) y [Daniela Olivares Collío](https://conclat.com/nosotros/miembros/09-danielaolivares/). En la instancia, se dieron a conocer avances de la encuesta desarrollada en el marco del [Proyecto Conclat](https://conclat.com/), destacando su aporte para analizar dimensiones como la posición y conciencia de clase, así como la percepción de explotación.
 
 ## Ponencia “Conflicto laboral, recursos de poder y afiliación a asociaciones empresariales: evidencia desde Chile en perspectiva comparada”
-Además, en la jornada del 11 de abril, [Pablo Pérez Ahumada](https://conclat.com/nosotros/miembros/01-pabloperez/) y [Javiera Romo Sánchez](https://conclat.com/nosotros/miembros/10-javieraromo/) presentaron una investigación sobre la incidencia del conflicto laboral en la afiliación a asociaciones empresariales, usando datos de la [X Encuesta Laboral (ENCLA) del INE](https://www.ine.gob.cl/encla). Entre los hallazgos más relevantes, se mostró evidencia que apuntaba a que el poder de los trabajadores es un factor relevante en la coordinación empresarial, en especial en las empresas más vulnerables a los conflictos laborales.
+Asímismo, el sábado 11 de abril, [Pablo Pérez Ahumada](https://conclat.com/nosotros/miembros/01-pabloperez/) y [Javiera Romo Sánchez](https://conclat.com/nosotros/miembros/10-javieraromo/) expusieron la investigación **“Conflicto laboral, recursos de poder y afiliación a asociaciones empresariales: evidencia desde Chile en perspectiva comparada”**. El estudio, basado en datos de la [X Encuesta Laboral (ENCLA)](https://www.ine.gob.cl/encla), evidenció que el poder de los trabajadores incide en la coordinación empresarial, particularmente en aquellas empresas más expuestas a conflictos laborales.
 
 <div class="top-cta">
   <a class="btn btn-sm btn-primary" href="https://drive.google.com/file/d/1VrQSj6-s5guCl1FMDyRhnC_u_Ix0leQe/view" target="_blank" rel="noopener">Ver programa</a>

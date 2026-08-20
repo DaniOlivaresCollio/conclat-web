@@ -1,0 +1,29 @@
+---
+title: "¿Solidaridad de clase o brechas de representación? Actitudes sindicales entre los trabajadores formales e informales en Argentina y Chile"
+subtitle: "Pablo Pérez Ahumada y Rodolfo Elbert"
+date: "2026-06-04"
+image: "foto_2.jpg"
+description: ""
+categories: [paper, investigación]
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "foto_2.jpg"
+---
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://doi.org/10.1017/lap.2026.10061" target="_blank" rel="noopener">Leer el paper</a>
+</div>
+
+<details class="details-btn" markdown="1">
+  <summary><span class="summary-chip">Cita (APA 7)</span></summary>
+  <p class="apa-ref"><strong>Pérez-Ahumada, P. y Elbert, R.</strong> (2026). <em>Class Solidarity or Representation Gaps? Union Attitudes Among Formal and Informal Workers in Argentina and Chile.</em> <em> Latin American Politics and Society</em>, 0(0). https://doi.org/10.1017/lap.2026.10061 </p>
+</details>
+
+## Abstract 
+Este artículo examina si los trabajadores formales e informales de Argentina y Chile presentan actitudes diferentes hacia los sindicatos. En diálogo con los debates sobre la dualización del mercado laboral y la revitalización sindical, evaluamos la hipótesis de la brecha de representación —que plantea un menor apoyo a los sindicatos entre los trabajadores outsiders— frente a la hipótesis de la solidaridad de clase, que anticipa orientaciones ampliamente similares entre trabajadores en distintas posiciones dentro del mercado laboral. A partir de datos originales de una encuesta realizada en 2025 en ambos países, encontramos evidencia limitada de una división sistemática entre insiders y outsiders. Si bien los trabajadores informales por cuenta propia expresan, en ocasiones, opiniones más escépticas, la mayoría de las actitudes de los trabajadores informales no difieren estadísticamente de las de los trabajadores formales y, en algunos casos, son incluso más favorables. A nivel comparado, los trabajadores argentinos tienden a atribuir mayor importancia a los sindicatos, mientras que los trabajadores chilenos manifiestan una mayor disposición a sindicalizarse. En conjunto, estos resultados sugieren que la tesis de la brecha de representación podría no captar plenamente las orientaciones de los trabajadores y apuntan a la posible relevancia de dinámicas de solidaridad moldeadas por los contextos institucionales y políticos nacionales.
+
+## Etiquetas
+Sindicatos, trabajadores informales, brechas de representación, solidaridad de clase, Chile y Argentina.
+

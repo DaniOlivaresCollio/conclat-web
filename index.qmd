@@ -45,14 +45,13 @@ about:
 :::
 :::
 
-
 <!-- ====================== LOGOS ====================== -->
 ::: {.section-text .logos-bg}
 ::: {.section-container}
 ::: {.section-block}
 ::: {style="text-align: center;"}
 
-::: {layout-ncol=3}
+::: {layout-ncol=2}
 
 [![](resources/img/anid.png)](https://anid.cl)
 

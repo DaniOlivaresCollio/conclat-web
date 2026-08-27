@@ -57,7 +57,7 @@ a:hover {
 }
 
 .post-contents {
-	padding-left: 1.5em
+	padding-left: 1.5em;
 	padding-right: 1.5em;
 	margin: 1rem;
 }
@@ -674,7 +674,9 @@ html, body { max-width: 100%; overflow-x: clip; }
 
 
 
-\.hero-heading-content {\n  position: relative;\n  z-index: 2;
+.hero-heading-content {
+  position: relative;
+  z-index: 2;
   pointer-events: none;
 }
 
@@ -695,6 +697,3 @@ html, body { max-width: 100%; overflow-x: clip; }
   width: 100% !important;
   height: 100% !important;
 }
-
-
-

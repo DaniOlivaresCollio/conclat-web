@@ -25,11 +25,11 @@ website:
   navbar:
     logo: resources/img/conclat_ID_principal_rojo.png
     background: "#FFFFFF"
-    tools: 
-       - icon: github
-         href: https://github.com/DaniOlivaresCollio/conclat-web
-       - icon: instagram
-         href: https://www.instagram.com/proyecto.conclat/  
+    tools:
+      - icon: github
+        href: https://github.com/DaniOlivaresCollio/conclat-web
+      - icon: instagram
+        href: https://www.instagram.com/proyecto.conclat/
     # pinned: true
     left:
       - text: Sobre CONCLAT
@@ -38,13 +38,9 @@ website:
       - text: Nuestro equipo
         icon: people-fill
         href: nosotros/nosotros.qmd
-     # - text: Encuesta
-     #   icon: list-ul
-     #   menu: 
-      #   - href: encuesta/01-chile/
-      #     text: "{{<ai list-ul>}} Encuesta Chile"
-      #   - href: encuesta/02-argentina/
-      #     text: "{{<ai list-ul>}} Encuesta Argentina"
+      - text: Encuesta
+        icon: list-ul
+        href: encuesta/encuesta.qmd
       - text: Investigación
         icon: journals
         href: investigacion/investigacion.qmd
@@ -57,15 +53,15 @@ website:
       - text: Contacto
         icon: envelope
         href: contacto/contacto.qmd
-     
+
 format:
   html:
-    theme: 
+    theme:
       light: flatly
-    css: 
+    css:
       - styles.css
       - resources/css/home.css
     linkcolor: "#CA0000"
-    include-after-body: 
+    include-after-body:
       - footer/footer.html
       - resources/js/particles-init.html

@@ -1,0 +1,38 @@
+---
+title: "Encuesta"
+page-layout: full
+title-block-banner: false
+comments: false
+toc: false
+format:
+  html:
+    css:
+      - /resources/css/sobre.css
+---
+
+::: {.banner-full .full-bleed}
+# Encuesta Clase, Trabajo y Conflicto (CONCLAT) {.banner-text}
+:::
+
+::: {.text-center}
+[Descargar base de datos](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/URQRDQ){.btn .btn-lg role="button" target="_blank" style="background-color:#C22828; color:#ffffff; border:none; font-weight:600;"}
+:::
+
+## Sobre la Encuesta CONCLAT
+
+La Encuesta CONCLAT (Encuesta Comparativa de Clases, Trabajo y Conflicto) es un estudio binacional aplicado en Chile (noviembre 2024 - enero 2025) y Argentina (abril - agosto 2025), en el marco del proyecto Fondecyt Regular N° 1230056, *"Clases sociales, movimientos sindicales y conflicto sociopolítico: un estudio comparativo de Argentina y Chile"* (2023-2027), financiado por la Agencia Nacional de Investigación y Desarrollo (ANID).
+
+Se trata de una de las pocas encuestas en la región que permite medir la clase social a partir de esquemas teóricos como el neomarxista de Erik Olin Wright y el neoweberiano de Erikson y Goldthorpe, junto con datos detallados sobre condiciones laborales, afiliación sindical y percepciones de conflicto social y político.
+
+### Objetivos
+
+El estudio busca comprender cómo la clase social y la afiliación sindical influyen en:
+
+- El **conflicto social**, entendido como la percepción de tensiones en el trabajo (por ejemplo, entre empresarios y trabajadores) y la atribución de responsabilidad por problemas como el desempleo y la inflación.
+- El **conflicto político**, relacionado con las actitudes hacia políticas redistributivas, la extensión de derechos laborales y el rol del Estado.
+
+Además, examina la relación entre ambos tipos de conflicto y cómo estas dinámicas varían entre Chile y Argentina, y entre distintos sectores económicos según su nivel de organización sindical.
+
+### ¿Por qué Chile y Argentina?
+
+Ambos países fueron elegidos por representar modelos laborales divergentes, lo que permite una comparación especialmente reveladora. Argentina cuenta con un sistema corporativista, con negociación colectiva sectorial centralizada, representación sindical exclusiva por rama ("personería gremial") y tasas de afiliación cercanas al 40% a fines de los años 2000. Chile, en cambio, tiene un modelo altamente descentralizado, con negociación colectiva a nivel de empresa y una afiliación sindical que no ha superado el 18% en las últimas décadas.

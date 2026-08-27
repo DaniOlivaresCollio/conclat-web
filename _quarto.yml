@@ -40,7 +40,7 @@ website:
         href: nosotros/nosotros.qmd
       - text: Encuesta
         icon: list-ul
-        href: encuesta/encuesta.qmd
+        href: encuesta/index.qmd
       - text: Investigación
         icon: journals
         href: investigacion/investigacion.qmd

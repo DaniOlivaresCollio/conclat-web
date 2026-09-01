@@ -1,0 +1,30 @@
+---
+title: "Los efectos igualadores de género de los sindicatos: la afiliación sindical y las brechas de género en la participación política en América Latina"
+subtitle: "Pablo Pérez Ahumada & Patricia Retamal"
+date: "2026-08-26"
+image: "foto_2.jpg"
+description: ""
+categories: [paper, investigación]
+lang: es
+draft: false
+about:
+  template: marquee
+  image: "foto_2.jpg"
+---
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://doi.org/10.1177/00221856261481696" target="_blank" rel="noopener">Leer el paper</a>
+</div>
+
+<details class="details-btn" markdown="1">
+  <summary><span class="summary-chip">Cita (APA 7)</span></summary>
+  <p class="apa-ref"><strong>Pérez-Ahumada, P. & Retamal, P. </strong> (2026). <em>The gender-equalizing effects of labor unions: Union membership and gender gaps in political participation in Latin America. </em> <em>Revista de Relaciones Industriales</em>, 0(0). https://doi.org/10.1177/00221856261481696 </p>
+</details>
+
+## Abstract 
+Los sindicatos desempeñan un papel clave en la reducción de las desventajas laborales de las mujeres. A pesar de ello, los críticos argumentan que siguen reproduciendo culturas dominadas por hombres. Este artículo contribuye a este debate examinando si los sindicatos reducen las brechas de género en la participación política, un ámbito en el que la desigualdad sigue siendo persistente. Integramos el modelo de recursos de la participación política con la investigación feminista y argumentamos que los sindicatos pueden desempeñar un papel importante en la reducción e incluso revertir las brechas de género políticas. Utilizando datos de la Encuesta Mundial de Valores de Argentina, Chile, Perú y Uruguay (1994–2022), mostramos que, en los cuatro países, la afiliación sindical no solo se reduce, sino que revierte las disparidades de género en la participación cívica. Además, en Chile, la afiliación sindical revierte las brechas de género en la participación en actividades políticas. Estos hallazgos amplían la investigación sobre los efectos igualadores de los sindicatos más allá del mercado laboral al ámbito político y demuestran que los sindicatos pueden fomentar el compromiso político de las mujeres incluso en contextos donde la organización sindical es débil. En general, el estudio subraya la importancia democrática de los sindicatos como instituciones igualadoras de género.
+
+
+## Etiquetas
+Sindicatos, género, participación política.
+

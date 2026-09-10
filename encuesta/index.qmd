@@ -69,4 +69,4 @@ La base de datos, el cuestionario y el libro de códigos de la encuesta CONCLAT 
 
 **Para citar el manual metodológico:**
 
-> Pérez Ahumada, P., Olivares Collío, D., Romo Sánchez, J. (2026). *Dataset Documentation Paper*.
+> Pérez Ahumada, P., Olivares Collío, D., Romo Sánchez, J. (2026). *Manual Metodológico Classes, Work and Conflict Survey (CONCLAT): Chile and Argentina 2025.*.

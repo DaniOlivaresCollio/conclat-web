@@ -764,3 +764,18 @@ img.post-figure{ display:block; max-width:560px; width:100%; margin:1rem auto; b
 .section-alt + .logos-strip{ background:#fff; }
 .btn-outline-red{ color:var(--c-red); border:1px solid var(--c-red); background:transparent; border-radius:999px; font-weight:600; }
 .btn-outline-red:hover{ background:var(--c-red); border-color:var(--c-red); color:#fff; }
+
+/* botones de GitHub e Instagram junto a la lupa: siempre en una fila */
+.quarto-navbar-tools{ display:flex; align-items:center; flex-wrap:nowrap; flex-shrink:0; gap:.1rem; margin-left:.4rem; }
+.quarto-navbar-tools .quarto-navigation-tool{ padding-inline:.4rem !important; }
+@media (min-width:992px) and (max-width:1199px){
+  .navbar-nav .nav-link{ padding-inline:.25rem; font-size:.8rem; }
+  .navbar-brand-container{ margin-right:.1rem; }
+  .navbar-logo{ max-height:44px; }
+  .quarto-navbar-tools{ margin-left:.1rem; }
+}
+@media (max-width:991.98px){
+  .navbar-logo{ max-height:44px; }
+  .quarto-navbar-tools{ margin-left:auto !important; }
+  #quarto-search{ margin-left:0 !important; }
+}

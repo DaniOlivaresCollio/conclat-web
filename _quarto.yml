@@ -31,6 +31,13 @@ website:
     title: false
     logo: resources/img/conclat_ID_principal_rojo.png
     background: "#FFFFFF"
+    tools:
+      - icon: github
+        text: GitHub
+        href: https://github.com/DaniOlivaresCollio/conclat-web
+      - icon: instagram
+        text: Instagram
+        href: https://www.instagram.com/proyecto.conclat/
     left:
       - text: Inicio
         href: index.qmd

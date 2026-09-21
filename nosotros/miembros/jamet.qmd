@@ -1,0 +1,31 @@
+---
+pagetitle: "Derek Jamet"
+page-layout: custom
+title-block-banner: false
+toc: false
+---
+
+```{=html}
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Derek Jamet</h1>
+</div>
+</div>
+```
+
+```{=html}
+<div class="section full-bleed">
+<div class="profile">
+<div class="profile-side">
+<img class="team-photo profile-photo" src="../../resources/img/equipo/jamet.jpg" alt="Derek Jamet">
+<span class="team-role">Tesista de Magíster</span>
+<div class="card-contacto"><a href="mailto:derek.jamet@ug.uchile.cl" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.linkedin.com/in/derek-jamet-222759295/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a></div>
+</div>
+<div class="profile-body">
+<p>Título de tesis: “Clase trabajadora y conciencia de clase: Un análisis de la diferenciación de la fuerza de trabajo en Chile”</p>
+<p>Estudiante del Magíster en Ciencias Sociales con mención en Sociología de la Modernización de la Universidad de Chile. Licenciado en Sociología de la Universidad de Chile. Interés en temas de clases sociales, trabajo y economía.</p>
+<a class="profile-back" href="../nosotros.html">&larr; Volver al equipo</a>
+</div>
+</div>
+</div>
+```

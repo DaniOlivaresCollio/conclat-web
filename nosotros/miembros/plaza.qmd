@@ -1,0 +1,29 @@
+---
+pagetitle: "Cristóbal Plaza"
+page-layout: custom
+title-block-banner: false
+toc: false
+---
+
+```{=html}
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Cristóbal Plaza</h1>
+</div>
+</div>
+```
+
+```{=html}
+<div class="section full-bleed">
+<div class="profile">
+<div class="profile-side">
+<img class="team-photo profile-photo" src="../../resources/img/equipo/plaza.jpg" alt="Cristóbal Plaza">
+<span class="team-role">Tesista de pregrado</span>
+</div>
+<div class="profile-body">
+<p class="profile-empty">Perfil en construcción.</p>
+<a class="profile-back" href="../nosotros.html">&larr; Volver al equipo</a>
+</div>
+</div>
+</div>
+```

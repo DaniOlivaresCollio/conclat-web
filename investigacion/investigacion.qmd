@@ -1,27 +1,31 @@
 ---
-title: ""
-page-layout: full
+pagetitle: "Investigación"
+lang: es
+page-layout: custom
 title-block-banner: false
-comments: false
 toc: false
-format: 
-  html:
-    css:
-      - /resources/css/investigacion.css
 listing:
+  id: publicaciones
   contents: posts
-  type: grid
+  template: ../resources/publicacion.ejs
   sort: "date desc"
-  fields: [image, title, subtitle, categories, date]
-  grid-columns: 3
-  image-height: 170px
-  date-format: "DD MMM YYYY"
-  categories: false
-  filter-ui: false
+  sort-ui: [date, title]
+  filter-ui: [title, subtitle, categories, revista]
+  fields: [title, subtitle, date, categories, revista, path]
+  date-format: "YYYY"
+  page-size: 50
 ---
 
-::: {.banner-full .full-bleed}
-# Investigación {.banner-text}
+```{=html}
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Investigación</h1>
+<div class="page-lead"><p>Publicaciones en el marco del proyecto Conclat.</p></div>
+</div>
+</div>
+```
+
+::: {.pub-wrap}
+::: {#publicaciones}
 :::
-
-
+:::

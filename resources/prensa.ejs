@@ -1,0 +1,29 @@
+::: {.list .press-grid}
+<% for (const item of items) { %>
+::: {.press-card <%= metadataAttrs(item) %>}
+
+[<img src="<%= item.image %>" class="press-img" alt="">](<%= item.path %>){.press-img-link}
+
+::: {.press-body}
+
+::: {.press-meta}
+[<%= item.date %>]{.listing-date} · [<%= item.tipo %>]{.press-tipo .listing-tipo}
+:::
+
+::: {.press-title}
+[<%= item.title %>](<%= item.path %>){.listing-title}
+:::
+<% if (item.subtitle) { %>
+::: {.press-author .listing-subtitle}
+<%= item.subtitle %>
+:::
+<% } %><% if (item.categories) { %>
+::: {.pub-tags .listing-categories}
+<% for (const cat of item.categories) { %>[<%= cat %>]{.pub-tag} <% } %>
+:::
+<% } %>
+:::
+
+:::
+<% } %>
+:::

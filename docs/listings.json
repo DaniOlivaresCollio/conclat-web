@@ -2,59 +2,41 @@
   {
     "listing": "/prensa/prensa.html",
     "items": [
-      "/prensa/posts/20262002-perez-mostrador/index.html",
-      "/prensa/posts/20251201-perez-mostrador/index.html",
-      "/prensa/posts/20251025-perez-mostrador/index.html",
-      "/prensa/posts/20250504-perez-mostrador/index.html",
-      "/prensa/posts/20250213-perez-mostrador/index.html",
-      "/prensa/posts/20241206-perez-mostrador/index.html",
-      "/prensa/posts/20240307-perez-mostrador/index.html",
-      "/prensa/posts/20240517-perez-mostrador/index.html",
-      "/prensa/posts/20231224-perez-mostrador/index.html"
-    ]
-  },
-  {
-    "listing": "/nosotros/nosotros.html",
-    "items": [
-      "/nosotros/miembros/01-pabloperez/index.html",
-      "/nosotros/miembros/02-franciscagutierrez/index.html",
-      "/nosotros/miembros/03-rodolfoelbert/index.html",
-      "/nosotros/miembros/04-paulaboniolo/index.html",
-      "/nosotros/miembros/05-pablodalle/index.html",
-      "/nosotros/miembros/06-luciladurso/index.html",
-      "/nosotros/miembros/07-claramarticorena/index.html",
-      "/nosotros/miembros/08-juandiegogarcia/index.html",
-      "/nosotros/miembros/09-danielaolivares/index.html",
-      "/nosotros/miembros/10-javieraromo/index.html",
-      "/nosotros/miembros/11-isaiguzman/index.html",
-      "/nosotros/miembros/12-derekjamet/index.html",
-      "/nosotros/miembros/13-cristobalplaza/index.html"
-    ]
-  },
-  {
-    "listing": "/investigacion/investigacion.html",
-    "items": [
-      "/investigacion/posts/20262608-perez-retamal/index.html",
-      "/investigacion/posts/20260807-perez/index.html",
-      "/investigacion/posts/20260604-perez-elbert/index.html",
-      "/investigacion/posts/20261602-perez-olivares-carrasco/index.html",
-      "/investigacion/posts/20250616-perez-godoy/index.html",
-      "/investigacion/posts/20241218-perez-carrasco/index.html",
-      "/investigacion/posts/20241010-perez-gutierrez-astorga/index.html",
-      "/investigacion/posts/20241001-perez-garcia/index.html",
-      "/investigacion/posts/20240810-perez-gutierrez/index.html",
-      "/investigacion/posts/20240806-perez-astorga/index.html",
-      "/investigacion/posts/20240624-garcia-venegas-perez/index.html"
+      "/prensa/posts/2026-02-20-columna/index.html",
+      "/prensa/posts/2025-12-02-carta/index.html",
+      "/prensa/posts/2025-10-25-columna/index.html",
+      "/prensa/posts/2025-05-04-columna/index.html",
+      "/prensa/posts/2025-02-13-columna/index.html",
+      "/prensa/posts/2024-12-06-columna/index.html",
+      "/prensa/posts/2024-05-17-columna/index.html",
+      "/prensa/posts/2024-03-07-columna/index.html",
+      "/prensa/posts/2023-12-24-columna/index.html"
     ]
   },
   {
     "listing": "/actividades/actividades.html",
     "items": [
-      "/actividades/posts/20260409-acet-ponencias/index.html",
-      "/actividades/posts/20260409-acet-poster/index.html",
-      "/actividades/posts/20251022-olivares-olaysen/index.html",
-      "/actividades/posts/20251017-perez-premiacion/index.html",
-      "/actividades/posts/20250224-ilpc/index.html"
+      "/actividades/posts/2026-04-11-acet-ponencias/index.html",
+      "/actividades/posts/2026-04-11-acet-poster/index.html",
+      "/actividades/posts/2025-10-22-olivares-olaysen/index.html",
+      "/actividades/posts/2025-10-17-perez-premiacion/index.html",
+      "/actividades/posts/2025-04-24-ilpc/index.html"
+    ]
+  },
+  {
+    "listing": "/investigacion/investigacion.html",
+    "items": [
+      "/investigacion/posts/2026-08-26-perez-retamal/index.html",
+      "/investigacion/posts/2026-07-08-perez/index.html",
+      "/investigacion/posts/2026-06-04-perez-elbert/index.html",
+      "/investigacion/posts/2026-02-16-perez-olivares-carrasco/index.html",
+      "/investigacion/posts/2025-06-16-perez-godoy/index.html",
+      "/investigacion/posts/2024-12-18-perez-carrasco/index.html",
+      "/investigacion/posts/2024-10-10-perez-gutierrez-astorga/index.html",
+      "/investigacion/posts/2024-10-01-perez-garcia/index.html",
+      "/investigacion/posts/2024-08-10-perez-gutierrez/index.html",
+      "/investigacion/posts/2024-08-06-perez-astorga/index.html",
+      "/investigacion/posts/2024-06-24-garcia-venegas-perez/index.html"
     ]
   }
 ]

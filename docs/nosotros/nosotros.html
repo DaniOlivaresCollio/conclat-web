@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>nosotros</title>
+<title>Nuestro equipo – Conclat</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../resources/img/conclat_logo_principal_rojo.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -45,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4b1accf34481c3a53b53ba7b2d4a4530.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-57b0930abbd3c9d5219dd1c85d935c33.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,72 +71,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-contacto',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="stylesheet" href="../resources/css/home.css">
-<link rel="stylesheet" href="../resources/css/nosotros.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -157,9 +95,13 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../informacion/01-sobre.html"> <i class="bi bi-info-square-fill" role="img">
 </i> 
-<span class="menu-text">Sobre CONCLAT</span></a>
+<span class="menu-text">Sobre Conclat</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../nosotros/nosotros.html" aria-current="page"> <i class="bi bi-people-fill" role="img">
@@ -167,7 +109,7 @@ window.Quarto = {
 <span class="menu-text">Nuestro equipo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../encuesta/index.html"> <i class="bi bi-list-ul" role="img">
+    <a class="nav-link" href="../encuesta/encuesta.html"> <i class="bi bi-clipboard2-data-fill" role="img">
 </i> 
 <span class="menu-text">Encuesta</span></a>
   </li>  
@@ -187,546 +129,189 @@ window.Quarto = {
 <span class="menu-text">Actividades</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contacto/contacto.html"> <i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="../contacto/contacto.html"> <i class="bi bi-envelope-fill" role="img">
 </i> 
 <span class="menu-text">Contacto</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/DaniOlivaresCollio/conclat-web" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.instagram.com/proyecto.conclat/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="nuestro-equipo" class="level1 banner-text banner-full full-bleed">
-<h1 class="banner-text">Nuestro Equipo</h1>
-</section>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1776447159185" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
-<a href="../nosotros/miembros/01-pabloperez/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/01-pabloperez/perez.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pablo Pérez Ahumada
-</h5>
-<div class="card-subtitle listing-subtitle">
-Investigador Principal
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:pabloperez@uchile" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://pperezahumada.com/" target="_blank" rel="noopener" aria-label="Web Personal"><i class="bi bi-globe"></i></a> <a href="https://orcid.org/0000-0002-0410-0725" target="_blank" rel="noopener" aria-label="ORCID"><i class="bi bi-orcid"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1776447159243" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
-<a href="../nosotros/miembros/02-franciscagutierrez/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/02-franciscagutierrez/gutierrez.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Francisca Gutiérrez
-</h5>
-<div class="card-subtitle listing-subtitle">
-Co-Investigadora
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:francisca.gutierrez@uach.cl" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://www.economicas.uach.cl/academico/francisca-gutierrez-crocco/" target="_blank" rel="noopener" aria-label="Web Personal"><i class="bi bi-globe"></i></a> <a href="https://orcid.org/0000-0002-5445-2833" target="_blank" rel="noopener" aria-label="ORCID"><i class="bi bi-orcid"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1776447159243" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
-<a href="../nosotros/miembros/03-rodolfoelbert/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/03-rodolfoelbert/elbert.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Rodolfo Elbert
-</h5>
-<div class="card-subtitle listing-subtitle">
-Investigador
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:elbert.rodolfo@gmail.com " aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://www.conicet.gov.ar/new_scp/detalle.php?id=35394&amp;datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web Personal"><i class="bi bi-globe"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1776447159243" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
-<a href="../nosotros/miembros/04-paulaboniolo/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/04-paulaboniolo/boniolo.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Paula Boniolo
-</h5>
-<div class="card-subtitle listing-subtitle">
-Investigadora
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:boniolopaula@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://www.conicet.gov.ar/new_scp/detalle.php?id=35364&amp;keywords=&amp;datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web Personal"><i class="bi bi-globe"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1776447159243" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
-<a href="../nosotros/miembros/05-pablodalle/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/05-pablodalle/dalle.webp" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pablo Dalle
-</h5>
-<div class="card-subtitle listing-subtitle">
-Investigador
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:pablodalle@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=36509&amp;datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web Personal"><i class="bi bi-globe"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1776447159255" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
-<a href="../nosotros/miembros/06-luciladurso/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/06-luciladurso/durso.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Lucila D’Urso
-</h5>
-<div class="card-subtitle listing-subtitle">
-Investigadora
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:ldurso@campus.ungs.edu.ar" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://ri.conicet.gov.ar/author/41636" target="_blank" rel="noopener" aria-label="Web Personal"><i class="bi bi-globe"></i></a> <a href="https://www.researchgate.net/profile/Lucila-Durso-2" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="bi bi-researchgate"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1776447159255" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
-<a href="../nosotros/miembros/07-claramarticorena/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/07-claramarticorena/marticorena.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Clara Marticorena
-</h5>
-<div class="card-subtitle listing-subtitle">
-Investigadora
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:claramarticorena@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=33275&amp;datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web Personal"><i class="bi bi-globe"></i></a> <a href="https://www.researchgate.net/profile/Clara-Marticorena" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="bi bi-researchgate"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1776447159260" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
-<a href="../nosotros/miembros/08-juandiegogarcia/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/08-juandiegogarcia/08_garciacastro.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Juan Diego García-Castro
-</h5>
-<div class="card-subtitle listing-subtitle">
-Investigador
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:juandiego.garcia@ucr.ac.cr" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://iip.ucr.ac.cr/es/investigadores/juan-diego-garcia-castro" target="_blank" rel="noopener" aria-label="Web Personal"><i class="bi bi-globe"></i></a> <a href="https://scholar.google.com/citations?user=o_ReskMAAAAJ&amp;hl=es" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="bi bi-scholar"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1776447159260" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
-<a href="../nosotros/miembros/09-danielaolivares/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/09-danielaolivares/olivares.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Daniela Olivares Collío
-</h5>
-<div class="card-subtitle listing-subtitle">
-Asistente de Investigación
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:danielaolivarescollio@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://www.linkedin.com/in/daniela-olivares-collio/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> <a href="https://github.com/DaniOlivaresCollio" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1776447159269" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
-<a href="../nosotros/miembros/10-javieraromo/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/10-javieraromo/10_romo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Javiera Romo Sánchez
-</h5>
-<div class="card-subtitle listing-subtitle">
-Asistente de Investigación
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:javiera.romo.s@uchile.cl" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://www.linkedin.com/in/javiera-romo-s%C3%A1nchez-b6334a371/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> <a href="https://github.com/JaviRomoS" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1776447159269" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<a href="../nosotros/miembros/11-isaiguzman/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/11-isaiguzman/11_guzman.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Isaí Guzmán
-</h5>
-<div class="card-subtitle listing-subtitle">
-Tesista de Magíster
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:isai.guzman@ug.uchile.cl" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://www.linkedin.com/in/iguzmanp/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> <a href="https://x.com/iguzmanp99" target="_blank" rel="noopener" aria-label="Twitter"><i class="bi bi-twitter"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-listing-file-modified-sort="1776447159269" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
-<a href="../nosotros/miembros/12-derekjamet/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/12-derekjamet/12_jamet.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Derek Jamet
-</h5>
-<div class="card-subtitle listing-subtitle">
-Tesista de Magíster
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:derek.jamet@ug.uchile.cl" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://www.linkedin.com/in/derek-jamet-222759295/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="12" data-listing-file-modified-sort="1787259688456" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<a href="../nosotros/miembros/13-cristobalplaza/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../nosotros/miembros/13-cristobalplaza/13_plaza.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cristóbal Plaza
-</h5>
-<div class="card-subtitle listing-subtitle">
-Tesista de Magíster
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-contacto
-</td>
-<td class="contacto">
-<div class="card-contacto">
-<p><a href="mailto:a@ug.uchile.cl" aria-label="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></p>
-</div>
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
+<!-- ========== ENCABEZADO DE PÁGINA ========== -->
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Nuestro equipo</h1>
 </div>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
-<!-- FOOTER QUE IGNORA LA GRID DE QUARTO -->
+<!-- ========== INVESTIGADOR PRINCIPAL ========== -->
+<div class="section full-bleed">
+<div class="section-head">
+<span class="kicker">Dirección del proyecto</span>
+<h2>Investigador principal</h2>
+</div>
+<div class="team-grid team-grid-2">
+<article class="team-card">
+<a class="team-link" href="miembros/perez.html">
+<img class="team-photo" src="../resources/img/equipo/perez.jpg" alt="Pablo Pérez Ahumada" loading="lazy">
+<h3>Pablo Pérez Ahumada</h3>
+</a>
+<span class="team-role">Investigador Principal</span>
+<div class="card-contacto"><a href="mailto:pabloperez@uchile.cl" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://pperezahumada.com/" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a><a class="txt" href="https://orcid.org/0000-0002-0410-0725" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">iD</a><a href="https://x.com/pablo_perez_a" target="_blank" rel="noopener" aria-label="X" title="X"><i class="bi bi-twitter-x"></i></a></div>
+<a class="team-more" href="miembros/perez.html">Ver perfil →</a>
+</article>
+</div>
+</div>
+<!-- ========== INVESTIGADORES E INVESTIGADORAS ========== -->
+<div class="section section-alt full-bleed">
+<div class="section-head">
+<span class="kicker">Investigación</span>
+<h2>Investigadores e investigadoras</h2>
+</div>
+<div class="team-grid">
+<article class="team-card">
+<a class="team-link" href="miembros/gutierrez.html">
+<img class="team-photo" src="../resources/img/equipo/gutierrez.jpg" alt="Francisca Gutiérrez" loading="lazy">
+<h3>Francisca Gutiérrez</h3>
+</a>
+<span class="team-role">Co-Investigadora</span>
+<div class="card-contacto"><a href="mailto:francisca.gutierrez@uach.cl" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.economicas.uach.cl/academico/francisca-gutierrez-crocco/" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a><a class="txt" href="https://orcid.org/0000-0002-5445-2833" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">iD</a></div>
+<a class="team-more" href="miembros/gutierrez.html">Ver perfil →</a>
+</article>
 
-<div style="background-color: #6f0000; color: white;
+<article class="team-card">
+<a class="team-link" href="miembros/elbert.html">
+<img class="team-photo" src="../resources/img/equipo/elbert.jpg" alt="Rodolfo Elbert" loading="lazy">
+<h3>Rodolfo Elbert</h3>
+</a>
+<span class="team-role">Investigador</span>
+<div class="card-contacto"><a href="mailto:elbert.rodolfo@gmail.com" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.conicet.gov.ar/new_scp/detalle.php?id=35394&amp;datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a></div>
+<a class="team-more" href="miembros/elbert.html">Ver perfil →</a>
+</article>
 
-            grid-column: 1 / -1;">
-
-
-
-  <!-- TÍTULO -->
-
-  <h2 style="text-align: center; font-size: 36px; font-weight: bold; margin-bottom: 2rem;">Contacto Institucional</h2>
-
-  
-
-  <!-- CONTENIDO FLEXIBLE -->
-
-  <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap; width: 100%; max-width: 1200px; margin: 0 auto; box-sizing: border-box; padding: 0 2rem;">
-
-    
-
-    <!-- Logo -->
-
-    <div style="flex: 1; min-width: 250px; text-align: center; margin-bottom: 2rem;">
-
-  <a href="https://conclat.com">
-
- <img id="logo_conclat_principal_oscuro" src="../logo_conclat_principal_oscuro.png" alt="Logo CONCLAT" style="width: 100%;">
-
-
-
-  </a>
-
+<article class="team-card">
+<a class="team-link" href="miembros/boniolo.html">
+<img class="team-photo" src="../resources/img/equipo/boniolo.jpg" alt="Paula Boniolo" loading="lazy">
+<h3>Paula Boniolo</h3>
+</a>
+<span class="team-role">Investigadora</span>
+<div class="card-contacto"><a href="mailto:boniolopaula@gmail.com" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.conicet.gov.ar/new_scp/detalle.php?id=35364&amp;keywords=&amp;datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a></div>
+<a class="team-more" href="miembros/boniolo.html">Ver perfil →</a>
+</article>
+<article class="team-card">
+<a class="team-link" href="miembros/dalle.html">
+<img class="team-photo" src="../resources/img/equipo/dalle.jpg" alt="Pablo Dalle" loading="lazy">
+<h3>Pablo Dalle</h3>
+</a>
+<span class="team-role">Investigador</span>
+<div class="card-contacto"><a href="mailto:pablodalle@gmail.com" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=36509&amp;datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a></div>
+<a class="team-more" href="miembros/dalle.html">Ver perfil →</a>
+</article>
+<article class="team-card">
+<a class="team-link" href="miembros/durso.html">
+<img class="team-photo" src="../resources/img/equipo/durso.jpg" alt="Lucila D'Urso" loading="lazy">
+<h3>Lucila D'Urso</h3>
+</a>
+<span class="team-role">Investigadora</span>
+<div class="card-contacto"><a href="mailto:ldurso@campus.ungs.edu.ar" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://ri.conicet.gov.ar/author/41636" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a><a class="txt" href="https://www.researchgate.net/profile/Lucila-Durso-2" target="_blank" rel="noopener" aria-label="ResearchGate" title="ResearchGate">RG</a></div>
+<a class="team-more" href="miembros/durso.html">Ver perfil →</a>
+</article>
+<article class="team-card">
+<a class="team-link" href="miembros/marticorena.html">
+<img class="team-photo" src="../resources/img/equipo/marticorena.jpg" alt="Clara Marticorena" loading="lazy">
+<h3>Clara Marticorena</h3>
+</a>
+<span class="team-role">Investigadora</span>
+<div class="card-contacto"><a href="mailto:claramarticorena@gmail.com" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=33275&amp;datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a><a class="txt" href="https://www.researchgate.net/profile/Clara-Marticorena" target="_blank" rel="noopener" aria-label="ResearchGate" title="ResearchGate">RG</a></div>
+<a class="team-more" href="miembros/marticorena.html">Ver perfil →</a>
+</article>
+<article class="team-card">
+<a class="team-link" href="miembros/garcia-castro.html">
+<img class="team-photo" src="../resources/img/equipo/garcia-castro.jpg" alt="Juan Diego García-Castro" loading="lazy">
+<h3>Juan Diego García-Castro</h3>
+</a>
+<span class="team-role">Investigador</span>
+<div class="card-contacto"><a href="mailto:juandiego.garcia@ucr.ac.cr" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a class="txt" href="https://scholar.google.com/citations?user=o_ReskMAAAAJ&amp;hl=es" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">GS</a><a class="txt" href="https://www.researchgate.net/profile/Juan-Garcia-Castro-2" target="_blank" rel="noopener" aria-label="ResearchGate" title="ResearchGate">RG</a><a href="https://bsky.app/profile/juandiego48cr.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky" title="Bluesky"><i class="bi bi-bluesky"></i></a></div>
+<a class="team-more" href="miembros/garcia-castro.html">Ver perfil →</a>
+</article>
+</div>
+</div>
+<!-- ========== ASISTENTES DE INVESTIGACIÓN ========== -->
+<div class="section full-bleed">
+<div class="section-head">
+<span class="kicker">Asistencia de investigación</span>
+<h2>Asistentes de investigación</h2>
+</div>
+<div class="team-grid team-grid-2">
+<article class="team-card">
+<a class="team-link" href="miembros/olivares.html">
+<img class="team-photo" src="../resources/img/equipo/olivares.jpg" alt="Daniela Olivares Collío" loading="lazy">
+<h3>Daniela Olivares Collío</h3>
+</a>
+<span class="team-role">Asistente de Investigación</span>
+<div class="card-contacto"><a href="mailto:danielaolivarescollio@gmail.com" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.linkedin.com/in/daniela-olivares-collio/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a><a href="https://github.com/DaniOlivaresCollio" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a><a class="txt" href="https://orcid.org/0009-0009-4783-4030" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">iD</a></div>
+<a class="team-more" href="miembros/olivares.html">Ver perfil →</a>
+</article>
+<article class="team-card">
+<a class="team-link" href="miembros/romo.html">
+<img class="team-photo" src="../resources/img/equipo/romo.jpg" alt="Javiera Romo Sánchez" loading="lazy">
+<h3>Javiera Romo Sánchez</h3>
+</a>
+<span class="team-role">Asistente de Investigación</span>
+<div class="card-contacto"><a href="mailto:javiera.romo.s@uchile.cl" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.linkedin.com/in/javiera-romo-s%C3%A1nchez-b6334a371/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a><a href="https://github.com/JaviRomoS" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a></div>
+<a class="team-more" href="miembros/romo.html">Ver perfil →</a>
+</article>
+</div>
+</div>
+<!-- ========== TESISTAS DE MAGÍSTER ========== -->
+<div class="section section-alt full-bleed">
+<div class="section-head">
+<span class="kicker">Formación</span>
+<h2>Tesistas</h2>
+</div>
+<div class="team-grid">
+<article class="team-card">
+<a class="team-link" href="miembros/guzman.html">
+<img class="team-photo" src="../resources/img/equipo/guzman.jpg" alt="Isaí Guzmán" loading="lazy">
+<h3>Isaí Guzmán</h3>
+</a>
+<span class="team-role">Tesista de Magíster</span>
+<div class="card-contacto"><a href="mailto:isai.guzman@ug.uchile.cl" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.linkedin.com/in/iguzmanp/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a><a href="https://x.com/iguzmanp99" target="_blank" rel="noopener" aria-label="X" title="X"><i class="bi bi-twitter-x"></i></a></div>
+<a class="team-more" href="miembros/guzman.html">Ver perfil →</a>
+</article>
+<article class="team-card">
+<a class="team-link" href="miembros/jamet.html">
+<img class="team-photo" src="../resources/img/equipo/jamet.jpg" alt="Derek Jamet" loading="lazy">
+<h3>Derek Jamet</h3>
+</a>
+<span class="team-role">Tesista de Magíster</span>
+<div class="card-contacto"><a href="mailto:derek.jamet@ug.uchile.cl" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.linkedin.com/in/derek-jamet-222759295/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a></div>
+<a class="team-more" href="miembros/jamet.html">Ver perfil →</a>
+</article>
+<article class="team-card">
+<a class="team-link" href="miembros/plaza.html">
+<img class="team-photo" src="../resources/img/equipo/plaza.jpg" alt="Cristóbal Plaza" loading="lazy">
+<h3>Cristóbal Plaza</h3>
+</a>
+<span class="team-role">Tesista de pregrado</span>
+<br><a class="team-more" href="miembros/plaza.html">Ver perfil →</a>
+</article>
+</div>
 </div>
 
 
 
-    <!-- Conclat -->
-
-    <div style="flex: 1; min-width: 250px; margin-bottom: 2rem;">
-
-      <h3>Fondecyt Clases, Trabajo y Conflicto</h3>
-
-      <p>Departamento de Sociología <br> Facultad de Ciencias Sociales <br> Universidad de Chile <br> Capitán Ignacio Carrera Pinto 1045 <br> Ñuñoa – RM <br> <a href="mailto:fondecytconclat@gmail.com">fondecytconclat@gmail.com</a></p>
-
-    </div>
-
-
-
-  </div>
-
-</div>
-<!-- Carga librería -->
-
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" crossorigin="anonymous"></script>
-
-
-
-<script>
-
-(function() {
-
-  function initParticles() {
-
-    const container = document.getElementById("particles-js");
-
-    if (!window.particlesJS || !container) return;
-
-    window.particlesJS("particles-js", {
-
-      particles: {
-
-        number: { value: 100, density: { enable: true, value_area: 800 } },
-
-        color: { value: "#ca0000" },
-
-        shape: { type: "circle" },
-
-        opacity: { value: 0.5 },
-
-        size: { value: 3, random: true },
-
-        line_linked: { enable: true, distance: 140, color: "#ca0000", opacity: 0.35, width: 1 },
-
-        move: { enable: true, speed: 4, direction: "top-right", out_mode: "out" }
-
-      },
-
-      interactivity: {
-
-        detect_on: "canvas",
-
-        events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }, resize: true },
-
-        modes: { repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 } }
-
-      },
-
-      retina_detect: true
-
-    });
-
-  }
-
-
-
-  // Respeta preferencias de usuarios que reducen animaciones
-
-  const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-
-  if (!mq.matches) window.addEventListener("load", initParticles);
-
-})();
-
-</script>
 
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -801,7 +386,7 @@ contacto
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/conclat\.com\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1132,20 +717,20 @@ contacto
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="">2025</a></p>
+<p><span class="footer-logo" role="img" aria-label="Conclat"></span></p>
+<p>Fondecyt Regular N° 1230056 (2023-2027)</p>
 </div>   
     <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/DaniOlivaresCollio/conclat-web">
-      <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-    </a>
-  </li>  
-</ul>
-    </div>
+<p><strong>Contacto institucional</strong></p>
+<p>Departamento de Sociología, Facultad de Ciencias Sociales, Universidad de Chile<br>
+Capitán Ignacio Carrera Pinto 1045, Ñuñoa, Santiago<br>
+<a href="mailto:fondecytconclat@gmail.com">fondecytconclat@gmail.com</a></p>
+</div>
     <div class="nav-footer-right">
-<p>Last Update: {{&lt; modified isodate&gt;}}</p>
+<p><strong>Síguenos</strong></p>
+<p><a href="https://www.instagram.com/proyecto.conclat/" target="_blank">Instagram</a><br>
+<a href="../contacto/contacto.html">Contacto</a></p>
+<p>© 2026 Proyecto Conclat</p>
 </div>
   </div>
 </footer>

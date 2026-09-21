@@ -1,0 +1,31 @@
+---
+pagetitle: "Francisca Gutiérrez"
+page-layout: custom
+title-block-banner: false
+toc: false
+---
+
+```{=html}
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Francisca Gutiérrez</h1>
+</div>
+</div>
+```
+
+```{=html}
+<div class="section full-bleed">
+<div class="profile">
+<div class="profile-side">
+<img class="team-photo profile-photo" src="../../resources/img/equipo/gutierrez.jpg" alt="Francisca Gutiérrez">
+<span class="team-role">Co-Investigadora</span>
+<div class="card-contacto"><a href="mailto:francisca.gutierrez@uach.cl" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.economicas.uach.cl/academico/francisca-gutierrez-crocco/" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a><a class="txt" href="https://orcid.org/0000-0002-5445-2833" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">iD</a></div>
+</div>
+<div class="profile-body">
+<p>Doctora en Sociología por la École des Hautes Études en Sciences Sociales (Paris, Francia). Actualmente se desempeña como Directora del Instituto de Gobierno y Asuntos Públicos y Profesora Asociada en la Universidad Austral de Chile.</p>
+<p>Francisca es Investigadora Principal del Proyecto Fondecyt Regular N° 1250835 ¿Medioambiente versus trabajadores? Los efectos de la crisis climática en el régimen de Control Laboral. También es parte del equipo de investigadores del Núcleo Milenio Evolución del Trabajo (M-New), Fairwork (Instituto de Internet de Oxford y el WZB Berlin Social Science Center) y el Anillo &quot;Socio-environmental precariousness: cultural economic responses to climate crisis&quot; (UDP, PUC, UACH). En estos equipos investiga temáticas vinculadas con relaciones laborales, transformaciones del trabajo y estudios críticos de la gestión.</p>
+<a class="profile-back" href="../nosotros.html">&larr; Volver al equipo</a>
+</div>
+</div>
+</div>
+```

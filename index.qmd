@@ -1,64 +1,128 @@
 ---
-title: "Fondecyt Clases, Trabajo y Conflicto"
-pagetitle: "CONCLAT Fondecyt"
+pagetitle: "Conclat"
 page-layout: custom
-format: 
-  html:
-    raw-html: true
-page-navigation: false
+title-block-banner: false
 toc: false
-about:
-  image: "resources/img/koshu-kunii-t86cJxwmBWc-unsplash.jpg"
-  id: hero-heading
-  template: jolla
-  image-shape: rectangle
+format:
+  html:
+    include-after-body: resources/js/particles-init.html
 ---
 
-<!-- ========================== BANNER =========================== -->
-:::hero-heading
-<div class="hero-heading-wrapper">
-  <div id="particles-js" class="particles-layer" aria-hidden="true"></div>
-  <div class="hero-heading-content">
-  <img
-    src="resources/img/conclat_ID_principal_rojo.png"
-    class="img-fluid mb-3"
-    alt="Fondecyt Clases, Trabajo y Conflicto"
-    style="width:90%;max-width:900px;display:block;margin:0 auto;"
-    loading="eager" fetchpriority="high">
-  </div>
-</div>
-:::
-
-<!-- ====================== SOBRE CONCLAT ====================== -->
-::: {.parallax-container}
-::: {.parallax-image-container2}
-<div class="parallax-inner">
-<div class="banner-readable wide">
-  <p class="section-title">
-    <i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre CONCLAT
-  </p>
-  <p class="section-lead">
-      El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y político en Argentina y Chile. Particularmente, el proyecto analiza cómo las personas de distintas clases sociales y con distinto estatus sindical (afiliados/as y no afiliados/as a sindicatos) perciben el conflicto dentro y fuera del lugar de trabajo. Para ello se aplicó una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases sociales, trabajo y conflicto, produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.
-  </p>
+```{=html}
+<!-- ========== 1. HERO: logo + frase corta ========== -->
+<div class="hero-home hero-particles full-bleed">
+<div id="particles-js" class="particles-layer" aria-hidden="true"></div>
+<div class="hero-heading-content">
+<img src="resources/img/conclat_ID_principal_rojo.png"
+       alt="Fondecyt Clases, Trabajo y Conflicto" class="hero-logo">
 </div>
 </div>
-:::
-:::
+```
 
-<!-- ====================== LOGOS ====================== -->
-::: {.section-text .logos-bg}
-::: {.section-container}
-::: {.section-block}
-::: {style="text-align: center;"}
+```{=html}
+<!-- ========== 2. NOVEDADES ========== -->
+<div class="section section-alt full-bleed">
+<div class="section-head">
+<span class="kicker">Novedades</span>
+<h2>Lo más reciente</h2>
+</div>
+<div class="news-grid">
 
-::: {layout-ncol=2}
+<a class="news-card" href=encuesta/encuesta.html>
+<div class="news-cover">
+<div class="news-cover"><img src="resources/img/encuesta.jpg" alt="" loading="lazy"></div>
+</div>
+<div class="news-body">
+<span class="news-tag">Datos abiertos</span>
+<h3>La Encuesta Conclat ya está abierta</h3>
+<p>La base de datos, el cuestionario y el libro de códigos de Chile están disponibles en Harvard Dataverse. La base de Argentina se publicará próximamente.</p>
+<span class="go">Descargar los datos →</span>
+</div>
+</a>
 
-[![](resources/img/anid.png)](https://anid.cl)
+<a class="news-card" href="investigacion/investigacion.html">
+<div class="news-cover"><img src="resources/img/novedad-publicacion.jpg" alt="" loading="lazy"></div>
+<div class="news-body">
+<span class="news-tag">Publicación · 26 ago 2026</span>
+<h3>Los efectos igualadores de género de los sindicatos</h3>
+<p>La afiliación sindical y las brechas de género en la participación política en América Latina. Pablo Pérez Ahumada y Patricia Retamal.</p>
+<span class="go">Ver investigación →</span>
+</div>
+</a>
 
-[![](resources/img/uch.png)](https://uchile.cl)
+<a class="news-card" href="actividades/actividades.html">
+<div class="news-cover"><img src="resources/img/novedad-actividad.jpg" alt="" loading="lazy" style="object-position:70% center;"></div>
+<div class="news-body">
+<span class="news-tag">Actividad · 11 abr 2026</span>
+<h3>Ponencias en el Primer Congreso Chileno de Estudios del Trabajo</h3>
+<p>Presentamos dos ponencias y un póster en el Pre-ALAST 2026, “Los nuevos escenarios del trabajo en América Latina”.</p>
+<span class="go">Ver actividades →</span>
+</div>
+</a>
 
-:::
-:::
-:::
-:::
-:::
+</div>
+</div>
+```
+
+```{=html}
+<!-- ========== 3. EXPLORA ========== -->
+<div class="section full-bleed">
+<div class="section-head">
+<span class="kicker">Explora</span>
+<h2>Conoce el proyecto</h2>
+</div>
+<div class="explore-grid">
+<a class="explore-card" href="informacion/01-sobre.html">
+<i class="bi bi-info-circle-fill"></i><h3>Sobre CONCLAT</h3>
+<p>Detalles del proyecto.</p><span class="go">Ver más →</span>
+</a>
+<a class="explore-card" href="nosotros/nosotros.html">
+<i class="bi bi-people-fill"></i><h3>Equipo</h3>
+<p>Quiénes somos.</p><span class="go">Ver más →</span>
+</a>
+<a class="explore-card" href="encuesta/encuesta.html">
+<i class="bi bi-bar-chart-fill"></i><h3>Encuesta Conclat</h3>
+<p>Descarga la base de datos y la documentación.</p><span class="go">Ver más →</span>
+</a>
+<a class="explore-card" href="investigacion/investigacion.html">
+<i class="bi bi-journal-text"></i><h3>Investigación</h3>
+<p>Artículos publicados.</p><span class="go">Ver más →</span>
+</a>
+<a class="explore-card" href="prensa/prensa.html">
+<i class="bi bi-newspaper"></i><h3>Prensa</h3>
+<p>Columnas y apariciones en medios.</p><span class="go">Ver más →</span>
+</a>
+<a class="explore-card" href="actividades/actividades.html">
+<i class="bi bi-calendar-event"></i><h3>Actividades</h3>
+<p>Congresos, seminarios y ponencias.</p><span class="go">Ver más →</span>
+</a>
+</div>
+</div>
+```
+
+```{=html}
+<!-- ========== 4. BANDA "SOBRE CONCLAT" ========== -->
+<div class="image-band full-bleed">
+<div class="inner">
+<h2>Sobre Conclat</h2>
+<p>
+      El Proyecto Conclat busca estudiar cómo se percibe el conflicto laboral y político
+      en Argentina y Chile. Analiza cómo las personas de distintas clases sociales y con
+      distinto estatus sindical (afiliados/as y no afiliados/as a sindicatos) perciben el
+      conflicto dentro y fuera del lugar de trabajo. Para ello se aplicó una encuesta
+      representativa de la población ocupada en ambos países, con el propósito de producir
+      datos cuantitativos originales y un instrumento comparable a nivel internacional.
+</p>
+</div>
+</div>
+```
+
+```{=html}
+<!-- ========== 5. LOGOS ========== -->
+<div class="logos-strip full-bleed">
+<div class="logos">
+<a href="https://anid.cl"><img src="resources/img/anid.png" alt="ANID"></a>
+<a href="https://uchile.cl"><img src="resources/img/uch.png" alt="Universidad de Chile"></a>
+</div>
+</div>
+```

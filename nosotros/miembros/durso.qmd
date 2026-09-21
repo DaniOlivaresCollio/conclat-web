@@ -1,0 +1,31 @@
+---
+pagetitle: "Lucila D&#x27;Urso"
+page-layout: custom
+title-block-banner: false
+toc: false
+---
+
+```{=html}
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Lucila D&#x27;Urso</h1>
+</div>
+</div>
+```
+
+```{=html}
+<div class="section full-bleed">
+<div class="profile">
+<div class="profile-side">
+<img class="team-photo profile-photo" src="../../resources/img/equipo/durso.jpg" alt="Lucila D&#x27;Urso">
+<span class="team-role">Investigadora</span>
+<div class="card-contacto"><a href="mailto:ldurso@campus.ungs.edu.ar" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://ri.conicet.gov.ar/author/41636" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a><a class="txt" href="https://www.researchgate.net/profile/Lucila-Durso-2" target="_blank" rel="noopener" aria-label="ResearchGate" title="ResearchGate">RG</a></div>
+</div>
+<div class="profile-body">
+<p>Doctora en Ciencias Sociales por la Universidad de Buenos Aires.</p>
+<p>Se desempeña como Investigadora Docente Adjunta en el Instituto del Conurbano de la Universidad Nacional de General Sarmiento (ICO-UNGS) y como Profesora Adjunta en la Facultad de Ciencias Sociales de la UBA, donde también es docente de posgrado. Actualmente preside la Asociación Argentina de Especialistas en Estudios del Trabajo (ASET). Investiga temáticas vinculadas con las estrategias sindicales y las políticas sociolaborales en Argentina y Brasil.</p>
+<a class="profile-back" href="../nosotros.html">&larr; Volver al equipo</a>
+</div>
+</div>
+</div>
+```

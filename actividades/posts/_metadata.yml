@@ -1,0 +1,11 @@
+# Ajustes comunes a todas las actividades (cada carpeta de posts/ hereda esto)
+format:
+  html:
+    page-layout: article
+    title-block-banner: "#6f0000"
+    title-block-banner-color: white
+    title-block-categories: false
+    toc: false
+    link-external-newwindow: true
+    link-external-icon: true
+    date-format: "D MMMM YYYY"

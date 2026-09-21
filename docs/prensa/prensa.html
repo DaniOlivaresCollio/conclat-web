@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.37">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>prensa</title>
+<title>Prensa – Conclat</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4b1accf34481c3a53b53ba7b2d4a4530.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-57b0930abbd3c9d5219dd1c85d935c33.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,36 +60,36 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-notas .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-date','listing-image','listing-categories','listing-tipo','listing-medio','listing-path',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-subtitle","listing-categories","listing-tipo"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-notas'] = new List('listing-notas', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -134,11 +134,9 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="stylesheet" href="../resources/css/home.css">
-<link rel="stylesheet" href="../resources/css/prensa.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -150,16 +148,20 @@ window.Quarto = {
     <img src="../resources/img/conclat_ID_principal_rojo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../informacion/01-sobre.html"> <i class="bi bi-info-square-fill" role="img">
 </i> 
-<span class="menu-text">Sobre CONCLAT</span></a>
+<span class="menu-text">Sobre Conclat</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../nosotros/nosotros.html"> <i class="bi bi-people-fill" role="img">
@@ -167,7 +169,7 @@ window.Quarto = {
 <span class="menu-text">Nuestro equipo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../encuesta/index.html"> <i class="bi bi-list-ul" role="img">
+    <a class="nav-link" href="../encuesta/encuesta.html"> <i class="bi bi-clipboard2-data-fill" role="img">
 </i> 
 <span class="menu-text">Encuesta</span></a>
   </li>  
@@ -187,408 +189,218 @@ window.Quarto = {
 <span class="menu-text">Actividades</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contacto/contacto.html"> <i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="../contacto/contacto.html"> <i class="bi bi-envelope-fill" role="img">
 </i> 
 <span class="menu-text">Contacto</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/DaniOlivaresCollio/conclat-web" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.instagram.com/proyecto.conclat/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="prensa" class="level1 banner-text banner-full full-bleed">
-<h1 class="banner-text">Prensa</h1>
-</section>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="b3BpbmklQzMlQjNuJTJDbm90aWNpYXM=" data-listing-date-sort="1771556400000" data-listing-file-modified-sort="1776632398247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
-<a href="../prensa/posts/20262002-perez-mostrador/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../prensa/posts/20262002-perez-mostrador/foto2.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-La política laboral del Gobierno de Gabriel Boric: un balance
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90aWNpYXM='); return false;">noticias</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-20 Feb 2026
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Prensa</h1>
+<div class="page-lead"><p>Columnas de opinión y cartas del equipo Conclat en medios de comunicación.</p></div>
 </div>
 </div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="b3BpbmklQzMlQjNuJTJDbm90aWNpYXM=" data-listing-date-sort="1764644400000" data-listing-file-modified-sort="1776632438247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="227">
-<a href="../prensa/posts/20251201-perez-mostrador/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../prensa/posts/20251201-perez-mostrador/foto1.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-40 horas laborales
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90aWNpYXM='); return false;">noticias</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-02 Dec 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="b3BpbmklQzMlQjNuJTJDbm90aWNpYXM=" data-listing-date-sort="1761361200000" data-listing-file-modified-sort="1776447159286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
-<a href="../prensa/posts/20251025-perez-mostrador/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../prensa/posts/20251025-perez-mostrador/CUT-chile--e1743549125897.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Elecciones, sindicatos y partidos
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90aWNpYXM='); return false;">noticias</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-25 Oct 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="b3BpbmklQzMlQjNuJTJDbm90aWNpYXM=" data-listing-date-sort="1746331200000" data-listing-file-modified-sort="1776447159286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="291">
-<a href="../prensa/posts/20250504-perez-mostrador/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../prensa/posts/20250504-perez-mostrador/CUT-chile--e1743549125897.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Fortalecer los sindicatos para robustecer la democracia en Chile
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90aWNpYXM='); return false;">noticias</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-04 May 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="b3BpbmklQzMlQjNuJTJDbm90aWNpYXM=" data-listing-date-sort="1739415600000" data-listing-file-modified-sort="1776447159277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
-<a href="../prensa/posts/20250213-perez-mostrador/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../prensa/posts/20250213-perez-mostrador/A_UNO_1084386-700x467.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Perspectivas y desafíos del movimiento sindical para el último año de gobierno de Boric
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90aWNpYXM='); return false;">noticias</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-13 Feb 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="b3BpbmklQzMlQjNuJTJDbm90aWNpYXM=" data-listing-date-sort="1733454000000" data-listing-file-modified-sort="1776447159277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
-<a href="../prensa/posts/20241206-perez-mostrador/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../prensa/posts/20241206-perez-mostrador/Elecciones1_AUNO.jpeg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Lecciones para la izquierda a partir del informe de Desarrollo Humano del PNUD
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90aWNpYXM='); return false;">noticias</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-06 Dec 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="b3BpbmklQzMlQjNuJTJDbm90aWNpYXM=" data-listing-date-sort="1715918400000" data-listing-file-modified-sort="1776447159277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="339">
-<a href="../prensa/posts/20240307-perez-mostrador/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../prensa/posts/20240307-perez-mostrador/Marcha-CUT-700x356.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-El movimiento sindical y sus intentos por articular demandas y proyectos de cambio social
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90aWNpYXM='); return false;">noticias</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-17 May 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="b3BpbmklQzMlQjNuJTJDbm90aWNpYXM=" data-listing-date-sort="1709780400000" data-listing-file-modified-sort="1776447159277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="321">
-<a href="../prensa/posts/20240517-perez-mostrador/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../prensa/posts/20240517-perez-mostrador/CUT-paro-Codelco.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-¿Fin del proceso constituyente y comienzo de la movilización sindical? El llamado a paro de la CUT
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90aWNpYXM='); return false;">noticias</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-07 Mar 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="b3BpbmklQzMlQjNuJTJDbm90aWNpYXM=" data-listing-date-sort="1703386800000" data-listing-file-modified-sort="1776447159277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
-<a href="../prensa/posts/20231224-perez-mostrador/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../prensa/posts/20231224-perez-mostrador/Golpe-700x311.jpeg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Dictadura militar y sindicalismo: la deuda pendiente del Plan Laboral de 1979
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90aWNpYXM='); return false;">noticias</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-24 Dec 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
-<!-- FOOTER QUE IGNORA LA GRID DE QUARTO -->
-
-<div style="background-color: #6f0000; color: white;
-
-            grid-column: 1 / -1;">
-
-
-
-  <!-- TÍTULO -->
-
-  <h2 style="text-align: center; font-size: 36px; font-weight: bold; margin-bottom: 2rem;">Contacto Institucional</h2>
-
-  
-
-  <!-- CONTENIDO FLEXIBLE -->
-
-  <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap; width: 100%; max-width: 1200px; margin: 0 auto; box-sizing: border-box; padding: 0 2rem;">
-
-    
-
-    <!-- Logo -->
-
-    <div style="flex: 1; min-width: 250px; text-align: center; margin-bottom: 2rem;">
-
-  <a href="https://conclat.com">
-
- <img id="logo_conclat_principal_oscuro" src="../logo_conclat_principal_oscuro.png" alt="Logo CONCLAT" style="width: 100%;">
-
-
-
-  </a>
-
-</div>
-
-
-
-    <!-- Conclat -->
-
-    <div style="flex: 1; min-width: 250px; margin-bottom: 2rem;">
-
-      <h3>Fondecyt Clases, Trabajo y Conflicto</h3>
-
-      <p>Departamento de Sociología <br> Facultad de Ciencias Sociales <br> Universidad de Chile <br> Capitán Ignacio Carrera Pinto 1045 <br> Ñuñoa – RM <br> <a href="mailto:fondecytconclat@gmail.com">fondecytconclat@gmail.com</a></p>
-
-    </div>
-
-
-
+<div class="press-wrap">
+<div id="listing-notas" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-notas-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-notas'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
+      <option value="index" data-direction="asc">Por defecto</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Fecha - Más antiguo
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Fecha - Más reciente
+      </option>
+      <option value="listing-title" data-direction="asc">
+        Título
+      </option>
+    </select>
   </div>
-
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filtro">
+    </div>
 </div>
-<!-- Carga librería -->
+<div class="list press-grid">
+<div class="press-card" data-index="0" data-categories="UG9sJUMzJUFEdGljYSUyMGxhYm9yYWwlMkNNb3ZpbWllbnRvJTIwc2luZGljYWw=" data-listing-date-sort="1771556400000" data-listing-file-modified-sort="1790015494109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
+<p><a href="../prensa/posts/2026-02-20-columna/index.html" class="press-img-link"><img src="../prensa/posts/2026-02-20-columna/portada.jpg" class="press-img" alt=""></a></p>
+<div class="press-body">
+<div class="press-meta">
+<p><span class="listing-date">20 feb 2026</span> · <span class="press-tipo listing-tipo">Columna de opinión</span></p>
+</div>
+<div class="press-title">
+<p><a href="../prensa/posts/2026-02-20-columna/index.html" class="listing-title">La política laboral del Gobierno de Gabriel Boric: un balance</a></p>
+</div>
+<div class="press-author listing-subtitle">
+<p>Pablo Pérez Ahumada</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Política laboral</span> <span class="pub-tag">Movimiento sindical</span></p>
+</div>
+</div>
+</div>
+<div class="press-card" data-index="1" data-categories="VHJhYmFqbyUyQ0VsZWNjaW9uZXMlMkNTaW5kaWNhdG9z" data-listing-date-sort="1764644400000" data-listing-file-modified-sort="1790015492773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
+<p><a href="../prensa/posts/2025-12-02-carta/index.html" class="press-img-link"><img src="../prensa/posts/2025-12-02-carta/portada.jpg" class="press-img" alt=""></a></p>
+<div class="press-body">
+<div class="press-meta">
+<p><span class="listing-date">2 dic 2025</span> · <span class="press-tipo listing-tipo">Carta al director</span></p>
+</div>
+<div class="press-title">
+<p><a href="../prensa/posts/2025-12-02-carta/index.html" class="listing-title">40 horas laborales</a></p>
+</div>
+<div class="press-author listing-subtitle">
+<p>Pablo Pérez Ahumada</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Trabajo</span> <span class="pub-tag">Elecciones</span> <span class="pub-tag">Sindicatos</span></p>
+</div>
+</div>
+</div>
+<div class="press-card" data-index="2" data-categories="TW92aW1pZW50byUyMFNpbmRpY2FsJTJDUGFydGlkb3MlMjBwb2wlQzMlQUR0aWNvcyUyQ0VsZWNjaW9uZXM=" data-listing-date-sort="1761361200000" data-listing-file-modified-sort="1790015491369" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
+<p><a href="../prensa/posts/2025-10-25-columna/index.html" class="press-img-link"><img src="../prensa/posts/2025-10-25-columna/portada.jpg" class="press-img" alt=""></a></p>
+<div class="press-body">
+<div class="press-meta">
+<p><span class="listing-date">25 oct 2025</span> · <span class="press-tipo listing-tipo">Columna de opinión</span></p>
+</div>
+<div class="press-title">
+<p><a href="../prensa/posts/2025-10-25-columna/index.html" class="listing-title">Elecciones, sindicatos y partidos</a></p>
+</div>
+<div class="press-author listing-subtitle">
+<p>Pablo Pérez Ahumada</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Movimiento Sindical</span> <span class="pub-tag">Partidos políticos</span> <span class="pub-tag">Elecciones</span></p>
+</div>
+</div>
+</div>
+<div class="press-card" data-index="3" data-categories="TW92aW1pZW50byUyMFNpbmRpY2FsJTJDRGVtb2NyYWNpYSUyQ0NoaWxl" data-listing-date-sort="1746331200000" data-listing-file-modified-sort="1790015490312" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
+<p><a href="../prensa/posts/2025-05-04-columna/index.html" class="press-img-link"><img src="../prensa/posts/2025-05-04-columna/portada.jpg" class="press-img" alt=""></a></p>
+<div class="press-body">
+<div class="press-meta">
+<p><span class="listing-date">4 may 2025</span> · <span class="press-tipo listing-tipo">Columna de opinión</span></p>
+</div>
+<div class="press-title">
+<p><a href="../prensa/posts/2025-05-04-columna/index.html" class="listing-title">Fortalecer los sindicatos para robustecer la democracia en Chile</a></p>
+</div>
+<div class="press-author listing-subtitle">
+<p>Pablo Pérez Ahumada</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Movimiento Sindical</span> <span class="pub-tag">Democracia</span> <span class="pub-tag">Chile</span></p>
+</div>
+</div>
+</div>
+<div class="press-card" data-index="4" data-categories="TW92aW1pZW50byUyMFNpbmRpY2FsJTJDQm9yaWMlMkNHb2JpZXJubw==" data-listing-date-sort="1739415600000" data-listing-file-modified-sort="1790015489192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
+<p><a href="../prensa/posts/2025-02-13-columna/index.html" class="press-img-link"><img src="../prensa/posts/2025-02-13-columna/portada.jpg" class="press-img" alt=""></a></p>
+<div class="press-body">
+<div class="press-meta">
+<p><span class="listing-date">13 feb 2025</span> · <span class="press-tipo listing-tipo">Columna de opinión</span></p>
+</div>
+<div class="press-title">
+<p><a href="../prensa/posts/2025-02-13-columna/index.html" class="listing-title">Perspectivas y desafíos del movimiento sindical para el último año de gobierno de Boric</a></p>
+</div>
+<div class="press-author listing-subtitle">
+<p>Pablo Pérez Ahumada</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Movimiento Sindical</span> <span class="pub-tag">Boric</span> <span class="pub-tag">Gobierno</span></p>
+</div>
+</div>
+</div>
+<div class="press-card" data-index="5" data-categories="RGVzYXJyb2xsbyUyMEh1bWFubyUyQ1BOVUQlMkNDYW1iaW8lMjBTb2NpYWw=" data-listing-date-sort="1733454000000" data-listing-file-modified-sort="1790015488247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
+<p><a href="../prensa/posts/2024-12-06-columna/index.html" class="press-img-link"><img src="../prensa/posts/2024-12-06-columna/portada.jpg" class="press-img" alt=""></a></p>
+<div class="press-body">
+<div class="press-meta">
+<p><span class="listing-date">6 dic 2024</span> · <span class="press-tipo listing-tipo">Columna de opinión</span></p>
+</div>
+<div class="press-title">
+<p><a href="../prensa/posts/2024-12-06-columna/index.html" class="listing-title">Lecciones para la izquierda a partir del informe de Desarrollo Humano del PNUD</a></p>
+</div>
+<div class="press-author listing-subtitle">
+<p>Pablo Pérez Ahumada</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Desarrollo Humano</span> <span class="pub-tag">PNUD</span> <span class="pub-tag">Cambio Social</span></p>
+</div>
+</div>
+</div>
+<div class="press-card" data-index="6" data-categories="TW92aW1pZW50byUyMFNpbmRpY2FsJTJDQ2FtYmlvJTIwU29jaWFsJTJDU2luZGljYWxpc21v" data-listing-date-sort="1715918400000" data-listing-file-modified-sort="1790015487194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="338">
+<p><a href="../prensa/posts/2024-05-17-columna/index.html" class="press-img-link"><img src="../prensa/posts/2024-05-17-columna/portada.jpg" class="press-img" alt=""></a></p>
+<div class="press-body">
+<div class="press-meta">
+<p><span class="listing-date">17 may 2024</span> · <span class="press-tipo listing-tipo">Columna de opinión</span></p>
+</div>
+<div class="press-title">
+<p><a href="../prensa/posts/2024-05-17-columna/index.html" class="listing-title">El movimiento sindical y sus intentos por articular demandas y proyectos de cambio social</a></p>
+</div>
+<div class="press-author listing-subtitle">
+<p>Pablo Pérez Ahumada</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Movimiento Sindical</span> <span class="pub-tag">Cambio Social</span> <span class="pub-tag">Sindicalismo</span></p>
+</div>
+</div>
+</div>
+<div class="press-card" data-index="7" data-categories="TW92aW1pZW50byUyMFNpbmRpY2FsJTJDQ1VUJTJDU2luZGljYWxpc21v" data-listing-date-sort="1709780400000" data-listing-file-modified-sort="1790015486282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
+<p><a href="../prensa/posts/2024-03-07-columna/index.html" class="press-img-link"><img src="../prensa/posts/2024-03-07-columna/portada.jpg" class="press-img" alt=""></a></p>
+<div class="press-body">
+<div class="press-meta">
+<p><span class="listing-date">7 mar 2024</span> · <span class="press-tipo listing-tipo">Columna de opinión</span></p>
+</div>
+<div class="press-title">
+<p><a href="../prensa/posts/2024-03-07-columna/index.html" class="listing-title">¿Fin del proceso constituyente y comienzo de la movilización sindical? El llamado a paro de la CUT</a></p>
+</div>
+<div class="press-author listing-subtitle">
+<p>Pablo Pérez Ahumada</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Movimiento Sindical</span> <span class="pub-tag">CUT</span> <span class="pub-tag">Sindicalismo</span></p>
+</div>
+</div>
+</div>
+<div class="press-card" data-index="8" data-categories="TW92aW1pZW50byUyMFNpbmRpY2FsJTJDU2luZGljYWxpc21vJTJDRGljdGFkdXJhJTIwTWlsaXRhcg==" data-listing-date-sort="1703386800000" data-listing-file-modified-sort="1790015485229" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+<p><a href="../prensa/posts/2023-12-24-columna/index.html" class="press-img-link"><img src="../prensa/posts/2023-12-24-columna/portada.jpg" class="press-img" alt=""></a></p>
+<div class="press-body">
+<div class="press-meta">
+<p><span class="listing-date">24 dic 2023</span> · <span class="press-tipo listing-tipo">Columna de opinión</span></p>
+</div>
+<div class="press-title">
+<p><a href="../prensa/posts/2023-12-24-columna/index.html" class="listing-title">Dictadura militar y sindicalismo: la deuda pendiente del Plan Laboral de 1979</a></p>
+</div>
+<div class="press-author listing-subtitle">
+<p>Pablo Pérez Ahumada</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Movimiento Sindical</span> <span class="pub-tag">Sindicalismo</span> <span class="pub-tag">Dictadura Militar</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No hay resultados</div>
+</div>
+</div>
 
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" crossorigin="anonymous"></script>
 
 
 
-<script>
-
-(function() {
-
-  function initParticles() {
-
-    const container = document.getElementById("particles-js");
-
-    if (!window.particlesJS || !container) return;
-
-    window.particlesJS("particles-js", {
-
-      particles: {
-
-        number: { value: 100, density: { enable: true, value_area: 800 } },
-
-        color: { value: "#ca0000" },
-
-        shape: { type: "circle" },
-
-        opacity: { value: 0.5 },
-
-        size: { value: 3, random: true },
-
-        line_linked: { enable: true, distance: 140, color: "#ca0000", opacity: 0.35, width: 1 },
-
-        move: { enable: true, speed: 4, direction: "top-right", out_mode: "out" }
-
-      },
-
-      interactivity: {
-
-        detect_on: "canvas",
-
-        events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }, resize: true },
-
-        modes: { repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 } }
-
-      },
-
-      retina_detect: true
-
-    });
-
-  }
-
-
-
-  // Respeta preferencias de usuarios que reducen animaciones
-
-  const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-
-  if (!mq.matches) window.addEventListener("load", initParticles);
-
-})();
-
-</script>
 
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -615,12 +427,12 @@ Pablo Pérez Ahumada
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiado");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiado");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -663,7 +475,7 @@ Pablo Pérez Ahumada
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/conclat\.com\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -994,20 +806,20 @@ Pablo Pérez Ahumada
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="">2025</a></p>
+<p><span class="footer-logo" role="img" aria-label="Conclat"></span></p>
+<p>Fondecyt Regular N° 1230056 (2023-2027)</p>
 </div>   
     <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/DaniOlivaresCollio/conclat-web">
-      <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-    </a>
-  </li>  
-</ul>
-    </div>
+<p><strong>Contacto institucional</strong></p>
+<p>Departamento de Sociología, Facultad de Ciencias Sociales, Universidad de Chile<br>
+Capitán Ignacio Carrera Pinto 1045, Ñuñoa, Santiago<br>
+<a href="mailto:fondecytconclat@gmail.com">fondecytconclat@gmail.com</a></p>
+</div>
     <div class="nav-footer-right">
-<p>Last Update: {{&lt; modified isodate&gt;}}</p>
+<p><strong>Síguenos</strong></p>
+<p><a href="https://www.instagram.com/proyecto.conclat/" target="_blank">Instagram</a><br>
+<a href="../contacto/contacto.html">Contacto</a></p>
+<p>© 2026 Proyecto Conclat</p>
 </div>
   </div>
 </footer>

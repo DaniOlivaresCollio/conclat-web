@@ -1,30 +1,145 @@
 ---
-title: ""
-page-layout: full
+pagetitle: "Sobre Conclat"
+page-layout: custom
 title-block-banner: false
-comments: false
 toc: false
-format: 
-  html:
-    css:
-      - /resources/css/sobre.css
 ---
 
-::: {.banner-full .full-bleed}
-# Sobre CONCLAT {.banner-text}
-:::
+```{=html}
+<!-- ========== 1. ENCABEZADO DE PÁGINA ========== -->
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Sobre Conclat</h1>
+</div>
+</div>
+```
 
+```{=html}
+<!-- ========== 2.Pregunta ========== -->
+<div class="section full-bleed">
+<div class="inner about-solo">
 
-::: {.columns}
-::: {.column width="70%"}
-CONCLAT es un proyecto Fondecyt que busca analizar cómo, en el actual contexto político-económico, la posición de clase y la afiliación sindical afecta las percepciones de conflicto social y laboral, y también las actitudes hacia el conflicto político. Además, busca conocer si la relación entre clase, sindicalización y percepciones de conflicto varía a nivel nacional, es decir, si varía entre países con distintas características institucionales y políticas, y a nivel subnacional, es decir, dentro de cada país, entre ramas económicas con distintos niveles de organización sindical. 
+<div class="about-text">
+<span class="kicker kicker-left">La pregunta central:</span>
+<h2 class="lead-question">¿Cómo perciben el conflicto las personas trabajadoras de Chile y Argentina, y qué papel juegan su clase social y su sindicato?</h2>
+<p class="lead-gap">En América Latina casi no existen estudios cuantitativos y comparados sobre esto. Por eso producimos datos originales, que pueden ser comparados con otras mediciones.</p>
+</div>
+</div>
+</div>
+```
 
-Para ello, en 2024 y 2025 se aplicará una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases, trabajo y conflicto produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.
+```{=html}
+<!-- ========== 3. QUÉ ESTUDIAMOS ========== -->
+<div class="section section-alt full-bleed">
+<div class="section-head">
+<span class="kicker">Qué estudiamos</span>
+<h2>Tres ideas centrales</h2>
+</div>
+<div class="study-grid">
 
-[CONCLAT](https://www.conclat.com/) es el Proyecto FONDECYT Regular (No 1230056) “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile”. Patrocinado por la [Universidad de Chile](https://uchile.cl/) y el Centro de Estudios de Conflicto y Cohesión Social ([COES](https://coes.cl/)). 
-:::
-::: {.column width="30%"}
-![](conclat_web_sobre.png){width=100% fig-alt="Imagenes CONCLAT" loading="lazy"}
-:::
-:::
+<div class="study-card">
+<i class="bi bi-diagram-3-fill"></i>
+<h3>Clase social</h3>
+<p>Cómo la posición de clase influye en las percepciones del conflicto.</p>
+</div>
 
+<div class="study-card teal">
+<i class="bi bi-people-fill"></i>
+<h3>Sindicalización</h3>
+<p>Si estar afiliado/a a un sindicato cambia la forma en que se percibe el conflicto dentro y fuera del lugar de trabajo.</p>
+</div>
+
+<div class="study-card">
+<i class="bi bi-lightning-charge-fill"></i>
+<h3>Conflicto</h3>
+<p>El conflicto social (tensiones en el trabajo, responsabilidad por el desempleo y la inflación) y el conflicto político (políticas redistributivas, derechos laborales, rol del Estado).</p>
+</div>
+
+</div>
+</div>
+```
+
+```{=html}
+<!-- ========== 4. CHILE Y ARGENTINA ========== -->
+<div class="section full-bleed">
+<div class="section-head">
+<span class="kicker">Comparación</span>
+<h2>¿Por qué Chile y Argentina?</h2>
+<p>Representan modelos laborales divergentes, lo que permite una comparación especialmente reveladora.</p>
+</div>
+<div class="compare-grid">
+
+<div class="compare-card">
+<h3>Chile</h3>
+<span class="compare-figure">&lt;18%</span>
+<span class="compare-caption">de afiliación sindical: no ha superado ese nivel en las últimas décadas</span>
+<p>Modelo altamente descentralizado, con negociación colectiva a nivel de empresa.</p>
+</div>
+
+<div class="compare-card teal">
+<h3>Argentina</h3>
+<span class="compare-figure">~40%</span>
+<span class="compare-caption">de afiliación sindical a fines de los años 2000</span>
+<p>Sistema corporativista, con negociación colectiva sectorial centralizada y representación sindical exclusiva por rama («personería gremial»).</p>
+</div>
+
+</div>
+<p class="compare-note">Esta divergencia permite examinar no solo si existen diferencias entre ambos países, sino también cómo un mismo fenómeno —como estar afiliado a un sindicato— puede producir efectos distintos según el contexto institucional en que ocurre.</p>
+</div>
+```
+
+```{=html}
+<!-- ========== 4b. QUÉ ESPERAMOS ENCONTRAR ========== -->
+<div class="section section-alt full-bleed">
+<div class="section-head">
+<span class="kicker">Nuestras hipótesis</span>
+<h2>¿Qué esperamos encontrar?</h2>
+</div>
+<div class="study-grid">
+
+<div class="study-card">
+<i class="bi bi-person-workspace"></i>
+<h3>Clase y sindicato</h3>
+<p>Quienes pertenecen a la clase trabajadora o están sindicalizados/as perciben más conflicto laboral y apoyan más la redistribución que quienes son empresarios/gerentes o no están sindicalizados/as.</p>
+</div>
+
+<div class="study-card teal">
+<i class="bi bi-arrow-left-right"></i>
+<h3>Chile y Argentina</h3>
+<p>En Chile, con relaciones laborales descentralizadas y sindicatos más débiles, esperamos más conflicto social percibido. En Argentina, con sindicatos fuertes, esperamos más polarización política.</p>
+</div>
+
+<div class="study-card">
+<i class="bi bi-buildings-fill"></i>
+<h3>Entre sectores</h3>
+<p>Dentro de cada país, más conflicto en las ramas con mayor tradición sindical (industria y transporte en Argentina; minería y transporte en Chile) y menos en las menos organizadas, como la agricultura.</p>
+</div>
+
+</div>
+</div>
+```
+
+```{=html}
+<!-- ========== 5. LLAMADO A LA ENCUESTA ========== -->
+<div class="section full-bleed">
+<div class="inner">
+<div class="cta-band teal">
+<div>
+<h3>Conoce la Encuesta Conclat</h3>
+<p>Aplicada en Chile (2024–2025) y Argentina (2025), con datos abiertos.</p>
+</div>
+<a class="btn btn-lg" href="../encuesta/encuesta.html">Ver la encuesta</a>
+</div>
+</div>
+</div>
+```
+
+```{=html}
+<!-- ========== 6. INSTITUCIONES ========== -->
+<div class="logos-strip full-bleed">
+<div class="logos">
+<a href="https://anid.cl"><img src="../resources/img/anid.png" alt="ANID"></a>
+<a href="https://uchile.cl"><img src="../resources/img/uch.png" alt="Universidad de Chile"></a>
+</div>
+</div>
+```

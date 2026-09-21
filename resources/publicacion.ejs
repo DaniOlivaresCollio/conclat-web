@@ -1,0 +1,33 @@
+::: {.list .pub-list}
+<% for (const item of items) { %>
+::: {.pub-row <%= metadataAttrs(item) %>}
+
+::: {.pub-year .listing-date}
+<%= item.date %>
+:::
+
+::: {.pub-main}
+
+::: {.pub-title}
+[<%= item.title %>](<%= item.path %>){.listing-title}
+:::
+<% if (item.subtitle) { %>
+::: {.pub-authors .listing-subtitle}
+<%= item.subtitle %>
+:::
+<% } %><% if (item.revista) { %>
+::: {.pub-journal .listing-revista}
+<%= item.revista %>
+:::
+<% } %><% if (item.categories) { %>
+::: {.pub-tags .listing-categories}
+<% for (const cat of item.categories) { %>[<%= cat %>]{.pub-tag} <% } %>
+:::
+<% } %>
+:::
+
+[&rarr;](<%= item.path %>){.pub-go aria-label="Ver publicación"}
+
+:::
+<% } %>
+:::

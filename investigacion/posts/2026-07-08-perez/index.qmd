@@ -1,0 +1,23 @@
+---
+title: "Entre legados autoritarios y la incipiente revitalización: el movimiento sindical chileno a más de 50 años desde el golpe de Estado"
+subtitle: "Pablo Pérez Ahumada"
+date: "2026-07-08"
+revista: "Latin American Perspectives"
+categories: [Sindicalismo, Dictadura militar, Plan Laboral, Revitalización sindical y poder asociativo]
+lang: es
+---
+
+<div class="top-cta">
+  <a class="btn btn-sm btn-primary" href="https://doi.org/10.1177/0094582X261465002" target="_blank" rel="noopener">Leer el paper</a>
+</div>
+
+<details class="details-btn" markdown="1">
+  <summary><span class="summary-chip">Cita (APA 7)</span></summary>
+  <p class="apa-ref"><strong>Pérez-Ahumada, P.</strong> (2026). <em>Between Authoritarian Legacies and the Emerging Revitalization: The Chilean Trade Union Movement at More Than 50 Years Since the Coup d’État. </em> <em> Latin American Perspectives</em>, 0(0). https://doi.org/10.1177/0094582X261465002</p>
+</details>
+
+## Abstract 
+Este artículo analiza cómo las transformaciones político-económicas e institucionales impuestas por la dictadura de Augusto Pinochet (1973–1990) han afectado al sindicalismo chileno. Se examina cómo el Plan Laboral de 1979 y la represión política desarticuló las bases del poder sindical construidas durante gran parte del siglo XX y cómo ello ha limitado el poder sindical desde la transición democrática. A partir de una revisión histórica y analítica, argumento que, pese a la persistencia de estas restricciones, en las últimas dos décadas se ha observado un proceso de revitalización sindical, reflejado en mayores niveles de afiliación, conflictividad laboral y legitimidad pública de los sindicatos. Sin embargo, dicha revitalización sigue siendo parcial y políticamente débil debido a la falta de reformas estructurales y a la dificultad para reconstruir alianzas con partidos de izquierda. El artículo concluye destacando la necesidad de combinar reformas pro-sindicales con la construcción de poder asociativo sindical.
+
+## Etiquetas
+Sindicalismo, dictadura militar, Plan Laboral, revitalización sindical y poder asociativo

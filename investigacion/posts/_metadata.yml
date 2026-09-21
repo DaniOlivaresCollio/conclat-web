@@ -1,12 +1,15 @@
+# Ajustes comunes a todas las publicaciones (cada carpeta de posts/ hereda esto)
 format:
   html:
-    css: [/resources/css/post.css]   # estilos comunes para artículos
+    page-layout: article
+    title-block-banner: "#6f0000"
+    title-block-banner-color: white
+    title-block-categories: false
     toc: true
     toc-location: left
     toc-title: "En esta página"
     toc-depth: 3
-    page-layout: article
     smooth-scroll: true
     link-external-newwindow: true
     link-external-icon: true
-
+    date-format: "D MMMM YYYY"

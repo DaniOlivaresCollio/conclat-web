@@ -1,0 +1,31 @@
+---
+pagetitle: "Pablo Dalle"
+page-layout: custom
+title-block-banner: false
+toc: false
+---
+
+```{=html}
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Pablo Dalle</h1>
+</div>
+</div>
+```
+
+```{=html}
+<div class="section full-bleed">
+<div class="profile">
+<div class="profile-side">
+<img class="team-photo profile-photo" src="../../resources/img/equipo/dalle.jpg" alt="Pablo Dalle">
+<span class="team-role">Investigador</span>
+<div class="card-contacto"><a href="mailto:pablodalle@gmail.com" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&amp;id=36509&amp;datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a></div>
+</div>
+<div class="profile-body">
+<p>Doctor en Ciencias Sociales por la Universidad de Buenos Aires. Además, realizó estancia de investigación doctoral en la University of California, Berkeley.</p>
+<p>Actualmente es Profesor adjunto de la UBA e investigador CONICET en el Instituto de Investigaciones Gino Germani, donde dirige los proyectos AGENCIA-PICT y AGENCIA/PISAC-Covid19 085 sobre el impacto de la pandemia de Covid-19 en la estructura social. Participa además de la red INCASI (International Network for Comparative Analysis of Social Inequalities)-Unión Europea.</p>
+<a class="profile-back" href="../nosotros.html">&larr; Volver al equipo</a>
+</div>
+</div>
+</div>
+```

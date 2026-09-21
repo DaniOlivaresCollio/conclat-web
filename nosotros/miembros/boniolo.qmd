@@ -1,0 +1,31 @@
+---
+pagetitle: "Paula Boniolo"
+page-layout: custom
+title-block-banner: false
+toc: false
+---
+
+```{=html}
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Paula Boniolo</h1>
+</div>
+</div>
+```
+
+```{=html}
+<div class="section full-bleed">
+<div class="profile">
+<div class="profile-side">
+<img class="team-photo profile-photo" src="../../resources/img/equipo/boniolo.jpg" alt="Paula Boniolo">
+<span class="team-role">Investigadora</span>
+<div class="card-contacto"><a href="mailto:boniolopaula@gmail.com" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.conicet.gov.ar/new_scp/detalle.php?id=35364&amp;keywords=&amp;datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a></div>
+</div>
+<div class="profile-body">
+<p>Doctora en Ciencias Sociales UBA y Doctora en Sociología por L&#x27;École Hautes Etudes Sciences Sociales (cotutela UBA-EHESS, París).</p>
+<p>Actualmente es Investigadora Independiente del CONICET y del Instituto Gino Germani, Universidad de Buenos Aires, donde dirige un proyecto PICT sobre clases sociales y trayectorias ocupacionales. Además, es Profesora Adjunta Regular en la Carrera de Sociología de la Universidad de Buenos Aires en Metodología y Técnicas de la Investigación Social.  Participa de la red INCASI (International Network for Comparative Analysis of Social Inequalities)-Unión Europea y red local PIRC-ESA y co-dirige un grupo de trabajo CLACSO &quot;Desigualdades Sociales comparadas: clase social, género y etnia”.</p>
+<a class="profile-back" href="../nosotros.html">&larr; Volver al equipo</a>
+</div>
+</div>
+</div>
+```

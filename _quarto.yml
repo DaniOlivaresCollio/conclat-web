@@ -1,46 +1,48 @@
 project:
   type: website
-  resources:
-    - resources/
-  render:
-    - "*.qmd"
-  output-dir: "docs"
+  output-dir: docs        # Quarto guarda aquí la web ya compilada; GitHub Pages publica esta carpeta
+
 website:
-  title: ""
-  site-url: https://conclat.com/
+  title: "Conclat"
   description: "Fondecyt Clases, Trabajo y Conflicto"
   favicon: resources/img/conclat_logo_principal_rojo.png
-  search: true
-  repo-url: https://github.com/DaniOlivaresCollio/conclat-web
   page-footer:
-    background: "#121212"
+    background: "#6f0000"
+    foreground: "#ffffff"
+    border: false
     left: |
-      [2025]()
-    center:
-      - href: https://github.com/DaniOlivaresCollio/conclat-web
-        icon: github
-        aria-label: GitHub
+      []{.footer-logo role="img" aria-label="Conclat"}
+
+      Fondecyt Regular N° 1230056 (2023-2027)
+    center: |
+      **Contacto institucional**
+
+      Departamento de Sociología, Facultad de Ciencias Sociales, Universidad de Chile\
+      Capitán Ignacio Carrera Pinto 1045, Ñuñoa, Santiago\
+      [fondecytconclat@gmail.com](mailto:fondecytconclat@gmail.com)
     right: |
-       Last Update: {{< modified isodate>}}
+      **Síguenos**
+
+      [Instagram](https://www.instagram.com/proyecto.conclat/){target="_blank"}\
+      [Contacto](/contacto/contacto.qmd)
+
+      © 2026 Proyecto Conclat
   navbar:
+    title: false
     logo: resources/img/conclat_ID_principal_rojo.png
     background: "#FFFFFF"
-    tools:
-      - icon: github
-        href: https://github.com/DaniOlivaresCollio/conclat-web
-      - icon: instagram
-        href: https://www.instagram.com/proyecto.conclat/
-    # pinned: true
     left:
-      - text: Sobre CONCLAT
+      - text: Inicio
+        href: index.qmd
+      - text: Sobre Conclat
         icon: info-square-fill
         href: informacion/01-sobre.qmd
       - text: Nuestro equipo
         icon: people-fill
         href: nosotros/nosotros.qmd
       - text: Encuesta
-        icon: list-ul
-        href: encuesta/index.qmd
+        icon: clipboard2-data-fill
+        href: encuesta/encuesta.qmd
       - text: Investigación
         icon: journals
         href: investigacion/investigacion.qmd
@@ -51,17 +53,12 @@ website:
         icon: calendar-week
         href: actividades/actividades.qmd
       - text: Contacto
-        icon: envelope
+        icon: envelope-fill
         href: contacto/contacto.qmd
 
 format:
   html:
     theme:
       light: flatly
-    css:
-      - styles.css
-      - resources/css/home.css
+    css: styles.css
     linkcolor: "#CA0000"
-    include-after-body:
-      - footer/footer.html
-      - resources/js/particles-init.html

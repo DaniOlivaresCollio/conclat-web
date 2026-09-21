@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CONCLAT Fondecyt</title>
+<title>Conclat</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -38,11 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4b1accf34481c3a53b53ba7b2d4a4530.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-57b0930abbd3c9d5219dd1c85d935c33.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +74,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="resources/css/home.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -95,9 +95,13 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./informacion/01-sobre.html"> <i class="bi bi-info-square-fill" role="img">
 </i> 
-<span class="menu-text">Sobre CONCLAT</span></a>
+<span class="menu-text">Sobre Conclat</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./nosotros/nosotros.html"> <i class="bi bi-people-fill" role="img">
@@ -105,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Nuestro equipo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./encuesta/index.html"> <i class="bi bi-list-ul" role="img">
+    <a class="nav-link" href="./encuesta/encuesta.html"> <i class="bi bi-clipboard2-data-fill" role="img">
 </i> 
 <span class="menu-text">Encuesta</span></a>
   </li>  
@@ -125,15 +129,13 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Actividades</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contacto/contacto.html"> <i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="./contacto/contacto.html"> <i class="bi bi-envelope-fill" role="img">
 </i> 
 <span class="menu-text">Contacto</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/DaniOlivaresCollio/conclat-web" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.instagram.com/proyecto.conclat/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -147,107 +149,113 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<!-- ========================== BANNER =========================== -->
-<div class="hero-heading">
-<div class="hero-heading-wrapper">
-<div id="particles-js" class="particles-layer" aria-hidden="true">
-
-</div>
+<!-- ========== 1. HERO: logo + frase corta ========== -->
+<div class="hero-home hero-particles full-bleed">
+<div id="particles-js" class="particles-layer" aria-hidden="true"></div>
 <div class="hero-heading-content">
-<img src="resources/img/conclat_ID_principal_rojo.png" class="img-fluid mb-3" alt="Fondecyt Clases, Trabajo y Conflicto" style="width:90%;max-width:900px;display:block;margin:0 auto;" loading="eager" fetchpriority="high">
+<img src="resources/img/conclat_ID_principal_rojo.png" alt="Fondecyt Clases, Trabajo y Conflicto" class="hero-logo">
 </div>
 </div>
+<!-- ========== 2. NOVEDADES ========== -->
+<div class="section section-alt full-bleed">
+<div class="section-head">
+<span class="kicker">Novedades</span>
+<h2>Lo más reciente</h2>
 </div>
-<!-- ====================== SOBRE CONCLAT ====================== -->
-<div class="parallax-container">
-<div class="parallax-image-container2">
-<div class="parallax-inner">
-<div class="banner-readable wide">
-<p class="section-title">
-<i class="bi bi-newspaper" style="margin-right: 10px;"></i>Sobre CONCLAT
+<div class="news-grid">
+
+<a class="news-card" href="encuesta/encuesta.html">
+<div class="news-cover">
+<div class="news-cover"><img src="resources/img/encuesta.jpg" alt="" loading="lazy"></div>
+</div>
+<div class="news-body">
+<span class="news-tag">Datos abiertos</span>
+<h3>La Encuesta Conclat ya está abierta</h3>
+<p>La base de datos, el cuestionario y el libro de códigos de Chile están disponibles en Harvard Dataverse. La base de Argentina se publicará próximamente.</p>
+<span class="go">Descargar los datos →</span>
+</div>
+</a>
+
+<a class="news-card" href="investigacion/investigacion.html">
+<div class="news-cover"><img src="resources/img/novedad-publicacion.jpg" alt="" loading="lazy"></div>
+<div class="news-body">
+<span class="news-tag">Publicación · 26 ago 2026</span>
+<h3>Los efectos igualadores de género de los sindicatos</h3>
+<p>La afiliación sindical y las brechas de género en la participación política en América Latina. Pablo Pérez Ahumada y Patricia Retamal.</p>
+<span class="go">Ver investigación →</span>
+</div>
+</a>
+
+<a class="news-card" href="actividades/actividades.html">
+<div class="news-cover"><img src="resources/img/novedad-actividad.jpg" alt="" loading="lazy" style="object-position:70% center;"></div>
+<div class="news-body">
+<span class="news-tag">Actividad · 11 abr 2026</span>
+<h3>Ponencias en el Primer Congreso Chileno de Estudios del Trabajo</h3>
+<p>Presentamos dos ponencias y un póster en el Pre-ALAST 2026, “Los nuevos escenarios del trabajo en América Latina”.</p>
+<span class="go">Ver actividades →</span>
+</div>
+</a>
+
+</div>
+</div>
+<!-- ========== 3. EXPLORA ========== -->
+<div class="section full-bleed">
+<div class="section-head">
+<span class="kicker">Explora</span>
+<h2>Conoce el proyecto</h2>
+</div>
+<div class="explore-grid">
+<a class="explore-card" href="informacion/01-sobre.html">
+<i class="bi bi-info-circle-fill"></i><h3>Sobre CONCLAT</h3>
+<p>Detalles del proyecto.</p><span class="go">Ver más →</span>
+</a>
+<a class="explore-card" href="nosotros/nosotros.html">
+<i class="bi bi-people-fill"></i><h3>Equipo</h3>
+<p>Quiénes somos.</p><span class="go">Ver más →</span>
+</a>
+<a class="explore-card" href="encuesta/encuesta.html">
+<i class="bi bi-bar-chart-fill"></i><h3>Encuesta Conclat</h3>
+<p>Descarga la base de datos y la documentación.</p><span class="go">Ver más →</span>
+</a>
+<a class="explore-card" href="investigacion/investigacion.html">
+<i class="bi bi-journal-text"></i><h3>Investigación</h3>
+<p>Artículos publicados.</p><span class="go">Ver más →</span>
+</a>
+<a class="explore-card" href="prensa/prensa.html">
+<i class="bi bi-newspaper"></i><h3>Prensa</h3>
+<p>Columnas y apariciones en medios.</p><span class="go">Ver más →</span>
+</a>
+<a class="explore-card" href="actividades/actividades.html">
+<i class="bi bi-calendar-event"></i><h3>Actividades</h3>
+<p>Congresos, seminarios y ponencias.</p><span class="go">Ver más →</span>
+</a>
+</div>
+</div>
+<!-- ========== 4. BANDA "SOBRE CONCLAT" ========== -->
+<div class="image-band full-bleed">
+<div class="inner">
+<h2>Sobre Conclat</h2>
+<p>
+      El Proyecto Conclat busca estudiar cómo se percibe el conflicto laboral y político
+      en Argentina y Chile. Analiza cómo las personas de distintas clases sociales y con
+      distinto estatus sindical (afiliados/as y no afiliados/as a sindicatos) perciben el
+      conflicto dentro y fuera del lugar de trabajo. Para ello se aplicó una encuesta
+      representativa de la población ocupada en ambos países, con el propósito de producir
+      datos cuantitativos originales y un instrumento comparable a nivel internacional.
 </p>
-<p class="section-lead">
-El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y político en Argentina y Chile. Particularmente, el proyecto analiza cómo las personas de distintas clases sociales y con distinto estatus sindical (afiliados/as y no afiliados/as a sindicatos) perciben el conflicto dentro y fuera del lugar de trabajo. Para ello se aplicó una encuesta representativa de la población ocupada en Argentina y Chile. Nuestro propósito es contribuir a la investigación internacional sobre clases sociales, trabajo y conflicto, produciendo datos cuantitativos originales y un instrumento de investigación comparable a nivel internacional.
-</p>
 </div>
 </div>
-</div>
-</div>
-<!-- ====================== LOGOS ====================== -->
-<div class="section-text logos-bg">
-<div class="section-container">
-<div class="section-block">
-<div style="text-align: center;">
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><a href="https://anid.cl"><img src="resources/img/anid.png" class="img-fluid"></a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><a href="https://uchile.cl"><img src="resources/img/uch.png" class="img-fluid"></a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
+<!-- ========== 5. LOGOS ========== -->
+<div class="logos-strip full-bleed">
+<div class="logos">
+<a href="https://anid.cl"><img src="resources/img/anid.png" alt="ANID"></a>
+<a href="https://uchile.cl"><img src="resources/img/uch.png" alt="Universidad de Chile"></a>
 </div>
 </div>
 
 
 
 
-
-<!-- FOOTER QUE IGNORA LA GRID DE QUARTO -->
-
-<div style="background-color: #6f0000; color: white;
-
-            grid-column: 1 / -1;">
-
-
-
-  <!-- TÍTULO -->
-
-  <h2 style="text-align: center; font-size: 36px; font-weight: bold; margin-bottom: 2rem;">Contacto Institucional</h2>
-
-  
-
-  <!-- CONTENIDO FLEXIBLE -->
-
-  <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap; width: 100%; max-width: 1200px; margin: 0 auto; box-sizing: border-box; padding: 0 2rem;">
-
-    
-
-    <!-- Logo -->
-
-    <div style="flex: 1; min-width: 250px; text-align: center; margin-bottom: 2rem;">
-
-  <a href="https://conclat.com">
-
- <img id="logo_conclat_principal_oscuro" src="./logo_conclat_principal_oscuro.png" alt="Logo CONCLAT" style="width: 100%;">
-
-
-
-  </a>
-
-</div>
-
-
-
-    <!-- Conclat -->
-
-    <div style="flex: 1; min-width: 250px; margin-bottom: 2rem;">
-
-      <h3>Fondecyt Clases, Trabajo y Conflicto</h3>
-
-      <p>Departamento de Sociología <br> Facultad de Ciencias Sociales <br> Universidad de Chile <br> Capitán Ignacio Carrera Pinto 1045 <br> Ñuñoa – RM <br> <a href="mailto:fondecytconclat@gmail.com">fondecytconclat@gmail.com</a></p>
-
-    </div>
-
-
-
-  </div>
-
-</div>
 <!-- Carga librería -->
 
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" crossorigin="anonymous"></script>
@@ -314,6 +322,13 @@ El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y polí
 
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -378,7 +393,7 @@ El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y polí
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/conclat\.com\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -709,20 +724,20 @@ El Proyecto CONCLAT busca estudiar cómo se percibe el conflicto laboral y polí
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="">2025</a></p>
+<p><span class="footer-logo" role="img" aria-label="Conclat"></span></p>
+<p>Fondecyt Regular N° 1230056 (2023-2027)</p>
 </div>   
     <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/DaniOlivaresCollio/conclat-web">
-      <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-    </a>
-  </li>  
-</ul>
-    </div>
+<p><strong>Contacto institucional</strong></p>
+<p>Departamento de Sociología, Facultad de Ciencias Sociales, Universidad de Chile<br>
+Capitán Ignacio Carrera Pinto 1045, Ñuñoa, Santiago<br>
+<a href="mailto:fondecytconclat@gmail.com">fondecytconclat@gmail.com</a></p>
+</div>
     <div class="nav-footer-right">
-<p>Last Update: {{&lt; modified isodate&gt;}}</p>
+<p><strong>Síguenos</strong></p>
+<p><a href="https://www.instagram.com/proyecto.conclat/" target="_blank">Instagram</a><br>
+<a href="./contacto/contacto.html">Contacto</a></p>
+<p>© 2026 Proyecto Conclat</p>
 </div>
   </div>
 </footer>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.37">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>investigacion</title>
+<title>Investigación – Conclat</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4b1accf34481c3a53b53ba7b2d4a4530.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-57b0930abbd3c9d5219dd1c85d935c33.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,36 +60,36 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-publicaciones .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-date','listing-categories','listing-revista','listing-path',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-subtitle","listing-categories","listing-revista"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-publicaciones'] = new List('listing-publicaciones', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -134,11 +134,9 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="stylesheet" href="../resources/css/home.css">
-<link rel="stylesheet" href="../resources/css/investigacion.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -150,16 +148,20 @@ window.Quarto = {
     <img src="../resources/img/conclat_ID_principal_rojo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../informacion/01-sobre.html"> <i class="bi bi-info-square-fill" role="img">
 </i> 
-<span class="menu-text">Sobre CONCLAT</span></a>
+<span class="menu-text">Sobre Conclat</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../nosotros/nosotros.html"> <i class="bi bi-people-fill" role="img">
@@ -167,7 +169,7 @@ window.Quarto = {
 <span class="menu-text">Nuestro equipo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../encuesta/index.html"> <i class="bi bi-list-ul" role="img">
+    <a class="nav-link" href="../encuesta/encuesta.html"> <i class="bi bi-clipboard2-data-fill" role="img">
 </i> 
 <span class="menu-text">Encuesta</span></a>
   </li>  
@@ -187,464 +189,285 @@ window.Quarto = {
 <span class="menu-text">Actividades</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contacto/contacto.html"> <i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="../contacto/contacto.html"> <i class="bi bi-envelope-fill" role="img">
 </i> 
 <span class="menu-text">Contacto</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/DaniOlivaresCollio/conclat-web" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.instagram.com/proyecto.conclat/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="investigación" class="level1 banner-text banner-full full-bleed">
-<h1 class="banner-text">Investigación</h1>
-</section>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cGFwZXIlMkNpbnZlc3RpZ2FjaSVDMyVCM24=" data-listing-date-sort="1787716800000" data-listing-file-modified-sort="1788285765782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
-<a href="../investigacion/posts/20262608-perez-retamal/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../investigacion/posts/20262608-perez-retamal/foto_2.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Los efectos igualadores de género de los sindicatos: la afiliación sindical y las brechas de género en la participación política en América Latina
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada &amp; Patricia Retamal
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0aWdhY2klQzMlQjNu'); return false;">investigación</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-26 Aug 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="cGFwZXIlMkNpbnZlc3RpZ2FjaSVDMyVCM24=" data-listing-date-sort="1783483200000" data-listing-file-modified-sort="1787259483559" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
-<a href="../investigacion/posts/20260807-perez/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../investigacion/posts/20260807-perez/foto_2.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Entre legados autoritarios y la incipiente revitalización: el movimiento sindical chileno a más de 50 años desde el golpe de Estado
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0aWdhY2klQzMlQjNu'); return false;">investigación</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-08 Jul 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="cGFwZXIlMkNpbnZlc3RpZ2FjaSVDMyVCM24=" data-listing-date-sort="1780545600000" data-listing-file-modified-sort="1787259343438" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="270">
-<a href="../investigacion/posts/20260604-perez-elbert/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../investigacion/posts/20260604-perez-elbert/foto_2.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-¿Solidaridad de clase o brechas de representación? Actitudes sindicales entre los trabajadores formales e informales en Argentina y Chile
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada y Rodolfo Elbert
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0aWdhY2klQzMlQjNu'); return false;">investigación</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-04 Jun 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="cGFwZXIlMkNpbnZlc3RpZ2FjaSVDMyVCM24=" data-listing-date-sort="1771210800000" data-listing-file-modified-sort="1776455304063" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="291">
-<a href="../investigacion/posts/20261602-perez-olivares-carrasco/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../investigacion/posts/20261602-perez-olivares-carrasco/foto_2.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-El poder condicionante de la clase: Acción colectiva y actitudes hacia la desigualdad en el Chile neoliberal (2016–2023)
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada, Daniela Olivares Collío &amp; Kevin Carrasco
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0aWdhY2klQzMlQjNu'); return false;">investigación</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-16 Feb 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="cGFwZXIlMkNpbnZlc3RpZ2FjaSVDMyVCM24=" data-listing-date-sort="1750046400000" data-listing-file-modified-sort="1776454268049" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
-<a href="../investigacion/posts/20250616-perez-godoy/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../investigacion/posts/20250616-perez-godoy/foto_1.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-¿Puede la huelga revitalizar los sindicatos? Un análisis empírico del caso chileno
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada &amp; Nicolás Godoy-Márquez
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0aWdhY2klQzMlQjNu'); return false;">investigación</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-16 Jun 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="cGFwZXIlMkNpbnZlc3RpZ2FjaSVDMyVCM24=" data-listing-date-sort="1734490800000" data-listing-file-modified-sort="1776447159144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
-<a href="../investigacion/posts/20241218-perez-carrasco/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../investigacion/posts/20241218-perez-carrasco/koshu-kunii-t86cJxwmBWc-unsplash.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Política de clases y confianza en los sindicatos en América Latina
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada &amp; Kevin Carrasco
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0aWdhY2klQzMlQjNu'); return false;">investigación</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-18 Dec 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="cGFwZXIlMkNpbnZlc3RpZ2FjaSVDMyVCM24=" data-listing-date-sort="1728529200000" data-listing-file-modified-sort="1776455149922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
-<a href="../investigacion/posts/20241010-perez-gutierrez-astorga/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../investigacion/posts/20241010-perez-gutierrez-astorga/foto_3.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Desigualdad de clase, poder y confianza en las empresas privadas: evidencia desde América Latina
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada, Francisca Gutiérrez &amp; Charo Astorga-Pinto
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0aWdhY2klQzMlQjNu'); return false;">investigación</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-10 Oct 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="cGFwZXIlMkNpbnZlc3RpZ2FjaSVDMyVCM24=" data-listing-date-sort="1727751600000" data-listing-file-modified-sort="1776447159144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
-<a href="../investigacion/posts/20241001-perez-garcia/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../investigacion/posts/20241001-perez-garcia/camille-airvault-rMWqgy5_1ik-unsplash.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Desigualdad subjetiva y actitudes hacia los sindicatos: evidencia de América Latina
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada &amp; Juan Diego García-Castro
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0aWdhY2klQzMlQjNu'); return false;">investigación</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-01 Oct 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="cGFwZXIlMkNpbnZlc3RpZ2FjaSVDMyVCM24=" data-listing-date-sort="1723262400000" data-listing-file-modified-sort="1776447159119" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="241">
-<a href="../investigacion/posts/20240810-perez-gutierrez/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../investigacion/posts/20240810-perez-gutierrez/alyssa-kibiloski-WHYHfmBuCB4-unsplash.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Organizaciones laborales y protesta: Reflexiones sobre la fragmentación sindical, el pluralismo sindical y las huelgas
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada &amp; Francisca Gutierrez
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0aWdhY2klQzMlQjNu'); return false;">investigación</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-10 Aug 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="cGFwZXIlMkNpbnZlc3RpZ2FjaSVDMyVCM24=" data-listing-date-sort="1722916800000" data-listing-file-modified-sort="1776447159060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
-<a href="../investigacion/posts/20240806-perez-astorga/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../investigacion/posts/20240806-perez-astorga/koshu-kunii-t86cJxwmBWc-unsplash.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-¿Por qué los miembros de sindicatos están más dispuestos a hacer huelga y protestar que los no sindicalizados? Evidencia de Argentina y Chile
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pablo Pérez Ahumada &amp; Charo Astorga-Pinto
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0aWdhY2klQzMlQjNu'); return false;">investigación</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-06 Aug 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="cGFwZXIlMkNpbnZlc3RpZ2FjaSVDMyVCM24=" data-listing-date-sort="1719201600000" data-listing-file-modified-sort="1776447159055" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
-<a href="../investigacion/posts/20240624-garcia-venegas-perez/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../investigacion/posts/20240624-garcia-venegas-perez/aaron-blanco-tejedor-yH18lOSaZVQ-unsplash.jpg" class="thumbnail-image card-img" style="height: 170px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-La confianza en los sindicatos impulsa el igualitarismo: evidencia longitudinal
-</h5>
-<div class="card-subtitle listing-subtitle">
-Juan Diego García-Castro, Martín Venegas &amp; Pablo Pérez Ahumada
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0aWdhY2klQzMlQjNu'); return false;">investigación</div>
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-24 Jun 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
-<!-- FOOTER QUE IGNORA LA GRID DE QUARTO -->
-
-<div style="background-color: #6f0000; color: white;
-
-            grid-column: 1 / -1;">
-
-
-
-  <!-- TÍTULO -->
-
-  <h2 style="text-align: center; font-size: 36px; font-weight: bold; margin-bottom: 2rem;">Contacto Institucional</h2>
-
-  
-
-  <!-- CONTENIDO FLEXIBLE -->
-
-  <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap; width: 100%; max-width: 1200px; margin: 0 auto; box-sizing: border-box; padding: 0 2rem;">
-
-    
-
-    <!-- Logo -->
-
-    <div style="flex: 1; min-width: 250px; text-align: center; margin-bottom: 2rem;">
-
-  <a href="https://conclat.com">
-
- <img id="logo_conclat_principal_oscuro" src="../logo_conclat_principal_oscuro.png" alt="Logo CONCLAT" style="width: 100%;">
-
-
-
-  </a>
-
-</div>
-
-
-
-    <!-- Conclat -->
-
-    <div style="flex: 1; min-width: 250px; margin-bottom: 2rem;">
-
-      <h3>Fondecyt Clases, Trabajo y Conflicto</h3>
-
-      <p>Departamento de Sociología <br> Facultad de Ciencias Sociales <br> Universidad de Chile <br> Capitán Ignacio Carrera Pinto 1045 <br> Ñuñoa – RM <br> <a href="mailto:fondecytconclat@gmail.com">fondecytconclat@gmail.com</a></p>
-
-    </div>
-
-
-
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Investigación</h1>
+<div class="page-lead"><p>Publicaciones en el marco del proyecto Conclat.</p></div>
+</div>
+</div>
+<div class="pub-wrap">
+<div id="listing-publicaciones" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-publicaciones-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-publicaciones'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
+      <option value="index" data-direction="asc">Por defecto</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Fecha - Más antiguo
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Fecha - Más reciente
+      </option>
+      <option value="listing-title" data-direction="asc">
+        Título
+      </option>
+    </select>
   </div>
-
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filtro">
+    </div>
 </div>
-<!-- Carga librería -->
+<div class="list pub-list">
+<div class="pub-row" data-index="0" data-categories="U2luZGljYXRvcyUyQ0clQzMlQTluZXJvJTJDUGFydGljaXBhY2klQzMlQjNuJTIwcG9sJUMzJUFEdGljYQ==" data-listing-date-sort="1787716800000" data-listing-file-modified-sort="1790015465752" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="264">
+<div class="pub-year listing-date">
+<p>2026</p>
+</div>
+<div class="pub-main">
+<div class="pub-title">
+<p><a href="../investigacion/posts/2026-08-26-perez-retamal/index.html" class="listing-title">Los efectos igualadores de género de los sindicatos: la afiliación sindical y las brechas de género en la participación política en América Latina</a></p>
+</div>
+<div class="pub-authors listing-subtitle">
+<p>Pablo Pérez Ahumada &amp; Patricia Retamal</p>
+</div>
+<div class="pub-journal listing-revista">
+<p>Journal of Industrial Relations</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Sindicatos</span> <span class="pub-tag">Género</span> <span class="pub-tag">Participación política</span></p>
+</div>
+</div>
+<p><a href="../investigacion/posts/2026-08-26-perez-retamal/index.html" class="pub-go" aria-label="Ver publicación">→</a></p>
+</div>
+<div class="pub-row" data-index="1" data-categories="U2luZGljYWxpc21vJTJDRGljdGFkdXJhJTIwbWlsaXRhciUyQ1BsYW4lMjBMYWJvcmFsJTJDUmV2aXRhbGl6YWNpJUMzJUIzbiUyMHNpbmRpY2FsJTIweSUyMHBvZGVyJTIwYXNvY2lhdGl2bw==" data-listing-date-sort="1783483200000" data-listing-file-modified-sort="1790015465335" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+<div class="pub-year listing-date">
+<p>2026</p>
+</div>
+<div class="pub-main">
+<div class="pub-title">
+<p><a href="../investigacion/posts/2026-07-08-perez/index.html" class="listing-title">Entre legados autoritarios y la incipiente revitalización: el movimiento sindical chileno a más de 50 años desde el golpe de Estado</a></p>
+</div>
+<div class="pub-authors listing-subtitle">
+<p>Pablo Pérez Ahumada</p>
+</div>
+<div class="pub-journal listing-revista">
+<p>Latin American Perspectives</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Sindicalismo</span> <span class="pub-tag">Dictadura militar</span> <span class="pub-tag">Plan Laboral</span> <span class="pub-tag">Revitalización sindical y poder asociativo</span></p>
+</div>
+</div>
+<p><a href="../investigacion/posts/2026-07-08-perez/index.html" class="pub-go" aria-label="Ver publicación">→</a></p>
+</div>
+<div class="pub-row" data-index="2" data-categories="U2luZGljYXRvcyUyQ1RyYWJhamFkb3JlcyUyMGluZm9ybWFsZXMlMkNCcmVjaGFzJTIwZGUlMjByZXByZXNlbnRhY2klQzMlQjNuJTJDU29saWRhcmlkYWQlMjBkZSUyMGNsYXNlJTJDQ2hpbGUlMjB5JTIwQXJnZW50aW5h" data-listing-date-sort="1780545600000" data-listing-file-modified-sort="1790015464929" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269">
+<div class="pub-year listing-date">
+<p>2026</p>
+</div>
+<div class="pub-main">
+<div class="pub-title">
+<p><a href="../investigacion/posts/2026-06-04-perez-elbert/index.html" class="listing-title">¿Solidaridad de clase o brechas de representación? Actitudes sindicales entre los trabajadores formales e informales en Argentina y Chile</a></p>
+</div>
+<div class="pub-authors listing-subtitle">
+<p>Pablo Pérez Ahumada &amp; Rodolfo Elbert</p>
+</div>
+<div class="pub-journal listing-revista">
+<p>Latin American Politics and Society</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Sindicatos</span> <span class="pub-tag">Trabajadores informales</span> <span class="pub-tag">Brechas de representación</span> <span class="pub-tag">Solidaridad de clase</span> <span class="pub-tag">Chile y Argentina</span></p>
+</div>
+</div>
+<p><a href="../investigacion/posts/2026-06-04-perez-elbert/index.html" class="pub-go" aria-label="Ver publicación">→</a></p>
+</div>
+<div class="pub-row" data-index="3" data-categories="Q2xhc2VzJTIwc29jaWFsZXMlMkNEZXNpZ3VhbGRhZCUyQ0FjY2klQzMlQjNuJTIwY29sZWN0aXZh" data-listing-date-sort="1771210800000" data-listing-file-modified-sort="1790015464534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
+<div class="pub-year listing-date">
+<p>2026</p>
+</div>
+<div class="pub-main">
+<div class="pub-title">
+<p><a href="../investigacion/posts/2026-02-16-perez-olivares-carrasco/index.html" class="listing-title">El poder condicionante de la clase: Acción colectiva y actitudes hacia la desigualdad en el Chile neoliberal (2016–2023)</a></p>
+</div>
+<div class="pub-authors listing-subtitle">
+<p>Pablo Pérez Ahumada, Daniela Olivares Collío &amp; Kevin Carrasco</p>
+</div>
+<div class="pub-journal listing-revista">
+<p>Critical Sociology</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Clases sociales</span> <span class="pub-tag">Desigualdad</span> <span class="pub-tag">Acción colectiva</span></p>
+</div>
+</div>
+<p><a href="../investigacion/posts/2026-02-16-perez-olivares-carrasco/index.html" class="pub-go" aria-label="Ver publicación">→</a></p>
+</div>
+<div class="pub-row" data-index="4" data-categories="U2luZGljYXRvcyUyQ0FjY2klQzMlQjNuJTIwU2luZGljYWwlMkNIdWVsZ2E=" data-listing-date-sort="1750046400000" data-listing-file-modified-sort="1790015464177" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
+<div class="pub-year listing-date">
+<p>2025</p>
+</div>
+<div class="pub-main">
+<div class="pub-title">
+<p><a href="../investigacion/posts/2025-06-16-perez-godoy/index.html" class="listing-title">¿Puede la huelga revitalizar los sindicatos? Un análisis empírico del caso chileno</a></p>
+</div>
+<div class="pub-authors listing-subtitle">
+<p>Pablo Pérez Ahumada &amp; Nicolás Godoy-Márquez</p>
+</div>
+<div class="pub-journal listing-revista">
+<p>Economic and Industrial Democracy</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Sindicatos</span> <span class="pub-tag">Acción Sindical</span> <span class="pub-tag">Huelga</span></p>
+</div>
+</div>
+<p><a href="../investigacion/posts/2025-06-16-perez-godoy/index.html" class="pub-go" aria-label="Ver publicación">→</a></p>
+</div>
+<div class="pub-row" data-index="5" data-categories="U2luZGljYXRvcyUyQ0NsYXNlJTIwU29jaWFsJTJDUGFydGlkb3MlMkNNb3ZpbGl6YWNpb25lcyUyMFNvY2lhbGVz" data-listing-date-sort="1734490800000" data-listing-file-modified-sort="1790015463786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
+<div class="pub-year listing-date">
+<p>2024</p>
+</div>
+<div class="pub-main">
+<div class="pub-title">
+<p><a href="../investigacion/posts/2024-12-18-perez-carrasco/index.html" class="listing-title">Política de clases y confianza en los sindicatos en América Latina</a></p>
+</div>
+<div class="pub-authors listing-subtitle">
+<p>Pablo Pérez Ahumada &amp; Kevin Carrasco</p>
+</div>
+<div class="pub-journal listing-revista">
+<p>Latin American Research Reviews</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Sindicatos</span> <span class="pub-tag">Clase Social</span> <span class="pub-tag">Partidos</span> <span class="pub-tag">Movilizaciones Sociales</span></p>
+</div>
+</div>
+<p><a href="../investigacion/posts/2024-12-18-perez-carrasco/index.html" class="pub-go" aria-label="Ver publicación">→</a></p>
+</div>
+<div class="pub-row" data-index="6" data-categories="Q2xhc2VzJTIwc29jaWFsZXMlMkNMYXRpbm9hbSVDMyVBOXJpY2ElMkNQb2RlciUyMGRpc2N1cnNpdm8=" data-listing-date-sort="1728529200000" data-listing-file-modified-sort="1790015463388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="270">
+<div class="pub-year listing-date">
+<p>2024</p>
+</div>
+<div class="pub-main">
+<div class="pub-title">
+<p><a href="../investigacion/posts/2024-10-10-perez-gutierrez-astorga/index.html" class="listing-title">Desigualdad de clase, poder y confianza en las empresas privadas: evidencia desde América Latina</a></p>
+</div>
+<div class="pub-authors listing-subtitle">
+<p>Pablo Pérez Ahumada, Francisca Gutiérrez &amp; Charo Astorga-Pinto</p>
+</div>
+<div class="pub-journal listing-revista">
+<p>Business and Politics</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Clases sociales</span> <span class="pub-tag">Latinoamérica</span> <span class="pub-tag">Poder discursivo</span></p>
+</div>
+</div>
+<p><a href="../investigacion/posts/2024-10-10-perez-gutierrez-astorga/index.html" class="pub-go" aria-label="Ver publicación">→</a></p>
+</div>
+<div class="pub-row" data-index="7" data-categories="RGVzaWd1YWxkYWQlMkNTaW5kaWNhdG9zJTJDQW0lQzMlQTlyaWNhJTIwTGF0aW5h" data-listing-date-sort="1727751600000" data-listing-file-modified-sort="1790015463011" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
+<div class="pub-year listing-date">
+<p>2024</p>
+</div>
+<div class="pub-main">
+<div class="pub-title">
+<p><a href="../investigacion/posts/2024-10-01-perez-garcia/index.html" class="listing-title">Desigualdad subjetiva y actitudes hacia los sindicatos: evidencia de América Latina</a></p>
+</div>
+<div class="pub-authors listing-subtitle">
+<p>Pablo Pérez Ahumada &amp; Juan Diego García-Castro</p>
+</div>
+<div class="pub-journal listing-revista">
+<p>Research in Social Stratification and Mobility</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Desigualdad</span> <span class="pub-tag">Sindicatos</span> <span class="pub-tag">América Latina</span></p>
+</div>
+</div>
+<p><a href="../investigacion/posts/2024-10-01-perez-garcia/index.html" class="pub-go" aria-label="Ver publicación">→</a></p>
+</div>
+<div class="pub-row" data-index="8" data-categories="RGVzaWd1YWxkYWQlMkNTaW5kaWNhbGlzbW8lMkNIdWVsZ2FzJTIwTGFib3JhbGVz" data-listing-date-sort="1723262400000" data-listing-file-modified-sort="1790015462651" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+<div class="pub-year listing-date">
+<p>2024</p>
+</div>
+<div class="pub-main">
+<div class="pub-title">
+<p><a href="../investigacion/posts/2024-08-10-perez-gutierrez/index.html" class="listing-title">Organizaciones laborales y protesta: Reflexiones sobre la fragmentación sindical, el pluralismo sindical y las huelgas</a></p>
+</div>
+<div class="pub-authors listing-subtitle">
+<p>Pablo Pérez Ahumada &amp; Francisca Gutiérrez</p>
+</div>
+<div class="pub-journal listing-revista">
+<p>Social Protest and Conflict in Radical Neoliberalism (Palgrave Macmillan)</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Desigualdad</span> <span class="pub-tag">Sindicalismo</span> <span class="pub-tag">Huelgas Laborales</span></p>
+</div>
+</div>
+<p><a href="../investigacion/posts/2024-08-10-perez-gutierrez/index.html" class="pub-go" aria-label="Ver publicación">→</a></p>
+</div>
+<div class="pub-row" data-index="9" data-categories="TW92aW1pZW50byUyMFNpbmRpY2FsJTJDU2luZGljYWxpc21vJTJDSHVlbGdhcyUyMExhYm9yYWxlcw==" data-listing-date-sort="1722916800000" data-listing-file-modified-sort="1790015462292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
+<div class="pub-year listing-date">
+<p>2024</p>
+</div>
+<div class="pub-main">
+<div class="pub-title">
+<p><a href="../investigacion/posts/2024-08-06-perez-astorga/index.html" class="listing-title">¿Por qué los miembros de sindicatos están más dispuestos a hacer huelga y protestar que los no sindicalizados? Evidencia de Argentina y Chile</a></p>
+</div>
+<div class="pub-authors listing-subtitle">
+<p>Pablo Pérez Ahumada &amp; Charo Astorga-Pinto</p>
+</div>
+<div class="pub-journal listing-revista">
+<p>Journal of Industrial Relations</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Movimiento Sindical</span> <span class="pub-tag">Sindicalismo</span> <span class="pub-tag">Huelgas Laborales</span></p>
+</div>
+</div>
+<p><a href="../investigacion/posts/2024-08-06-perez-astorga/index.html" class="pub-go" aria-label="Ver publicación">→</a></p>
+</div>
+<div class="pub-row" data-index="10" data-categories="RGVzaWd1YWxkYWQlMkNTaW5kaWNhbGlzbW8lMkNMb25naXR1ZGluYWw=" data-listing-date-sort="1719201600000" data-listing-file-modified-sort="1790015461930" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="270">
+<div class="pub-year listing-date">
+<p>2024</p>
+</div>
+<div class="pub-main">
+<div class="pub-title">
+<p><a href="../investigacion/posts/2024-06-24-garcia-venegas-perez/index.html" class="listing-title">La confianza en los sindicatos impulsa el igualitarismo: evidencia longitudinal</a></p>
+</div>
+<div class="pub-authors listing-subtitle">
+<p>Juan Diego García-Castro, Martín Venegas &amp; Pablo Pérez Ahumada</p>
+</div>
+<div class="pub-journal listing-revista">
+<p>Journal of Community &amp; Applied Psychology</p>
+</div>
+<div class="pub-tags listing-categories">
+<p><span class="pub-tag">Desigualdad</span> <span class="pub-tag">Sindicalismo</span> <span class="pub-tag">Longitudinal</span></p>
+</div>
+</div>
+<p><a href="../investigacion/posts/2024-06-24-garcia-venegas-perez/index.html" class="pub-go" aria-label="Ver publicación">→</a></p>
+</div>
+</div>
+<div class="listing-no-matching d-none">No hay resultados</div>
+</div>
+</div>
 
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" crossorigin="anonymous"></script>
 
 
 
-<script>
-
-(function() {
-
-  function initParticles() {
-
-    const container = document.getElementById("particles-js");
-
-    if (!window.particlesJS || !container) return;
-
-    window.particlesJS("particles-js", {
-
-      particles: {
-
-        number: { value: 100, density: { enable: true, value_area: 800 } },
-
-        color: { value: "#ca0000" },
-
-        shape: { type: "circle" },
-
-        opacity: { value: 0.5 },
-
-        size: { value: 3, random: true },
-
-        line_linked: { enable: true, distance: 140, color: "#ca0000", opacity: 0.35, width: 1 },
-
-        move: { enable: true, speed: 4, direction: "top-right", out_mode: "out" }
-
-      },
-
-      interactivity: {
-
-        detect_on: "canvas",
-
-        events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }, resize: true },
-
-        modes: { repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 } }
-
-      },
-
-      retina_detect: true
-
-    });
-
-  }
-
-
-
-  // Respeta preferencias de usuarios que reducen animaciones
-
-  const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-
-  if (!mq.matches) window.addEventListener("load", initParticles);
-
-})();
-
-</script>
 
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -671,12 +494,12 @@ Juan Diego García-Castro, Martín Venegas &amp; Pablo Pérez Ahumada
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiado");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiado");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -719,7 +542,7 @@ Juan Diego García-Castro, Martín Venegas &amp; Pablo Pérez Ahumada
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/conclat\.com\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1050,20 +873,20 @@ Juan Diego García-Castro, Martín Venegas &amp; Pablo Pérez Ahumada
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="">2025</a></p>
+<p><span class="footer-logo" role="img" aria-label="Conclat"></span></p>
+<p>Fondecyt Regular N° 1230056 (2023-2027)</p>
 </div>   
     <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/DaniOlivaresCollio/conclat-web">
-      <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-    </a>
-  </li>  
-</ul>
-    </div>
+<p><strong>Contacto institucional</strong></p>
+<p>Departamento de Sociología, Facultad de Ciencias Sociales, Universidad de Chile<br>
+Capitán Ignacio Carrera Pinto 1045, Ñuñoa, Santiago<br>
+<a href="mailto:fondecytconclat@gmail.com">fondecytconclat@gmail.com</a></p>
+</div>
     <div class="nav-footer-right">
-<p>Last Update: {{&lt; modified isodate&gt;}}</p>
+<p><strong>Síguenos</strong></p>
+<p><a href="https://www.instagram.com/proyecto.conclat/" target="_blank">Instagram</a><br>
+<a href="../contacto/contacto.html">Contacto</a></p>
+<p>© 2026 Proyecto Conclat</p>
 </div>
   </div>
 </footer>

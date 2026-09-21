@@ -1,0 +1,32 @@
+---
+pagetitle: "Pablo Pérez Ahumada"
+page-layout: custom
+title-block-banner: false
+toc: false
+---
+
+```{=html}
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Pablo Pérez Ahumada</h1>
+</div>
+</div>
+```
+
+```{=html}
+<div class="section full-bleed">
+<div class="profile">
+<div class="profile-side">
+<img class="team-photo profile-photo" src="../../resources/img/equipo/perez.jpg" alt="Pablo Pérez Ahumada">
+<span class="team-role">Investigador Principal</span>
+<div class="card-contacto"><a href="mailto:pabloperez@uchile.cl" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://pperezahumada.com/" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a><a class="txt" href="https://orcid.org/0000-0002-0410-0725" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">iD</a><a href="https://x.com/pablo_perez_a" target="_blank" rel="noopener" aria-label="X" title="X"><i class="bi bi-twitter-x"></i></a></div>
+</div>
+<div class="profile-body">
+<p>Doctor en Sociología de la Universidad de California (San Diego, USA), Magíster en Sociología de la Pontificia Universidad Católica de Chile, y Sociólogo de la Universidad de Chile.</p>
+<p>Actualmente, es Profesor Asistente del Departamento de Sociología de la Universidad de Chile.</p>
+<p>Es Investigador Principal del Proyecto Fondecyt Regular N° 1230056 “Clases sociales, movimientos sindicales y conflicto en tiempos de crisis: un estudio comparativo de Argentina y Chile” (Conclat). Además, es Director del Núcleo Milenio en Política Laboral y Vida Familiar y Colectiva (LABOFAM).</p>
+<a class="profile-back" href="../nosotros.html">&larr; Volver al equipo</a>
+</div>
+</div>
+</div>
+```

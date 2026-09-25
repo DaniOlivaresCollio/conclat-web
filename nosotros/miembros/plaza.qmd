@@ -19,9 +19,11 @@ toc: false
 <div class="profile-side">
 <img class="team-photo profile-photo" src="../../resources/img/equipo/plaza.jpg" alt="Cristóbal Plaza">
 <span class="team-role">Tesista de pregrado</span>
+<div class="card-contacto"><a href="mailto:cristobal.plaza@ug.uchile.cl" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.linkedin.com/in/crist%C3%B3bal-plaza-35896142b/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a></div>
 </div>
 <div class="profile-body">
-<p class="profile-empty">Perfil en construcción.</p>
+<p>Título de tesis: “Sindicalismo y autonomía: Un estudio comparativo”</p>
+<p>Estudiante de pregrado de sociología de la Universidad de Chile, con interés en temas de trabajo y género.</p>
 <a class="profile-back" href="../nosotros.html">&larr; Volver al equipo</a>
 </div>
 </div>

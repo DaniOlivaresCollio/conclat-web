@@ -53,9 +53,9 @@ format:
 <a class="news-card" href="actividades/actividades.html">
 <div class="news-cover"><img src="resources/img/novedad-actividad.jpg" alt="" loading="lazy" style="object-position:70% center;"></div>
 <div class="news-body">
-<span class="news-tag">Actividad · 11 abr 2026</span>
-<h3>Ponencias en el Primer Congreso Chileno de Estudios del Trabajo</h3>
-<p>Presentamos dos ponencias y un póster en el Pre-ALAST 2026, “Los nuevos escenarios del trabajo en América Latina”.</p>
+<span class="news-tag">Actividad · 26 may 2026</span>
+<h3>Ponencias en Latin American Studies Association</h3>
+<p>Presentamos dos ponencias en en Congreso LASA desarrollado en París, Francia.</p>
 <span class="go">Ver actividades →</span>
 </div>
 </a>

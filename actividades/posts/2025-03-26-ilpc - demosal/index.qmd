@@ -1,0 +1,16 @@
+---
+title: "Participación en Demosal, Río de Janeiro"
+subtitle: "DEMOSAL"
+date: "2025-03-26"
+image: "portada.jpg"
+tipo: "Ponencia"
+categories: [Ponencias, Conferencia internacional]
+lang: es
+---
+
+![](portada.jpg){.post-cover}
+
+## Título
+Descripción
+
+
